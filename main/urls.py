@@ -24,5 +24,6 @@ urlpatterns = [
 
 
     path('chat/', chat_view, name="chat-view"),
+    path('streaming_chat/', streaming_chat_view, name="streaming-chat-view"),
 
 ]

@@ -143,6 +143,7 @@ from django.views.decorators.csrf import csrf_exempt
 from .llm_pipeline import LLMChatPipeline
 from django.http import JsonResponse
 
+
 @csrf_exempt
 def chat_view(request):
     if request.method == 'POST':
@@ -152,5 +153,26 @@ def chat_view(request):
         answer = pipeline.get_answer(question)
         
         return JsonResponse({'answer': answer})
+    else:
+        return JsonResponse({'error': 'Only POST requests are allowed'}, status=405)
+
+
+from django.http import StreamingHttpResponse
+from django.views.decorators.csrf import csrf_exempt
+from .llm_pipeline import LLMChatPipeline
+
+@csrf_exempt 
+async def streaming_chat_view(request):
+    if request.method == 'POST':
+        question = request.POST.get('question', '')
+        
+        pipeline = LLMChatPipeline()
+        stream = pipeline.get_streaming_answer(question)
+
+        def event_stream():
+            for chunk in stream:
+                yield f"data: {chunk}\n\n"
+
+        return StreamingHttpResponse(event_stream(), content_type='text/event-stream')
     else:
         return JsonResponse({'error': 'Only POST requests are allowed'}, status=405)

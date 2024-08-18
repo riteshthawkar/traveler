@@ -17,11 +17,14 @@ from pinecone_text.sparse import BM25Encoder
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.retrievers import PineconeHybridSearchRetriever
 
-from langchain_community.llms import HuggingFaceHub
-
 from langchain_groq import ChatGroq
 
 import os
+from django.conf import settings
+
+from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
+from langchain.schema import HumanMessage
+import asyncio
 
 
 
@@ -37,12 +40,12 @@ class LLMChatPipeline:
     def initialize_pipeline(self):
         # Load your LLM chat pipeline here
         pc = Pinecone(api_key="ca8e6a33-7355-453f-ad4b-80c8a1c6a9c7")
-        index_name = "uae-legislation-site-data"
+        index_name = "traveler-demo-website-vectorstore"
 
         # connect to index
         pinecone_index = pc.Index(index_name)
 
-        bm25 = BM25Encoder().load('/home/fahadkhan/Desktop/traveler/bm25_uae_legislation_data.json')
+        bm25 = BM25Encoder().load(settings.BASE_DIR / 'bm25_traveler_website.json')
 
         embed_model = HuggingFaceEmbeddings(model_name="Alibaba-NLP/gte-large-en-v1.5", model_kwargs={"trust_remote_code":True} )
 
@@ -54,7 +57,13 @@ class LLMChatPipeline:
             alpha=0.5, 
         )
 
-        llm = ChatGroq(model="llama-3.1-70b-versatile", temperature=0.1, max_tokens=1024, max_retries=2)
+        llm = ChatGroq(
+            model="llama-3.1-70b-versatile", 
+            temperature=0, 
+            max_tokens=1024, 
+            max_retries=2,
+            streaming=True
+        )
 
         ### Contextualize question ###
         contextualize_q_system_prompt = """Given a chat history and the latest user question \
@@ -76,9 +85,8 @@ class LLMChatPipeline:
 
 
         qa_system_prompt = """You are a highly skilled information retrieval assistant. Use the following pieces of retrieved context to answer the question. \
-        Provide links to sources provided in the answer. \
         If you don't know the answer, just say that you don't know. \
-        Do not give extra long answers. \
+        Provide links to sources provided in the answer. \
         When responding to queries, your responses should be comprehensive and well-organized. For each response: \
 
             1. Provide Clear Answers \
@@ -90,6 +98,7 @@ class LLMChatPipeline:
                 - Reference Sites: Mention specific websites or platforms that offer additional information. \
 
             3. Formatting for Readability: \
+                - Format the answer with proper paragraphs, links and headings.
                 - Bullet Points or Lists: Where applicable, use bullet points or numbered lists to present information clearly. \
                 - Emphasize Important Information: Use bold or italics to highlight key details. \
 
@@ -147,6 +156,27 @@ class LLMChatPipeline:
             history_messages_key="chat_history",
             output_messages_key="answer",
         )
+
+    async def get_streaming_answer(self, question):
+        response_stream = []
+        
+        async def collect_stream(chunk):
+            response_stream.append(chunk)
+            yield chunk
+
+        async def generate():
+            response = await self.pipeline.ainvoke(
+                {"input": question},
+                config={
+                    "configurable": {"session_id": "abc123"},
+                    "callbacks": [StreamingStdOutCallbackHandler(collect_stream)]
+                }
+            )
+            
+            for chunk in response_stream:
+                yield chunk
+
+        return generate()
 
     def get_answer(self, question):
         # Use the pipeline to get the answer

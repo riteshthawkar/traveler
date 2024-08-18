@@ -80,27 +80,11 @@
                         <a href="{% url 'contact-view' %}" class="btn btn-block btn-warning rounded-lg px-4 text-uppercase" style="font-weight: 600; padding: 12px 0;">Get in touch</a>
                     </div>
                 </div>
-    
-                
             </div>
 
-            <script>
-                document.querySelector(".package-counter-minus").addEventListener("click", ()=>{
-                    if(parseInt(document.querySelector(".package-people-counter").innerHTML) > 1){
-                        document.querySelector(".package-people-counter").innerHTML = parseInt(document.querySelector(".package-people-counter").innerHTML) - 1;
-                    }
-                })
-                document.querySelector(".package-counter-plus").addEventListener("click", ()=>{
-                    document.querySelector(".package-people-counter").innerHTML = parseInt(document.querySelector(".package-people-counter").innerHTML) + 1;
-                })
-                // $(".package-people-counter")
-            </script>
-
             <div class="w-100">
-
                 <div class="row m-0 p-0">
                     <h3 class="col-12 p-0">Places to visit</h3>
-
                     {% for place in package.places_to_visit %}
                     <div class="col-sm-6 col-12 p-3">
                         <div class="w-100 h-100 p-4 d-flex flex-column overflow-hidden border rounded-xl">
@@ -256,5 +240,6 @@
         </div>
     </main>
 
+    <script src= '{% static "js/chatbot.js" %}' ></script>
 
 {% endblock content %}
