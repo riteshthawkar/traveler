@@ -1,6 +1,4 @@
 import os
-os.environ['USER_AGENT'] = 'myagent'
-os.environ["GROQ_API_KEY"] = "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"
 
 from langchain.chains import create_history_aware_retriever, create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
