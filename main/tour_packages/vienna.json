@@ -1,0 +1,95 @@
+{
+  "package_name": "Vienna Highlights",
+  "country": "Austria",
+  "duration_days": 4,
+  "customer_rating": 4.7,
+  "places_to_visit": [
+    {
+      "name": "Schönbrunn Palace",
+      "description": "Schönbrunn Palace is a magnificent Baroque palace with stunning gardens. It was the summer residence of the Habsburgs and features opulent rooms, extensive grounds, and the world's oldest zoo."
+    },
+    {
+      "name": "St. Stephen's Cathedral",
+      "description": "St. Stephen's Cathedral is a Gothic cathedral located in the heart of Vienna. It’s known for its impressive architecture, colorful roof tiles, and panoramic views from its south tower."
+    },
+    {
+      "name": "Belvedere Palace",
+      "description": "Belvedere Palace is a historic complex that includes the Upper and Lower Belvedere. It houses an extensive collection of Austrian art, including works by Gustav Klimt, and offers beautiful gardens and architecture."
+    },
+    {
+      "name": "Vienna State Opera",
+      "description": "The Vienna State Opera is one of the most prestigious opera houses in the world. It hosts a wide range of performances and features stunning architecture and an opulent interior."
+    },
+    {
+      "name": "MuseumsQuartier",
+      "description": "MuseumsQuartier is a cultural complex featuring several museums and art spaces, including the Leopold Museum and the Museum of Modern Art. It’s a hub for contemporary art and culture."
+    }
+  ],
+  "hotels_and_restaurants": [
+    {
+      "location": "Vienna",
+      "hotels": ["Hotel Sacher Wien", "The Ritz-Carlton, Vienna", "Hotel Imperial"],
+      "restaurants": ["Figlmüller", "Plachutta", "Steirereck"]
+    }
+  ],
+  "activities": [
+    "Tour Schönbrunn Palace and explore its gardens",
+    "Visit St. Stephen's Cathedral and climb the tower",
+    "Explore the art collection at Belvedere Palace",
+    "Attend a performance at the Vienna State Opera",
+    "Stroll through MuseumsQuartier and visit its museums"
+  ],
+  "tips_and_tricks": [
+    "Book tickets for the Vienna State Opera in advance.",
+    "Wear comfortable walking shoes for exploring the city's many attractions.",
+    "Try traditional Viennese dishes like schnitzel at local restaurants."
+  ],
+  "emergency_contacts": {
+    "tour_guide": "+43 1-555-1234",
+    "local_police": "112",
+    "embassy": "+43 1-555-5678"
+  },
+  "timeline": [
+    {
+      "day": 1,
+      "location": "Vienna",
+      "activities": [
+        "Arrival at Vienna International Airport and transfer to the hotel",
+        "Briefing on the tour and rest",
+        "Dinner at a local restaurant and overnight stay"
+      ]
+    },
+    {
+      "day": 2,
+      "location": "Vienna",
+      "activities": [
+        "Visit Schönbrunn Palace in the morning",
+        "Lunch at a nearby café",
+        "Explore St. Stephen's Cathedral in the afternoon",
+        "Dinner and overnight stay"
+      ]
+    },
+    {
+      "day": 3,
+      "location": "Vienna",
+      "activities": [
+        "Tour Belvedere Palace in the morning",
+        "Lunch at a local restaurant",
+        "Attend a performance at the Vienna State Opera in the evening",
+        "Dinner and overnight stay"
+      ]
+    },
+    {
+      "day": 4,
+      "location": "Vienna",
+      "activities": [
+        "Explore MuseumsQuartier and visit its museums",
+        "Lunch in Vienna",
+        "Free time for additional sightseeing or shopping",
+        "Transfer to the airport for departure"
+      ]
+    }
+  ]
+}
+  
+

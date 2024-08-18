@@ -1,0 +1,291 @@
+{
+    "package_name": "Maldives Paradise Escape",
+    "country": "Maldives",
+    "duration_days": 10,
+    "customer_rating": 4.9,
+    "places_to_visit": [
+      {
+        "name": "Malé",
+        "attractions": [
+          "Malé Fish Market",
+          "Old Friday Mosque",
+          "National Museum",
+          "Sultan Park"
+        ],
+        "description": "Malé, the bustling capital of the Maldives, offers a glimpse into the country's vibrant culture and history. The Malé Fish Market is a lively spot where you can see a variety of fresh seafood. The Old Friday Mosque, made of coral stone and adorned with intricate carvings, is a historical and architectural marvel. The National Museum showcases Maldivian history and culture through its extensive collection of artifacts. Sultan Park, formerly the grounds of the Sultan’s Palace, is a serene place for a leisurely stroll."
+      },
+      {
+        "name": "Maafushi",
+        "attractions": [
+          "Maafushi Beach",
+          "Sandbank Picnic",
+          "Snorkeling Tours",
+          "Local Village Tour"
+        ],
+        "description": "Maafushi is a charming local island known for its beautiful beaches and vibrant marine life. Maafushi Beach offers white sand and clear waters perfect for swimming and sunbathing. The Sandbank Picnic involves a boat trip to a secluded sandbank where you can relax and enjoy a picnic surrounded by crystal-clear waters. Snorkeling tours around Maafushi reveal colorful coral reefs and diverse marine species. A local village tour provides insight into traditional Maldivian life and culture."
+      },
+      {
+        "name": "Dhigurah",
+        "attractions": [
+          "Dhigurah Beach",
+          "Whale Shark Watching",
+          "Local Fishing Village",
+          "Giraavaru Beach"
+        ],
+        "description": "Dhigurah is renowned for its long, sandy beach and opportunities to spot whale sharks, the world’s largest fish. Dhigurah Beach stretches for several kilometers and is ideal for relaxation and swimming. Whale Shark Watching tours offer a chance to see these majestic creatures in their natural habitat. The local fishing village provides a look into traditional fishing practices, while Giraavaru Beach is a scenic spot for sunbathing and enjoying the serene environment."
+      },
+      {
+        "name": "Thulusdhoo",
+        "attractions": [
+          "Coke’s Beach",
+          "Kuda Bokkura Reef",
+          "Local Surfing Spots",
+          "Island Hopping"
+        ],
+        "description": "Thulusdhoo is famous for its surf breaks and beautiful beaches. Coke’s Beach is renowned for its excellent surfing conditions. The Kuda Bokkura Reef is a popular snorkeling site with vibrant coral and marine life. Thulusdhoo also offers various local surfing spots, making it a great destination for surfing enthusiasts. Island hopping tours from Thulusdhoo allow you to explore nearby islands and enjoy their unique landscapes and activities."
+      },
+      {
+        "name": "Baa Atoll",
+        "attractions": [
+          "Hanifaru Bay",
+          "Dhonfanu Island",
+          "Madi Finolhu",
+          "Reethi Beach"
+        ],
+        "description": "Baa Atoll is a UNESCO Biosphere Reserve known for its rich marine biodiversity. Hanifaru Bay is a prime spot for observing manta rays and whale sharks during the feeding season. Dhonfanu Island offers a tranquil environment with stunning beaches and local culture. Madi Finolhu is a beautiful sandbank ideal for a peaceful day out. Reethi Beach is famous for its pristine white sand and crystal-clear waters, perfect for relaxation and water sports."
+      },
+      {
+        "name": "Laccadive Islands",
+        "attractions": [
+          "Kavaratti Island",
+          "Kalapeni Island",
+          "Andrott Island",
+          "Suheli Parali"
+        ],
+        "description": "Though technically part of India, the Laccadive Islands are often included in Maldives itineraries due to their proximity and similar beauty. Kavaratti Island features stunning lagoons and coral reefs, ideal for snorkeling. Kalapeni Island is known for its pristine beaches and rich marine life. Andrott Island offers a glimpse into local culture and beautiful coastal scenery. Suheli Parali is a coral reef renowned for its underwater biodiversity and ideal for diving."
+      },
+      {
+        "name": "Ari Atoll",
+        "attractions": [
+          "Maafushivaru Island",
+          "Bikini Beach",
+          "Fish Head Reef",
+          "Dhangethi Island"
+        ],
+        "description": "Ari Atoll is known for its luxurious resorts and excellent diving spots. Maafushivaru Island offers stunning beaches and a range of water sports. Bikini Beach is a designated area for tourists to sunbathe in swimwear. Fish Head Reef is a famous dive site with abundant marine life, including reef sharks. Dhangethi Island provides a more local experience with its charming village and beautiful surroundings."
+      },
+      {
+        "name": "Sun Siyam Iru Fushi",
+        "attractions": [
+          "Private Beach",
+          "Overwater Villas",
+          "Spa and Wellness Center",
+          "Snorkeling Excursions"
+        ],
+        "description": "Sun Siyam Iru Fushi is a luxury resort located on Noonu Atoll. It features a private beach, overwater villas, and a world-class spa and wellness center. Guests can enjoy various snorkeling excursions to explore the vibrant marine life surrounding the island. The resort offers a secluded and luxurious experience with stunning views and excellent facilities."
+      },
+      {
+        "name": "Four Seasons Resort Maldives at Landaa Giraavaru",
+        "attractions": [
+          "Marine Discovery Centre",
+          "Sea Turtle Rehabilitation",
+          "Beach and Lagoon Activities",
+          "Cultural Experiences"
+        ],
+        "description": "Located on Baa Atoll, Four Seasons Resort Maldives at Landaa Giraavaru offers a range of activities and attractions. The Marine Discovery Centre focuses on coral conservation and marine life. The resort's sea turtle rehabilitation program provides guests with the chance to learn about and support sea turtle conservation. Beach and lagoon activities include snorkeling, diving, and kayaking. Cultural experiences provide insights into local traditions and practices."
+      },
+      {
+        "name": "Kuredu Island Resort",
+        "attractions": [
+          "Kuredu Golf Club",
+          "Water Sports",
+          "Sangu Water Villas",
+          "Sunset Cruises"
+        ],
+        "description": "Kuredu Island Resort is located on Laccadive Atoll and is known for its golf club, which offers unique views of the surrounding ocean. The resort provides a variety of water sports, including diving and snorkeling. The Sangu Water Villas offer luxurious accommodation with stunning ocean views. Sunset cruises provide a romantic and picturesque way to enjoy the Maldivian sunset."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Malé",
+        "hotels": ["Hotel Jen Malé", "The Somerset Hotel"],
+        "restaurants": ["Seagull Café", "Madiha's"]
+      },
+      {
+        "location": "Maafushi",
+        "hotels": ["Kaani Village & Spa", "Tropic Tree Hotel"],
+        "restaurants": ["Kaalama Restaurant", "Stingray Beach Inn"]
+      },
+      {
+        "location": "Dhigurah",
+        "hotels": ["TME Retreats Dhigurah", "Dhiiraagu Inn"],
+        "restaurants": ["Tropical Dhigurah", "Smart Beach Cafe"]
+      },
+      {
+        "location": "Thulusdhoo",
+        "hotels": ["Coke’s Surf Camp", "Season Paradise"],
+        "restaurants": ["Thulusdhoo Surf Camp Restaurant", "Island Grill"]
+      },
+      {
+        "location": "Baa Atoll",
+        "hotels": ["Soneva Fushi", "Finolhu Baa Atoll"],
+        "restaurants": ["Out of the Blue", "Madi Finolhu Restaurant"]
+      },
+      {
+        "location": "Ari Atoll",
+        "hotels": ["Conrad Maldives Rangali Island", "Kuramathi Maldives"],
+        "restaurants": ["Ithaa Undersea Restaurant", "Cinnamon Dhonveli Maldives"]
+      },
+      {
+        "location": "Noonu Atoll",
+        "hotels": ["Sun Siyam Iru Fushi", "One&Only Reethi Rah"],
+        "restaurants": ["Islander’s Grill", "The Wine Cellar"]
+      },
+      {
+        "location": "Four Seasons Resort Maldives at Landaa Giraavaru",
+        "hotels": ["Four Seasons Resort Maldives at Landaa Giraavaru"],
+        "restaurants": ["Fuego Grill", "Blu"]
+      },
+      {
+        "location": "Kuredu Island Resort",
+        "hotels": ["Kuredu Island Resort"],
+        "restaurants": ["The O Restaurant", "Sangu Restaurant"]
+      }
+    ],
+    "activities": [
+      "City tours in Malé",
+      "Beach relaxation and snorkeling in Maafushi",
+      "Whale shark watching in Dhigurah",
+      "Surfing and island hopping in Thulusdhoo",
+      "Marine biodiversity exploration in Baa Atoll",
+      "Cultural and luxury experiences in resorts"
+    ],
+    "tips_and_tricks": [
+      "Always wear sunscreen and stay hydrated.",
+      "Respect local customs, especially when visiting local islands.",
+      "Be mindful of the environment and marine life.",
+      "Book activities and excursions in advance to secure spots."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+960 1234567",
+      "local_police": "119",
+      "tourist_police": "102",
+      "embassy": "+960 2223456"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Malé",
+        "activities": [
+          "Arrival at Velana International Airport",
+          "Transfer to the hotel and check-in",
+          "Explore Malé Fish Market",
+          "Visit Old Friday Mosque",
+          "Dinner at Seagull Café"
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Malé",
+        "activities": [
+          "Visit National Museum",
+          "Lunch at Madiha's",
+          "Explore Sultan Park",
+          "Free time for shopping or relaxation",
+          "Dinner at a local restaurant"
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Maafushi",
+        "activities": [
+          "Travel to Maafushi by speedboat",
+          "Check-in at the hotel",
+          "Relax at Maafushi Beach",
+          "Lunch at Kaalama Restaurant",
+          "Sandbank Picnic",
+          "Dinner at Stingray Beach Inn"
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Maafushi",
+        "activities": [
+          "Snorkeling tour",
+          "Lunch at the hotel or local café",
+          "Local village tour",
+          "Free time for shopping or exploring",
+          "Dinner at a local restaurant"
+        ]
+      },
+      {
+        "day": 5,
+        "location": "Dhigurah",
+        "activities": [
+          "Travel to Dhigurah by speedboat",
+          "Check-in at the hotel",
+          "Relax at Dhigurah Beach",
+          "Lunch at Tropical Dhigurah",
+          "Whale Shark Watching tour",
+          "Dinner at Smart Beach Cafe"
+        ]
+      },
+      {
+        "day": 6,
+        "location": "Dhigurah",
+        "activities": [
+          "Visit Giraavaru Beach",
+          "Lunch at a beachfront café",
+          "Explore local fishing village",
+          "Free time for relaxation or optional activities",
+          "Dinner at a local restaurant"
+        ]
+      },
+      {
+        "day": 7,
+        "location": "Thulusdhoo",
+        "activities": [
+          "Travel to Thulusdhoo by speedboat",
+          "Check-in at the hotel",
+          "Relax at Coke’s Beach",
+          "Lunch at Thulusdhoo Surf Camp Restaurant",
+          "Explore local surfing spots",
+          "Dinner at Island Grill"
+        ]
+      },
+      {
+        "day": 8,
+        "location": "Baa Atoll",
+        "activities": [
+          "Travel to Baa Atoll by speedboat or seaplane",
+          "Check-in at the resort",
+          "Visit Hanifaru Bay",
+          "Lunch at Out of the Blue",
+          "Relax at Reethi Beach",
+          "Dinner at Madi Finolhu Restaurant"
+        ]
+      },
+      {
+        "day": 9,
+        "location": "Baa Atoll",
+        "activities": [
+          "Explore Dhonfanu Island",
+          "Lunch at the resort",
+          "Enjoy various water activities or relax",
+          "Dinner at a local restaurant or resort"
+        ]
+      },
+      {
+        "day": 10,
+        "location": "Malé",
+        "activities": [
+          "Travel back to Malé",
+          "Check-in at the hotel",
+          "Free time for last-minute shopping or sightseeing",
+          "Lunch at a local restaurant",
+          "Transfer to Velana International Airport for departure"
+        ]
+      }
+    ]
+  }
+  

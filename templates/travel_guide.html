@@ -1,0 +1,389 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block content %}
+    <style>
+        h2{
+            margin-bottom: 20px;
+            margin-top: 60px;
+        }
+        .indent{
+            text-indent: 50px;
+        }
+        p{
+            font-size: 1.2rem;
+            line-height: 220%;
+        }
+
+        /* li{
+            margin-bottom: 20px;
+        } */
+    </style>
+
+
+    <div class="container-fluid bg-white p-0">
+        <div class="w-100 bg-white px-4 py-5">
+            <div class="text-center pb-3 pt-5">
+                <h6 class="text-dark text-uppercase" style="letter-spacing: 5px;">Services</h6>
+                <h1>Free Travel Guides for you</h1>
+            </div>
+    
+            <p class="mb-3 text-center mx-auto" style="max-width: 900px;">
+                At Traveler, we understand that planning a trip can be overwhelming, especially when traveling to a new destination. That's why we offer our expert Travel Guide Service to help you make the most of your journey.
+            </p>
+    
+            <div class="w-100">
+                <div class="container pb-3">
+                    <div class="text-center mb-3 pb-3">
+                        <!-- <h1>Travel Guide for Some famous cities</h1> -->
+                    </div>
+                    <div class="row">
+                        {% for guide in travel_guides %}
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <a href="/travel_guide/{{ guide.pk }}" class="rounded-xl shadow-sm guide-item p-3 card position-relative overflow-hidden mb-2 text-decoration-none">
+                                <img class="img-fluid" style="border-radius: 20px; height: 230px;" src="{{ guide.img.url }}"  alt="">
+                                <div class="card-body px-2 pb-0 text-decoration-none" href="">
+                                    <h5 class="">{{ guide.city_name }} Travel Guide</h5>
+                                </div>
+                            </a>
+                        </div>
+                        {% endfor %}
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container px-4 py-5">
+            <h2 class="mt-5 text-center pb-4">What is a Travel Guide?</h2>
+            <p class="indent mb-5">
+                A travel guide is a personalized itinerary that includes recommendations for activities, attractions, and experiences tailored to your interests and preferences. Our travel guides are carefully crafted by our team of experts who have extensive knowledge of destinations worldwide. The travel guide is in
+                <a href="" class="btn-link" data-toggle="modal" data-target="#exampleModalLong">
+                    this
+                </a>
+                form. Benefits of Our Travel Guide Service:
+            </p>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="exampleModalLongTitle">Travel Guide Example Document</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="p-4">
+                            <h6>Destination Overview</h6>
+                            <small>Introduction to the destination, including information on culture, history, and must-see sights.</small>
+                            
+                            <h6 class="mt-4">Top Attractions</h6>
+                            <ul>
+                                <li><small>Attraction 1: Description and highlights</small></li>
+                                <li><small>Attraction 2: Description and highlights</small></li>
+                                <li><small>Attraction 3: Description and highlights</small></li>
+                            </ul>
+                            
+                            <h6>Things to Do</h6>
+                            <ul>
+                                <li><small>Activity 1: Description and tips</small></li>
+                                <li><small>Activity 2: Description and tips</small></li>
+                                <li><small>Activity 3: Description and tips</small></li>
+                            </ul>
+                            
+                            <h6>Restaurant and Bar Guide</h6>
+                            <ul>
+                                <li> <small>Restaurant 1: Description, cuisine, and price range</small></li>
+                                <li> <small>Restaurant 2: Description, cuisine, and price range</small></li>
+                                <li> <small>Bar 1: Description, atmosphere, and drinks</small></li>
+                            </ul>
+                            
+                            <h6>Accommodation Options</h6>
+                            <ul>
+                                <li><small>Hotel 1: Description, amenities, and price range</small></li>
+                                <li><small>Hotel 2: Description, amenities, and price range</small></li>
+                                <li><small>Alternative accommodation options (e.g. hostels, Airbnb)</small></li>
+                            </ul>
+                            
+                            <h6>Insider Tips</h6>
+                            <ul>
+                                <li><small>Tips for getting around the destination</small></li>
+                                <li><small>Local customs and etiquette</small></li>
+                                <li><small>Hidden gems and off-the-beaten-path destinations</small></li>
+                            </ul>
+                            
+                            <h6>Maps and Directions</h6>
+                            <small>Include maps and directions to help visitors navigate the destination.</small>
+                            
+                            <h6 class="mt-4">Emergency Contacts</h6>
+                            <small>Include emergency contact information, such as local hospitals and embassies.</small>
+                    
+                        </div>
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                    </div>
+                </div>
+            </div>      
+    
+            <div class="row mb-5">
+                <div class="col-sm-6 col-12 mb-4">
+                    <div class="card p-4 border rounded-xl">
+                        <div class="w-100">
+                            <i class="fa fa-user mb-3 p-1 fa-2x text-warning"></i>
+                            <h5 class="mb-2 card-title p-0 m-0">Personalized Recommendations</h5>
+                            <span style="line-height: 150%; min-height: 100px;">
+                                Our travel guides are tailored to your interests, preferences, and travel style.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12 mb-4">
+                    <div class="card p-4 border rounded-xl">
+                        <div class="w-100">
+                            <i class="fa fa-hourglass-half mb-3 p-1 fa-2x text-warning"></i>
+                            <h5 class="mb-2 card-title p-0 m-0">Time-Saving</h5>
+                          <span style="line-height: 150%; min-height: 100px;">
+                            We'll help you prioritize activities and attractions, ensuring you make the most of your trip.
+                          </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12 mb-4">
+                    <div class="card p-4 border rounded-xl">
+                        <div class="w-100">
+                            <i class="fa fa-lightbulb mb-3 p-1 fa-2x text-warning"></i>
+                            <h5 class="mb-2 card-title p-0 m-0">Local Insights</h5>
+                          <span style="line-height: 150%; min-height: 100px;">
+                            Our guides include insider tips and recommendations from locals, giving you an authentic experience.
+                          </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12 mb-4">
+                    <div class="card p-4 border rounded-xl">
+                        <div class="w-100">
+                            <i class="fa fa-expand-arrows-alt mb-3 p-1 fa-2x text-warning"></i>
+                            <h5 class="mb-2 card-title p-0 m-0">Flexibility</h5>
+                            <span style="line-height: 150%; min-height: 100px;">
+                                We'll work with you to create a guide that suits your schedule and preferences.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <h2 class="text-center mb-5 pt-5">What's Included in Our Travel Guide Service?</h2>
+    
+            <h4 class="py-3 font-weight-semi-bold text-dark">1. Base version</h4>
+            <p>By choosing our Base Travel guide plan you get:</p>
+            <div class="row mb-5">
+                <div class="col-sm-6 col-12">
+                    <div class="d-flex rounded-lg p-3 h-100">
+                        <div>
+                            <i class="fa fa-file mb-2 p-1 fa-2x text-warning"></i>
+                            <h5 class="text-dark font-weight-semi-bold">Customized Itinerary</h5> 
+                            <span>A personalized day-by-day schedule of activities and attractions. </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12">
+                    <div class="d-flex rounded-lg p-3 mr-3 mb-3 h-100">
+                        <div>
+                            <i class="fa fa-map-marked-alt mb-2 p-1 fa-2x text-warning"></i>
+                            <h5 class="text-dark font-weight-semi-bold">Destination Overview</h5> 
+                            <span>An introduction to your destination, including information on culture, history, and must-see sights. </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12">
+                    <div class="d-flex rounded-lg p-3 mr-3 mb-3 h-100">
+                        <div>
+                            <i class="fa fa-tags mb-2 p-1 fa-2x text-warning"></i>
+                            <h5 class="text-dark font-weight-semi-bold">Activity and Attraction Recommendation</h5> 
+                            <span>Suggestions for experiences, tours, and attractions tailored to your interests. </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12">    
+                    <div class="d-flex rounded-lg p-3 mr-3 mb-3 h-100">
+                        <div>
+                            <i class="fa fa-hotel mb-2 p-1 fa-2x text-warning"></i>
+                            <h5 class="text-dark font-weight-semi-bold">Hotel and Restaurant Recommendations</h5> 
+                            <span>Insider tips on the best places to eat and drink.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12">    
+                    <div class="d-flex rounded-lg p-3 mr-3 mb-3 h-100">
+                        <div>
+                            <i class="fa fa-info-circle mb-2 p-1 fa-2x text-warning"></i>
+                            <h5 class="text-dark font-weight-semi-bold">Tips and Advice</h5> 
+                            <span>Practical advice on transportation, safety, and cultural norms. </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p>Our Base Travel Guide is priced at <span class="font-weight-medium text-dark">$1000</span> , which includes all the features listed above.</p>
+    
+            <h4 class="py-3 font-weight-semi-bold text-dark mt-5">2. Luxury version</h4>
+            <p>Our Luxury Travel Guide includes all the features of our Base guide, plus:</p>
+            <div class="row mb-5">
+                <div class="col-sm-6 col-12">
+                    <div class="d-flex rounded-lg p-3 h-100">
+                        <div>
+                            <i class="fa fa-user-check mb-2 p-1 fa-2x text-warning"></i>
+                            <h5 class="text-dark font-weight-semi-bold">Personalized Itinerary</h5> 
+                            <span>A customized day-by-day schedule tailored to your preferences. </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12">
+                    <div class="d-flex rounded-lg p-3 mr-3 mb-3 h-100">
+                        <div>
+                            <i class="fa fa-car mb-2 p-1 fa-2x text-warning"></i>
+                            <h5 class="text-dark font-weight-semi-bold">Private Transportation</h5> 
+                            <span>Enjoy private airport transfers and transportation throughout your trip. </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12">
+                    <div class="d-flex rounded-lg p-3 mr-3 mb-3 h-100">
+                        <div>
+                            <i class="fa fa-building mb-2 p-1 fa-2x text-warning"></i>
+                            <h5 class="text-dark font-weight-semi-bold">Luxury Accommodations</h5> 
+                            <span>Get access to exclusive deals on high-end hotels and resorts. </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12">    
+                    <div class="d-flex rounded-lg p-3 mr-3 mb-3 h-100">
+                        <div>
+                            <i class="fa fa-phone-alt mb-2 p-1 fa-2x text-warning"></i>
+                            <h5 class="text-dark font-weight-semi-bold">Concierge Service</h5> 
+                            <span>Receive personalized support from our travel experts throughout your trip. </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12">    
+                    <div class="d-flex rounded-lg p-3 mr-3 mb-3 h-100">
+                        <div>
+                            <i class="fa fa-cocktail mb-2 p-1 fa-2x text-warning"></i>
+                            <h5 class="text-dark font-weight-semi-bold">Exclusive Experiences</h5> 
+                            <span>Enjoy unique experiences, such as private tours and meet-and-greets with local experts.  </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <p>Our Luxury Travel Guide is priced at <span class="font-weight-medium text-dark">$3000 (not including transportation and accomodation cost)</span>, which includes all the features listed above.</p>
+            
+            <h2 class="text-center mb-5">How Does it Work?</h2>
+            <div class="row mb-5">
+                <div class="col-sm-6 col-12">
+                    <div class="d-flex flex-column rounded-lg p-3 h-100">
+                        <div class="rounded-lg mr-3">
+                            <div class="fa-2x text-dark" style="font-weight: 500;">1.</div>
+                        </div>
+                        <div>
+                            <h5 class="text-dark font-weight-semi-bold">Consultation</h5> 
+                            <span>We'll discuss your travel plans and preferences with you to understand what you're looking for.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12">
+                    <div class="d-flex flex-column rounded-lg p-3 mr-3 mb-3 h-100">
+                        <div class="rounded-lg mr-3">
+                            <div class="fa-2x text-dark" style="font-weight: 500;">2.</div>
+                        </div>
+                        <div>
+                            <h5 class="text-dark font-weight-semi-bold">Research</h5> 
+                            <span>Our team of experts will research your destination and create a personalized guide.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12">
+                    <div class="d-flex flex-column rounded-lg p-3 mr-3 mb-3 h-100">
+                        <div class="rounded-lg mr-3">
+                            <div class="fa-2x text-dark" style="font-weight: 500;">3.</div>
+                        </div>
+                        <div>
+                            <h5 class="text-dark font-weight-semi-bold">Delivery</h5> 
+                            <span>We'll deliver your travel guide to you via email or mail, depending on your preference.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12">    
+                    <div class="d-flex flex-column rounded-lg p-3 mr-3 mb-3 h-100">
+                        <div class="rounded-lg mr-3">
+                            <div class="fa-2x text-dark" style="font-weight: 500;">4.</div>
+                        </div>
+                        <div>
+                            <h5 class="text-dark font-weight-semi-bold">Support</h5> 
+                            <span>We'll be available to answer any questions or provide additional recommendations throughout your trip.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h2 class="text-center mb-2">Get Started</h2>
+            
+            <p class="text-center w-75 m-auto">Ready to start planning your dream trip? Sign up for our Base Travel Guide Service today, or upgrade to our Luxury Travel Guide for an unforgettable experience!</p>
+    
+            <section class="card-area pt-5">
+                <div class="container">
+                    <div class="d-flex flex-md-row flex-column justify-content-center" style="gap: 20px;">
+                        <div class="card p-4 rounded-xl" style="max-width: 400px;">
+                            <h4 class="d-inline border-bottom p-2">Base Plan</h4>
+                            <div class="w-100 py-4">
+                                <div class="w-100">
+                                    <h1 class="text-center">$1000<span class="d-inline" style="font-size: 20px;">USD</span></h1>
+                                    <small class="w-75 m-auto d-block text-center">Does not include the transportation and accomodation cost</small>
+                                </div>
+                            </div>
+                            <div class=" d-flex flex-column">
+                              <ul class="p-0 m-0 mt-3 mb-4 flex-grow-1" style="line-height: 150%;">
+                                <li class="list-unstyled p-2 border-bottom">Customized Itinerary</li>
+                                <li class="list-unstyled p-2 border-bottom">Destination Overview</li>
+                                <li class="list-unstyled p-2 border-bottom">Activity Recommendations</li>
+                                <li class="list-unstyled p-2 border-bottom">Restaurant and Bar Recommendations</li>
+                                <li class="list-unstyled p-2">Tips and Advice</li>
+                              </ul>
+                              <div class="w-100">
+                                <a href="{% url 'contact-view' %}" class="w-100 btn btn-warning rounded-pill" style="font-weight: 500;">Get in touch</a>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="card p-4 rounded-xl" style="max-width: 400px;">
+                            <h4 class="d-inline border-bottom p-2">Luxury Plan</h4>
+                            <div class="w-100 py-4">
+                                <div class="w-100">
+                                    <h1 class="text-center">$3000<span class="d-inline" style="font-size: 20px;">USD</span></h1>
+                                    <small class="w-75 m-auto d-block text-center">Does not include the transportation and accomodation cost</small>
+                                </div>
+                            </div>
+                            <div class=" d-flex flex-column">
+                              <ul class="p-0 m-0 mt-3 mb-4 flex-grow-1" style="line-height: 150%;">
+                                <li class="list-unstyled p-2 border-bottom">Personalized Itinerary</li>
+                                <li class="list-unstyled p-2 border-bottom">Private Transportation</li>
+                                <li class="list-unstyled p-2 border-bottom">Luxury Accommodations</li>
+                                <li class="list-unstyled p-2 border-bottom">Concierge Service</li>
+                                <li class="list-unstyled p-2">Exclusive Experiences</li>
+                              </ul>
+                              <div class="w-100">
+                                <a href="{% url 'contact-view' %}" class="w-100 btn btn-warning rounded-pill" style="font-weight: 500;">Get in touch</a>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+{% endblock content %}

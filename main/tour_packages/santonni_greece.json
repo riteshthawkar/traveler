@@ -1,0 +1,103 @@
+{
+    "package_name": "Santorini Escape",
+    "country": "Greece",
+    "duration_days": 5,
+    "customer_rating": 4.9,
+    "places_to_visit": [
+      {
+        "name": "Oia Village",
+        "description": "Oia is famous for its stunning sunsets and traditional white-washed buildings with blue domes. The village offers beautiful views of the caldera and is perfect for a romantic evening."
+      },
+      {
+        "name": "Fira",
+        "description": "Fira is the island’s bustling capital. Visitors can explore its shops, cafes, and museums, and enjoy panoramic views of the caldera from various viewpoints."
+      },
+      {
+        "name": "Akrotiri Archaeological Site",
+        "description": "Akrotiri is an ancient Minoan city preserved under volcanic ash. The site offers a glimpse into a sophisticated prehistoric civilization with well-preserved frescoes and artifacts."
+      },
+      {
+        "name": "Perissa Beach",
+        "description": "Perissa Beach is known for its black volcanic sand and clear waters. It's a great spot for sunbathing, swimming, and enjoying beachside cafes and bars."
+      },
+      {
+        "name": "Red Beach",
+        "description": "Red Beach is famous for its striking red cliffs and sand. It’s a unique spot for swimming and snorkeling, surrounded by dramatic volcanic landscapes."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Santorini",
+        "hotels": ["Katikies Hotel", "Canaves Oia Hotel", "Astra Suites"],
+        "restaurants": ["Oia Vineyart", "Santo Wines Winery", "Metaxi Mas"]
+      }
+    ],
+    "activities": [
+      "Stroll through Oia Village and watch the sunset",
+      "Explore the shops and viewpoints in Fira",
+      "Visit the Akrotiri Archaeological Site",
+      "Relax and swim at Perissa Beach",
+      "Enjoy the unique scenery of Red Beach"
+    ],
+    "tips_and_tricks": [
+      "Book sunset dinner reservations in Oia well in advance.",
+      "Wear comfortable shoes for exploring the cobblestone streets.",
+      "Consider renting a scooter or ATV to explore the island."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+30 2286-555-123",
+      "local_police": "100",
+      "embassy": "+30 2286-555-567"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Santorini",
+        "activities": [
+          "Arrival at Santorini Airport and transfer to the hotel",
+          "Briefing on the tour and rest",
+          "Dinner at a local restaurant and overnight stay"
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Santorini",
+        "activities": [
+          "Explore Oia Village in the morning",
+          "Lunch at a local café in Oia",
+          "Enjoy the sunset in Oia in the evening",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Santorini",
+        "activities": [
+          "Visit Fira and its viewpoints in the morning",
+          "Lunch in Fira",
+          "Tour the Akrotiri Archaeological Site in the afternoon",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Santorini",
+        "activities": [
+          "Relax at Perissa Beach in the morning",
+          "Lunch at a beachside café",
+          "Visit Red Beach in the afternoon",
+          "Dinner and evening at leisure"
+        ]
+      },
+      {
+        "day": 5,
+        "location": "Santorini",
+        "activities": [
+          "Final free time for sightseeing or shopping",
+          "Lunch in Santorini",
+          "Transfer to the airport for departure"
+        ]
+      }
+    ]
+  }
+  

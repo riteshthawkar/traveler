@@ -1,0 +1,132 @@
+{
+    "package_name": "Paris: The City of Lights",
+    "country": "France",
+    "duration_days": 4,
+    "customer_rating": 4.9,
+    "tour_cost_usd": 1200,
+    "region_description": "Paris, the capital of France, is a global center for art, fashion, and culture. Known as the City of Lights, it boasts iconic landmarks such as the Eiffel Tower, Notre-Dame Cathedral, and the Louvre Museum. Paris has a rich history dating back to the 3rd century BC and is famous for its vibrant café culture, exquisite cuisine, and world-class museums. Visitors can explore the charming neighborhoods of Montmartre and Le Marais, indulge in French pastries, and enjoy stunning views from the Seine River.",
+    "places_to_visit": [
+      {
+        "name": "Eiffel Tower",
+        "description": "The Eiffel Tower, an iron lattice tower, is one of the most recognizable structures in the world. It was completed in 1889 for the World's Fair and offers breathtaking views of Paris from its observation decks."
+      },
+      {
+        "name": "Louvre Museum",
+        "description": "The Louvre Museum is the world's largest art museum and a historic monument in Paris. It houses thousands of works of art, including the Mona Lisa and the Venus de Milo."
+      },
+      {
+        "name": "Notre-Dame Cathedral",
+        "description": "Notre-Dame Cathedral is a masterpiece of French Gothic architecture, renowned for its intricate façade, stunning stained glass windows, and impressive flying buttresses."
+      },
+      {
+        "name": "Montmartre",
+        "description": "Montmartre is a historic and artistic neighborhood known for its bohemian charm, with narrow streets, lively cafés, and the stunning Basilica of Sacré-Cœur offering panoramic views of the city."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Paris",
+        "hotels": [
+          {
+            "name": "Hôtel Plaza Athénée",
+            "description": "A luxurious hotel with stunning views of the Eiffel Tower, Hôtel Plaza Athénée features elegant rooms, fine dining, and a renowned spa.",
+            "cost_per_night_usd": 800
+          },
+          {
+            "name": "Le Meurice",
+            "description": "Le Meurice is a historic palace hotel offering classic elegance and exceptional service, located steps away from the Louvre.",
+            "cost_per_night_usd": 600
+          }
+        ],
+        "restaurants": [
+          {
+            "name": "Le Jules Verne",
+            "description": "Located on the second floor of the Eiffel Tower, Le Jules Verne offers gourmet French cuisine with stunning views of the city.",
+            "average_cost_per_person_usd": 150
+          },
+          {
+            "name": "Café de Flore",
+            "description": "Café de Flore is a famous café known for its rich history and artistic clientele, serving classic French dishes and pastries.",
+            "average_cost_per_person_usd": 40
+          }
+        ]
+      }
+    ],
+    "activities": [
+      "Visit the Eiffel Tower and enjoy panoramic views of the city.",
+      "Explore the Louvre Museum and its vast art collections.",
+      "Tour the Notre-Dame Cathedral and learn about its history.",
+      "Stroll through Montmartre and visit the Basilica of Sacré-Cœur."
+    ],
+    "tips_and_tricks": [
+      "Purchase tickets for the Eiffel Tower in advance to skip the lines.",
+      "Consider a Seine River cruise for a unique view of the city.",
+      "Try local delicacies like croissants and macarons during your visit."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+33 1 23 45 67 89",
+      "local_police": "17",
+      "embassy": "+33 1 40 50 65 00"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Paris",
+        "activities": [
+          "Arrival at Charles de Gaulle Airport and transfer to the hotel.",
+          "Briefing on the tour and rest.",
+          "Dinner at Le Jules Verne, enjoying gourmet cuisine with stunning views."
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Paris",
+        "activities": [
+          "Visit the Eiffel Tower in the morning and take in the views.",
+          "Lunch at a nearby café.",
+          "Explore the Louvre Museum and its famous artworks.",
+          "Dinner at a local restaurant and overnight stay."
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Paris",
+        "activities": [
+          "Tour Notre-Dame Cathedral and admire its architecture.",
+          "Lunch at Café de Flore, experiencing Parisian café culture.",
+          "Afternoon in Montmartre, visiting the Basilica of Sacré-Cœur.",
+          "Dinner and overnight stay at the hotel."
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Paris",
+        "activities": [
+          "Free day for optional activities or further exploration.",
+          "Lunch at a local restaurant.",
+          "Evening Seine River cruise to see the city lights.",
+          "Dinner and overnight stay at the hotel."
+        ]
+      },
+      {
+        "day": 5,
+        "location": "Departure",
+        "activities": [
+          "Check-out from the hotel and transfer to the airport for departure."
+        ]
+      }
+    ],
+    "customer_reviews": [
+      {
+        "name": "Isabella L.",
+        "rating": 5.0,
+        "description": "Paris was magical! The Eiffel Tower at night is unforgettable."
+      },
+      {
+        "name": "Ethan W.",
+        "rating": 4.9,
+        "description": "A wonderful experience! The Louvre is a must-see."
+      }
+    ]
+  }
+  

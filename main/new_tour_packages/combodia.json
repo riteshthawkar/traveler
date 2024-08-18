@@ -1,0 +1,124 @@
+{
+    "package_name": "Siem Reap Temples Tour",
+    "country": "Cambodia",
+    "duration_days": 4,
+    "customer_rating": 4.8,
+    "tour_cost_usd": 900,
+    "region_description": "Siem Reap is renowned for its proximity to the magnificent Angkor Wat temple complex, a UNESCO World Heritage site. The area is steeped in history and offers visitors a glimpse into the Khmer Empire's grandeur. Beyond the temples, Siem Reap boasts a vibrant night market, delicious Cambodian cuisine, and a welcoming atmosphere, making it a must-visit destination for those seeking both adventure and culture in Southeast Asia.",
+    "places_to_visit": [
+      {
+        "name": "Angkor Wat",
+        "description": "Angkor Wat is the largest religious monument in the world and an architectural masterpiece, known for its intricate carvings and stunning sunrise views."
+      },
+      {
+        "name": "Ta Prohm",
+        "description": "Ta Prohm is famous for the trees that have grown over the ruins, creating a hauntingly beautiful atmosphere that has captivated visitors."
+      },
+      {
+        "name": "Bayon Temple",
+        "description": "Bayon Temple is known for its 216 serene faces carved into stone towers, representing the bodhisattva Avalokiteshvara."
+      },
+      {
+        "name": "Angkor Night Market",
+        "description": "Angkor Night Market is a bustling market where visitors can shop for handicrafts, souvenirs, and enjoy local street food."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Siem Reap",
+        "hotels": [
+          {
+            "name": "Shinta Mani Shack",
+            "description": "Shinta Mani Shack is a luxurious hotel featuring contemporary design and exceptional service, located near the city center.",
+            "cost_per_night_usd": 150
+          },
+          {
+            "name": "Hotel de la Paix",
+            "description": "Hotel de la Paix offers a blend of luxury and comfort with spacious rooms and a beautiful pool area, close to Angkor Wat.",
+            "cost_per_night_usd": 250
+          }
+        ],
+        "restaurants": [
+          {
+            "name": "Marum",
+            "description": "Marum is a training restaurant for underprivileged youth, serving delicious Cambodian dishes in a cozy atmosphere.",
+            "average_cost_per_person_usd": 20
+          },
+          {
+            "name": "Khmer Surin",
+            "description": "Khmer Surin offers authentic Khmer cuisine with an extensive menu, providing a taste of local flavors and specialties.",
+            "average_cost_per_person_usd": 25
+          }
+        ]
+      }
+    ],
+    "activities": [
+      "Explore the Angkor Wat temple complex at sunrise.",
+      "Visit Ta Prohm and admire the unique tree-covered ruins.",
+      "Discover the faces of Bayon Temple.",
+      "Shop and enjoy local food at Angkor Night Market."
+    ],
+    "tips_and_tricks": [
+      "Start temple visits early in the morning to avoid crowds.",
+      "Dress modestly when visiting temples.",
+      "Stay hydrated and wear sunscreen, as it can get hot."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+855 12 345 678",
+      "local_police": "117",
+      "embassy": "+855 23 123 456"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Siem Reap",
+        "activities": [
+          "Arrival at Siem Reap International Airport and transfer to the hotel.",
+          "Briefing on the tour and overview of Siem Reap's attractions.",
+          "Evening at leisure to explore the local area.",
+          "Dinner at a local restaurant, enjoying authentic Khmer cuisine."
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Siem Reap",
+        "activities": [
+          "Explore Angkor Wat at sunrise and capture stunning photos.",
+          "Breakfast at the hotel and then visit Ta Prohm.",
+          "Lunch at a local restaurant.",
+          "Discover the fascinating Bayon Temple in the afternoon.",
+          "Dinner at Marum, experiencing a social enterprise restaurant."
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Siem Reap",
+        "activities": [
+          "Visit the Angkor Night Market for shopping in the morning.",
+          "Lunch at Khmer Surin, tasting local flavors.",
+          "Explore more temples or relax at the hotel.",
+          "Enjoy a cultural show or dinner in the evening."
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Departure",
+        "activities": [
+          "Check-out from the hotel and transfer to the airport for departure."
+        ]
+      }
+    ],
+    "customer_reviews": [
+      {
+        "name": "Ava L.",
+        "rating": 4.9,
+        "description": "Angkor Wat is breathtaking! A highlight of my travels."
+      },
+      {
+        "name": "James P.",
+        "rating": 4.8,
+        "description": "The temples are incredible and full of history. Highly recommend!"
+      }
+    ]
+  }
+  

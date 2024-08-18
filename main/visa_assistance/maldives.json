@@ -1,0 +1,76 @@
+{
+    "country_name": "Maldives",
+    "visa_guide": {
+      "country_overview": {
+        "content": "The Maldives, famous for its crystal-clear waters, luxurious resorts, and stunning coral reefs, is a tropical paradise in the Indian Ocean. It is a popular destination for honeymooners, divers, and beach lovers. The Maldives offers visa-on-arrival for most nationalities, making it an accessible destination for many travelers seeking a tropical escape."
+      },
+      "types_of_visas": {
+        "tourist_visa": {
+          "title": "Tourist Visa",
+          "description": "The Tourist Visa for the Maldives is issued on arrival and is typically valid for 30 days. It is suitable for leisure travelers, honeymooners, and those visiting for short stays."
+        }
+      },
+      "visa_requirements": {
+        "tourist_visa": {
+          "eligibility_criteria": "Travelers must have a valid passport, proof of onward travel, and sufficient funds for their stay. There are no prior visa requirements for most nationalities, as the visa is issued upon arrival.",
+          "mandatory_documents": [
+            "Valid passport with at least six months of validity",
+            "Proof of onward travel (return flight ticket)",
+            "Proof of accommodation (hotel booking or resort reservation)",
+            "Sufficient funds for the duration of the stay"
+          ]
+        }
+      },
+      "step_by_step_visa_application_process": {
+        "step_1": {
+          "title": "Determine Visa Type",
+          "description": "For most travelers, a Tourist Visa is issued upon arrival in the Maldives. Ensure that you meet the basic entry requirements."
+        },
+        "step_2": {
+          "title": "Check Eligibility",
+          "description": "Confirm that your nationality qualifies for visa-on-arrival and that you meet the entry requirements such as having a valid passport and proof of onward travel."
+        },
+        "step_3": {
+          "title": "Prepare Required Documents",
+          "description": "Ensure that you have all the required documents ready, including your passport, proof of accommodation, and return flight ticket."
+        },
+        "step_4": {
+          "title": "Travel to Maldives",
+          "description": "Upon arrival at the airport in the Maldives, proceed to the immigration counter with your documents for inspection."
+        },
+        "step_5": {
+          "title": "Visa Issuance",
+          "description": "Your Tourist Visa will be issued on arrival if you meet all the requirements. The visa will be stamped in your passport, allowing for a stay of up to 30 days."
+        }
+      },
+      "additional_information": {
+        "visa_fees": {
+          "content": "There is no visa fee for the Tourist Visa issued on arrival in the Maldives. However, ensure that you meet all entry requirements."
+        },
+        "processing_time": {
+          "content": "Visa-on-arrival is processed immediately upon arrival at the airport. No prior application is required."
+        },
+        "visa_validity": {
+          "content": "The Tourist Visa issued on arrival is typically valid for up to 30 days. Extensions may be possible but require application to local immigration authorities."
+        },
+        "entry_requirements": {
+          "content": "Upon arrival, travelers must present a valid passport, proof of onward travel, proof of accommodation, and sufficient funds. Ensure compliance with these requirements to avoid complications."
+        }
+      },
+      "faqs": {
+        "faq_1": {
+          "question": "Can I extend my Tourist Visa in the Maldives?",
+          "answer": "Extensions for Tourist Visas are possible but require application to the local immigration authorities. It is advisable to check the process and requirements in advance."
+        },
+        "faq_2": {
+          "question": "Is a visa required before arrival for the Maldives?",
+          "answer": "For most nationalities, a Tourist Visa is issued upon arrival. However, travelers should confirm their specific requirements before traveling."
+        },
+        "faq_3": {
+          "question": "Can I work in the Maldives on a Tourist Visa?",
+          "answer": "No, working on a Tourist Visa is strictly prohibited. You must obtain a work visa if you plan to work in the Maldives."
+        }
+      }
+    }
+  }
+  

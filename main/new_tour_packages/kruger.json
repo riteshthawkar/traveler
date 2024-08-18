@@ -1,0 +1,130 @@
+{
+    "package_name": "Kruger National Park Safari",
+    "country": "South Africa",
+    "duration_days": 5,
+    "customer_rating": 4.9,
+    "tour_cost_usd": 1200,
+    "region_description": "Kruger National Park is one of Africa's largest game reserves, spanning nearly 20,000 square kilometers. It is home to a diverse range of wildlife, including the Big Five: lions, leopards, elephants, buffalo, and rhinoceros. The park's varied ecosystems, from savannah to dense bush, provide habitats for countless species of birds and animals. Visitors can experience thrilling game drives, guided walking safaris, and luxurious accommodations, making it a top destination for wildlife enthusiasts.",
+    "places_to_visit": [
+      {
+        "name": "Skukuza",
+        "description": "Skukuza is the park's main camp and the largest rest camp in Kruger. It serves as a hub for visitors, offering accommodation, a restaurant, and access to various safari activities."
+      },
+      {
+        "name": "Sabi Sands",
+        "description": "Sabi Sands Game Reserve borders Kruger National Park and is renowned for its luxury lodges and excellent wildlife sightings. The reserve is famous for its leopards and offers exclusive safari experiences."
+      },
+      {
+        "name": "Crocodile Bridge",
+        "description": "Crocodile Bridge is a popular entrance point to the park, known for its rich wildlife. The area is great for game viewing, especially along the Crocodile River."
+      },
+      {
+        "name": "Pafuri",
+        "description": "Pafuri is located in the northern region of Kruger and is known for its unique landscapes and abundant birdlife. The area features lush riverine vegetation and is a favorite spot for birdwatchers."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Kruger National Park",
+        "hotels": [
+          {
+            "name": "Lion Sands Game Reserve",
+            "description": "Lion Sands Game Reserve offers luxurious accommodations and personalized safari experiences. With stunning views and exceptional service, it provides an unforgettable wildlife experience.",
+            "cost_per_night_usd": 700
+          },
+          {
+            "name": "Singita Lebombo Lodge",
+            "description": "Singita Lebombo Lodge is a luxurious lodge located in a private concession in Kruger. It features stylish accommodations, gourmet dining, and exclusive safari experiences.",
+            "cost_per_night_usd": 800
+          }
+        ],
+        "restaurants": [
+          {
+            "name": "The Kruger Park Restaurant",
+            "description": "The Kruger Park Restaurant serves a variety of local and international dishes in a casual setting. Guests can enjoy meals while overlooking the park's natural beauty.",
+            "average_cost_per_person_usd": 40
+          },
+          {
+            "name": "Boma Dinner Experience",
+            "description": "The Boma Dinner Experience offers traditional South African cuisine in an outdoor setting. Guests enjoy a cultural evening with local entertainment and delicious food.",
+            "average_cost_per_person_usd": 60
+          }
+        ]
+      }
+    ],
+    "activities": [
+      "Enjoy thrilling game drives to spot the Big Five.",
+      "Experience guided walking safaris for an up-close wildlife experience.",
+      "Visit the park's various lookout points for panoramic views.",
+      "Relax at the lodge and enjoy luxurious amenities."
+    ],
+    "tips_and_tricks": [
+      "Pack binoculars and a camera for wildlife viewing.",
+      "Stay hydrated and wear sunscreen during safaris.",
+      "Consider visiting during the dry season for optimal wildlife sightings."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+27 12 345 6789",
+      "local_police": "10111",
+      "embassy": "+27 12 342 8000"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Kruger National Park",
+        "activities": [
+          "Arrival at Kruger Mpumalanga International Airport and transfer to the lodge.",
+          "Briefing on the safari experience and rest.",
+          "Dinner at the lodge, enjoying traditional South African cuisine."
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Game Drives",
+        "activities": [
+          "Morning game drive in Kruger National Park.",
+          "Lunch at the lodge and relaxation time.",
+          "Afternoon game drive to spot wildlife.",
+          "Dinner and overnight stay at the lodge."
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Sabi Sands",
+        "activities": [
+          "Day trip to Sabi Sands Game Reserve for exclusive safari experiences.",
+          "Enjoy packed lunch in the bush.",
+          "Return to the lodge for dinner and overnight stay."
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Pafuri",
+        "activities": [
+          "Explore the Pafuri region with guided walks and game drives.",
+          "Lunch at a scenic picnic spot.",
+          "Return to the lodge for dinner and overnight stay."
+        ]
+      },
+      {
+        "day": 5,
+        "location": "Departure",
+        "activities": [
+          "Check-out from the lodge and transfer to the airport for departure."
+        ]
+      }
+    ],
+    "customer_reviews": [
+      {
+        "name": "Liam H.",
+        "rating": 5.0,
+        "description": "The safari was beyond amazing! We saw all the Big Five and had incredible guides."
+      },
+      {
+        "name": "Sophia G.",
+        "rating": 4.8,
+        "description": "Kruger National Park is stunning. The lodge was luxurious, and the food was fantastic!"
+      }
+    ]
+  }
+  

@@ -1,0 +1,83 @@
+{
+    "package_name": "Petra Exploration",
+    "country": "Jordan",
+    "duration_days": 4,
+    "customer_rating": 4.9,
+    "places_to_visit": [
+      {
+        "name": "Petra",
+        "description": "Petra is an ancient city carved into the sandstone cliffs of southern Jordan. Known as the Rose City for its pink-hued rocks, it was the capital of the Nabataean Kingdom and is famous for its rock-cut architecture and water conduit system. Highlights include the Treasury, the Monastery, and the Roman Theater."
+      },
+      {
+        "name": "Wadi Rum",
+        "description": "Wadi Rum, also known as the Valley of the Moon, is a protected desert wilderness in southern Jordan. It's known for its stunning sandstone mountains, unique rock formations, and historical significance as a backdrop in many films."
+      },
+      {
+        "name": "Amman",
+        "description": "Amman, the capital of Jordan, is a city with a rich history and modern culture. Key attractions include the Citadel, Roman Theater, and the Jordan Museum."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Petra",
+        "hotels": ["Movenpick Resort Petra", "Petra Marriott Hotel", "Crowne Plaza Resort Petra"],
+        "restaurants": ["Al-Wadi Restaurant", "The Cave Bar", "Beaufort Restaurant"]
+      }
+    ],
+    "activities": [
+      "Explore the ancient city of Petra, including the Treasury and Monastery",
+      "Take a jeep tour or camel ride in Wadi Rum",
+      "Visit Amman's historical sites such as the Citadel and Roman Theater"
+    ],
+    "tips_and_tricks": [
+      "Wear comfortable walking shoes and bring plenty of water for exploring Petra.",
+      "Plan to spend a full day at Petra to see all major sites.",
+      "Consider a guided tour for more in-depth historical insights."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+962 7-5555-1234",
+      "local_police": "911",
+      "embassy": "+962 7-5555-5678"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Petra",
+        "activities": [
+          "Arrival at King Hussein International Airport and transfer to Petra",
+          "Briefing on the tour and rest",
+          "Dinner at a local restaurant and overnight stay"
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Petra",
+        "activities": [
+          "Full-day exploration of Petra, including the Treasury, Monastery, and Royal Tombs",
+          "Lunch at a local café",
+          "Dinner and overnight stay at the hotel"
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Wadi Rum",
+        "activities": [
+          "Travel to Wadi Rum for a jeep or camel tour of the desert",
+          "Lunch in the desert or back in Petra",
+          "Return to Petra for the evening",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Amman",
+        "activities": [
+          "Travel to Amman and visit key historical sites such as the Citadel and Roman Theater",
+          "Lunch in Amman",
+          "Free time for shopping or additional sightseeing",
+          "Dinner and transfer to the airport for departure"
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,140 @@
+{
+    "package_name": "Queenstown Adventure",
+    "country": "New Zealand",
+    "duration_days": 6,
+    "customer_rating": 4.9,
+    "tour_cost_usd": 1500,
+    "region_description": "Queenstown, known as the adventure capital of New Zealand, is surrounded by breathtaking mountains and pristine lakes. This vibrant town is famous for its outdoor activities, including bungee jumping, skiing, and hiking. Queenstown offers stunning scenery, a lively atmosphere, and a range of dining options. Visitors can explore nearby vineyards, take scenic cruises on Lake Wakatipu, and enjoy the breathtaking views of the Remarkables mountain range, making it a top destination for thrill-seekers and nature lovers.",
+    "places_to_visit": [
+      {
+        "name": "Lake Wakatipu",
+        "description": "Lake Wakatipu is the third-largest lake in New Zealand and is known for its stunning scenery and crystal-clear waters. Visitors can enjoy boat cruises and lakeside activities."
+      },
+      {
+        "name": "The Remarkables",
+        "description": "The Remarkables is a mountain range offering skiing and snowboarding in winter, as well as hiking and stunning views in summer. It's a popular spot for outdoor enthusiasts."
+      },
+      {
+        "name": "Arrowtown",
+        "description": "Arrowtown is a historic gold mining town with charming streets, shops, and cafes. Visitors can explore its rich history and beautiful scenery."
+      },
+      {
+        "name": "Milford Sound",
+        "description": "Milford Sound is a breathtaking fjord known for its dramatic cliffs and waterfalls. Visitors can take scenic cruises to experience its natural beauty."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Queenstown",
+        "hotels": [
+          {
+            "name": "Eichardt's Private Hotel",
+            "description": "Eichardt's Private Hotel offers luxurious accommodations with stunning lake views, a fine dining restaurant, and a prime location near the town center.",
+            "cost_per_night_usd": 500
+          },
+          {
+            "name": "Millennium Hotel Queenstown",
+            "description": "Millennium Hotel Queenstown features modern amenities, comfortable rooms, and beautiful views of Lake Wakatipu.",
+            "cost_per_night_usd": 200
+          }
+        ],
+        "restaurants": [
+          {
+            "name": "Ristorante Pizzeria Vino Vino",
+            "description": "Vino Vino offers delicious Italian cuisine and fine wines in a cozy atmosphere, perfect for a relaxing dinner after a day of adventure.",
+            "average_cost_per_person_usd": 50
+          },
+          {
+            "name": "Fergburger",
+            "description": "Fergburger is a must-visit burger joint in Queenstown, famous for its gourmet burgers and vibrant atmosphere.",
+            "average_cost_per_person_usd": 25
+          }
+        ]
+      }
+    ],
+    "activities": [
+      "Cruise on Lake Wakatipu and enjoy the scenic views.",
+      "Ski or snowboard at The Remarkables during winter.",
+      "Explore the historic town of Arrowtown.",
+      "Take a day trip to Milford Sound for stunning fjord views."
+    ],
+    "tips_and_tricks": [
+      "Book adventure activities in advance during peak season.",
+      "Dress in layers, as weather can change quickly.",
+      "Try local wines and cheeses from nearby vineyards."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+64 3 123 4567",
+      "local_police": "111",
+      "embassy": "+64 4 499 9911"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Queenstown",
+        "activities": [
+          "Arrival at Queenstown Airport and transfer to the hotel.",
+          "Briefing on the tour and rest.",
+          "Dinner at Fergburger."
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Queenstown",
+        "activities": [
+          "Morning cruise on Lake Wakatipu.",
+          "Lunch at a lakeside café.",
+          "Afternoon visit to The Remarkables for skiing or hiking.",
+          "Dinner at the hotel."
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Queenstown",
+        "activities": [
+          "Explore the historic town of Arrowtown in the morning.",
+          "Lunch at a local café.",
+          "Free afternoon for optional activities like bungee jumping.",
+          "Dinner at Ristorante Pizzeria Vino Vino."
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Milford Sound",
+        "activities": [
+          "Full day trip to Milford Sound, including a scenic drive.",
+          "Lunch on board a cruise in Milford Sound.",
+          "Return to Queenstown for dinner."
+        ]
+      },
+      {
+        "day": 5,
+        "location": "Queenstown",
+        "activities": [
+          "Free day for relaxation or additional activities like skydiving.",
+          "Lunch at a local restaurant.",
+          "Dinner and overnight stay at the hotel."
+        ]
+      },
+      {
+        "day": 6,
+        "location": "Departure",
+        "activities": [
+          "Check-out from the hotel and transfer to the airport for departure."
+        ]
+      }
+    ],
+    "customer_reviews": [
+      {
+        "name": "Sophie L.",
+        "rating": 5.0,
+        "description": "Queenstown is breathtaking! The scenery and adventure activities are unforgettable."
+      },
+      {
+        "name": "Jack R.",
+        "rating": 4.8,
+        "description": "Incredible trip! Loved the Milford Sound cruise and exploring Arrowtown."
+      }
+    ]
+  }
+  

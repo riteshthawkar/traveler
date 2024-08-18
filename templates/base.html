@@ -1,0 +1,358 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>TRAVELER - Free Travel Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href='{% static "img/favicon.ico" %}' rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href='{% static "lib/owlcarousel/assets/owl.carousel.min.css" %}' rel="stylesheet">
+    <!-- <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" /> -->
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href='{% static "css/style.css" %}' rel="stylesheet">
+    <style>
+        .nav-item:hover span{
+            color: #ffc107;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="position-relative p-0" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-light navbar-light border-bottom py-3 py-lg-0 pl-3 pl-lg-5">
+                <a href="\" class="navbar-brand">
+                    <h2 class="m-0 text-warning" style="font-size: 2rem;"><span class="text-dark">TRAVEL</span>ER</h2>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href={% url "index-view" %} class="nav-item nav-link">
+                            <span>Home</span>
+                        </a>
+                        <a href={% url "about-view" %} class="nav-item nav-link"><span>About</span></a>
+                        <a href={% url "service-view" %} class="nav-item nav-link"><span>Services</span></a>
+                        <a href={% url "blog-view" %} class="nav-item nav-link"><span>Blogs</span></a>
+                        <a href={% url "contact-view" %} class="nav-item nav-link"><span>Contact</span></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    {% block content %}
+    
+    {% endblock content %}
+
+
+    <div class="w-100 chat-container-wrapper hide-chatbot overflow-hidden">
+        <div class="chatbot-header">
+            <div style="display: flex; align-items: center; gap: 12px;">
+                <svg width="35px" height="35px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M11.4615 20H4C3.44772 20 3 19.5523 3 19V8C3 5.79086 4.79086 4 7 4H17C19.2091 4 21 5.79086 21 8V11.3846" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M7 14H10" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M7 10H13" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <circle cx="16.5" cy="15.5" r="2.5" stroke="#000000" stroke-width="2"></circle> <path d="M18.5 17.5L21.5 20.5" stroke="#000000" stroke-width="2" stroke-linecap="round"></path> </g></svg>
+                <span class="text-dark mb-0" style="font-weight: 800; font-size: 20px;">Chat with WebLLM</span>
+            </div>
+            <button class="closechatbot">
+                <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z" fill="#0F1729"></path> </g></svg>
+            </button>
+        </div>
+        <div class="chat-container hide-scrolllbar" style="flex-grow: 1; padding: 18px 0px; display: flex; flex-direction: column; gap: 10px; background-color: white; overflow-y: scroll;">
+    
+            <div class="start-block" style="width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                <svg width="100px" height="100px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M11.4615 20H4C3.44772 20 3 19.5523 3 19V8C3 5.79086 4.79086 4 7 4H17C19.2091 4 21 5.79086 21 8V11.3846" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M7 14H10" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M7 10H13" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <circle cx="16.5" cy="15.5" r="2.5" stroke="#000000" stroke-width="2"></circle> <path d="M18.5 17.5L21.5 20.5" stroke="#000000" stroke-width="2" stroke-linecap="round"></path> </g></svg>
+                <span class="text-center text-dark" style="max-width: 70%; margin-top: 10px; font-size: 20px; font-weight: 500;">Start asking your questions and the agent will answer them.</span>
+            </div>
+        </div>
+        <div class="input-options-container" style="width: 100%; padding: 12px; display: flex; justify-content: space-between; align-items: flex-end; gap: 5px; border-top: 1px solid rgb(218, 218, 218);">
+            <!-- <div>
+                <input type="text" x-webkit-speech>
+            </div> -->
+            <div class="hide-scrolllbar" style="flex-grow: 1; padding: 12px 18px; display: flex; align-items: center; overflow-y: scroll;">
+                <div id="question-box" class="d-inline-block" role="textbox" contenteditable="true" data-placeholder="Write your question here... " style="width: 100%; max-height: 100px; outline: none; font-weight: 500; font-size: 16px;">
+                </div>
+            </div>
+            <button class="sendbtn" style="display: block; padding: 8px; aspect-ratio: 1; display: flex; align-items: center; justify-content: center; border-radius: 30px; border: none; color: white;">
+                <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" stroke="#000000"  xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M11.5003 12H5.41872M5.24634 12.7972L4.24158 15.7986C3.69128 17.4424 3.41613 18.2643 3.61359 18.7704C3.78506 19.21 4.15335 19.5432 4.6078 19.6701C5.13111 19.8161 5.92151 19.4604 7.50231 18.7491L17.6367 14.1886C19.1797 13.4942 19.9512 13.1471 20.1896 12.6648C20.3968 12.2458 20.3968 11.7541 20.1896 11.3351C19.9512 10.8529 19.1797 10.5057 17.6367 9.81135L7.48483 5.24303C5.90879 4.53382 5.12078 4.17921 4.59799 4.32468C4.14397 4.45101 3.77572 4.78336 3.60365 5.22209C3.40551 5.72728 3.67772 6.54741 4.22215 8.18767L5.24829 11.2793C5.34179 11.561 5.38855 11.7019 5.407 11.8459C5.42338 11.9738 5.42321 12.1032 5.40651 12.231C5.38768 12.375 5.34057 12.5157 5.24634 12.7972Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5">
+        <div class="d-flex flex-lg-row flex-column align-items-center justify-content-center pt-5">
+            <div class="w-100 px-3 mb-5">
+                <a href="" class="navbar-brand">
+                    <h1 class="text-warning"><span class="text-white">TRAVEL</span>ER</h1>
+                </a>
+                <p style="max-width: 400px;">We offers personalized tour guides and a wide range of curated tour packages to top destinations around the globe. Discover, plan, and book your dream vacation all in one place.</p>
+                <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Follow Us</h6>
+                <div class="d-flex justify-content-start">
+                    <a class="btn btn-outline-warning btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-warning btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-warning btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-warning btn-square" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="w-100 d-flex flex-sm-row flex-column align-items-baseline px-3 mb-5">
+                <div class="w-100 mb-5">
+                    <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Usefull Links</h5>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a class="text-white-50 mb-2" href="{% url 'about-view' %}"><i class="fa fa-angle-right mr-2"></i>About</a>
+                        <a class="text-white-50 mb-2" href="{% url 'service-view' %}"><i class="fa fa-angle-right mr-2"></i>Services</a>
+                        <a class="text-white-50 mb-2" href="{% url 'tour-package-view' %}"><i class="fa fa-angle-right mr-2"></i>Packages</a>
+                        <a class="text-white-50 mb-2" href="{% url 'travel-guide-view' %}"><i class="fa fa-angle-right mr-2"></i>Guides</a>
+                        <a class="text-white-50" href="{% url 'blog-view' %}"><i class="fa fa-angle-right mr-2"></i>Blog</a>
+                    </div>
+                </div>
+                <div class="w-100 mb-5">
+                    <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contact Us</h5>
+                    <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
+                    <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
+                    <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
+                    <!-- <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Newsletter</h6>
+                    <div class="w-100">
+                        <div class="input-group">
+                            <input type="text" class="form-control border-light" style="padding: 25px;" placeholder="Your Email">
+                            <div class="input-group-append">
+                                <button class="btn btn-warning px-3">Sign Up</button>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
+        <div class="w-100">
+            <div class="w-100 text-center mb-3 mb-md-0">
+                <p class="m-0 text-white-50">Copyright &copy; <a href="#">Domain</a>. All Rights Reserved.</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <button class="startchatbtn pulse btn btn-warning border-0 rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height:50px; position: fixed; bottom: 40px; right: 35px; z-index: 10; cursor: pointer;" >
+        <!-- <h5 style="color: white; font-weight: 800;">Ask AI</h5> -->
+        <svg width="35px" height="35px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M11.4615 20H4C3.44772 20 3 19.5523 3 19V8C3 5.79086 4.79086 4 7 4H17C19.2091 4 21 5.79086 21 8V11.3846" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M7 14H10" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M7 10H13" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <circle cx="16.5" cy="15.5" r="2.5" stroke="#000000" stroke-width="2"></circle> <path d="M18.5 17.5L21.5 20.5" stroke="#000000" stroke-width="2" stroke-linecap="round"></path> </g></svg>
+    </button>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js" integrity="sha512-LhccdVNGe2QMEfI3x4DVV3ckMRe36TfydKss6mJpdHjNFiV07dFpS2xzeZedptKZrwxfICJpez09iNioiSZ3hA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script>
+        var converter = new showdown.Converter();
+
+        function loadChatBlock(){
+            $(".chat-container").append(
+                        `
+                            <div class="load-chat-block" style="width: 100%; display: flex; flex-direction: column; align-items: flex-start; gap: 0px; background-color: white; border: 0px solid #dbdbdb; padding: 10px;">
+                                <div style="width: fit-content; margin-bottom: 5px; display: flex; align-items: center; gap: 10px;">
+                                    <span style=" display: flex; align-items: center; justify-content: center; border-radius: 50px; border: 2px solid #dbdbdb; padding: 8px; background-color: white;">
+                                        <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M11.4615 20H4C3.44772 20 3 19.5523 3 19V8C3 5.79086 4.79086 4 7 4H17C19.2091 4 21 5.79086 21 8V11.3846" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M7 14H10" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M7 10H13" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <circle cx="16.5" cy="15.5" r="2.5" stroke="#000000" stroke-width="2"></circle> <path d="M18.5 17.5L21.5 20.5" stroke="#000000" stroke-width="2" stroke-linecap="round"></path> </g></svg>
+                                    </span>
+                                    <span style="color: gray; font-size: 16px; font-weight: 500;">WebLLM</span>
+                                </div>
+                                <p class="load-message-content" style="padding: 0px 10px 0px 50px; border-top-left-radius: 0; color: rgb(215, 215, 215); font-size: 16px; font-weight: 500;">
+                                    Searching....
+                                </p>
+                            </div>
+                        `
+                    );
+        }
+
+        function askQuestion(question){
+            $(".chat-container").append(
+                `
+                    <div class="chat-block" style="width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start; gap: 0px; align-self: flex-end; padding: 15px 10px 20px 10px; background-color: rgb(234, 234, 234);">
+                        <div style="width: fit-content; display: flex; align-items: center; justify-content: flex-end; gap: 10px;;">
+                            <span style="display: flex; align-items: center; justify-content: center; border-radius: 50px; border: 2px solid #dbdbdb; padding: 8px; background-color: white;">
+                                <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 14.0709C11.6734 14.0242 11.3395 14 11 14C7.13401 14 4 17.134 4 21H14M17.997 18C18.997 17 19.997 16.6046 19.997 15.5C19.997 14.3954 19.1016 13.5 17.997 13.5C17.0651 13.5 16.282 14.1374 16.06 15M17.997 21H18.007M15 7C15 9.20914 13.2091 11 11 11C8.79086 11 7 9.20914 7 7C7 4.79086 8.79086 3 11 3C13.2091 3 15 4.79086 15 7Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                            </span>
+                            <span style="color: gray; font-size: 16px; font-weight: 500;">You</span>
+                        </div>
+                        <p class="message-content" style="width: calc(100% - 100px); margin: auto; color: rgb(57, 57, 57); color:black; font-weight: 600; font-size: 16px;">
+                            ${question}
+                        </p>
+                    </div>
+                `
+            );
+    
+            $(".chat-container").animate({
+                scrollTop: $('.chat-container')[0].scrollHeight
+            }, 1000);
+            
+            $("#question-box").text("");
+
+            setTimeout(loadChatBlock, 600);
+        }
+
+        function fetchAnswer(question) {
+            const URL = "" + encodeURIComponent(question);
+
+            return new Promise((resolve, reject) => {
+                $.ajax({
+                    url: "/chat/",
+                    type: 'POST',
+                    data: {
+                        'question': question,
+                    },
+                    dataType: 'json',
+                    success: function(response) {
+                        resolve(response["answer"]);
+                        
+                    },
+                    error: function(error) {
+                        reject("Something went wrong! Please try again.");
+                    }
+                });
+            });
+        }
+    
+        function provideAnswer(question) {
+            let model_response;
+            fetchAnswer(question).then(answer => {
+                model_response = converter.makeHtml(answer);
+                // console.log(model_response);
+                $(".load-chat-block").remove();
+                $(".chat-container").append(
+                    `
+                        <div class="chat-block" style="width: 100%; display: flex; flex-direction: column; align-items: flex-start; gap: 0px; background-color: white; border: 0px solid #dbdbdb; padding: 10px;">
+                            <div style="width: fit-content; margin-bottom: 5px; display: flex; align-items: center; gap: 10px;">
+                                <span style=" display: flex; align-items: center; justify-content: center; border-radius: 50px; border: 2px solid #dbdbdb; padding: 8px; background-color: white;">
+                                    <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M11.4615 20H4C3.44772 20 3 19.5523 3 19V8C3 5.79086 4.79086 4 7 4H17C19.2091 4 21 5.79086 21 8V11.3846" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M7 14H10" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M7 10H13" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <circle cx="16.5" cy="15.5" r="2.5" stroke="#000000" stroke-width="2"></circle> <path d="M18.5 17.5L21.5 20.5" stroke="#000000" stroke-width="2" stroke-linecap="round"></path> </g></svg>
+                                </span>
+                                <span style="color: gray; font-size: 16px; font-weight: 500;">WebLLM</span>
+                            </div>
+                            <p class="message-content" style="width: calc(100% - 100px); height: 100%; margin: auto; font-size: 16px; font-weight: 500;">
+                                
+                            </p>
+                        </div>
+                    `
+                );
+                $(".message-content").last().html(model_response);
+        
+                $(".chat-container").animate({
+                    scrollTop: $('.chat-container')[0].scrollHeight
+                }, 1000);
+            }).catch(error => {
+                model_response = error;
+                $(".load-chat-block").remove();
+                $(".chat-container").append(
+                    `
+                        <div class="chat-block" style="width: 100%; display: flex; flex-direction: column; align-items: flex-start; gap: 0px; background-color: white; border: 0px solid #dbdbdb; padding: 10px;">
+                            <div style="width: fit-content; margin-bottom: 5px; display: flex; align-items: center; gap: 10px;">
+                                <span style=" display: flex; align-items: center; justify-content: center; border-radius: 50px; border: 2px solid #dbdbdb; padding: 8px; background-color: white;">
+                                    <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M11.4615 20H4C3.44772 20 3 19.5523 3 19V8C3 5.79086 4.79086 4 7 4H17C19.2091 4 21 5.79086 21 8V11.3846" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M7 14H10" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M7 10H13" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <circle cx="16.5" cy="15.5" r="2.5" stroke="#000000" stroke-width="2"></circle> <path d="M18.5 17.5L21.5 20.5" stroke="#000000" stroke-width="2" stroke-linecap="round"></path> </g></svg>
+                                </span>
+                                <span style="color: gray; font-size: 16px; font-weight: 500;">WebLLM</span>
+                            </div>
+                            <p class="message-content" style="width: calc(100% - 100px); margin: auto; font-size: 16px; font-weight: 500;">
+                                ${model_response}
+                            </p>
+                        </div>
+                    `
+                );
+        
+                $(".chat-container").animate({
+                    scrollTop: $('.chat-container')[0].scrollHeight
+                }, 1000);
+            });
+
+        }
+
+        function openchatbot(){
+            $(".chat-container-wrapper").removeClass("hide-chatbot");
+            $(".chat-container-wrapper").addClass("show-chatbot");
+            $(".startchatbtn").addClass("d-none");
+        }
+    
+        $(".startchatbtn").click(openchatbot)
+        
+        $(".closechatbot").click(function(){
+            $(".chat-container-wrapper").removeClass("show-chatbot");
+            $(".chat-container-wrapper").addClass("hide-chatbot");
+            $(".startchatbtn").removeClass("d-none");
+        })
+
+        function provideQuestionToAnswer(){
+            let question = $("#question-box").text();
+            if(!$(".start-block").hasClass("d-none")){
+                $(".start-block").slideUp(200);
+                $(".start-block").addClass("d-none");
+            }
+            askQuestion(question);
+            provideAnswer(question);
+        }
+    
+        $(".sendbtn").click(provideQuestionToAnswer)
+
+        $(document).ready(()=>{
+            $("#question-box").text("Write your question here...");
+            $("#question-box").text("")
+
+            $('#question-box').on('keydown', function(event) {
+                if (event.key === 'Enter') {
+                    event.preventDefault();
+                    provideQuestionToAnswer();
+                }
+            });
+
+        })
+    
+    </script>
+
+
+
+
+
+
+
+    <!-- Back to Top -->
+    <!-- <a href="#" class="btn btn-lg btn-warning btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a> -->
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src= '{% static "lib/easing/easing.min.js" %}' ></script>
+    <script src='{% static "lib/owlcarousel/owl.carousel.min.js" %}'></script>
+    <script src='{% static "lib/tempusdominus/js/moment.min.js" %}' ></script>
+    <script src='{% static "lib/tempusdominus/js/moment-timezone.min.js" %}'></script>
+    <script src='{% static "lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js" %}'></script>
+
+    <!-- Contact Javascript File -->
+    {% comment %} <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script> {% endcomment %}
+
+    <!-- Template Javascript -->
+    <script src= '{% static "js/main.js" %}' ></script>
+</body>
+
+</html>

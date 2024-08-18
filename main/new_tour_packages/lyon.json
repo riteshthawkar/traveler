@@ -1,0 +1,123 @@
+{
+    "package_name": "Lyon Gastronomy Tour",
+    "country": "France",
+    "duration_days": 4,
+    "customer_rating": 4.9,
+    "tour_cost_usd": 1100,
+    "region_description": "Lyon, known as the gastronomic capital of France, is a city that delights food lovers and culture enthusiasts alike. With its rich history dating back to Roman times, Lyon boasts a stunning blend of Renaissance and modern architecture. The city's historic center, Vieux Lyon, is a UNESCO World Heritage Site filled with narrow streets, traboules (hidden passageways), and beautiful squares. Visitors can indulge in world-class cuisine, explore local markets, and enjoy vibrant cultural events throughout the year.",
+    "places_to_visit": [
+      {
+        "name": "Vieux Lyon",
+        "description": "The historic old town with Renaissance architecture and charming streets."
+      },
+      {
+        "name": "Basilica of Notre-Dame de Fourvière",
+        "description": "A stunning basilica offering panoramic views of Lyon."
+      },
+      {
+        "name": "Les Halles de Lyon Paul Bocuse",
+        "description": "A famous food market showcasing the best of Lyon's culinary delights."
+      },
+      {
+        "name": "Parc de la Tête d'Or",
+        "description": "A beautiful park with a lake, botanical gardens, and a zoo."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Lyon",
+        "hotels": [
+          {
+            "name": "Villa Maïa",
+            "description": "A luxury hotel located on Fourvière Hill, offering stunning views and elegant rooms.",
+            "cost_per_night_usd": 400
+          },
+          {
+            "name": "Hotel Carlton Lyon",
+            "description": "A historic hotel in the heart of Lyon, combining luxury with a prime location.",
+            "cost_per_night_usd": 300
+          }
+        ],
+        "restaurants": [
+          {
+            "name": "Le Gourmet de Sèze",
+            "description": "A Michelin-starred restaurant offering innovative French cuisine.",
+            "average_cost_per_person_usd": 90
+          },
+          {
+            "name": "Les Halles de Lyon",
+            "description": "A market with various stalls serving local specialties, perfect for food lovers.",
+            "average_cost_per_person_usd": 50
+          }
+        ]
+      }
+    ],
+    "activities": [
+      "Explore the historic streets of Vieux Lyon.",
+      "Visit the Basilica of Notre-Dame de Fourvière for breathtaking views.",
+      "Taste local delicacies at Les Halles de Lyon.",
+      "Enjoy a leisurely stroll in Parc de la Tête d'Or."
+    ],
+    "tips_and_tricks": [
+      "Don’t miss trying the local dish, quenelle.",
+      "Use public transport to easily navigate the city.",
+      "Visit local bakeries for delicious pastries."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+33 4 78 00 00 00",
+      "local_police": "17",
+      "embassy": "+33 1 43 12 22 22"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Lyon",
+        "activities": [
+          "Arrival at Lyon-Saint Exupéry Airport and transfer to the hotel.",
+          "Briefing on the tour and relax at the hotel.",
+          "Dinner at Le Gourmet de Sèze."
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Lyon",
+        "activities": [
+          "Explore Vieux Lyon in the morning.",
+          "Lunch at a local café.",
+          "Visit the Basilica of Notre-Dame de Fourvière.",
+          "Dinner at a traditional bouchon."
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Lyon",
+        "activities": [
+          "Visit Les Halles de Lyon for breakfast and tasting local delicacies.",
+          "Explore Parc de la Tête d'Or.",
+          "Lunch at a park café.",
+          "Evening at leisure."
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Departure",
+        "activities": [
+          "Check-out from the hotel.",
+          "Transfer to the airport for departure."
+        ]
+      }
+    ],
+    "customer_reviews": [
+      {
+        "name": "Sophia K.",
+        "rating": 5.0,
+        "description": "Lyon is a food lover's paradise! The culinary scene is amazing."
+      },
+      {
+        "name": "Liam H.",
+        "rating": 4.8,
+        "description": "The city is beautiful and rich in history. Highly recommended!"
+      }
+    ]
+  }
+  

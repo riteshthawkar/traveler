@@ -1,0 +1,114 @@
+{
+    "package_name": "Mysore Heritage Tour",
+    "country": "India",
+    "duration_days": 3,
+    "customer_rating": 4.6,
+    "tour_cost_usd": 600,
+    "region_description": "Mysore, known as the 'City of Palaces,' is a city in Karnataka renowned for its rich history and cultural heritage. It served as the capital of the Kingdom of Mysore and is famous for its magnificent palaces, vibrant festivals, and traditional handicrafts. The Mysore Palace, a stunning example of Indo-Saracenic architecture, attracts millions of visitors each year. The city is also known for its Mysore Dasara festival, where the grand procession showcases the city’s royal history. Visitors can enjoy the royal legacy through the city’s heritage sites and local cuisine.",
+    "places_to_visit": [
+      {
+        "name": "Mysore Palace",
+        "description": "An iconic palace showcasing stunning architecture and rich history."
+      },
+      {
+        "name": "Chamundi Hill",
+        "description": "A sacred hill with a temple dedicated to Goddess Chamundeshwari, offering panoramic views of the city."
+      },
+      {
+        "name": "St. Philomena's Church",
+        "description": "One of the largest churches in India, known for its neo-gothic architecture."
+      },
+      {
+        "name": "Mysore Zoo",
+        "description": "One of the oldest and well-maintained zoos in India, home to a variety of species."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Mysore",
+        "hotels": [
+          {
+            "name": "Radisson Blu Plaza Hotel",
+            "description": "A luxury hotel offering modern amenities and exceptional service.",
+            "cost_per_night_usd": 150
+          },
+          {
+            "name": "Royal Orchid Metropole",
+            "description": "A heritage hotel with colonial architecture and a regal ambiance.",
+            "cost_per_night_usd": 100
+          }
+        ],
+        "restaurants": [
+          {
+            "name": "RRR",
+            "description": "Famous for its traditional South Indian meals served on banana leaves.",
+            "average_cost_per_person_usd": 10
+          },
+          {
+            "name": "Hotel Mylari",
+            "description": "Renowned for its authentic Mysore dosas and local delicacies.",
+            "average_cost_per_person_usd": 12
+          }
+        ]
+      }
+    ],
+    "activities": [
+      "Explore the grandeur of Mysore Palace.",
+      "Visit Chamundi Hill and offer prayers at the temple.",
+      "Stroll through the Mysore Zoo and learn about wildlife conservation.",
+      "Indulge in traditional Mysore cuisine."
+    ],
+    "tips_and_tricks": [
+      "Visit the Mysore Palace in the evening to witness its illumination.",
+      "Try the local Mysore Pak sweet.",
+      "Dress modestly when visiting temples."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+91 90000 33333",
+      "local_police": "100",
+      "embassy": "+91 11 2419 8000"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Mysore",
+        "activities": [
+          "Arrival at Mysore Railway Station and transfer to the hotel.",
+          "Briefing on the tour and relax at the hotel.",
+          "Evening visit to Mysore Palace for a guided tour."
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Mysore",
+        "activities": [
+          "Breakfast at the hotel.",
+          "Visit Chamundi Hill and explore the temple.",
+          "Lunch at a local restaurant.",
+          "Visit St. Philomena's Church and the Mysore Zoo."
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Departure",
+        "activities": [
+          "Free morning for shopping or exploring local markets.",
+          "Check-out from the hotel.",
+          "Transfer to Mysore Railway Station for departure."
+        ]
+      }
+    ],
+    "customer_reviews": [
+      {
+        "name": "Isabella W.",
+        "rating": 4.7,
+        "description": "A lovely trip! The palace is breathtaking and the city has a rich history."
+      },
+      {
+        "name": "Daniel K.",
+        "rating": 4.5,
+        "description": "Mysore is a charming city with friendly people and delicious food."
+      }
+    ]
+  }
+  

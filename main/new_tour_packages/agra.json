@@ -1,0 +1,132 @@
+{
+    "package_name": "Agra Heritage Tour",
+    "country": "India",
+    "city": "Agra",
+    "duration_days": 3,
+    "customer_rating": 4.7,
+    "tour_cost_usd": 1200,
+    "region_description": "Agra, located on the banks of the Yamuna River, is a city steeped in rich history and culture, most famously known for being home to the Taj Mahal, one of the Seven Wonders of the World. Founded in the 16th century, Agra was the capital of the Mughal Empire and is renowned for its stunning Mughal architecture. Beyond the Taj Mahal, visitors can explore the impressive Agra Fort and the exquisite Itimad-ud-Daulah's Tomb, often referred to as the 'Baby Taj.' Agra's vibrant markets offer a taste of local culture, with handcrafted marble inlay work and traditional sweets. The city's rich heritage, combined with its culinary delights, makes Agra a must-visit destination for travelers seeking a glimpse into India’s glorious past.",
+    "places_to_visit": [
+      {
+        "name": "Taj Mahal",
+        "description": "The Taj Mahal, a UNESCO World Heritage Site, is an ivory-white marble mausoleum built by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal. Completed in 1653, it is an architectural masterpiece, known for its stunning symmetry and intricate inlay work. The surrounding gardens and reflecting pools enhance its beauty, making it one of the most photographed monuments in the world. The Taj Mahal is not only a symbol of love but also a testament to the artistic and architectural achievements of the Mughal era."
+      },
+      {
+        "name": "Agra Fort",
+        "description": "Agra Fort, another UNESCO World Heritage Site, is a massive red sandstone fort built in the 16th century by Emperor Akbar. This formidable structure served as the main residence of the Mughal emperors until the capital was shifted to Delhi. The fort's architecture showcases a blend of Islamic and Hindu styles, with impressive gates, beautiful gardens, and intricate interiors. Visitors can explore the various palaces within the fort, including the Jahangir Palace and the Khas Mahal, while enjoying panoramic views of the Taj Mahal from its walls."
+      },
+      {
+        "name": "Itimad-ud-Daulah's Tomb",
+        "description": "Itimad-ud-Daulah's Tomb, also known as the 'Baby Taj,' is a stunning mausoleum built in the 17th century for Mirza Ghiyas Beg, a Persian nobleman and father of Empress Nur Jahan. This tomb is notable for its exquisite marble inlay work and beautiful gardens, reflecting the artistry of Mughal architecture. Often considered a precursor to the Taj Mahal, Itimad-ud-Daulah's Tomb is a peaceful spot for visitors seeking to appreciate the beauty and intricacy of Mughal craftsmanship."
+      },
+      {
+        "name": "Mehtab Bagh",
+        "description": "Mehtab Bagh is a beautiful garden complex located across the Yamuna River from the Taj Mahal. Designed in the Mughal style, the gardens offer stunning views of the Taj Mahal, especially at sunset. This serene garden features lush lawns, fountains, and pathways, making it a perfect spot for photography and leisurely strolls. Visitors can enjoy a peaceful retreat while soaking in the magnificent views of one of the world's most iconic monuments."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Agra",
+        "hotels": [
+          {
+            "name": "The Oberoi Amarvilas",
+            "description": "The Oberoi Amarvilas is a luxurious 5-star hotel located just 600 meters from the Taj Mahal, offering breathtaking views of the monument. The hotel features elegantly designed rooms, a spa, and exquisite dining options, ensuring a memorable stay.",
+            "cost_per_night_usd": 800
+          },
+          {
+            "name": "Taj Hotel & Convention Centre",
+            "description": "Taj Hotel & Convention Centre is a premium hotel offering modern amenities and stunning views of the Taj Mahal. With spacious rooms, a swimming pool, and multiple dining options, it provides a comfortable and luxurious experience.",
+            "cost_per_night_usd": 200
+          },
+          {
+            "name": "Hotel Courtyard by Marriott Agra",
+            "description": "Hotel Courtyard by Marriott Agra combines contemporary design with comfort. Located close to major attractions, it features well-appointed rooms, a fitness center, and an outdoor pool, making it ideal for leisure travelers.",
+            "cost_per_night_usd": 150
+          }
+        ],
+        "restaurants": [
+          {
+            "name": "Peshawri",
+            "description": "Peshawri is a renowned restaurant located in the ITC Mughal Hotel, offering authentic North-West Frontier cuisine. Known for its rich flavors and traditional cooking methods, guests can enjoy a unique dining experience.",
+            "average_cost_per_person_usd": 50
+          },
+          {
+            "name": "The Salt Café",
+            "description": "The Salt Café is a popular eatery known for its vibrant ambiance and diverse menu, featuring both Indian and international cuisine. The café offers a variety of dishes, making it a perfect spot for casual dining.",
+            "average_cost_per_person_usd": 30
+          },
+          {
+            "name": "Joney's Place",
+            "description": "Joney's Place is a local favorite known for its delicious Indian and continental dishes. The cozy atmosphere and friendly service make it a great spot for tourists looking to savor authentic flavors.",
+            "average_cost_per_person_usd": 20
+          }
+        ]
+      }
+    ],
+    "activities": [
+      "Visit the Taj Mahal and explore its stunning architecture and intricate details.",
+      "Explore Agra Fort, learning about its historical significance and architectural features.",
+      "Visit Itimad-ud-Daulah's Tomb and appreciate its beautiful inlay work and serene gardens.",
+      "Enjoy the views of the Taj Mahal from Mehtab Bagh, especially at sunset.",
+      "Indulge in local cuisine at renowned restaurants and discover Agra's culinary delights."
+    ],
+    "tips_and_tricks": [
+      "Visit the Taj Mahal early in the morning to avoid crowds and enjoy cooler temperatures.",
+      "Wear comfortable shoes for walking, as you'll be exploring multiple historical sites.",
+      "Try local street food for an authentic culinary experience, but ensure it's from reputable vendors."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+91 123 456 7890",
+      "local_police": "100",
+      "embassy": "+91 11 2419 1000"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Agra",
+        "activities": [
+          "Arrival at Agra Airport and transfer to the hotel.",
+          "Briefing on the tour and an overview of Agra's rich history.",
+          "Welcome dinner at a local restaurant, enjoying traditional Mughlai cuisine."
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Agra",
+        "activities": [
+          "Morning visit to the Taj Mahal, with a guided tour to explore its history and architectural marvel.",
+          "Lunch at a restaurant near the Taj Mahal, savoring local delicacies.",
+          "Afternoon exploration of Agra Fort, including visits to the various palaces and gardens.",
+          "Dinner at Peshawri, experiencing authentic North-West Frontier cuisine."
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Agra",
+        "activities": [
+          "Morning visit to Itimad-ud-Daulah's Tomb, appreciating its exquisite architecture.",
+          "Lunch at a local café, enjoying traditional Indian dishes.",
+          "Afternoon at Mehtab Bagh, taking in the beautiful views of the Taj Mahal and gardens.",
+          "Evening transfer to the airport for departure."
+        ]
+      }
+    ],
+    "customer_reviews": [
+      {
+        "name": "Rahul K.",
+        "rating": 5,
+        "description": "Visiting the Taj Mahal was a dream come true! The tour was well organized and the guides were knowledgeable."
+      },
+      {
+        "name": "Priya S.",
+        "rating": 4.8,
+        "description": "Agra is beautiful! The food was delicious and the sites were breathtaking. Highly recommend this tour!"
+      },
+      {
+        "name": "Suresh M.",
+        "rating": 4.7,
+        "description": "A fantastic experience! The Agra Fort and Taj Mahal were highlights of my trip. Loved the local cuisine!"
+      }
+    ]
+  }
+  

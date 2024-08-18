@@ -1,0 +1,243 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+    <style>
+        .indent{
+            text-indent: 50px;
+        }
+        main p{
+            line-height: 200%;
+            margin-bottom: 40px;
+            text-align: justify;
+        }
+
+        main h2, main h3{
+            margin-top: 5rem;
+            margin-bottom: 2.5rem;
+        }
+
+        main h4{
+            margin-top: 5rem;
+            margin-bottom: 2rem;
+        }
+
+        main h5{
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .timeline-item:last-of-type .timeline-item-connector{
+            display: none;
+        }
+
+        .accordion-item {
+            /* border: 1px solid #ddd; */
+            border-radius: 5px;
+        }
+
+        .accordion-header {
+            cursor: pointer;
+            font-weight: bold;
+            margin: 0;
+            border-bottom: 1px solid rgb(225, 225, 225);
+        }
+
+        .accordion-header:hover{
+            background-color: #f1f1f1;
+        }
+        .accordion-header .arrow{
+            transition: all 0.3s ease-in-out;
+        }
+        .accordion-content {
+            display: none;
+            padding: 10px;
+            background-color: #fff;
+        }
+
+        .accordion-content p {
+            margin: 0;
+        }
+
+        
+    </style>
+
+
+    <main class="container-fluid bg-white">
+        <div class="container pb-3 py-5">
+
+            <div class="w-100">
+                <div class="text-center py-5">
+                    <span class="d-inline text-dark text-uppercase p-1 px-2 rounded-pill" style="border: 2px solid black; font-weight: 600;">
+                        <i class="fa fa-globe mr-1"></i>
+                        visa guide
+                    </span>
+                    <h1 class="mt-3"><span class="text-warning mr-1">{{ guide.country }}</span> Visa Guide</h1>
+                </div>
+                <p>
+                    {{ guide.overview }}
+                </p>
+
+                <div class="w-100 mb-5">
+                    <img class="w-100 rounded-xl" style="object-fit: cover;" src="{{ guide.img.url }}" alt="abu-dhabi-city">
+                </div>
+
+                <div>
+                    <h3>Types of Visas</h3>
+                    
+                    <div class="row">
+                        {% for key, value in guide.visa_types.items %}
+                        <div class="col-12 mb-4">
+
+                            <div class=" h-100 px-4 mb-4" style="gap: 20px;">
+                                <div>
+                                    <h5 class="m-0 mb-3"><span class="m-0 pr-2">{{ forloop.counter }}.</span> {{ value.title }}</h5>
+                                    <p class="mb-0">{{ value.description }}</p>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+
+                <div>
+                    <h3>Visa Requirements</h3>
+                    <ol class="w-100 list-unstyled">
+                        {% for key, value in visa_requirements.items %}
+                        <li class="mb-5">
+                            <div class="w-100">
+                                <h5 class="m-0 mb-4"><span class="pr-3">{{ forloop.counter }}.</span> {{ key }}</h5>
+                                <div>
+                                    <ul class="ml-3" style="list-style-type: disc;">
+                                        <li>
+                                            <h6 class="mb-2">Eligibility Criteria</h6>
+                                            <p class="mb-0 mb-4">{{value.eligibility_criteria}}</p>
+                                        </li>
+                                        <li>
+                                            <h6 class="mb-2">Mandatory Documents</h6>
+                                            <ol class="mt-3 mb-4">
+                                                {% for document in value.mandatory_documents %}
+                                                <li class="mb-3">{{document}}</li>
+                                                {% endfor %}
+                                            </ol>
+                                        </li>
+                                        <li>
+                                            <h6 class="mb-2">Additional Documents</h6>
+                                            <ol class="mt-3 mb-4">
+                                                {% for document in value.additional_documents %}
+                                                <li class="mb-3">{{document}}</li>
+                                                {% endfor %}
+                                            </ol>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ol>
+                </div>
+
+                <div>
+                    <h3>Visa Application Process</h3>
+                    <div class="w-100">
+                        <div class="w-100">
+                            <ul class="m-0 p-0">
+                                {% for key, value in guide.visa_process.items %}
+                                <li class="timeline-item d-flex ml-3" style="gap: 20px;">
+                                    <div class="d-flex flex-column align-items-center">
+                                        <span class="p-3 border rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+                                            <span class="text-dark" style="font-size: 1.2rem;">{{ forloop.counter }} </span>
+                                        </span>
+                                        <div class="timeline-item-connector flex-grow-1 border h-100" style="width: 1px;"></div>
+                                    </div>
+                                    
+                                    <div class="w-100 mb-3">
+                                        <h5 class="m-0 my-3">{{ value.title }}</h5>
+                                        <p style="max-width: 700px;">
+                                            {{ value.description }}
+                                        </p>
+                                    </div>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h3>Additional Information</h3>
+                    <ol class="w-100 list-unstyled">
+                        {% for key, value in additional_info.items %}
+                        <li class="d-flex align-items-baselinemb-5 pl-4" style="gap: 20px;">
+                            <h5 class="m-0">{{ forloop.counter }}.</h5>
+                            <div class="w-100">
+                                <h5 class="m-0 mb-2"> {{ key }}</h5>
+                                <p>
+                                    {{ value.content }}
+                                </p>
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ol>
+                </div>
+
+
+                <div>
+                    <h4>FAQs</h4>
+
+                    <div class="accordion w-100">
+                        {% for key, value in guide.faqs.items %}
+                        <div class="accordion-item">
+                            <h6 class="accordion-header d-flex align-items-center justify-content-between m-0 py-3 px-4">
+                                <span>{{ value.question }}</span>
+                                <span class="arrow"><i class="fa fa-angle-up"></i></span>
+                            </h6>
+
+                            <div class="accordion-content px-4 mb-4">
+                                <p style="max-width: 600px;">{{ value.answer }}</p>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+
+                <div>
+                    <p class="mt-5 mb-3">
+                        For personalized visa assistance contact us. Our team is here to make your visa application process as smooth as possible. Start Your Visa Application Journey with Traveler Today!
+                    </p>
+    
+                    <a class="btn btn-warning btn-md py-3 px-4 rounded-lg" style="font-weight: 500;" href="{% url 'contact-view' %}">Connect with Us</a>
+                </div>
+
+            </div>
+    
+        </div>
+    </main>
+
+    <script>
+        $(document).ready(function() {
+            $('.accordion-header').on('click', function() {
+                var $this = $(this);
+                var $content = $this.next('.accordion-content');
+                var $arrow = $this.children(".arrow")
+
+                // Slide up all content items
+                $('.accordion-content').not($content).slideUp();
+
+                // Toggle the clicked content item
+                $content.slideToggle();
+                
+                if($arrow.css("rotate") == "180deg"){
+                    $arrow.css("rotate", "0deg");
+                }else{
+
+                    $arrow.css("rotate", "180deg");
+                }
+
+
+            });
+        });
+
+    </script>
+
+    {% endblock content %}

@@ -1,0 +1,114 @@
+{
+    "package_name": "Bora Bora Bliss",
+    "country": "French Polynesia",
+    "duration_days": 6,
+    "customer_rating": 4.9,
+    "places_to_visit": [
+      {
+        "name": "Matira Beach",
+        "description": "Matira Beach is known for its stunning turquoise waters and white sandy beaches. It’s perfect for swimming, snorkeling, and relaxing by the sea."
+      },
+      {
+        "name": "Mount Otemanu",
+        "description": "Mount Otemanu is a dormant volcano and the highest peak on Bora Bora. It offers breathtaking views of the island and the surrounding lagoon."
+      },
+      {
+        "name": "Coral Gardens",
+        "description": "Coral Gardens is a snorkeling paradise with vibrant coral reefs and a diverse range of marine life. It’s an excellent spot for underwater photography."
+      },
+      {
+        "name": "Lagoon Tour",
+        "description": "A lagoon tour offers the chance to explore Bora Bora’s crystal-clear waters, swim with rays and sharks, and enjoy the stunning scenery of the island’s lagoon."
+      },
+      {
+        "name": "Bora Bora Pearl Farm",
+        "description": "The Bora Bora Pearl Farm provides insight into the pearl farming process and offers the opportunity to purchase beautiful Tahitian pearls."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Bora Bora",
+        "hotels": ["Four Seasons Resort Bora Bora", "St. Regis Bora Bora Resort", "Conrad Bora Bora Nui"],
+        "restaurants": ["Bloody Mary's", "Le Corail", "La Villa Mahana"]
+      }
+    ],
+    "activities": [
+      "Relax and swim at Matira Beach",
+      "Hike or take a tour to Mount Otemanu",
+      "Snorkel in Coral Gardens",
+      "Take a lagoon tour to see rays and sharks",
+      "Visit the Bora Bora Pearl Farm"
+    ],
+    "tips_and_tricks": [
+      "Book lagoon tours and pearl farm visits in advance.",
+      "Bring sunscreen and swimwear for beach and water activities.",
+      "Consider staying in an overwater bungalow for a unique experience."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+689 40-555-123",
+      "local_police": "17",
+      "embassy": "+689 40-555-567"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Bora Bora",
+        "activities": [
+          "Arrival at Bora Bora Airport and transfer to the hotel",
+          "Briefing on the tour and rest",
+          "Dinner at a local restaurant and overnight stay"
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Bora Bora",
+        "activities": [
+          "Relax at Matira Beach in the morning",
+          "Lunch at a beachside restaurant",
+          "Free time for relaxation or water activities in the afternoon",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Bora Bora",
+        "activities": [
+          "Tour to Mount Otemanu in the morning",
+          "Lunch with a view",
+          "Explore the island or relax in the afternoon",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Bora Bora",
+        "activities": [
+          "Snorkel in Coral Gardens in the morning",
+          "Lunch on the beach",
+          "Continue snorkeling or explore other beaches in the afternoon",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 5,
+        "location": "Bora Bora",
+        "activities": [
+          "Take a lagoon tour in the morning",
+          "Lunch during the tour or at a local restaurant",
+          "Relax or shop for souvenirs in the afternoon",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 6,
+        "location": "Bora Bora",
+        "activities": [
+          "Visit the Bora Bora Pearl Farm in the morning",
+          "Lunch in Bora Bora",
+          "Final free time for sightseeing or relaxation",
+          "Transfer to the airport for departure"
+        ]
+      }
+    ]
+  }
+  

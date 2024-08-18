@@ -1,0 +1,123 @@
+{
+    "package_name": "Marseille Cultural Adventure",
+    "country": "France",
+    "duration_days": 4,
+    "customer_rating": 4.6,
+    "tour_cost_usd": 1100,
+    "region_description": "Marseille, France's second-largest city, is a vibrant port town steeped in history and culture. Founded by the Greeks over 2,600 years ago, Marseille boasts a rich maritime heritage and diverse cultural influences. The city's picturesque Old Port (Vieux-Port) serves as a gateway to stunning coastal views, fresh seafood, and lively markets. Visitors can explore historic neighborhoods, sample local delicacies, and take in the artistic vibe of this dynamic city. With its unique blend of cultures and traditions, Marseille is an exciting destination for travelers seeking both relaxation and adventure.",
+    "places_to_visit": [
+      {
+        "name": "Old Port (Vieux-Port)",
+        "description": "The historic heart of Marseille, bustling with cafes, fish markets, and boats."
+      },
+      {
+        "name": "Basilique Notre-Dame de la Garde",
+        "description": "A stunning basilica perched on a hill, offering panoramic views of the city."
+      },
+      {
+        "name": "Calanques National Park",
+        "description": "A beautiful coastal park known for its dramatic cliffs, turquoise waters, and hiking trails."
+      },
+      {
+        "name": "Le Panier",
+        "description": "The oldest district in Marseille, known for its narrow streets and vibrant art scene."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Marseille",
+        "hotels": [
+          {
+            "name": "InterContinental Marseille",
+            "description": "A luxury hotel with stunning views of the Old Port and world-class amenities.",
+            "cost_per_night_usd": 350
+          },
+          {
+            "name": "Radisson Blu Hotel",
+            "description": "A modern hotel overlooking the sea, offering comfortable rooms and great dining options.",
+            "cost_per_night_usd": 200
+          }
+        ],
+        "restaurants": [
+          {
+            "name": "Le Petit Nice",
+            "description": "A Michelin-starred restaurant known for its seafood dishes and elegant atmosphere.",
+            "average_cost_per_person_usd": 120
+          },
+          {
+            "name": "Chez Fonfon",
+            "description": "A local favorite for traditional bouillabaisse, a classic Marseille fish stew.",
+            "average_cost_per_person_usd": 50
+          }
+        ]
+      }
+    ],
+    "activities": [
+      "Explore the Old Port and enjoy fresh seafood.",
+      "Visit Basilique Notre-Dame de la Garde for stunning views.",
+      "Take a boat trip to the Calanques National Park.",
+      "Wander through the historic streets of Le Panier."
+    ],
+    "tips_and_tricks": [
+      "Try the local specialty, bouillabaisse.",
+      "Book boat tours in advance to secure your spot.",
+      "Visit local markets for fresh produce and souvenirs."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+33 4 91 00 00 00",
+      "local_police": "17",
+      "embassy": "+33 1 43 12 22 22"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Marseille",
+        "activities": [
+          "Arrival at Marseille Provence Airport and transfer to the hotel.",
+          "Briefing on the tour and relax at the hotel.",
+          "Dinner at Le Petit Nice."
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Marseille",
+        "activities": [
+          "Explore the Old Port in the morning.",
+          "Lunch at a local café.",
+          "Visit Basilique Notre-Dame de la Garde for stunning views.",
+          "Evening at leisure."
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Marseille",
+        "activities": [
+          "Take a boat trip to Calanques National Park.",
+          "Enjoy hiking and swimming in the beautiful waters.",
+          "Lunch at a beachside café."
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Departure",
+        "activities": [
+          "Wander through Le Panier and explore local shops.",
+          "Check-out from the hotel.",
+          "Transfer to the airport for departure."
+        ]
+      }
+    ],
+    "customer_reviews": [
+      {
+        "name": "Isabella W.",
+        "rating": 5.0,
+        "description": "Marseille is full of life and culture! The food is exceptional."
+      },
+      {
+        "name": "Liam B.",
+        "rating": 4.7,
+        "description": "A beautiful city with so much to explore. Highly recommend the boat tour!"
+      }
+    ]
+  }
+  

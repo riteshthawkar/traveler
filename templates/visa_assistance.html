@@ -1,0 +1,213 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block content %}
+    <style>
+        h2{
+            margin-bottom: 20px;
+            margin-top: 60px;
+        }
+        .indent{
+            text-indent: 50px;
+        }
+        p{
+            font-size: 1.2rem;
+            line-height: 220%;
+            text-wrap: pretty;
+        }
+
+        /* li{
+            margin-bottom: 20px;
+        } */
+    </style>
+
+
+    <div class="container-fluid p-0">
+        <div class="w-100 bg-white px-4 py-5">
+            <div class="text-center pb-3 pt-5">
+                <h6 class="text-dark text-uppercase" style="letter-spacing: 5px;">Services</h6>
+                <h1>Visa Assistance</h1>
+            </div>
+    
+            <div class="w-100">
+                <div class="container pb-3">
+                    <div class="text-left mb-3 pb-3 mt-4">
+                        <p class="indent">
+                            Welcome to Traveler, your trusted partner in navigating the complex world of visa applications. We specialize in providing comprehensive visa assistance to help you achieve your travel goals with ease and confidence. Whether you're planning a vacation, business trip, or study abroad, our expert team is here to guide you every step of the way.
+                        </p>
+                        <!-- <h4 class="mt-5 mb-3">Service Overview</h4> -->
+                        <p>
+                            At Traveler, we understand that obtaining a visa can be a daunting process. That’s why we offer a full range of services designed to simplify your application journey:
+                        </p>
+                        <ul class="row p-0 my-5">
+                            <li style="min-height: 200px;" class="col-md-4 col-sm-6 col-12 p-3 list-unstyled">
+                                <div class="h-100 p-4 border rounded-xl">
+                                    <span class="d-block text-dark mb-2" style="font-size: 18px; font-weight: 600;">Personalized Consultation</span>
+                                    <span class="d-block">
+                                        We provide tailored advice based on your individual needs and the specific requirements of your destination
+                                    </span>
+                                </div>
+                            </li>
+                            <li style="min-height: 200px;" class="col-md-4 col-sm-6 col-12 p-3 list-unstyled">
+                                <div class="h-100 p-4 border rounded-xl">
+                                    <span class="d-block text-dark mb-2" style="font-size: 18px; font-weight: 600;">Application Assistance</span>
+                                    <span class="d-block">
+                                        Our experts help you complete and review your visa application forms accurately to minimize the risk of errors.
+                                    </span>
+                                </div>
+                            </li>
+                            <li style="min-height: 200px;" class="col-md-4 col-sm-6 col-12 p-3 list-unstyled">
+                                <div class="h-100 p-4 border rounded-xl">
+                                    <span class="d-block text-dark mb-2" style="font-size: 18px; font-weight: 600;">Document Preparation</span>
+                                    <span class="d-block">
+                                        We guide you in gathering and preparing the necessary documentation for your visa application.
+                                    </span>
+                                </div>
+                            </li>
+                            <li style="min-height: 200px;" class="col-md-4 col-sm-6 col-12 p-3 list-unstyled">
+                                <div class="h-100 p-4 border rounded-xl">
+                                    <span class="d-block text-dark mb-2" style="font-size: 18px; font-weight: 600;">Submission and Tracking</span>
+                                    <span class="d-block">
+                                        We manage the submission process and keep you updated on the status of your application.
+                                    </span>
+                                </div>
+                            </li>
+                            <li style="min-height: 200px;" class="col-md-4 col-sm-6 col-12 p-3 list-unstyled">
+                                <div class="h-100 p-4 border rounded-xl">
+                                    <span class="d-block text-dark mb-2" style="font-size: 18px; font-weight: 600;">Interview Preparation</span>
+                                    <span class="d-block">
+                                        For visas requiring interviews, we offer tips and practice sessions to ensure you are well-prepared.
+                                    </span>
+                                </div>
+                            </li>
+                            <li style="min-height: 200px;" class="col-md-4 col-sm-6 col-12 p-3 list-unstyled">
+                                <div class="h-100 p-4 border rounded-xl">
+                                    <span class="d-block text-dark mb-2" style="font-size: 18px; font-weight: 600;">Expedited Services</span>
+                                    <span class="d-block">
+                                        For urgent cases, we offer expedited processing to meet tight deadlines.
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                        <p>
+                            Our mission is to make the visa application process as smooth and stress-free as possible. Here’s how we achieve that:
+                        </p>
+                        <ul class="row p-0 my-3">
+                            <li class="col-md-4 col-sm-6 col-12 p-3 list-unstyled">
+                                <div class="h-100 border rounded-xl p-4">
+                                    <i class="fa fa-2x fa-atlas mb-3 text-warning"></i>
+                                    <span class="d-block text-dark mb-2" style="font-size: 18px; font-weight: 600;">Expert Knowledge</span>
+                                    <span class="d-block">
+                                        Our team has extensive experience and up-to-date knowledge of visa regulations and requirements for a wide range of countries.
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="col-md-4 col-sm-6 col-12 p-3 list-unstyled">
+                                <div class="h-100 border rounded-xl p-4">
+                                    <i class="fa fa-2x fa-user mb-3 text-warning"></i>
+                                    <span class="d-block text-dark mb-2" style="font-size: 18px; font-weight: 600;">Customer-Centric Approach</span>
+                                    <span class="d-block">
+                                        We focus on your specific needs and offer solutions tailored to your unique situation.
+                                    </span>
+                                </div>
+                            </li>
+                            
+                            <li class="col-md-4 col-sm-6 col-12 p-3 list-unstyled">
+                                <div class="h-100 border rounded-xl p-4">
+                                    <i class="fa fa-2x fa-phone-alt mb-3 text-warning"></i>
+                                    <span class="d-block text-dark mb-2" style="font-size: 18px; font-weight: 600;">Comprehensive Support</span>
+                                    <span class="d-block">
+                                       From the initial consultation to the final approval, we are with you every step of the way.
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <h5 class="mt-5">Why We Are the Best Choice</h5>
+                        <p>
+                            Choosing Traveler means opting for reliability, expertise, and exceptional service. Here’s why we stand out:
+                        </p> 
+                        <ul class="row p-0 mt-3 mb-5">
+                            <li class="col-md-4 col-sm-6 col-12 p-3 list-unstyled">
+                                <div class="h-100 border rounded-xl p-4">
+                                    <i class="fa fa-2x fa-chart-line mb-3 text-warning"></i>
+                                    <span class="d-block text-dark mb-2" style="font-size: 18px; font-weight: 600;">Proven Track Record</span>
+                                    <span class="d-block">
+                                        We have successfully assisted thousands of clients in obtaining their visas without hassle.
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="col-md-4 col-sm-6 col-12 p-3 list-unstyled">
+                                <div class="h-100 border rounded-xl p-4">
+                                    <i class="fa fa-2x fa-users mb-3 text-warning"></i>
+                                    <span class="d-block text-dark mb-2" style="font-size: 18px; font-weight: 600;">Experienced Team</span>
+                                    <span class="d-block">
+                                        Our consultants are industry experts with in-depth knowledge of visa processes for various countries.
+                                    </span>
+                                </div>
+                            </li>
+                            
+                            <li class="col-md-4 col-sm-6 col-12 p-3 list-unstyled">
+                                <div class="h-100 border rounded-xl p-4">
+                                    <i class="fa fa-2x fa-thumbs-up mb-3 text-warning"></i>
+                                    <span class="d-block text-dark mb-2" style="font-size: 18px; font-weight: 600;">Client Satisfaction</span>
+                                    <span class="d-block">
+                                        We pride ourselves on delivering outstanding customer service and ensuring client satisfaction.
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="col-md-4 col-sm-6 col-12 p-3 list-unstyled">
+                                <div class="h-100 border rounded-xl p-4">
+                                    <i class="fa fa-2x fa-calendar-alt mb-3 text-warning"></i>
+                                    <span class="d-block text-dark mb-2" style="font-size: 18px; font-weight: 600;">Up-to-Date Information</span>
+                                    <span class="d-block">
+                                        We stay informed about the latest visa regulations and policies to provide accurate and timely advice.
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="col-md-4 col-sm-6 col-12 p-3 list-unstyled">
+                                <div class="h-100 border rounded-xl p-4">
+                                    <i class="fa fa-2x fa-headset mb-3 text-warning"></i>
+                                    <span class="d-block text-dark mb-2" style="font-size: 18px; font-weight: 600;">24/7 Support</span>
+                                    <span class="d-block">
+                                        Our dedicated support team is available around the clock to address any questions or concerns.
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <p >
+                            To help you get started, we provide detailed visa guides for popular countries. Explore our guides to find essential information about visa requirements, application processes, and tips for specific countries:
+                        </p>
+
+                        <div class="row mt-4">
+                            {% for country in countries %}
+                                <div class="col-lg-4 col-md-6 mb-4">
+                                    <a href="/visa_assistance/{{ country.pk }}" class="h-100 rounded-xl shadow-sm guide-item p-3 card position-relative overflow-hidden mb-2 text-decoration-none">
+                                        <img class="img-fluid" style="border-radius: 20px; height: 230px;" src="{{ country.img.url }}"  alt="">
+                                        <div class="card-body px-2 pb-0 text-decoration-none" href="">
+                                            <h5 class="">{{ country.country }} visa Guide</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                            {% endfor %}
+                            <a href="{% url 'visa-guide-list-view' %}" class="my-3 btn btn-outline-warning py-2 px-4 text-center mx-auto rounded-lg" style="font-weight: 500;" href="">Show More</a>
+                        </div>
+
+                        <p class="mt-5">
+                            For personalized visa assistance or if you have any questions regarding the cost (cost varies from country to country), contact us. Our team is here to make your visa application process as smooth as possible.
+                        </p>
+
+                        <p>
+                            Start Your Visa Application Journey with Traveler Today!
+                        </p>
+
+                        <a class="btn btn-warning btn-md py-3 px-5 mt-4 rounded-lg" style="font-weight: 500;" href="{% url 'contact-view' %}">Connect with Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock content %}

@@ -1,0 +1,88 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+
+    <!-- Service Start -->
+    <div class="container-fluid py-5 bg-white">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-dark text-uppercase" style="letter-spacing: 5px;">Services</h6>
+                <h1>Tours & Travel Services</h1>
+            </div>
+            <div class="w-100">
+
+                <div class="w-100 my-5">
+                    <div class="d-flex flex-md-row flex-column-reverse align-items-center bg-white mb-2 py-5 px-4" style="gap: 50px;">
+                        <div class="w-100 d-flex flex-column mr-5">
+                            <h1 class="mb-4">Travel Guides</h1>
+                            <p class="w-100" style="font-size: 1.2rem;">
+                                Expertly designed itineraries tailored to your unique preferences.
+                                Our travel planners ensure a smooth, stress-free journey,
+                                creating unforgettable memories every step of the way.
+                            </p>
+                            <a class="btn btn-warning py-2 px-4 mt-3 rounded-lg" style=" width: fit-content; font-weight: 500;" href='{% url "travel-guide-view" %}'>Explore More</a>
+                        </div>
+                        <div class="w-100">
+                            <img src='{% static "/img/travel_guide.png" %}'  class="w-100" alt="travel-guide-illustration">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-100 my-5">
+                    <div class="d-flex flex-md-row flex-column-reverse align-items-center bg-white mb-2 py-5 px-4" style="gap: 50px;">
+                        <div class="w-100">
+                            <img src='{% static "/img/tour_package.png" %}' class="w-100" alt="tour-package-illustration">
+                        </div>
+                        <div class="w-100 d-flex flex-column mr-5">
+                            <h1 class="mb-4">Tour Packages</h1>
+                            <p class="w-100" style="font-size: 1.2rem;">
+                                Explore our carefully crafted tour packages, 
+                                designed to give you an unforgettable experience.
+                                From adventure to relaxation, we have it all.
+                            </p>
+                            <a class="btn btn-warning py-2 px-4 mt-3 rounded-lg" style=" width: fit-content; font-weight: 500;" href='{% url "tour-package-view" %}'>Explore More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-100 my-5">
+                    <div class="d-flex flex-md-row flex-column-reverse align-items-center bg-white mb-2 py-5 px-4" style="gap: 50px;">
+                        <div class="w-100 d-flex flex-column mr-5">
+                            <h1 class="mb-4">Visa Assistance</h1>
+                            <p class="w-100" style="font-size: 1.2rem;">
+                                Get expert guidance on visa requirements and application processes. We ensure a smooth and hassle-free experience.
+                            </p>
+                            <a class="btn btn-warning py-2 px-4 mt-3 rounded-lg" style=" width: fit-content; font-weight: 500;" href='{% url "visa-assistance-view" %}'>Explore More</a>
+                        </div>
+                        <div class="w-100">
+                            <img src='{% static "/img/visa_assistant.png" %}'  class="w-100" alt="travel-guide-illustration">
+                        </div>
+                    </div>
+                </div>
+
+                {% comment %} 
+                <div class="w-100 my-5">
+                    <div class="d-flex flex-md-row flex-column-reverse align-items-center bg-white mb-2 py-5 px-4" style="gap: 50px;">
+                        <div class="w-100">
+                            <img src='{% static "/img/travel_insurance.png" %}' class="w-100" alt="tour-package-illustration">
+                        </div>
+                        <div class="w-100 d-flex flex-column mr-5">
+                            <h1 class="mb-4">Travel Insurance</h1>
+                            <p class="w-100" style="font-size: 1.2rem;">
+                                Safeguard your journey with our comprehensive travel insurance options. Protect yourself against unforeseen circumstances.
+                            </p>
+                            <a class="py-2 px-4 mt-4 bg-secondary" style=" width: fit-content;" href="./travel_guide.html">Explore</a>
+                        </div>
+                    </div>
+                </div> {% endcomment %}
+
+
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+{% endblock content %}

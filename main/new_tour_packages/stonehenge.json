@@ -1,0 +1,113 @@
+{
+    "package_name": "Stonehenge Mysteries Tour",
+    "country": "England",
+    "duration_days": 3,
+    "customer_rating": 4.6,
+    "tour_cost_usd": 600,
+    "region_description": "Stonehenge is a prehistoric monument located in Wiltshire, England, and is one of the most famous landmarks in the UK. Dating back to around 2500 BC, this enigmatic stone circle is believed to have been used for ceremonial purposes and astronomical observations. The purpose of its construction remains a mystery, captivating visitors and scholars alike for centuries. Surrounding the site are ancient burial mounds and earthworks, adding to the rich historical context. Visitors can explore the visitor center, view the stones up close, and gain insight into the theories surrounding this ancient site.",
+    "places_to_visit": [
+      {
+        "name": "Stone Circle",
+        "description": "The iconic stone circle made up of massive sarsen stones and bluestones, arranged in a circular layout."
+      },
+      {
+        "name": "Visitor Center",
+        "description": "Offers exhibitions and displays detailing the history and significance of Stonehenge."
+      },
+      {
+        "name": "Amesbury",
+        "description": "The nearby town with historical significance, featuring ancient burial sites."
+      },
+      {
+        "name": "Woodhenge",
+        "description": "An ancient timber circle located nearby, thought to be related to Stonehenge."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Salisbury",
+        "hotels": [
+          {
+            "name": "The Chapter House",
+            "description": "A charming hotel located in the heart of Salisbury, offering comfortable accommodations.",
+            "cost_per_night_usd": 150
+          },
+          {
+            "name": "Mercure Salisbury White Hart Hotel",
+            "description": "A historic hotel with modern amenities and a restaurant serving local cuisine.",
+            "cost_per_night_usd": 120
+          }
+        ],
+        "restaurants": [
+          {
+            "name": "The Bell Inn",
+            "description": "A traditional English pub serving hearty meals and local ales.",
+            "average_cost_per_person_usd": 25
+          },
+          {
+            "name": "Salisbury Arms",
+            "description": "Offers a variety of traditional dishes and a cozy atmosphere.",
+            "average_cost_per_person_usd": 20
+          }
+        ]
+      }
+    ],
+    "activities": [
+      "Visit the iconic Stone Circle and learn about its history.",
+      "Explore the Visitor Center and its exhibitions.",
+      "Discover nearby historical sites like Woodhenge.",
+      "Enjoy a traditional meal at a local pub."
+    ],
+    "tips_and_tricks": [
+      "Book tickets in advance to avoid long waits.",
+      "Dress for the weather, as it can be unpredictable.",
+      "Consider joining a guided tour for deeper insights."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+44 1722 123456",
+      "local_police": "999",
+      "embassy": "+44 20 7008 1500"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Salisbury",
+        "activities": [
+          "Arrival in Salisbury and transfer to the hotel.",
+          "Briefing on the tour and relax.",
+          "Dinner at The Bell Inn."
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Stonehenge",
+        "activities": [
+          "Visit Stonehenge and explore the stone circle.",
+          "Lunch at a local restaurant.",
+          "Explore the Visitor Center and learn about its significance."
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Salisbury",
+        "activities": [
+          "Visit Amesbury and its historical sites.",
+          "Free time for shopping or exploring.",
+          "Check-out from the hotel and transfer to the airport for departure."
+        ]
+      }
+    ],
+    "customer_reviews": [
+      {
+        "name": "Charlotte H.",
+        "rating": 5.0,
+        "description": "Visiting Stonehenge was incredible! The history is fascinating."
+      },
+      {
+        "name": "Benjamin L.",
+        "rating": 4.5,
+        "description": "A must-visit for history lovers!"
+      }
+    ]
+  }
+  

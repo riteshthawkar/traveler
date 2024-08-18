@@ -1,0 +1,133 @@
+{
+    "country_name": "United States",
+    "visa_guide": {
+      "country_overview": {
+        "content": "The United States, a diverse and vast country known for its dynamic cities, stunning natural landscapes, and cultural landmarks, is a top destination for tourists, business travelers, and students. The U.S. visa system, managed by the Department of State, includes various types of visas for different purposes, including tourism, work, study, and immigration. Visa applications are processed through U.S. embassies and consulates worldwide, and the process involves detailed documentation and interviews."
+      },
+      "types_of_visas": {
+        "tourist_visa": {
+          "title": "Tourist Visa (B-2)",
+          "description": "The Tourist Visa (B-2) allows visitors to stay in the U.S. for up to 6 months for tourism, visiting family or friends, or medical treatment."
+        },
+        "student_visa": {
+          "title": "Student Visa (F-1)",
+          "description": "The Student Visa (F-1) is for individuals who have been accepted into a U.S. educational institution. It allows for full-time study and is valid for the duration of the course plus a grace period."
+        },
+        "work_visa": {
+          "title": "Work Visa (H-1B)",
+          "description": "The Work Visa (H-1B) is for individuals in specialty occupations. It allows foreign workers to live and work in the U.S. for up to 3 years, with the possibility of extension."
+        },
+        "business_visa": {
+          "title": "Business Visa (B-1)",
+          "description": "The Business Visa (B-1) is for individuals traveling to the U.S. for short-term business activities such as meetings, conferences, or negotiations."
+        }
+      },
+      "visa_requirements": {
+        "tourist_visa": {
+          "eligibility_criteria": "Applicants must demonstrate that they are visiting the U.S. for tourism, have a valid passport, sufficient funds, and intend to return to their home country. An interview at the U.S. embassy or consulate is typically required.",
+          "mandatory_documents": [
+            "Completed DS-160 visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photographs",
+            "Proof of accommodation",
+            "Travel itinerary",
+            "Evidence of sufficient funds",
+            "Visa appointment confirmation"
+          ],
+          "additional_documents": [
+            "Letter of invitation from a friend or family member (if applicable)",
+            "Proof of employment or studies in the home country"
+          ]
+        },
+        "student_visa": {
+          "eligibility_criteria": "Applicants must be accepted into a U.S. educational institution and demonstrate their ability to financially support themselves during their studies. An interview at the U.S. embassy or consulate is required.",
+          "mandatory_documents": [
+            "Completed DS-160 visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photographs",
+            "Form I-20 from the U.S. educational institution",
+            "Proof of financial capacity",
+            "Visa appointment confirmation"
+          ],
+          "additional_documents": [
+            "Academic transcripts and certificates",
+            "Accommodation details"
+          ]
+        },
+        "work_visa": {
+          "eligibility_criteria": "Applicants must have a job offer from a U.S. employer in a specialty occupation. The employer must file a petition with the U.S. Citizenship and Immigration Services (USCIS) before the visa application process begins.",
+          "mandatory_documents": [
+            "Completed DS-160 visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photographs",
+            "Form I-129 from the U.S. employer",
+            "Proof of relevant qualifications and experience",
+            "Visa appointment confirmation"
+          ],
+          "additional_documents": [
+            "Previous employment records",
+            "Proof of any previous visits to the U.S."
+          ]
+        }
+      },
+      "step_by_step_visa_application_process": {
+        "step_1": {
+          "title": "Determine Visa Type",
+          "description": "Identify the appropriate visa type based on your purpose of visit to the U.S. Ensure you meet the eligibility requirements for the selected visa category."
+        },
+        "step_2": {
+          "title": "Check Eligibility",
+          "description": "Review the specific eligibility requirements for the visa type you are applying for, including health and character requirements."
+        },
+        "step_3": {
+          "title": "Gather Required Documents",
+          "description": "Collect all necessary documents including the visa application form, passport, photographs, and supporting documents relevant to your visa type."
+        },
+        "step_4": {
+          "title": "Complete the Application Form",
+          "description": "Fill out the DS-160 visa application form accurately. Applications can be submitted online through the U.S. Department of State website."
+        },
+        "step_5": {
+          "title": "Schedule and Attend Visa Interview",
+          "description": "Schedule an appointment for a visa interview at the nearest U.S. embassy or consulate. Attend the interview and provide all required documentation."
+        },
+        "step_6": {
+          "title": "Wait for Processing",
+          "description": "Processing times for U.S. visas vary based on the type of visa and individual circumstances. Check current processing times on the U.S. Department of State website."
+        },
+        "step_7": {
+          "title": "Receive the Visa",
+          "description": "Once your visa is approved, you will be notified. Ensure that all details on the visa are correct before traveling."
+        }
+      },
+      "additional_information": {
+        "visa_fees": {
+          "content": "Visa fees for U.S. visas vary depending on the type of visa and duration of stay. Fees are payable at the time of application and are non-refundable."
+        },
+        "processing_time": {
+          "content": "Processing times for U.S. visas vary. Tourist and business visas typically take a few weeks, while student and work visas may take longer. Check current processing times on the U.S. Department of State website."
+        },
+        "visa_validity": {
+          "content": "The validity of U.S. visas depends on the type of visa issued. Tourist visas are generally valid for up to 6 months, while work and student visas may be valid for the duration of employment or study plus a grace period."
+        },
+        "entry_requirements": {
+          "content": "Upon arrival in the U.S., travelers must present their valid visa, passport, and may be required to provide additional documentation such as proof of accommodation and sufficient funds."
+        }
+      },
+      "faqs": {
+        "faq_1": {
+          "question": "Can I extend my visa while in the U.S.?",
+          "answer": "Visa extensions may be possible depending on the type of visa. You should contact U.S. Citizenship and Immigration Services (USCIS) for detailed information on the extension process."
+        },
+        "faq_2": {
+          "question": "Is a visa required before arrival in the U.S.?",
+          "answer": "Yes, most travelers need to obtain a visa before arriving in the U.S. You can apply for a visa online or through a U.S. embassy or consulate."
+        },
+        "faq_3": {
+          "question": "Can I work in the U.S. on a Tourist Visa?",
+          "answer": "No, working on a Tourist Visa is not allowed. If you wish to work in the U.S., you must apply for a Work Visa."
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,143 @@
+{
+    "package_name": "Maldives Luxury Escape",
+    "country": "Maldives",
+    "duration_days": 6,
+    "customer_rating": 4.8,
+    "tour_cost_usd": 2000,
+    "region_description": "The Maldives is an idyllic tropical paradise consisting of 26 atolls and over 1,000 coral islands in the Indian Ocean. Known for its pristine beaches, crystal-clear waters, and luxurious overwater bungalows, the Maldives is a top destination for honeymooners and travelers seeking relaxation and adventure. The vibrant coral reefs are perfect for snorkeling and diving, while the rich marine life, including colorful fish and sea turtles, attracts underwater enthusiasts. With its stunning sunsets, indulgent spas, and gourmet dining, the Maldives offers an unforgettable escape.",
+    "places_to_visit": [
+      {
+        "name": "Malé",
+        "description": "Malé is the capital of the Maldives, known for its vibrant culture and bustling markets. Visitors can explore historical sites, local eateries, and the beautiful artificial beach."
+      },
+      {
+        "name": "Maafushi Island",
+        "description": "Maafushi is a local island known for its beautiful beaches and water sports activities. It offers a glimpse into the local way of life while providing opportunities for adventure."
+      },
+      {
+        "name": "Banana Reef",
+        "description": "Banana Reef is one of the most famous dive sites in the Maldives, known for its diverse marine life and stunning coral formations. It's a must-visit for diving enthusiasts."
+      },
+      {
+        "name": "Sunset Dolphin Cruise",
+        "description": "The Sunset Dolphin Cruise is a popular activity where visitors can enjoy a boat ride while watching dolphins play in the water against the backdrop of a stunning sunset."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Maldives",
+        "hotels": [
+          {
+            "name": "Soneva Fushi",
+            "description": "Soneva Fushi is a luxury resort known for its eco-friendly practices and stunning beachfront villas. The resort offers a range of amenities, including a spa and fine dining.",
+            "cost_per_night_usd": 1500
+          },
+          {
+            "name": "Conrad Maldives Rangali Island",
+            "description": "Conrad Maldives Rangali Island offers luxurious accommodations, including underwater dining experiences. The resort features beautiful beaches and top-notch amenities.",
+            "cost_per_night_usd": 1200
+          }
+        ],
+        "restaurants": [
+          {
+            "name": "Ithaa Undersea Restaurant",
+            "description": "Ithaa is the world's first all-glass underwater restaurant, offering a unique dining experience surrounded by marine life. The menu features exquisite seafood and local dishes.",
+            "average_cost_per_person_usd": 200
+          },
+          {
+            "name": "Kandu Grill",
+            "description": "Kandu Grill offers a casual dining experience with delicious grilled seafood and international cuisine, set in a beautiful outdoor setting.",
+            "average_cost_per_person_usd": 60
+          }
+        ]
+      }
+    ],
+    "activities": [
+      "Relax on the pristine beaches of the Maldives.",
+      "Snorkel or dive in the vibrant coral reefs.",
+      "Take a sunset dolphin cruise.",
+      "Indulge in spa treatments and wellness activities."
+    ],
+    "tips_and_tricks": [
+      "Book overwater bungalows for a unique experience.",
+      "Bring sunscreen and swimwear for beach days.",
+      "Consider a local island stay for a more authentic experience."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+960 777 7777",
+      "local_police": "119",
+      "embassy": "+960 332 3000"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Maldives",
+        "activities": [
+          "Arrival at Velana International Airport and transfer to the resort.",
+          "Briefing on the tour and relaxation.",
+          "Dinner at the resort."
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Malé Exploration",
+        "activities": [
+          "Visit Malé to explore the local markets and historical sites.",
+          "Lunch at a local restaurant.",
+          "Return to the resort for relaxation.",
+          "Dinner at the resort."
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Maafushi Island",
+        "activities": [
+          "Take a boat to Maafushi Island.",
+          "Enjoy water sports activities such as jet skiing or banana boat rides.",
+          "Lunch at a beachside café.",
+          "Relax on the beach and enjoy the sunset.",
+          "Dinner at a local restaurant."
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Diving and Snorkeling",
+        "activities": [
+          "Morning dive or snorkeling trip to Banana Reef.",
+          "Lunch on the boat or at a local café.",
+          "Afternoon free for relaxation or spa treatments.",
+          "Dinner at Ithaa Undersea Restaurant."
+        ]
+      },
+      {
+        "day": 5,
+        "location": "Sunset Dolphin Cruise",
+        "activities": [
+          "Morning at leisure for beach activities.",
+          "Lunch at the resort.",
+          "Afternoon sunset dolphin cruise.",
+          "Dinner at Kandu Grill."
+        ]
+      },
+      {
+        "day": 6,
+        "location": "Departure",
+        "activities": [
+          "Check-out from the resort and transfer to the airport for departure."
+        ]
+      }
+    ],
+    "customer_reviews": [
+      {
+        "name": "Sophia L.",
+        "rating": 5.0,
+        "description": "The Maldives is pure magic! The underwater dining experience was unforgettable."
+      },
+      {
+        "name": "Liam J.",
+        "rating": 4.9,
+        "description": "Incredible beaches and marine life! A perfect getaway."
+      }
+    ]
+  }
+  

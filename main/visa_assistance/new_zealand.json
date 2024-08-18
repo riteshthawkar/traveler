@@ -1,0 +1,133 @@
+{
+    "country_name": "New Zealand",
+    "visa_guide": {
+      "country_overview": {
+        "content": "New Zealand, renowned for its stunning landscapes, including mountains, beaches, and rainforests, is a popular destination for tourists, adventurers, and those seeking a high quality of life. The country offers a range of visa options for different purposes, including tourism, work, and study. Managed by Immigration New Zealand, the visa application process can be completed online or through New Zealand embassies and consulates. New Zealand’s visa system is designed to ensure that visitors comply with the country’s immigration laws and contribute positively to the economy and society."
+      },
+      "types_of_visas": {
+        "tourist_visa": {
+          "title": "Tourist Visa",
+          "description": "The Tourist Visa allows visitors to stay in New Zealand for up to 9 months within an 18-month period. This visa is suitable for those traveling for tourism or visiting family and friends."
+        },
+        "student_visa": {
+          "title": "Student Visa",
+          "description": "The Student Visa allows individuals to study full-time at an approved educational institution in New Zealand. The visa is valid for the duration of the course plus a short period afterward."
+        },
+        "work_visa": {
+          "title": "Work Visa",
+          "description": "The Work Visa enables individuals to work in New Zealand for a specific period, typically up to 3 years. It is available for skilled workers, essential skills workers, and those with job offers from New Zealand employers."
+        },
+        "resident_visa": {
+          "title": "Resident Visa",
+          "description": "The Resident Visa grants individuals the right to live, work, and study in New Zealand indefinitely. It is available through various pathways, including skilled migration, family reunion, and business investment."
+        }
+      },
+      "visa_requirements": {
+        "tourist_visa": {
+          "eligibility_criteria": "Applicants must demonstrate that they are visiting New Zealand for tourism, have a valid passport, sufficient funds for their stay, and a return or onward travel ticket.",
+          "mandatory_documents": [
+            "Completed visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photographs",
+            "Proof of accommodation",
+            "Travel itinerary",
+            "Evidence of sufficient funds",
+            "Health insurance"
+          ],
+          "additional_documents": [
+            "Letter of invitation from a friend or family member (if applicable)",
+            "Proof of employment or studies in the home country"
+          ]
+        },
+        "student_visa": {
+          "eligibility_criteria": "Applicants must be accepted into an approved educational institution in New Zealand and demonstrate their ability to financially support themselves and their studies. Health and character requirements must also be met.",
+          "mandatory_documents": [
+            "Completed visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photographs",
+            "Confirmation of Enrollment (CoE) from a New Zealand educational institution",
+            "Proof of financial capacity",
+            "Health insurance"
+          ],
+          "additional_documents": [
+            "Academic transcripts and certificates",
+            "Accommodation details"
+          ]
+        },
+        "work_visa": {
+          "eligibility_criteria": "Applicants must have a job offer from a New Zealand employer or meet specific criteria for skilled or essential skills workers. Health and character requirements must be satisfied.",
+          "mandatory_documents": [
+            "Completed visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photographs",
+            "Job offer letter or employment contract",
+            "Proof of relevant qualifications and experience",
+            "Health insurance"
+          ],
+          "additional_documents": [
+            "Previous employment records",
+            "Proof of any previous visits to New Zealand"
+          ]
+        }
+      },
+      "step_by_step_visa_application_process": {
+        "step_1": {
+          "title": "Determine Visa Type",
+          "description": "Identify the appropriate visa type based on your purpose of visit to New Zealand. Ensure you meet the eligibility requirements for the selected visa category."
+        },
+        "step_2": {
+          "title": "Check Eligibility",
+          "description": "Review the specific eligibility requirements for the visa type you are applying for, including health and character requirements."
+        },
+        "step_3": {
+          "title": "Gather Required Documents",
+          "description": "Collect all necessary documents including the visa application form, passport, photographs, and supporting documents relevant to your visa type."
+        },
+        "step_4": {
+          "title": "Complete the Application Form",
+          "description": "Fill out the visa application form accurately. Applications can be submitted online through the Immigration New Zealand website or through a New Zealand embassy or consulate."
+        },
+        "step_5": {
+          "title": "Submit the Application",
+          "description": "Submit your completed application form along with the required documents. Ensure that all documents are provided as per the requirements for your visa type."
+        },
+        "step_6": {
+          "title": "Wait for Processing",
+          "description": "Processing times for New Zealand visas vary based on the type of visa and individual circumstances. Check current processing times on the Immigration New Zealand website."
+        },
+        "step_7": {
+          "title": "Receive the Visa",
+          "description": "Once your visa is approved, you will be notified. Ensure that all details on the visa are correct before traveling."
+        }
+      },
+      "additional_information": {
+        "visa_fees": {
+          "content": "Visa fees for New Zealand visas vary depending on the type of visa and the duration of stay. Fees are non-refundable and must be paid at the time of application. Fees can be paid online through the Immigration New Zealand website."
+        },
+        "processing_time": {
+          "content": "Processing times for New Zealand visas vary based on the visa type and individual circumstances. It is advisable to check the current processing times on the Immigration New Zealand website and apply well in advance."
+        },
+        "visa_validity": {
+          "content": "The validity of a New Zealand visa depends on the type of visa issued. Tourist and work visas are generally granted for up to 3 years, while student and resident visas may be granted for longer durations depending on the course or residency pathway."
+        },
+        "entry_requirements": {
+          "content": "Upon arrival in New Zealand, travelers must present their valid visa, passport, and may be required to provide additional documentation such as proof of accommodation and sufficient funds."
+        }
+      },
+      "faqs": {
+        "faq_1": {
+          "question": "Can I extend my visa while in New Zealand?",
+          "answer": "Yes, you may be able to extend your visa while you are in New Zealand. You need to apply for an extension through Immigration New Zealand before your current visa expires."
+        },
+        "faq_2": {
+          "question": "Is a visa required before arrival in New Zealand?",
+          "answer": "Yes, most travelers need to obtain a visa before arriving in New Zealand. You can apply for a visa online through the Immigration New Zealand website or through an embassy or consulate."
+        },
+        "faq_3": {
+          "question": "Can I work in New Zealand on a Tourist Visa?",
+          "answer": "No, working on a Tourist Visa is not permitted. If you wish to work in New Zealand, you must apply for a Work Visa."
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,155 @@
+{
+    "country_name": "Mongolia",
+    "visa_guide": {
+      "country_overview": {
+        "content": "Mongolia, a landlocked nation bordered by China and Russia, is known for its vast, rugged expanses and nomadic culture. With a history steeped in the legacy of Genghis Khan, Mongolia offers a unique blend of traditional lifestyles and natural beauty. The capital, Ulaanbaatar, is a cultural hub with a mix of ancient Buddhist monasteries and modern buildings. Mongolia's visa policy caters to various types of visitors, whether they are tourists, business travelers, or those seeking to study or work in the country."
+      },
+      "types_of_visas": {
+        "tourist_visa": {
+          "title": "Tourist Visa (J Visa)",
+          "description": "The Tourist Visa (J Visa) is issued to travelers visiting Mongolia for tourism purposes. This visa is typically valid for 30 days and can be extended once within Mongolia."
+        },
+        "business_visa": {
+          "title": "Business Visa (B Visa)",
+          "description": "The Business Visa (B Visa) is intended for individuals traveling to Mongolia for business activities such as meetings, conferences, or negotiations. The visa is usually issued for 30 days but can be extended or issued as a multiple-entry visa depending on the applicant's needs."
+        },
+        "student_visa": {
+          "title": "Student Visa (S Visa)",
+          "description": "The Student Visa (S Visa) is for foreign nationals who wish to study at a Mongolian educational institution. This visa is issued for the duration of the study program and requires proof of enrollment and financial means."
+        },
+        "work_visa": {
+          "title": "Work Visa (HG Visa)",
+          "description": "The Work Visa (HG Visa) is required for foreign nationals who have been offered employment in Mongolia. A work permit and a contract with a Mongolian employer are prerequisites for this visa."
+        }
+      },
+      "visa_requirements": {
+        "tourist_visa": {
+          "eligibility_criteria": "Applicants must have a valid passport, sufficient funds for their stay, and a clear intention to leave Mongolia after the visa expires.",
+          "mandatory_documents": [
+            "Completed visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photograph",
+            "Proof of accommodation (hotel reservations or invitation letter)",
+            "Travel itinerary",
+            "Proof of sufficient funds",
+            "Travel insurance"
+          ],
+          "additional_documents": [
+            "Letter of invitation from a Mongolian host (if applicable)",
+            "Proof of civil status (marriage certificate, birth certificate, etc.)"
+          ]
+        },
+        "business_visa": {
+          "eligibility_criteria": "Applicants must be engaged in legitimate business activities in Mongolia and have an invitation from a Mongolian company.",
+          "mandatory_documents": [
+            "Completed visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photograph",
+            "Invitation letter from a Mongolian company",
+            "Proof of business activities (conference registration, meeting details)",
+            "Proof of accommodation and travel itinerary",
+            "Travel insurance"
+          ],
+          "additional_documents": [
+            "Company registration documents",
+            "Proof of previous business dealings (if applicable)"
+          ]
+        },
+        "student_visa": {
+          "eligibility_criteria": "Applicants must have been accepted into a recognized Mongolian educational institution and must provide proof of enrollment and financial capacity.",
+          "mandatory_documents": [
+            "Completed visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photograph",
+            "Letter of acceptance from a Mongolian educational institution",
+            "Proof of sufficient funds",
+            "Health insurance"
+          ],
+          "additional_documents": [
+            "Academic transcripts and certificates",
+            "Proof of accommodation"
+          ]
+        },
+        "work_visa": {
+          "eligibility_criteria": "Applicants must have a job offer from a Mongolian employer and meet the necessary qualifications. A work permit is required.",
+          "mandatory_documents": [
+            "Completed visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photograph",
+            "Job offer letter or employment contract",
+            "Work permit issued by the Mongolian government",
+            "Proof of accommodation",
+            "Health insurance"
+          ],
+          "additional_documents": [
+            "Proof of qualifications and experience",
+            "Criminal background check",
+            "Medical examination report"
+          ]
+        }
+      },
+      "step_by_step_visa_application_process": {
+        "step_1": {
+          "title": "Determine Visa Type",
+          "description": "Identify the appropriate visa type based on your purpose of visit to Mongolia. Ensure you meet the eligibility requirements for the selected visa category."
+        },
+        "step_2": {
+          "title": "Check Eligibility",
+          "description": "Review the specific eligibility requirements for the visa type you are applying for, including health, character, and financial requirements."
+        },
+        "step_3": {
+          "title": "Gather Required Documents",
+          "description": "Collect all necessary documents including the visa application form, passport, photographs, and supporting documents relevant to your visa type."
+        },
+        "step_4": {
+          "title": "Complete the Application Form",
+          "description": "Fill out the visa application form accurately. Submit your application online or at a Mongolian embassy or consulate."
+        },
+        "step_5": {
+          "title": "Submit the Application",
+          "description": "Submit your completed application form along with the required documents to the Mongolian embassy, consulate, or visa application center. An appointment may be required for submission."
+        },
+        "step_6": {
+          "title": "Attend an Interview (if required)",
+          "description": "For some visa types, you may be required to attend an interview at the Mongolian embassy or consulate. Prepare to answer questions about your travel purpose and background."
+        },
+        "step_7": {
+          "title": "Wait for Processing",
+          "description": "Visa processing times vary depending on the type of visa and your nationality. Standard processing typically takes 10-15 working days."
+        },
+        "step_8": {
+          "title": "Receive the Visa",
+          "description": "Once your visa is approved, you will be notified to collect it from the embassy, consulate, or visa application center. Ensure that all details on the visa are correct before traveling."
+        }
+      },
+      "additional_information": {
+        "visa_fees": {
+          "content": "Visa fees for Mongolian visas vary depending on the type of visa and applicant's nationality. Fees are payable at the time of application and are non-refundable."
+        },
+        "processing_time": {
+          "content": "The standard processing time for Mongolian visas is 10-15 working days. Processing times may vary based on the type of visa and your nationality."
+        },
+        "visa_validity": {
+          "content": "The validity of Mongolian visas varies by type. Tourist visas are generally valid for 30 days, while other visas may be issued for the duration of the applicant's stay in Mongolia."
+        },
+        "entry_requirements": {
+          "content": "Upon arrival in Mongolia, travelers must present their valid visa, passport, and may be required to provide additional documentation such as proof of accommodation and sufficient funds."
+        }
+      },
+      "faqs": {
+        "faq_1": {
+          "question": "Can I extend my Tourist Visa in Mongolia?",
+          "answer": "Yes, tourist visas can be extended once within Mongolia. You must apply for an extension at the Mongolian Immigration Agency before your current visa expires."
+        },
+        "faq_2": {
+          "question": "Do I need a visa to enter Mongolia?",
+          "answer": "Yes, most travelers need a visa to enter Mongolia unless they are from a visa-exempt country. Check with your local Mongolian embassy or consulate for more information."
+        },
+        "faq_3": {
+          "question": "Can I work in Mongolia on a Tourist Visa?",
+          "answer": "No, working on a Tourist Visa is not permitted. You must apply for a Work Visa and obtain a work permit to legally work in Mongolia."
+        }
+      }
+    }
+  }
+  

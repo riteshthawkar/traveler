@@ -1,0 +1,140 @@
+{
+    "package_name": "Rotorua Cultural and Adventure Tour",
+    "country": "New Zealand",
+    "duration_days": 5,
+    "customer_rating": 4.7,
+    "tour_cost_usd": 1200,
+    "region_description": "Rotorua, located in the North Island of New Zealand, is renowned for its geothermal activity and rich Maori culture. The city is surrounded by stunning lakes, lush forests, and unique geothermal parks featuring bubbling mud pools, geysers, and hot springs. Rotorua is a center for Maori culture, offering visitors the chance to experience traditional performances, feasts, and crafts. The combination of natural wonders and cultural experiences makes Rotorua a popular destination for adventure seekers and those interested in New Zealand's indigenous heritage.",
+    "places_to_visit": [
+      {
+        "name": "Te Puia",
+        "description": "Te Puia is a geothermal park that showcases geysers, hot springs, and Maori cultural experiences. Visitors can explore the park and learn about traditional Maori arts and crafts."
+      },
+      {
+        "name": "Huka Falls",
+        "description": "Huka Falls is a stunning waterfall located near Taupo, known for its turquoise waters and powerful flow. It's a popular spot for photography and scenic walks."
+      },
+      {
+        "name": "Redwoods Forest",
+        "description": "Redwoods Forest features towering Californian redwoods and offers walking and biking trails amidst breathtaking scenery. It's a peaceful escape into nature."
+      },
+      {
+        "name": "Maori Village",
+        "description": "Experience authentic Maori culture in a traditional village setting, complete with performances, feasts, and opportunities to learn about the Maori way of life."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Rotorua",
+        "hotels": [
+          {
+            "name": "Millennium Hotel Rotorua",
+            "description": "This hotel offers stunning views of Lake Rotorua, luxurious accommodations, and a spa, making it a perfect base for exploring the region.",
+            "cost_per_night_usd": 250
+          },
+          {
+            "name": "Regent of Rotorua",
+            "description": "Regent of Rotorua features modern design, comfortable rooms, and an on-site restaurant, conveniently located near the city center.",
+            "cost_per_night_usd": 180
+          }
+        ],
+        "restaurants": [
+          {
+            "name": "Atticus Finch",
+            "description": "Atticus Finch offers a unique dining experience with a focus on local ingredients and a diverse menu in a trendy setting.",
+            "average_cost_per_person_usd": 70
+          },
+          {
+            "name": "Eat Street",
+            "description": "Eat Street is a lively dining precinct with various restaurants and eateries, offering a range of cuisines in a vibrant atmosphere.",
+            "average_cost_per_person_usd": 30
+          }
+        ]
+      }
+    ],
+    "activities": [
+      "Explore Te Puia's geothermal wonders and learn about Maori culture.",
+      "Visit the stunning Huka Falls and take scenic walks.",
+      "Hike or bike through the beautiful Redwoods Forest.",
+      "Experience traditional Maori performances and feasts."
+    ],
+    "tips_and_tricks": [
+      "Wear comfortable shoes for walking and exploring.",
+      "Book cultural experiences in advance for guaranteed spots.",
+      "Bring a camera for capturing the stunning landscapes."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+64 7 123 4567",
+      "local_police": "111",
+      "embassy": "+64 7 5555 5555"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Rotorua",
+        "activities": [
+          "Arrival at Rotorua Airport and transfer to the hotel.",
+          "Briefing on the tour and rest.",
+          "Dinner at Atticus Finch."
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Te Puia",
+        "activities": [
+          "Visit Te Puia for geothermal exploration and cultural experiences.",
+          "Lunch at the park's café.",
+          "Free afternoon for relaxation or optional activities.",
+          "Dinner at the hotel."
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Huka Falls",
+        "activities": [
+          "Day trip to Huka Falls with scenic walks and photography.",
+          "Lunch at a café near the falls.",
+          "Return to Rotorua for dinner."
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Redwoods Forest",
+        "activities": [
+          "Morning hike or bike ride through Redwoods Forest.",
+          "Lunch in the forest's picnic area.",
+          "Visit a Maori village for cultural experiences in the afternoon.",
+          "Dinner at Eat Street."
+        ]
+      },
+      {
+        "day": 5,
+        "location": "Rotorua",
+        "activities": [
+          "Free day for optional activities like spa treatments or adventure sports.",
+          "Lunch at a local restaurant.",
+          "Check-out from the hotel."
+        ]
+      },
+      {
+        "day": 6,
+        "location": "Departure",
+        "activities": [
+          "Transfer to the airport for departure."
+        ]
+      }
+    ],
+    "customer_reviews": [
+      {
+        "name": "Emma W.",
+        "rating": 5.0,
+        "description": "Rotorua is a must-visit! The geothermal parks and cultural experiences were incredible."
+      },
+      {
+        "name": "Tom A.",
+        "rating": 4.8,
+        "description": "Great trip! Loved the Maori village experience and the natural beauty of the region."
+      }
+    ]
+  }
+  

@@ -1,0 +1,123 @@
+{
+    "package_name": "Quebec City Historical Tour",
+    "country": "Canada",
+    "duration_days": 4,
+    "customer_rating": 4.8,
+    "tour_cost_usd": 950,
+    "region_description": "Quebec City, a UNESCO World Heritage site, is known for its well-preserved historic architecture and vibrant French-speaking culture. Nestled along the St. Lawrence River, this charming city boasts cobblestone streets, fortified walls, and stunning views from the iconic Château Frontenac. Visitors can explore the Old Quebec district, a lively area filled with boutiques, cafés, and historic sites. The city is rich in history, with influences from both French and British cultures. Quebec City offers a unique blend of old-world charm and modern attractions, making it a captivating destination for travelers.",
+    "places_to_visit": [
+      {
+        "name": "Old Quebec",
+        "description": "A historic district filled with narrow streets, shops, and cafés, showcasing the city's French heritage."
+      },
+      {
+        "name": "Château Frontenac",
+        "description": "An iconic hotel that dominates the skyline, offering guided tours and breathtaking views of the city."
+      },
+      {
+        "name": "Montmorency Falls",
+        "description": "A stunning waterfall that is higher than Niagara Falls, accessible by trails and bridges."
+      },
+      {
+        "name": "Plains of Abraham",
+        "description": "A historic park where a major battle took place, now a popular spot for picnics and outdoor activities."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Quebec City",
+        "hotels": [
+          {
+            "name": "Fairmont Le Château Frontenac",
+            "description": "A luxurious and historic hotel located in Old Quebec, offering elegant accommodations and fine dining.",
+            "cost_per_night_usd": 450
+          },
+          {
+            "name": "Hotel Le Concorde Quebec",
+            "description": "A modern hotel with comfortable rooms and a great location near the historic district.",
+            "cost_per_night_usd": 180
+          }
+        ],
+        "restaurants": [
+          {
+            "name": "Le Continental",
+            "description": "A classic French restaurant known for its exceptional cuisine and romantic ambiance.",
+            "average_cost_per_person_usd": 80
+          },
+          {
+            "name": "La Bûche",
+            "description": "A rustic eatery serving traditional Quebecois dishes in a cozy setting, perfect for tasting local flavors.",
+            "average_cost_per_person_usd": 40
+          }
+        ]
+      }
+    ],
+    "activities": [
+      "Explore the charming streets of Old Quebec.",
+      "Visit the iconic Château Frontenac.",
+      "Experience the beauty of Montmorency Falls.",
+      "Relax at the Plains of Abraham."
+    ],
+    "tips_and_tricks": [
+      "Wear comfortable shoes for exploring the cobblestone streets.",
+      "Try local delicacies like poutine and tourtière.",
+      "Take guided tours to learn about the city's rich history."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+1 418 123 4567",
+      "local_police": "911",
+      "embassy": "+1 613 555 7890"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Quebec City",
+        "activities": [
+          "Arrival in Quebec City and transfer to the hotel.",
+          "Briefing on the tour and relax.",
+          "Dinner at Le Continental."
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Old Quebec",
+        "activities": [
+          "Morning exploration of Old Quebec and its historic sites.",
+          "Lunch at a local café.",
+          "Visit Château Frontenac for guided tours.",
+          "Dinner at La Bûche."
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Montmorency Falls",
+        "activities": [
+          "Day trip to Montmorency Falls for hiking and photography.",
+          "Lunch at a nearby restaurant.",
+          "Return to Quebec City for dinner."
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Plains of Abraham",
+        "activities": [
+          "Morning visit to the Plains of Abraham for leisure activities.",
+          "Lunch at a local bistro.",
+          "Check-out from the hotel and transfer to the airport for departure."
+        ]
+      }
+    ],
+    "customer_reviews": [
+      {
+        "name": "Charlotte K.",
+        "rating": 5.0,
+        "description": "Quebec City is like stepping into a fairy tale! The charm is unmatched."
+      },
+      {
+        "name": "James H.",
+        "rating": 4.9,
+        "description": "The history and culture here are fascinating! Loved every moment."
+      }
+    ]
+  }
+  

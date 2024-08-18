@@ -1,0 +1,170 @@
+{
+    "package_name": "Rajasthan Royal Experience",
+    "country": "India",
+    "state": "Rajasthan",
+    "duration_days": 7,
+    "customer_rating": 4.8,
+    "tour_cost_usd": 2500,
+    "region_description": "Rajasthan, known as the 'Land of Kings,' is a culturally rich state in northern India, renowned for its vibrant history, majestic forts, and colorful festivals. Once the abode of royal families, Rajasthan showcases an array of palaces and havelis that reflect the grandeur of its past. Cities like Jaipur, Udaipur, Jodhpur, and Jaisalmer are famous for their stunning architecture, bustling bazaars, and traditional arts. The Thar Desert adds a unique charm to the landscape, offering camel rides and desert camping experiences. Rajasthan's diverse culture is celebrated through its folk music, dance forms, and exquisite handicrafts, making it a captivating destination for travelers seeking to immerse themselves in India's royal heritage.",
+    "places_to_visit": [
+      {
+        "name": "Jaipur",
+        "description": "Jaipur, the capital of Rajasthan, is known as the 'Pink City' for its distinct terracotta buildings. The city is home to magnificent structures such as the Hawa Mahal, City Palace, and Amber Fort. Jaipur offers a glimpse into royal life through its stunning architecture and rich cultural heritage."
+      },
+      {
+        "name": "Udaipur",
+        "description": "Udaipur, often referred to as the 'City of Lakes,' is famed for its picturesque lakes and palaces. The City Palace, located on the banks of Lake Pichola, offers stunning views, while the serene Lake Palace and Jag Mandir enhance the city’s charm. Udaipur is a hub for art and culture, making it a romantic getaway."
+      },
+      {
+        "name": "Jodhpur",
+        "description": "Jodhpur, known as the 'Blue City,' is famous for its blue-painted houses and the imposing Mehrangarh Fort. This fort, perched on a hill, provides breathtaking views of the city and showcases a rich collection of artifacts. Jodhpur is also known for its vibrant markets and traditional handicrafts."
+      },
+      {
+        "name": "Jaisalmer",
+        "description": "Jaisalmer, located in the heart of the Thar Desert, is renowned for its golden sandstone architecture and desert landscapes. The Jaisalmer Fort, a UNESCO World Heritage Site, stands tall with its stunning yellow sandstone buildings. Visitors can enjoy camel rides, desert safaris, and traditional folk performances in the dunes."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Rajasthan",
+        "hotels": [
+          {
+            "name": "Rambagh Palace, Jaipur",
+            "description": "Rambagh Palace, a former royal residence, is a luxurious 5-star hotel offering opulent accommodations and impeccable service. Set in stunning gardens, it features a spa, fine dining, and a rich heritage.",
+            "cost_per_night_usd": 400
+          },
+          {
+            "name": "Taj Lake Palace, Udaipur",
+            "description": "Taj Lake Palace is a beautiful heritage hotel situated on Lake Pichola, offering breathtaking views and exquisite luxury. Guests can enjoy royal hospitality, a spa, and fine dining experiences.",
+            "cost_per_night_usd": 500
+          },
+          {
+            "name": "Umaid Bhawan Palace, Jodhpur",
+            "description": "Umaid Bhawan Palace is a magnificent 5-star hotel that reflects the grandeur of the bygone era. Surrounded by lush gardens, it features luxurious rooms, a spa, and gourmet dining.",
+            "cost_per_night_usd": 300
+          }
+        ],
+        "restaurants": [
+          {
+            "name": "Chokhi Dhani, Jaipur",
+            "description": "Chokhi Dhani is a traditional Rajasthani village-themed restaurant offering authentic cuisine and cultural experiences. Guests can enjoy traditional dance performances, music, and local delicacies.",
+            "average_cost_per_person_usd": 40
+          },
+          {
+            "name": "Ambrai, Udaipur",
+            "description": "Ambrai is a renowned lakeside restaurant in Udaipur known for its stunning views of the City Palace and Lake Pichola. The restaurant serves a variety of Indian and international dishes, making it a perfect dining spot.",
+            "average_cost_per_person_usd": 35
+          },
+          {
+            "name": "The Spice Route, Jodhpur",
+            "description": "The Spice Route is a popular restaurant in Jodhpur offering a mix of Indian and international cuisine. The warm ambiance and delectable dishes make it a great place to dine after exploring the city.",
+            "average_cost_per_person_usd": 30
+          }
+        ]
+      }
+    ],
+    "activities": [
+      "Explore the majestic forts and palaces of Jaipur, including Hawa Mahal and Amber Fort.",
+      "Take a boat ride on Lake Pichola in Udaipur, enjoying views of the City Palace.",
+      "Visit the Mehrangarh Fort in Jodhpur and explore its rich history and artifacts.",
+      "Experience a desert safari in Jaisalmer, complete with camel rides and cultural performances.",
+      "Savor traditional Rajasthani cuisine at local restaurants and experience the vibrant culture."
+    ],
+    "tips_and_tricks": [
+      "Dress modestly when visiting temples and religious sites.",
+      "Stay hydrated and use sunscreen while exploring during the day.",
+      "Bargain at local markets to get the best deals on handicrafts and souvenirs."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+91 123 456 7890",
+      "local_police": "100",
+      "embassy": "+91 11 2419 1000"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Jaipur",
+        "activities": [
+          "Arrival at Jaipur Airport and transfer to the hotel.",
+          "Briefing on the tour and an overview of Jaipur's attractions.",
+          "Visit the Hawa Mahal and City Palace, learning about their history.",
+          "Dinner at Chokhi Dhani, experiencing traditional Rajasthani culture."
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Jaipur",
+        "activities": [
+          "Morning visit to Amber Fort, exploring its stunning architecture.",
+          "Lunch at a local restaurant, savoring Rajasthani dishes.",
+          "Afternoon exploration of Jantar Mantar, the astronomical observatory.",
+          "Evening at leisure to explore local markets or relax."
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Udaipur",
+        "activities": [
+          "Transfer to Udaipur, checking into the hotel upon arrival.",
+          "Visit the City Palace and explore its museums and courtyards.",
+          "Lunch at Ambrai, enjoying beautiful views of the lake.",
+          "Evening boat ride on Lake Pichola, admiring the sunset."
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Udaipur",
+        "activities": [
+          "Morning visit to Jag Mandir Island and its stunning architecture.",
+          "Lunch at a local café, savoring traditional Udaipur cuisine.",
+          "Explore Saheliyon ki Bari, the beautiful garden of maidens.",
+          "Dinner at the hotel, enjoying a lavish meal."
+        ]
+      },
+      {
+        "day": 5,
+        "location": "Jodhpur",
+        "activities": [
+          "Transfer to Jodhpur and check into the hotel.",
+          "Visit Mehrangarh Fort, exploring its rich history and artifacts.",
+          "Lunch at The Spice Route, enjoying local flavors.",
+          "Explore the blue-painted houses of the old city."
+        ]
+      },
+      {
+        "day": 6,
+        "location": "Jaisalmer",
+        "activities": [
+          "Transfer to Jaisalmer and check into the hotel.",
+          "Visit Jaisalmer Fort, exploring its golden sandstone architecture.",
+          "Lunch at a local restaurant, enjoying traditional Rajasthani cuisine.",
+          "Evening desert safari, including camel rides and cultural performances."
+        ]
+      },
+      {
+        "day": 7,
+        "location": "Departure",
+        "activities": [
+          "Check-out from the hotel and transfer to the airport for departure."
+        ]
+      }
+    ],
+    "customer_reviews": [
+      {
+        "name": "Nisha K.",
+        "rating": 5,
+        "description": "A fantastic journey through Rajasthan! The forts and palaces were breathtaking, and the food was amazing."
+      },
+      {
+        "name": "Rajiv P.",
+        "rating": 4.9,
+        "description": "The cultural experiences were unforgettable. Every city had its charm, especially Udaipur!"
+      },
+      {
+        "name": "Suman J.",
+        "rating": 4.8,
+        "description": "Rajasthan is beautiful! The hospitality and the history of the places visited were top-notch."
+      }
+    ]
+  }
+  

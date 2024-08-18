@@ -1,0 +1,122 @@
+{
+    "package_name": "Petra Heritage Journey",
+    "country": "Jordan",
+    "duration_days": 4,
+    "customer_rating": 4.8,
+    "tour_cost_usd": 900,
+    "region_description": "Petra, known as the Rose City, is a UNESCO World Heritage site famous for its rock-cut architecture and water conduit system. Established as the capital of the Nabataean Kingdom, Petra flourished as a trading hub, blending different cultures and styles. Visitors are captivated by the grandeur of the Treasury and the Monastery, surrounded by stunning desert landscapes that evoke a sense of timelessness.",
+    "places_to_visit": [
+      {
+        "name": "The Treasury (Al-Khazneh)",
+        "description": "The Treasury is the most iconic structure in Petra, carved into the rose-red cliffs and showcasing elaborate Hellenistic architecture. It's a must-see for all visitors."
+      },
+      {
+        "name": "The Monastery (Ad Deir)",
+        "description": "The Monastery is another monumental structure carved from rock, offering breathtaking views from its elevated position. It’s less crowded than the Treasury, providing a serene atmosphere."
+      },
+      {
+        "name": "Siq",
+        "description": "The Siq is a narrow gorge leading to Petra, characterized by towering cliffs and intricate rock formations. Walking through the Siq is an experience in itself."
+      },
+      {
+        "name": "Roman Theater",
+        "description": "The Roman Theater is an ancient amphitheater built into the hillside, showcasing Petra's historical significance and architectural prowess."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Petra",
+        "hotels": [
+          {
+            "name": "Mövenpick Resort Petra",
+            "description": "Mövenpick Resort Petra is a luxurious hotel located just a short walk from the entrance to Petra, offering elegant rooms and stunning views.",
+            "cost_per_night_usd": 250
+          },
+          {
+            "name": "Petra Guest House",
+            "description": "Petra Guest House provides comfortable accommodations with traditional Jordanian hospitality, conveniently located near the archaeological site.",
+            "cost_per_night_usd": 120
+          }
+        ],
+        "restaurants": [
+          {
+            "name": "Al-Wadi Restaurant",
+            "description": "Al-Wadi Restaurant offers a variety of Jordanian and Middle Eastern dishes in a welcoming atmosphere, perfect for experiencing local flavors.",
+            "average_cost_per_person_usd": 20
+          },
+          {
+            "name": "The Cave Bar",
+            "description": "The Cave Bar, set in a 2000-year-old cave, offers a unique dining experience with a range of international and local dishes.",
+            "average_cost_per_person_usd": 25
+          }
+        ]
+      }
+    ],
+    "activities": [
+      "Explore the Siq and marvel at the towering rock formations.",
+      "Visit the Treasury and learn about its historical significance.",
+      "Hike up to the Monastery for stunning views.",
+      "Discover the Roman Theater and its ancient architecture."
+    ],
+    "tips_and_tricks": [
+      "Wear comfortable shoes for walking and hiking.",
+      "Bring plenty of water and sunscreen.",
+      "Consider hiring a local guide for in-depth insights."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+962 7 1234 5678",
+      "local_police": "911",
+      "embassy": "+962 6 567 8901"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Petra",
+        "activities": [
+          "Arrival at Queen Alia International Airport and transfer to the hotel.",
+          "Briefing on the tour and rest.",
+          "Dinner at a local restaurant, trying traditional Jordanian cuisine."
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Petra",
+        "activities": [
+          "Visit the Siq and admire its geological features.",
+          "Explore the Treasury and learn about its history.",
+          "Lunch at Al-Wadi Restaurant.",
+          "Visit the Roman Theater and explore the surrounding area."
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Petra",
+        "activities": [
+          "Hike to the Monastery for breathtaking views.",
+          "Lunch at The Cave Bar.",
+          "Explore the surrounding trails and lesser-known sites.",
+          "Dinner at the hotel, enjoying local flavors."
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Departure",
+        "activities": [
+          "Check-out from the hotel and transfer to the airport for departure."
+        ]
+      }
+    ],
+    "customer_reviews": [
+      {
+        "name": "Mia L.",
+        "rating": 4.9,
+        "description": "Petra is mesmerizing! The history and architecture are unmatched."
+      },
+      {
+        "name": "Oliver P.",
+        "rating": 4.8,
+        "description": "A breathtaking experience! Hiking to the Monastery was worth it."
+      }
+    ]
+  }
+  

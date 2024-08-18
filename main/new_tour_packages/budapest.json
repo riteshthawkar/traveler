@@ -1,0 +1,131 @@
+{
+    "package_name": "Budapest: The Pearl of the Danube",
+    "country": "Hungary",
+    "duration_days": 4,
+    "customer_rating": 4.8,
+    "tour_cost_usd": 950,
+    "region_description": "Budapest, the capital of Hungary, is a stunning city split by the Danube River into two parts: Buda and Pest. Known for its grand architecture, thermal baths, and vibrant nightlife, Budapest offers visitors a rich cultural experience. The city is home to iconic landmarks such as the Buda Castle, Fisherman's Bastion, and the Hungarian Parliament Building. Budapest's famous thermal baths, like Széchenyi and Gellért, provide relaxation in a historic setting. With its unique blend of history, culture, and modernity, Budapest is a must-visit destination.",
+    "places_to_visit": [
+      {
+        "name": "Buda Castle",
+        "description": "Buda Castle is a historical castle and palace complex that houses the Hungarian National Gallery and the Budapest History Museum, offering stunning views of the city."
+      },
+      {
+        "name": "Fisherman's Bastion",
+        "description": "Fisherman's Bastion is a picturesque terrace with neo-Romanesque architecture, providing panoramic views of the Danube and the Parliament building."
+      },
+      {
+        "name": "Hungarian Parliament Building",
+        "description": "The Hungarian Parliament Building is an architectural masterpiece and the largest building in Hungary, known for its stunning interior and guided tours."
+      },
+      {
+        "name": "Széchenyi Thermal Bath",
+        "description": "Széchenyi Thermal Bath is one of the largest and most famous thermal baths in Europe, featuring numerous pools, saunas, and wellness treatments."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Budapest",
+        "hotels": [
+          {
+            "name": "Four Seasons Hotel Gresham Palace",
+            "description": "Four Seasons Hotel Gresham Palace is a luxurious hotel located by the Danube River, known for its Art Nouveau style and exceptional service.",
+            "cost_per_night_usd": 600
+          },
+          {
+            "name": "Corinthia Hotel Budapest",
+            "description": "Corinthia Hotel Budapest is a grand hotel offering elegant accommodations and a renowned spa in a historic building.",
+            "cost_per_night_usd": 350
+          }
+        ],
+        "restaurants": [
+          {
+            "name": "Hungarikum Bistro",
+            "description": "Hungarikum Bistro serves traditional Hungarian cuisine in a cozy and friendly atmosphere, known for its goulash and homemade desserts.",
+            "average_cost_per_person_usd": 40
+          },
+          {
+            "name": "Café Gerbeaud",
+            "description": "Café Gerbeaud is a historic café famous for its pastries and cakes, offering a delightful spot for afternoon tea.",
+            "average_cost_per_person_usd": 25
+          }
+        ]
+      }
+    ],
+    "activities": [
+      "Visit Buda Castle and explore its museums.",
+      "Enjoy the views from Fisherman's Bastion.",
+      "Tour the stunning Hungarian Parliament Building.",
+      "Relax at Széchenyi Thermal Bath."
+    ],
+    "tips_and_tricks": [
+      "Consider getting a Budapest Card for discounts on attractions.",
+      "Try local dishes like lángos and chimney cake.",
+      "Use the metro for easy travel around the city."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+36 1 123 4567",
+      "local_police": "112",
+      "embassy": "+36 1 331 1700"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Budapest",
+        "activities": [
+          "Arrival at Budapest Ferenc Liszt International Airport and transfer to the hotel.",
+          "Briefing on the tour and rest.",
+          "Dinner at Hungarikum Bistro, enjoying traditional Hungarian dishes."
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Budapest",
+        "activities": [
+          "Visit Buda Castle and explore its museums.",
+          "Lunch at a nearby café.",
+          "Enjoy the views from Fisherman's Bastion.",
+          "Dinner at Café Gerbeaud, savoring delicious pastries."
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Budapest",
+        "activities": [
+          "Tour the stunning Hungarian Parliament Building.",
+          "Lunch at a local restaurant.",
+          "Relax at Széchenyi Thermal Bath in the afternoon.",
+          "Dinner and overnight stay at the hotel."
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Budapest",
+        "activities": [
+          "Free day for optional activities or further exploration.",
+          "Lunch at a local eatery.",
+          "Dinner and overnight stay at the hotel."
+        ]
+      },
+      {
+        "day": 5,
+        "location": "Departure",
+        "activities": [
+          "Check-out from the hotel and transfer to the airport for departure."
+        ]
+      }
+    ],
+    "customer_reviews": [
+      {
+        "name": "Sophia L.",
+        "rating": 5.0,
+        "description": "Budapest is stunning! The thermal baths were a highlight."
+      },
+      {
+        "name": "Ethan T.",
+        "rating": 4.8,
+        "description": "A wonderful trip! Buda Castle was breathtaking."
+      }
+    ]
+  }
+  

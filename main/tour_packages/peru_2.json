@@ -1,0 +1,84 @@
+{
+    "package_name": "Machu Picchu Adventure",
+    "country": "Peru",
+    "duration_days": 4,
+    "customer_rating": 4.9,
+    "places_to_visit": [
+      {
+        "name": "Machu Picchu",
+        "description": "Machu Picchu is an ancient Incan city set high in the Andes Mountains. It was built in the 15th century by the Inca emperor Pachacuti and later abandoned during the Spanish Conquest. The site is renowned for its sophisticated dry-stone construction, terraced fields, and panoramic views."
+      },
+      {
+        "name": "Cusco",
+        "description": "Cusco, the historic capital of the Inca Empire, is known for its well-preserved colonial architecture and Incan ruins. Key sites include the Plaza de Armas, Sacsayhuamán fortress, and Qorikancha temple."
+      },
+      {
+        "name": "Sacred Valley",
+        "description": "The Sacred Valley is a region in the Andes known for its picturesque landscapes and significant archaeological sites. It includes ancient ruins such as Ollantaytambo and Pisac, and is the gateway to Machu Picchu."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Cusco",
+        "hotels": ["Palacio del Inka", "Hotel Monasterio", "JW Marriott El Convento Cusco"],
+        "restaurants": ["Chicha por Gastón Acurio", "Cicciolina", "MAP Café"]
+      }
+    ],
+    "activities": [
+      "Explore Machu Picchu and its key features, including the Intihuatana stone and the Temple of the Sun",
+      "Tour the historic city of Cusco, visiting Incan and colonial landmarks",
+      "Visit the Sacred Valley and its archaeological sites, including Ollantaytambo and Pisac"
+    ],
+    "tips_and_tricks": [
+      "Acclimate to the altitude in Cusco before visiting Machu Picchu.",
+      "Wear comfortable walking shoes and bring sunscreen for your visit to Machu Picchu.",
+      "Book train tickets and entrance fees to Machu Picchu in advance."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+51 84-555-123",
+      "local_police": "105",
+      "embassy": "+51 84-555-567"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Cusco",
+        "activities": [
+          "Arrival at Alejandro Velasco Astete International Airport and transfer to the hotel",
+          "Briefing on the tour and rest",
+          "Dinner at a local restaurant and overnight stay"
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Cusco",
+        "activities": [
+          "Explore Cusco's historical sites including the Plaza de Armas and Sacsayhuamán",
+          "Lunch at a local restaurant",
+          "Visit Qorikancha temple in the afternoon",
+          "Dinner and overnight stay at the hotel"
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Sacred Valley and Machu Picchu",
+        "activities": [
+          "Travel to the Sacred Valley, visit Ollantaytambo and Pisac",
+          "Lunch in the Sacred Valley",
+          "Take the train to Aguas Calientes and transfer to Machu Picchu",
+          "Evening at leisure in Aguas Calientes and overnight stay"
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Machu Picchu",
+        "activities": [
+          "Full-day exploration of Machu Picchu",
+          "Lunch at a local café",
+          "Return to Cusco in the evening",
+          "Dinner and overnight stay in Cusco"
+        ]
+      }
+    ]
+  }
+  

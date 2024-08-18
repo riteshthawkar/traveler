@@ -1,0 +1,133 @@
+{
+    "country_name": "Indonesia",
+    "visa_guide": {
+      "country_overview": {
+        "content": "Indonesia, an archipelago in Southeast Asia, is known for its diverse culture, stunning beaches, and vibrant cities. The country offers various visa options to cater to tourists, business professionals, students, and more. Indonesia's visa policy is flexible, allowing travelers from many countries to enter with visa-on-arrival or e-visa options, making it a popular destination for international visitors."
+      },
+      "types_of_visas": {
+        "tourist_visa": {
+          "title": "Tourist Visa",
+          "description": "Issued for tourism, sightseeing, and casual visits to friends or relatives in Indonesia."
+        },
+        "business_visa": {
+          "title": "Business Visa",
+          "description": "For individuals visiting Indonesia for business meetings, trade negotiations, or other business-related activities."
+        },
+        "social_cultural_visa": {
+          "title": "Social-Cultural Visa",
+          "description": "For visits related to social, cultural, and family matters, including visiting relatives or participating in cultural exchanges."
+        },
+        "student_visa": {
+          "title": "Student Visa",
+          "description": "Issued to students enrolled in recognized educational institutions in Indonesia."
+        },
+        "work_visa": {
+          "title": "Work Visa",
+          "description": "For foreign nationals employed by an Indonesian company or organization."
+        }
+      },
+      "visa_requirements": {
+        "tourist_visa": {
+          "eligibility_criteria": "Applicants must be visiting Indonesia for tourism purposes and have sufficient funds for their stay.",
+          "mandatory_documents": [
+            "Completed visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photographs",
+            "Proof of travel arrangements (e.g., flight itinerary)",
+            "Proof of accommodation in Indonesia"
+          ],
+          "additional_documents": [
+            "Bank statements showing sufficient funds",
+            "Tour itinerary (if available)"
+          ]
+        },
+        "business_visa": {
+          "eligibility_criteria": "Applicants must have an invitation from an Indonesian company or organization for business purposes.",
+          "mandatory_documents": [
+            "Completed visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photographs",
+            "Letter of invitation from the Indonesian company",
+            "Company registration documents of the inviting company in Indonesia"
+          ],
+          "additional_documents": [
+            "Proof of ongoing business activities",
+            "Proof of accommodation in Indonesia"
+          ]
+        },
+        "student_visa": {
+          "eligibility_criteria": "Applicants must have an acceptance letter from a recognized educational institution in Indonesia.",
+          "mandatory_documents": [
+            "Completed visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photographs",
+            "Acceptance letter from the educational institution",
+            "Proof of financial means to support education and stay in Indonesia"
+          ],
+          "additional_documents": [
+            "Previous academic records and certificates",
+            "Proof of accommodation in Indonesia"
+          ]
+        }
+      },
+      "step_by_step_visa_application_process": {
+        "step_1": {
+          "title": "Determine Visa Type",
+          "description": "Identify the appropriate visa type based on the purpose of your visit to Indonesia."
+        },
+        "step_2": {
+          "title": "Check Eligibility",
+          "description": "Ensure that you meet the eligibility criteria for the selected visa type."
+        },
+        "step_3": {
+          "title": "Gather Required Documents",
+          "description": "Collect all mandatory and additional documents as specified for the visa type."
+        },
+        "step_4": {
+          "title": "Fill Out the Application Form",
+          "description": "Complete the visa application form available on the Indonesian government's official visa website."
+        },
+        "step_5": {
+          "title": "Submit the Application",
+          "description": "Submit the completed application form and documents either online or at the nearest Indonesian embassy or consulate."
+        },
+        "step_6": {
+          "title": "Wait for Processing",
+          "description": "Wait for the visa application to be processed. Processing times vary depending on the visa type and your country of residence."
+        },
+        "step_7": {
+          "title": "Receive the Visa",
+          "description": "Once approved, receive your visa either electronically or stamped in your passport."
+        }
+      },
+      "additional_information": {
+        "visa_fees": {
+          "content": "Visa fees vary depending on the type of visa, duration of stay, and nationality of the applicant. The fees are non-refundable and must be paid at the time of application."
+        },
+        "processing_time": {
+          "content": "Processing times can range from a few days to a few weeks, depending on the visa type and the applicant's country of residence."
+        },
+        "visa_validity": {
+          "content": "Visa validity varies by visa type. Tourist visas are typically valid for 30 days, while business and work visas may be valid for up to a year or more."
+        },
+        "entry_requirements": {
+          "content": "Visa holders must enter Indonesia within the validity period of the visa. Overstaying a visa can result in fines or other penalties."
+        }
+      },
+      "faqs": {
+        "faq_1": {
+          "question": "Can I extend my visa while in Indonesia?",
+          "answer": "Certain types of visas can be extended, but this must be done before the current visa expires. Extensions are granted at the discretion of Indonesian authorities."
+        },
+        "faq_2": {
+          "question": "Is visa-on-arrival available for Indonesia?",
+          "answer": "Yes, visa-on-arrival is available for citizens of many countries, allowing them to obtain a visa upon arrival at select Indonesian airports."
+        },
+        "faq_3": {
+          "question": "Can I work in Indonesia on a tourist visa?",
+          "answer": "No, working on a tourist visa is strictly prohibited. You must apply for a work visa if you intend to work in Indonesia."
+        }
+      }
+    }
+  }
+  

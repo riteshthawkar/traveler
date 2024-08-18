@@ -1,0 +1,103 @@
+{
+    "package_name": "London Essentials",
+    "country": "United Kingdom",
+    "duration_days": 5,
+    "customer_rating": 4.8,
+    "places_to_visit": [
+      {
+        "name": "The British Museum",
+        "description": "The British Museum houses a vast collection of world art and artifacts, including the Rosetta Stone and the Elgin Marbles. It offers a deep dive into human history and culture."
+      },
+      {
+        "name": "The Tower of London",
+        "description": "The Tower of London is a historic castle on the Thames River. It has served as a royal palace, prison, and treasury. Highlights include the Crown Jewels and the Yeoman Warders."
+      },
+      {
+        "name": "Buckingham Palace",
+        "description": "Buckingham Palace is the official residence of the British monarch. Visitors can watch the Changing of the Guard ceremony and explore the State Rooms during summer openings."
+      },
+      {
+        "name": "The Houses of Parliament and Big Ben",
+        "description": "The Houses of Parliament, also known as the Palace of Westminster, are the seat of the UK government. Big Ben, the clock tower, is an iconic symbol of London."
+      },
+      {
+        "name": "The London Eye",
+        "description": "The London Eye is a giant Ferris wheel on the South Bank of the Thames. It offers panoramic views of the city and is a popular attraction for visitors."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "London",
+        "hotels": ["The Ritz London", "The Savoy", "The Langham"],
+        "restaurants": ["Sketch", "The Ledbury", "Duck & Waffle"]
+      }
+    ],
+    "activities": [
+      "Visit The British Museum and explore its exhibits",
+      "Tour The Tower of London and see the Crown Jewels",
+      "Watch the Changing of the Guard at Buckingham Palace",
+      "Explore The Houses of Parliament and view Big Ben",
+      "Ride the London Eye for spectacular city views"
+    ],
+    "tips_and_tricks": [
+      "Book tickets for popular attractions in advance to avoid long lines.",
+      "Use an Oyster card or contactless payment for convenient travel on public transport.",
+      "Wear comfortable shoes as London involves a lot of walking."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+44 20-555-1234",
+      "local_police": "999",
+      "embassy": "+44 20-555-5678"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "London",
+        "activities": [
+          "Arrival at Heathrow Airport and transfer to the hotel",
+          "Briefing on the tour and rest",
+          "Dinner at a local restaurant and overnight stay"
+        ]
+      },
+      {
+        "day": 2,
+        "location": "London",
+        "activities": [
+          "Visit The British Museum in the morning",
+          "Lunch at a nearby café",
+          "Explore The Tower of London in the afternoon",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 3,
+        "location": "London",
+        "activities": [
+          "Watch the Changing of the Guard at Buckingham Palace in the morning",
+          "Lunch in the area",
+          "Tour The Houses of Parliament and view Big Ben in the afternoon",
+          "Dinner and evening ride on The London Eye"
+        ]
+      },
+      {
+        "day": 4,
+        "location": "London",
+        "activities": [
+          "Free time for additional sightseeing or shopping",
+          "Lunch in London",
+          "Visit any missed attractions or explore new areas",
+          "Dinner at a local restaurant and overnight stay"
+        ]
+      },
+      {
+        "day": 5,
+        "location": "London",
+        "activities": [
+          "Final free time for sightseeing or shopping",
+          "Lunch in London",
+          "Transfer to the airport for departure"
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+    <style>
+        .indent{
+            text-indent: 50px;
+        }
+        main p{
+            line-height: 200%;
+            margin-bottom: 40px;
+            text-align: justify;
+        }
+        
+        p:has(strong){
+            margin-left: 30px;
+        }
+
+        main h2:not(:first-of-type), main h3{
+            margin-top: 4rem;
+            margin-bottom: 1.4rem;
+            font-size: 1.4rem;
+        }
+
+        h2:first-of-type{
+            font-size: 1.4rem;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+
+
+        main h4{
+            margin-top: 5rem;
+            margin-bottom: 2rem;
+        }
+
+        main h5{
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        ul, ol{
+            margin-left: 20px;
+        }
+
+        li{
+            margin-bottom: 20px;
+        }
+
+        strong{
+            display: block;
+            margin-bottom: 10px;
+            color: black;
+            margin-right: 10px;
+        }
+    </style>
+
+
+    <main class="container-fluid bg-white" >
+        
+        <div class="container px-4 py-2" style="max-width: 900px;">
+            
+            <div class="w-100 text-center py-3 mt-5">
+                <span class="px-2 py-1 border text-dark border-dark rounded-pill mb-3"><i class="fa fa-map-marker-alt text-warning mr-2"></i>{{ blog.city}}, {{ blog.country }}</span>
+                <h1 class="my-3 mx-auto" style="line-height: 150%; max-width: 680px; text-wrap: pretty;">{{ blog.heading }}</span></h1>
+            </div>
+
+            <div class="w-100 overflow-hidden" style="border-radius: 20px;">
+                <img class="w-100" src="{{ blog.img.url }}" alt="{{ blog.city }} picture">
+            </div>
+
+            <div id="content px-4" class="m-0">
+                {{ blog.content | safe }}
+            </div>
+    
+        </div>
+    </main>
+
+    {% endblock content %}

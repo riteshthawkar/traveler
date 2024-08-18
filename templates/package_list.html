@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+
+    <!-- Packages Start -->
+    <div class="container-fluid bg-white py-5">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-dark text-uppercase" style="letter-spacing: 5px;">Packages</h6>
+                <h1>Search your tour package</h1>
+            </div>
+            <!-- Booking Start -->
+            <div class="w-100 mt-3">
+                <div class="w-100 pb-5">
+                    <div class="bg-light">
+                        <form method="get" action="{% url 'package-search-view' %}" class="d-flex align-items-center justify-content-between">
+                            <div class="flex-grow-1 d-flex align-items-center border rounded-pill px-4">
+                                <i class="fa fa-search fa-x text-warning"></i>
+                                <input type="text" id="search-input" class="w-100 py-3 px-4 border-0 rounded-pill" style="outline: none; border: 2px solid rgb(232, 232, 232);" placeholder="Search for Destinations, Hotels, Restaurants.." name="keyword">
+                            </div>
+                            <div>
+                                <!-- <button id="search-btn" type="btn" class="btn btn-warning py-3 px-5 ml-2 rounded-pill" style="font-weight: 600;">Search</button> -->
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Booking End -->
+
+            {% if search_query %}
+            <div class="w-100 d-flex align-items-center justify-content-between mb-4">
+                <span class=" text-dark" style="font-size: 2rem;">Results for <span class="px-3" style="font-weight: 800;">"{{ search_query }}"</span></span>
+                <a href='{% url "package-search-view" %}' class="btn btn-outline-warning px-3 py-2 rounded-pill" style="font-weight: 600;">
+                    Clear
+                </a>
+            </div>
+            {% endif %}
+            
+            <div class="row mt-3">
+                {% for tour in tour_packages %}
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item h-100 bg-white mb-2 border rounded-xl overflow-hidden p-4">
+                        <a href="/package/{{ tour.pk }}" class="d-flex flex-column align-items-start text-decoration-none" style="min-height: 200px;">
+                        
+                            <small class=" text-dark border border-dark py-1 px-2 rounded-pill mb-3" style="font-weight: 600;"><i class="fa fa-map-marker-alt text-warning mr-2"></i>{{tour.country}}</small>
+                            <h1 class="h5 d-block text-decoration-none mb-3" href="">{{ tour.package_name }}</h1>
+                            <div class="flex-grow-1 d-flex mb-3" style="gap: 20px;">
+                                <small class="m-0 text-dark"><i class="fa fa-calendar-alt text-warning mr-2"></i>{{ tour.duration }} days</small>
+                                <small class="m-0 text-dark"><i class="fa fa-map-marker-alt text-warning mr-2"></i>{{ tour.places_to_visit|length }} Places</small>
+                            </div>
+                            <div class="w-100 border-top pt-3">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-warning mr-2"></i>{{ tour.rating }}<small></small></h6>
+                                    <h5 class="m-0">${{ tour.cost }}</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <!-- Packages End -->
+
+{% endblock content %}

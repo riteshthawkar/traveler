@@ -1,0 +1,123 @@
+{
+    "package_name": "Maldives Paradise",
+    "country": "Maldives",
+    "duration_days": 7,
+    "customer_rating": 4.9,
+    "places_to_visit": [
+      {
+        "name": "Male Atoll",
+        "description": "Male Atoll is the capital atoll of the Maldives and features vibrant markets, historical mosques, and stunning marine life. The area provides insight into local culture and offers beautiful beaches."
+      },
+      {
+        "name": "Baa Atoll",
+        "description": "Baa Atoll is renowned for its stunning coral reefs and rich marine biodiversity. It’s a UNESCO Biosphere Reserve and is perfect for snorkeling and diving."
+      },
+      {
+        "name": "Sun Siyam Iru Fushi",
+        "description": "Sun Siyam Iru Fushi is a luxury resort located in the Noonu Atoll. It offers overwater villas, pristine beaches, and various water sports activities."
+      },
+      {
+        "name": "Dhigurah Island",
+        "description": "Dhigurah Island is known for its long sandy beach and whale shark sightings. It’s a quieter spot for those wanting to experience local life and explore marine life."
+      },
+      {
+        "name": "Fihalhohi Island",
+        "description": "Fihalhohi Island offers beautiful white-sand beaches and clear waters. It’s a great place for relaxation and underwater activities, including snorkeling and diving."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Maldives",
+        "hotels": ["Sun Siyam Iru Fushi", "Conrad Maldives Rangali Island", "Anantara Veli Maldives Resort"],
+        "restaurants": ["Ithaa Undersea Restaurant", "Siam Garden", "Reef Club"]
+      }
+    ],
+    "activities": [
+      "Explore Male Atoll and its local markets",
+      "Snorkel or dive in Baa Atoll",
+      "Relax in luxury at Sun Siyam Iru Fushi",
+      "Spot whale sharks at Dhigurah Island",
+      "Enjoy beach activities at Fihalhohi Island"
+    ],
+    "tips_and_tricks": [
+      "Book resort activities and excursions in advance.",
+      "Pack light, breathable clothing and swimwear.",
+      "Bring sunscreen and insect repellent for protection."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+960 555-1234",
+      "local_police": "119",
+      "embassy": "+960 555-5678"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Maldives",
+        "activities": [
+          "Arrival at Malé Airport and transfer to the resort",
+          "Briefing on the tour and rest",
+          "Dinner at the resort and overnight stay"
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Maldives",
+        "activities": [
+          "Explore Male Atoll in the morning",
+          "Lunch at a local restaurant",
+          "Relax at the resort beach in the afternoon",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Maldives",
+        "activities": [
+          "Snorkel or dive in Baa Atoll in the morning",
+          "Lunch on the island",
+          "Continue exploring marine life in the afternoon",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Maldives",
+        "activities": [
+          "Enjoy luxury resort activities at Sun Siyam Iru Fushi",
+          "Lunch at the resort",
+          "Relax and enjoy water sports in the afternoon",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 5,
+        "location": "Maldives",
+        "activities": [
+          "Travel to Dhigurah Island in the morning",
+          "Lunch on the island",
+          "Spot whale sharks and enjoy local beach time",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 6,
+        "location": "Maldives",
+        "activities": [
+          "Visit Fihalhohi Island for beach relaxation",
+          "Lunch at a beachside restaurant",
+          "Continue enjoying the island’s activities in the afternoon",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 7,
+        "location": "Maldives",
+        "activities": [
+          "Final free time for shopping or relaxation",
+          "Lunch at the resort",
+          "Transfer to Malé Airport for departure"
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,138 @@
+{
+    "country_name": "India",
+    "visa_guide": {
+      "country_overview": {
+        "content": "India, a vast and diverse country located in South Asia, is known for its rich cultural heritage, historical landmarks, vibrant cities, and natural beauty. India attracts millions of visitors each year for tourism, education, business, and more. The Indian government offers various types of visas to cater to different needs of foreign nationals. India's visa policy is designed to ensure security while facilitating the entry of genuine visitors. The process is generally straightforward but requires careful preparation and adherence to the specific requirements of the visa type being applied for."
+      },
+      "types_of_visas": {
+        "tourist_visa": {
+          "title": "Tourist Visa",
+          "description": "Issued to foreign nationals who wish to visit India for tourism, sightseeing, and casual visits to friends or relatives."
+        },
+        "business_visa": {
+          "title": "Business Visa",
+          "description": "For individuals visiting India for business meetings, trade negotiations, or other business-related activities."
+        },
+        "student_visa": {
+          "title": "Student Visa",
+          "description": "Issued to students who have been accepted to a recognized educational institution in India."
+        },
+        "employment_visa": {
+          "title": "Employment Visa",
+          "description": "For foreign nationals employed by an Indian company or organization."
+        },
+        "medical_visa": {
+          "title": "Medical Visa",
+          "description": "Issued to individuals seeking medical treatment in India."
+        },
+        "conference_visa": {
+          "title": "Conference Visa",
+          "description": "Issued to attend conferences, seminars, or workshops in India."
+        }
+      },
+      "visa_requirements": {
+        "tourist_visa": {
+          "eligibility_criteria": "Applicants must demonstrate the purpose of their visit is purely for tourism and that they have sufficient funds to support themselves during their stay.",
+          "mandatory_documents": [
+            "Completed visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photographs",
+            "Proof of travel arrangements (e.g., flight itinerary)",
+            "Proof of accommodation in India"
+          ],
+          "additional_documents": [
+            "Invitation letter from a friend or relative in India (if applicable)",
+            "Bank statements showing sufficient funds",
+            "Tour itinerary (if available)"
+          ]
+        },
+        "business_visa": {
+          "eligibility_criteria": "Applicants must have an invitation from an Indian company or organization for business purposes.",
+          "mandatory_documents": [
+            "Completed visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photographs",
+            "Letter of invitation from the Indian company",
+            "Company registration documents of the inviting company in India"
+          ],
+          "additional_documents": [
+            "Proof of ongoing business activities (e.g., contracts, agreements)",
+            "Proof of accommodation in India"
+          ]
+        },
+        "student_visa": {
+          "eligibility_criteria": "Applicants must have an acceptance letter from a recognized educational institution in India.",
+          "mandatory_documents": [
+            "Completed visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photographs",
+            "Acceptance letter from the educational institution",
+            "Proof of financial means to support education and stay in India"
+          ],
+          "additional_documents": [
+            "Previous academic records and certificates",
+            "Proof of accommodation in India (hostel, rented apartment, etc.)"
+          ]
+        }
+      },
+      "step_by_step_visa_application_process": {
+        "step_1": {
+          "title": "Determine Visa Type",
+          "description": "Identify the appropriate visa type based on the purpose of your visit to India."
+        },
+        "step_2": {
+          "title": "Check Eligibility",
+          "description": "Ensure that you meet the eligibility criteria for the selected visa type."
+        },
+        "step_3": {
+          "title": "Gather Required Documents",
+          "description": "Collect all mandatory and additional documents as specified for the visa type."
+        },
+        "step_4": {
+          "title": "Fill Out the Application Form",
+          "description": "Complete the visa application form available on the Indian government's official visa website."
+        },
+        "step_5": {
+          "title": "Submit the Application",
+          "description": "Submit the completed application form and documents either online or at the nearest Indian embassy or consulate."
+        },
+        "step_6": {
+          "title": "Wait for Processing",
+          "description": "Wait for the visa application to be processed. Processing times vary depending on the visa type and your country of residence."
+        },
+        "step_7": {
+          "title": "Receive the Visa",
+          "description": "Once approved, receive your visa either electronically or stamped in your passport."
+        }
+      },
+      "additional_information": {
+        "visa_fees": {
+          "content": "Visa fees vary depending on the type of visa, duration of stay, and nationality of the applicant. The fees are non-refundable and must be paid at the time of application."
+        },
+        "processing_time": {
+          "content": "Processing times can range from a few days to a few weeks, depending on the visa type and the applicant's country of residence."
+        },
+        "visa_validity": {
+          "content": "Visa validity varies by visa type. Tourist visas are typically valid for six months, while business and employment visas may be valid for up to a year or more."
+        },
+        "entry_requirements": {
+          "content": "Visa holders must enter India within the validity period of the visa. Overstaying a visa can result in fines or other penalties."
+        }
+      },
+      "faqs": {
+        "faq_1": {
+          "question": "Can I extend my visa while in India?",
+          "answer": "Certain types of visas can be extended, but this must be done before the current visa expires. Extensions are granted at the discretion of Indian authorities."
+        },
+        "faq_2": {
+          "question": "Do I need to provide biometric data?",
+          "answer": "Yes, most visa applicants are required to provide biometric data (fingerprints and photographs) as part of the application process."
+        },
+        "faq_3": {
+          "question": "Can I work in India on a tourist visa?",
+          "answer": "No, working on a tourist visa is strictly prohibited. You must apply for an employment visa if you intend to work in India."
+        }
+      }
+    }
+  }
+  

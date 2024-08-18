@@ -1,0 +1,94 @@
+{
+    "package_name": "Edinburgh Exploration",
+    "country": "Scotland",
+    "duration_days": 4,
+    "customer_rating": 4.8,
+    "places_to_visit": [
+      {
+        "name": "Edinburgh Castle",
+        "description": "Edinburgh Castle is a historic fortress perched on Castle Rock. It offers spectacular views over the city and is home to the Crown Jewels and the Stone of Destiny, significant to Scotland's history."
+      },
+      {
+        "name": "Holyrood Palace",
+        "description": "Holyrood Palace is the official residence of the British monarch in Scotland. The palace features beautiful gardens, historical rooms, and an interesting abbey nearby."
+      },
+      {
+        "name": "Arthur's Seat",
+        "description": "Arthur's Seat is an ancient volcano and the main peak in Edinburgh’s Holyrood Park. It offers panoramic views of the city and is a popular spot for hiking and outdoor activities."
+      },
+      {
+        "name": "Royal Mile",
+        "description": "The Royal Mile is a historic street in Edinburgh's Old Town, stretching from Edinburgh Castle to Holyrood Palace. It is lined with historic sites, shops, restaurants, and traditional Scottish pubs."
+      },
+      {
+        "name": "National Museum of Scotland",
+        "description": "The National Museum of Scotland features a diverse range of exhibits, including Scottish history, natural history, and world cultures. It’s a great place to learn about Scotland’s heritage."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Edinburgh",
+        "hotels": ["The Balmoral Hotel", "Radisson Blu Hotel Edinburgh", "Waldorf Astoria Edinburgh"],
+        "restaurants": ["The Witchery by the Castle", "Number One at Balmoral", "The Kitchin"]
+      }
+    ],
+    "activities": [
+      "Explore Edinburgh Castle and its historic treasures",
+      "Tour Holyrood Palace and its beautiful gardens",
+      "Hike up Arthur's Seat for stunning city views",
+      "Walk along the Royal Mile and visit its attractions",
+      "Visit the National Museum of Scotland"
+    ],
+    "tips_and_tricks": [
+      "Dress in layers as Edinburgh weather can be unpredictable.",
+      "Book tickets for Edinburgh Castle in advance to avoid long queues.",
+      "Try traditional Scottish dishes like haggis at local restaurants."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+44 131 555 1234",
+      "local_police": "999",
+      "embassy": "+44 131 555 5678"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Edinburgh",
+        "activities": [
+          "Arrival at Edinburgh Airport and transfer to the hotel",
+          "Briefing on the tour and rest",
+          "Dinner at a local restaurant and overnight stay"
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Edinburgh",
+        "activities": [
+          "Visit Edinburgh Castle in the morning",
+          "Lunch at a nearby café",
+          "Tour Holyrood Palace in the afternoon",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Edinburgh",
+        "activities": [
+          "Hike Arthur's Seat in the morning",
+          "Lunch at a local pub",
+          "Explore the Royal Mile in the afternoon",
+          "Dinner at a traditional Scottish restaurant"
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Edinburgh",
+        "activities": [
+          "Visit the National Museum of Scotland in the morning",
+          "Lunch in Edinburgh",
+          "Free time for shopping or additional sightseeing",
+          "Transfer to the airport for departure"
+        ]
+      }
+    ]
+  }
+  

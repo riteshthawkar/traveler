@@ -1,0 +1,101 @@
+{
+    "package_name": "New York City Highlights",
+    "country": "USA",
+    "duration_days": 5,
+    "customer_rating": 4.8,
+    "places_to_visit": [
+      {
+        "name": "Times Square",
+        "description": "Times Square is a bustling commercial and entertainment hub known for its bright lights, Broadway theaters, and massive electronic billboards. It's a must-visit spot for a quintessential New York experience."
+      },
+      {
+        "name": "Central Park",
+        "description": "Central Park is an expansive green oasis in the heart of Manhattan, offering a range of activities from boating on the lake to strolling through beautifully landscaped gardens. It's a perfect place to relax and enjoy nature in the city."
+      },
+      {
+        "name": "Statue of Liberty",
+        "description": "The Statue of Liberty, an iconic symbol of freedom, stands on Liberty Island. Visitors can take a ferry to the island to tour the statue and enjoy panoramic views of New York Harbor."
+      },
+      {
+        "name": "Empire State Building",
+        "description": "The Empire State Building is a historic skyscraper with observation decks offering stunning views of New York City. The building is a symbol of the city's architectural prowess and has been featured in countless films."
+      },
+      {
+        "name": "Metropolitan Museum of Art",
+        "description": "The Metropolitan Museum of Art, commonly known as The Met, is one of the largest and most prestigious art museums in the world. It houses an extensive collection spanning thousands of years and various cultures."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "New York City",
+        "hotels": ["The Peninsula New York", "The Langham, New York", "The Greenwich Hotel"],
+        "restaurants": ["Le Bernardin", "Eleven Madison Park", "Joe's Pizza"]
+      }
+    ],
+    "activities": [
+      "Explore Times Square and its vibrant surroundings",
+      "Stroll through Central Park and enjoy its various attractions",
+      "Visit the Statue of Liberty and Ellis Island",
+      "Ascend the Empire State Building for breathtaking city views",
+      "Tour The Met and experience world-class art collections"
+    ],
+    "tips_and_tricks": [
+      "Purchase tickets for major attractions in advance to avoid long lines.",
+      "Use the subway for efficient travel around the city.",
+      "Wear comfortable shoes for exploring the city's numerous attractions."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+1 212-555-1234",
+      "local_police": "911",
+      "embassy": "+1 212-555-5678"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "New York City",
+        "activities": [
+          "Arrival at John F. Kennedy International Airport and transfer to the hotel",
+          "Briefing on the tour and rest",
+          "Dinner at a local restaurant and overnight stay"
+        ]
+      },
+      {
+        "day": 2,
+        "location": "New York City",
+        "activities": [
+          "Explore Times Square and its attractions in the morning",
+          "Lunch at a local restaurant",
+          "Afternoon visit to Central Park",
+          "Dinner and overnight stay at the hotel"
+        ]
+      },
+      {
+        "day": 3,
+        "location": "New York City",
+        "activities": [
+          "Visit the Statue of Liberty and Ellis Island",
+          "Lunch on the island or at a local café",
+          "Evening visit to the Empire State Building for city views",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 4,
+        "location": "New York City",
+        "activities": [
+          "Tour The Met in the morning",
+          "Lunch at a nearby restaurant",
+          "Afternoon free for shopping or optional activities",
+          "Dinner at a top-rated restaurant and overnight stay"
+        ]
+      },
+      {
+        "day": 5,
+        "location": "Departure",
+        "activities": [
+          "Check-out from the hotel and transfer to the airport for departure"
+        ]
+      }
+    ]
+  }
+  

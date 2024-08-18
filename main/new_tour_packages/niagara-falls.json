@@ -1,0 +1,114 @@
+{
+    "package_name": "Niagara Falls Adventure",
+    "country": "Canada",
+    "duration_days": 3,
+    "customer_rating": 4.7,
+    "tour_cost_usd": 800,
+    "region_description": "Niagara Falls, one of the most famous natural wonders in the world, straddles the border between Canada and the United States. The powerful waterfalls are a breathtaking sight, with millions of gallons of water cascading over the cliffs each minute. The surrounding area offers a variety of attractions, including boat tours, parks, and entertainment options. Visitors can experience the falls up close on the Maid of the Mist boat tour, explore the scenic trails, and enjoy the vibrant nightlife in nearby Niagara Falls, Ontario. The region is also home to wineries, providing a perfect opportunity for wine enthusiasts to indulge in local flavors.",
+    "places_to_visit": [
+      {
+        "name": "Horseshoe Falls",
+        "description": "The largest of the three waterfalls that make up Niagara Falls, known for its impressive size and beautiful rainbows on sunny days."
+      },
+      {
+        "name": "Maid of the Mist",
+        "description": "A boat tour that takes visitors close to the base of the falls, providing a thrilling experience and stunning views."
+      },
+      {
+        "name": "Niagara Parks Butterfly Conservatory",
+        "description": "A tropical paradise home to thousands of butterflies, offering a unique and serene experience for nature lovers."
+      },
+      {
+        "name": "Clifton Hill",
+        "description": "A bustling street filled with attractions, restaurants, and entertainment options, perfect for families and tourists."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Niagara Falls",
+        "hotels": [
+          {
+            "name": "Marriott Niagara Falls Fallsview Hotel & Spa",
+            "description": "A luxury hotel offering stunning views of the falls, comfortable accommodations, and a full-service spa.",
+            "cost_per_night_usd": 300
+          },
+          {
+            "name": "Quality Hotel Fallsview Cascade",
+            "description": "A family-friendly hotel located within walking distance of the falls, featuring comfortable rooms and an indoor pool.",
+            "cost_per_night_usd": 150
+          }
+        ],
+        "restaurants": [
+          {
+            "name": "Skylon Tower Revolving Dining Room",
+            "description": "A fine dining restaurant offering panoramic views of Niagara Falls while enjoying a gourmet meal.",
+            "average_cost_per_person_usd": 75
+          },
+          {
+            "name": "The Keg Steakhouse + Bar",
+            "description": "A popular chain restaurant known for its quality steaks and relaxed atmosphere, ideal for families and couples.",
+            "average_cost_per_person_usd": 40
+          }
+        ]
+      }
+    ],
+    "activities": [
+      "Take a boat tour on the Maid of the Mist.",
+      "Explore the Butterfly Conservatory.",
+      "Visit the viewing platforms for stunning views of the falls.",
+      "Enjoy the attractions on Clifton Hill."
+    ],
+    "tips_and_tricks": [
+      "Wear a poncho on the boat tour to stay dry.",
+      "Visit during the early morning or late afternoon to avoid crowds.",
+      "Explore the nearby wineries for a taste of local wines."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+1 905 123 4567",
+      "local_police": "911",
+      "embassy": "+1 613 555 6789"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Niagara Falls",
+        "activities": [
+          "Arrival in Niagara Falls and transfer to the hotel.",
+          "Briefing on the tour and relax.",
+          "Dinner at The Keg Steakhouse."
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Niagara Falls",
+        "activities": [
+          "Morning boat tour on the Maid of the Mist.",
+          "Lunch at a local restaurant.",
+          "Afternoon visit to the Butterfly Conservatory.",
+          "Explore Clifton Hill and have dinner."
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Niagara Falls",
+        "activities": [
+          "Morning visit to Horseshoe Falls and the viewing platforms.",
+          "Lunch at a café with a view.",
+          "Check-out from the hotel and transfer to the airport for departure."
+        ]
+      }
+    ],
+    "customer_reviews": [
+      {
+        "name": "Oliver J.",
+        "rating": 5.0,
+        "description": "Niagara Falls is stunning! The boat tour was the highlight of my trip."
+      },
+      {
+        "name": "Ava R.",
+        "rating": 4.8,
+        "description": "The views were breathtaking! I loved the Butterfly Conservatory."
+      }
+    ]
+  }
+  

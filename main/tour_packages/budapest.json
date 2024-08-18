@@ -1,0 +1,93 @@
+{
+    "package_name": "Budapest Adventure",
+    "country": "Hungary",
+    "duration_days": 4,
+    "customer_rating": 4.6,
+    "places_to_visit": [
+      {
+        "name": "Buda Castle",
+        "description": "Buda Castle is a historic castle and palace complex that dominates the skyline of Budapest. It houses the Hungarian National Gallery and the Budapest History Museum and offers stunning views of the city."
+      },
+      {
+        "name": "Fisherman’s Bastion",
+        "description": "Fisherman’s Bastion is a neo-Gothic terrace in the Buda Castle district, offering panoramic views of the Danube River and the city. Its fairytale-like towers are a popular photo spot."
+      },
+      {
+        "name": "Parliament Building",
+        "description": "The Hungarian Parliament Building is an architectural masterpiece on the Danube's banks. It's known for its ornate facade, grand interior, and historical significance as the seat of Hungary's government."
+      },
+      {
+        "name": "Thermal Baths",
+        "description": "Budapest is famous for its thermal baths, including Széchenyi Thermal Bath and Gellért Baths. These historic baths offer a relaxing experience with various pools and wellness facilities."
+      },
+      {
+        "name": "St. Stephen’s Basilica",
+        "description": "St. Stephen’s Basilica is a magnificent church named after Hungary's first king. It features stunning architecture, an impressive dome, and offers panoramic views from its observation deck."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Budapest",
+        "hotels": ["Aria Hotel Budapest", "Four Seasons Hotel Gresham Palace", "Kempinski Hotel Corvinus"],
+        "restaurants": ["Onyx Restaurant", "Café Gerbeaud", "Kiosk Budapest"]
+      }
+    ],
+    "activities": [
+      "Tour Buda Castle and explore its museums",
+      "Visit Fisherman’s Bastion for panoramic views",
+      "Admire the architecture of the Parliament Building",
+      "Relax at one of Budapest's famous thermal baths",
+      "Explore St. Stephen’s Basilica and its observation deck"
+    ],
+    "tips_and_tricks": [
+      "Purchase a Budapest Card for free public transport and discounts.",
+      "Try traditional Hungarian dishes such as goulash at local restaurants.",
+      "Be prepared for a range of temperatures, especially if visiting thermal baths."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+36 1-555-1234",
+      "local_police": "112",
+      "embassy": "+36 1-555-5678"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Budapest",
+        "activities": [
+          "Arrival at Budapest Ferenc Liszt International Airport and transfer to the hotel",
+          "Briefing on the tour and rest",
+          "Dinner at a local restaurant and overnight stay"
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Budapest",
+        "activities": [
+          "Visit Buda Castle in the morning",
+          "Lunch at a nearby café",
+          "Explore Fisherman’s Bastion in the afternoon",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Budapest",
+        "activities": [
+          "Tour the Parliament Building in the morning",
+          "Lunch at a local restaurant",
+          "Relax at a thermal bath in the afternoon",
+          "Dinner and evening at St. Stephen’s Basilica"
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Budapest",
+        "activities": [
+          "Free time for additional sightseeing or shopping",
+          "Lunch in Budapest",
+          "Transfer to the airport for departure"
+        ]
+      }
+    ]
+  }
+  

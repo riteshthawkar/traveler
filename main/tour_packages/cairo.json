@@ -1,0 +1,103 @@
+{
+    "package_name": "Cairo Wonders Tour",
+    "country": "Egypt",
+    "duration_days": 5,
+    "customer_rating": 4.7,
+    "places_to_visit": [
+      {
+        "name": "Pyramids of Giza",
+        "description": "The Pyramids of Giza are one of the Seven Wonders of the Ancient World. Visitors can explore the Great Pyramid, the Sphinx, and the surrounding pyramids, including those of Khafre and Menkaure. The site offers a glimpse into ancient Egyptian engineering and tombs."
+      },
+      {
+        "name": "Egyptian Museum",
+        "description": "The Egyptian Museum in Cairo houses an extensive collection of ancient Egyptian artifacts, including the treasures of Tutankhamun, mummies, and various statues and inscriptions from pharaonic times."
+      },
+      {
+        "name": "Coptic Cairo",
+        "description": "Coptic Cairo is a historic area with significant Christian sites, including the Hanging Church, the Coptic Museum, and the Church of St. Sergius and Bacchus. It offers a glimpse into the early Christian history of Egypt."
+      },
+      {
+        "name": "Khan El Khalili Bazaar",
+        "description": "Khan El Khalili is a bustling market in Cairo, offering a wide range of souvenirs, spices, and traditional crafts. It's a great place to experience local culture and shop for unique items."
+      },
+      {
+        "name": "Al-Azhar Mosque",
+        "description": "Al-Azhar Mosque is one of Cairo's oldest and most important mosques. It is a center of Islamic learning and features beautiful Islamic architecture and serene courtyards."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Cairo",
+        "hotels": ["Marriott Mena House", "Four Seasons Hotel Cairo", "Hilton Cairo Zamalek Residences"],
+        "restaurants": ["Nile Ritz-Carlton Restaurant", "Abou El Sid", "Sevilla Restaurant"]
+      }
+    ],
+    "activities": [
+      "Explore the Pyramids of Giza and the Sphinx",
+      "Visit the Egyptian Museum to see ancient artifacts",
+      "Tour Coptic Cairo and its historical churches",
+      "Shop and experience local culture at Khan El Khalili Bazaar",
+      "Admire the architecture of Al-Azhar Mosque"
+    ],
+    "tips_and_tricks": [
+      "Wear comfortable shoes for exploring the pyramids and museums.",
+      "Bargain at the Khan El Khalili Bazaar to get the best prices.",
+      "Stay hydrated and protect yourself from the sun, especially when visiting outdoor sites."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+20 2-555-1234",
+      "local_police": "122",
+      "embassy": "+20 2-555-5678"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Cairo",
+        "activities": [
+          "Arrival at Cairo International Airport and transfer to the hotel",
+          "Briefing on the tour and rest",
+          "Dinner at a local restaurant and overnight stay"
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Cairo",
+        "activities": [
+          "Visit the Pyramids of Giza in the morning",
+          "Lunch at a local restaurant with views of the pyramids",
+          "Explore the Sphinx and surrounding areas in the afternoon",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Cairo",
+        "activities": [
+          "Morning visit to the Egyptian Museum",
+          "Lunch at a nearby restaurant",
+          "Explore Coptic Cairo in the afternoon, including the Hanging Church and Coptic Museum",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Cairo",
+        "activities": [
+          "Visit Khan El Khalili Bazaar in the morning",
+          "Lunch at a local café",
+          "Tour Al-Azhar Mosque and nearby historical sites in the afternoon",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 5,
+        "location": "Departure",
+        "activities": [
+          "Free time for last-minute shopping or additional sightseeing",
+          "Lunch in Cairo",
+          "Transfer to the airport for departure"
+        ]
+      }
+    ]
+  }
+  

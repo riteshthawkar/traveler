@@ -1,0 +1,94 @@
+{
+    "package_name": "Jerusalem Heritage Tour",
+    "country": "Israel",
+    "duration_days": 4,
+    "customer_rating": 4.7,
+    "places_to_visit": [
+      {
+        "name": "Old City",
+        "description": "The Old City of Jerusalem is a UNESCO World Heritage Site and home to key religious landmarks including the Western Wall, the Church of the Holy Sepulchre, and the Dome of the Rock. It is divided into quarters for Jewish, Christian, Muslim, and Armenian communities."
+      },
+      {
+        "name": "Yad Vashem",
+        "description": "Yad Vashem is Israel's official memorial to the victims of the Holocaust. The complex includes a museum, memorials, and a research center dedicated to preserving the memory of the Holocaust."
+      },
+      {
+        "name": "Mount of Olives",
+        "description": "The Mount of Olives offers panoramic views of Jerusalem and is a significant site in Christianity, Judaism, and Islam. Key sites include the Church of All Nations, the Jewish Cemetery, and the Garden of Gethsemane."
+      },
+      {
+        "name": "Israel Museum",
+        "description": "The Israel Museum in Jerusalem is the country's premier cultural institution, housing a vast collection of archaeology, fine arts, and Jewish art. Highlights include the Dead Sea Scrolls and the Model of Jerusalem in the Second Temple Period."
+      },
+      {
+        "name": "Mahane Yehuda Market",
+        "description": "Mahane Yehuda is a bustling market in Jerusalem offering a wide range of fresh produce, spices, and local delicacies. It's a great place to experience local flavors and vibrant market life."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Jerusalem",
+        "hotels": ["King David Hotel", "The David Citadel Hotel", "Mamilla Hotel"],
+        "restaurants": ["Machneyuda", "The Eucalyptus", "Ritz-Carlton Jerusalem Restaurant"]
+      }
+    ],
+    "activities": [
+      "Explore the Old City, including the Western Wall and Church of the Holy Sepulchre",
+      "Visit Yad Vashem for a profound historical experience",
+      "Enjoy panoramic views from the Mount of Olives",
+      "Discover the collections at the Israel Museum",
+      "Experience the lively atmosphere and local food at Mahane Yehuda Market"
+    ],
+    "tips_and_tricks": [
+      "Dress modestly when visiting religious sites.",
+      "Allow plenty of time for exploring the Old City as it can be crowded.",
+      "Consider a guided tour to gain deeper insights into the historical and religious significance of the sites."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+972 2-555-1234",
+      "local_police": "100",
+      "embassy": "+972 2-555-5678"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Jerusalem",
+        "activities": [
+          "Arrival at Ben Gurion International Airport and transfer to the hotel",
+          "Briefing on the tour and rest",
+          "Dinner at a local restaurant and overnight stay"
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Jerusalem",
+        "activities": [
+          "Explore the Old City in the morning",
+          "Lunch at a local café",
+          "Visit key sites including the Western Wall and Church of the Holy Sepulchre in the afternoon",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Jerusalem",
+        "activities": [
+          "Visit Yad Vashem in the morning",
+          "Lunch at a local restaurant",
+          "Explore the Mount of Olives in the afternoon",
+          "Dinner at a restaurant with views of the city"
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Jerusalem",
+        "activities": [
+          "Morning visit to the Israel Museum",
+          "Lunch at Mahane Yehuda Market",
+          "Free time for shopping or additional sightseeing",
+          "Dinner and transfer to the airport for departure"
+        ]
+      }
+    ]
+  }
+  

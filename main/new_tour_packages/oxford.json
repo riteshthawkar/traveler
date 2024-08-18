@@ -1,0 +1,115 @@
+{
+    "package_name": "Oxford University and City Tour",
+    "country": "United Kingdom",
+    "duration_days": 3,
+    "customer_rating": 4.7,
+    "tour_cost_usd": 600,
+    "region_description": "Oxford, known as the City of Dreaming Spires, is home to the prestigious University of Oxford, one of the oldest and most renowned universities in the world. The city is rich in history, with its stunning architecture reflecting centuries of academic excellence. Visitors can explore the beautiful colleges, libraries, and museums, such as the Ashmolean Museum and the Bodleian Library. Oxford's vibrant cultural scene includes theatres, art galleries, and charming cafes, making it a delightful destination for travelers seeking knowledge and inspiration.",
+    "places_to_visit": [
+      {
+        "name": "University of Oxford",
+        "description": "The University of Oxford is made up of a number of colleges, each with its own unique history and architecture. Visitors can take guided tours to learn about the university's rich traditions and see notable buildings."
+      },
+      {
+        "name": "Bodleian Library",
+        "description": "The Bodleian Library is one of the oldest libraries in Europe, known for its stunning architecture and vast collection of books and manuscripts. Guided tours provide insight into its history and significance."
+      },
+      {
+        "name": "Ashmolean Museum",
+        "description": "The Ashmolean Museum is the University of Oxford's museum of art and archaeology, featuring collections from ancient Egypt, Greece, and Rome, as well as works by famous artists. Admission is free, making it a great cultural stop."
+      },
+      {
+        "name": "Christ Church",
+        "description": "Christ Church is one of the largest colleges of the University of Oxford, known for its magnificent architecture and gardens. The college has a rich history and was featured in the Harry Potter films."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Oxford",
+        "hotels": [
+          {
+            "name": "Old Bank Hotel",
+            "description": "Old Bank Hotel is a luxurious hotel located in the heart of Oxford, offering elegant accommodations and stunning views of the city. The hotel features a restaurant with locally sourced dishes.",
+            "cost_per_night_usd": 300
+          },
+          {
+            "name": "Malmaison Oxford",
+            "description": "Malmaison Oxford is a boutique hotel located in a former prison, combining unique character with modern comfort. It's a great base for exploring the city.",
+            "cost_per_night_usd": 200
+          }
+        ],
+        "restaurants": [
+          {
+            "name": "The Eagle and Child",
+            "description": "The Eagle and Child is a historic pub frequented by famous authors, offering traditional British dishes and a cozy atmosphere.",
+            "average_cost_per_person_usd": 30
+          },
+          {
+            "name": "Pierre Victoire",
+            "description": "Pierre Victoire is a charming French restaurant known for its delicious cuisine and intimate setting, making it perfect for a romantic dinner.",
+            "average_cost_per_person_usd": 50
+          }
+        ]
+      }
+    ],
+    "activities": [
+      "Explore the historic University of Oxford and its colleges.",
+      "Visit the Bodleian Library and learn about its history.",
+      "Discover the treasures at the Ashmolean Museum.",
+      "Tour Christ Church and enjoy its beautiful gardens."
+    ],
+    "tips_and_tricks": [
+      "Take a guided walking tour to fully appreciate the city's history.",
+      "Make reservations for popular restaurants in advance.",
+      "Check university events and lectures for additional cultural experiences."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+44 1865 123 456",
+      "local_police": "999",
+      "embassy": "+44 20 5678 9012"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Oxford",
+        "activities": [
+          "Arrival at Oxford Railway Station and transfer to the hotel.",
+          "Briefing on the tour and rest.",
+          "Dinner at The Eagle and Child, enjoying traditional pub fare."
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Oxford",
+        "activities": [
+          "Visit the University of Oxford and take a guided tour of the colleges.",
+          "Lunch at a local café.",
+          "Explore the Bodleian Library and its magnificent architecture.",
+          "Visit the Ashmolean Museum to view its impressive collections."
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Oxford",
+        "activities": [
+          "Tour Christ Church and stroll through its lovely gardens.",
+          "Lunch at Pierre Victoire, enjoying French cuisine.",
+          "Free time for shopping or further exploration of the city.",
+          "Check-out from the hotel and transfer to the railway station for departure."
+        ]
+      }
+    ],
+    "customer_reviews": [
+      {
+        "name": "Sophia K.",
+        "rating": 4.9,
+        "description": "Oxford is a city of dreams! The history and architecture are breathtaking."
+      },
+      {
+        "name": "Liam G.",
+        "rating": 4.8,
+        "description": "A fantastic tour! The university and museums are incredibly impressive."
+      }
+    ]
+  }
+  

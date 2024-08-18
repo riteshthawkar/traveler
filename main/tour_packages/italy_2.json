@@ -1,0 +1,74 @@
+{
+    "package_name": "Rome and the Colosseum",
+    "country": "Italy",
+    "duration_days": 3,
+    "customer_rating": 4.9,
+    "places_to_visit": [
+      {
+        "name": "The Colosseum",
+        "description": "The Colosseum is an ancient amphitheater located in the center of Rome. Built in the 1st century AD, it hosted gladiatorial contests and public spectacles. It remains one of Rome's most iconic landmarks and a testament to Roman engineering."
+      },
+      {
+        "name": "Roman Forum",
+        "description": "The Roman Forum was the center of daily life in ancient Rome, hosting public meetings, triumphal processions, and criminal trials. Today, it is an extensive archaeological site offering insight into Rome's political and social history."
+      },
+      {
+        "name": "Pantheon",
+        "description": "The Pantheon is a well-preserved ancient Roman temple, now a church, known for its impressive dome and oculus. Originally built by Marcus Agrippa and later rebuilt by Emperor Hadrian, it is a masterpiece of Roman architecture."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Rome",
+        "hotels": ["Hotel Hassler", "Hotel Artemide", "The St. Regis Rome"],
+        "restaurants": ["Da Enzo al 29", "Roscioli", "Il Margutta RistorArte"]
+      }
+    ],
+    "activities": [
+      "Tour the Colosseum, including access to the arena floor and underground chambers",
+      "Explore the Roman Forum and its ruins",
+      "Visit the Pantheon and appreciate its architectural significance"
+    ],
+    "tips_and_tricks": [
+      "Book tickets for the Colosseum in advance to avoid long queues.",
+      "Wear comfortable walking shoes for exploring historical sites.",
+      "Consider a guided tour for a more in-depth historical experience."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+39 06-5555-1234",
+      "local_police": "113",
+      "embassy": "+39 06-5555-5678"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Rome",
+        "activities": [
+          "Arrival at Leonardo da Vinci International Airport and transfer to the hotel",
+          "Briefing on the tour and rest",
+          "Dinner at a local restaurant and overnight stay"
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Rome",
+        "activities": [
+          "Tour the Colosseum in the morning",
+          "Lunch at a nearby restaurant",
+          "Explore the Roman Forum in the afternoon",
+          "Dinner and overnight stay at the hotel"
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Rome",
+        "activities": [
+          "Visit the Pantheon in the morning",
+          "Lunch at a local café",
+          "Free time for shopping or additional sightseeing",
+          "Dinner at a top-rated restaurant and overnight stay"
+        ]
+      }
+    ]
+  }
+  

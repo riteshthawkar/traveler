@@ -1,0 +1,153 @@
+{
+    "package_name": "Seychelles Island Paradise",
+    "country": "Seychelles",
+    "duration_days": 7,
+    "customer_rating": 4.9,
+    "tour_cost_usd": 1800,
+    "region_description": "Seychelles is an archipelago of 115 islands in the Indian Ocean, known for its stunning beaches, crystal-clear waters, and diverse marine life. The main islands, Mahe, Praslin, and La Digue, offer a blend of luxury, adventure, and relaxation. The unique granite boulders, lush tropical forests, and vibrant coral reefs make Seychelles a paradise for nature lovers and beach enthusiasts. Visitors can explore national parks, enjoy water sports, and indulge in delicious Creole cuisine, making it a top destination for a tropical getaway.",
+    "places_to_visit": [
+      {
+        "name": "Anse Source d'Argent",
+        "description": "Anse Source d'Argent is renowned for its picturesque beach, featuring unique granite boulders and soft white sand. It's one of the most photographed beaches in the world, perfect for relaxation and photography."
+      },
+      {
+        "name": "Vallée de Mai Nature Reserve",
+        "description": "Vallée de Mai is a UNESCO World Heritage Site located on Praslin Island. It is home to the famous Coco de Mer palm and a diverse range of flora and fauna, making it a paradise for nature enthusiasts."
+      },
+      {
+        "name": "Morne Seychellois National Park",
+        "description": "Morne Seychellois National Park is the largest national park in Seychelles, covering over 20% of Mahé Island. It features hiking trails, stunning views, and rich biodiversity, including unique bird species."
+      },
+      {
+        "name": "Curieuse Island",
+        "description": "Curieuse Island is famous for its giant tortoises and beautiful beaches. Visitors can take guided tours to learn about the island's ecology and enjoy snorkeling in its clear waters."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Seychelles",
+        "hotels": [
+          {
+            "name": "Four Seasons Resort Seychelles",
+            "description": "Four Seasons Resort Seychelles offers luxurious accommodations with stunning views of the Indian Ocean. The resort features a spa, gourmet dining, and access to beautiful beaches.",
+            "cost_per_night_usd": 800
+          },
+          {
+            "name": "Constance Lemuria Seychelles",
+            "description": "Constance Lemuria Seychelles is a luxury resort located on Praslin Island. It features elegant suites, three beaches, and a championship golf course, perfect for a relaxing getaway.",
+            "cost_per_night_usd": 600
+          }
+        ],
+        "restaurants": [
+          {
+            "name": "Marie Antoinette Restaurant",
+            "description": "Marie Antoinette is a historic restaurant known for its Creole cuisine and seafood dishes. Set in a charming colonial house, it offers a unique dining experience.",
+            "average_cost_per_person_usd": 50
+          },
+          {
+            "name": "Delplace Restaurant",
+            "description": "Delplace Restaurant offers a beautiful view of the sea and serves a mix of Creole and international cuisine. It's a great spot for a romantic dinner.",
+            "average_cost_per_person_usd": 60
+          }
+        ]
+      }
+    ],
+    "activities": [
+      "Relax on the pristine beaches of Anse Lazio and Anse Intendance.",
+      "Explore the underwater world through snorkeling and diving.",
+      "Visit the giant tortoises on Curieuse Island.",
+      "Hike the trails in Morne Seychellois National Park."
+    ],
+    "tips_and_tricks": [
+      "Book activities in advance during peak season.",
+      "Bring sunscreen and swimwear for beach days.",
+      "Try local dishes like grilled fish and coconut curry."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+248 123 4567",
+      "local_police": "999",
+      "embassy": "+248 4 232 060"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Seychelles",
+        "activities": [
+          "Arrival at Seychelles International Airport and transfer to the hotel.",
+          "Briefing on the tour and rest.",
+          "Dinner at the hotel or a nearby restaurant."
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Mahe Island",
+        "activities": [
+          "Explore the beaches of Mahe Island, including Anse Intendance.",
+          "Lunch at a beachside café.",
+          "Relax and enjoy water activities.",
+          "Dinner at a local restaurant."
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Praslin Island",
+        "activities": [
+          "Take a ferry to Praslin Island.",
+          "Visit Vallée de Mai Nature Reserve.",
+          "Lunch at a local restaurant.",
+          "Afternoon at Anse Source d'Argent beach.",
+          "Dinner at the hotel."
+        ]
+      },
+      {
+        "day": 4,
+        "location": "La Digue Island",
+        "activities": [
+          "Take a ferry to La Digue Island.",
+          "Explore Anse Source d'Argent and Grand Anse beaches.",
+          "Lunch at a beachfront restaurant.",
+          "Visit the local shops and explore the island.",
+          "Dinner at a local restaurant."
+        ]
+      },
+      {
+        "day": 5,
+        "location": "Curieuse Island",
+        "activities": [
+          "Day trip to Curieuse Island for a guided tour and snorkeling.",
+          "Lunch on the island.",
+          "Return to the hotel for dinner and overnight stay."
+        ]
+      },
+      {
+        "day": 6,
+        "location": "Morne Seychellois National Park",
+        "activities": [
+          "Hiking trip to Morne Seychellois National Park.",
+          "Lunch at a picnic spot in the park.",
+          "Afternoon relaxation at the hotel.",
+          "Dinner at a local restaurant."
+        ]
+      },
+      {
+        "day": 7,
+        "location": "Departure",
+        "activities": [
+          "Check-out from the hotel and transfer to the airport for departure."
+        ]
+      }
+    ],
+    "customer_reviews": [
+      {
+        "name": "Oliver K.",
+        "rating": 5.0,
+        "description": "Seychelles is a slice of paradise! The beaches are stunning, and the food is delicious."
+      },
+      {
+        "name": "Emma T.",
+        "rating": 4.8,
+        "description": "We had an amazing time exploring the islands and relaxing on the beaches!"
+      }
+    ]
+  }
+  

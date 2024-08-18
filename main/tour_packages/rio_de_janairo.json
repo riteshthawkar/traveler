@@ -1,0 +1,98 @@
+{
+    "package_name": "Rio de Janeiro Highlights",
+    "country": "Brazil",
+    "duration_days": 5,
+    "customer_rating": 4.7,
+    "places_to_visit": [
+      {
+        "name": "Christ the Redeemer",
+        "description": "Christ the Redeemer is an iconic statue of Jesus Christ located on Corcovado Mountain in Rio de Janeiro. Standing 30 meters tall, the statue overlooks the city and offers panoramic views of Rio’s stunning landscape. It is one of the New Seven Wonders of the World and a UNESCO World Heritage site."
+      },
+      {
+        "name": "Sugarloaf Mountain",
+        "description": "Sugarloaf Mountain is a famous peak in Rio de Janeiro known for its panoramic views of the city and the surrounding bay. Visitors can take a cable car ride to the top for breathtaking vistas of Rio’s coastline, beaches, and the Christ the Redeemer statue."
+      },
+      {
+        "name": "Copacabana Beach",
+        "description": "Copacabana Beach is one of Rio de Janeiro's most famous beaches, known for its golden sand, lively atmosphere, and beautiful views of the Atlantic Ocean. The beach is a popular spot for sunbathing, swimming, and enjoying the vibrant beachside culture."
+      },
+      {
+        "name": "Ipanema Beach",
+        "description": "Ipanema Beach is another iconic beach in Rio, famous for its upscale neighborhood and cultural significance. The beach is known for its clean sand, clear water, and vibrant beach scene, with numerous bars, restaurants, and shops lining the shore."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Rio de Janeiro",
+        "hotels": ["Belmond Copacabana Palace", "Hotel Fasano", "JW Marriott Hotel Rio de Janeiro"],
+        "restaurants": ["Oro", "Cipriani", "Marius Degustare"]
+      }
+    ],
+    "activities": [
+      "Visit Christ the Redeemer and enjoy panoramic views",
+      "Take a cable car ride to Sugarloaf Mountain",
+      "Relax and sunbathe at Copacabana and Ipanema beaches",
+      "Explore the vibrant neighborhoods of Lapa and Santa Teresa",
+      "Experience Rio’s nightlife and samba clubs"
+    ],
+    "tips_and_tricks": [
+      "Visit Christ the Redeemer early in the morning or late afternoon to avoid crowds.",
+      "Be cautious of your belongings on the beaches and in crowded areas.",
+      "Try local Brazilian dishes and enjoy Rio’s lively street food scene."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+55 21 98765 4321",
+      "local_police": "190",
+      "embassy": "+55 21 2215 6820"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Rio de Janeiro",
+        "activities": [
+          "Arrival at Rio de Janeiro-Galeão International Airport and transfer to the hotel",
+          "Briefing on the tour and rest",
+          "Dinner at a local restaurant and overnight stay"
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Rio de Janeiro",
+        "activities": [
+          "Visit Christ the Redeemer in the morning",
+          "Lunch at a local restaurant",
+          "Afternoon visit to Sugarloaf Mountain",
+          "Dinner and overnight at the hotel"
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Rio de Janeiro",
+        "activities": [
+          "Relax at Copacabana Beach",
+          "Lunch at a beachfront restaurant",
+          "Explore Ipanema Beach in the afternoon",
+          "Dinner at a local restaurant and overnight stay"
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Rio de Janeiro",
+        "activities": [
+          "Visit the neighborhoods of Lapa and Santa Teresa",
+          "Lunch at a local café",
+          "Free time for shopping or exploring Rio’s cultural sites",
+          "Experience Rio’s nightlife with a visit to a samba club",
+          "Dinner and overnight at the hotel"
+        ]
+      },
+      {
+        "day": 5,
+        "location": "Departure",
+        "activities": [
+          "Check-out from the hotel and transfer to the airport for departure"
+        ]
+      }
+    ]
+  }
+  

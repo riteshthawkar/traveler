@@ -1,0 +1,260 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<style>
+        .indent{
+            text-indent: 50px;
+        }
+        main p{
+            line-height: 200%;
+            /* text-indent: 70px; */
+            margin-bottom: 40px;
+            text-align: justify;
+        }
+
+        main h2, main h3{
+            margin-top: 5rem;
+            margin-bottom: 2.5rem;
+        }
+
+        main h4{
+            margin-top: 5rem;
+            margin-bottom: 2rem;
+        }
+
+        main h5{
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .timeline-item:last-of-type .timeline-item-connector{
+            display: none;
+        }
+
+        /* li{
+            margin-bottom: 20px;
+        } */
+    </style>
+
+
+    <main class="container-fluid bg-white">
+        <div class="container pb-3 py-5">
+            <div class="w-100 overflow-hidden">
+                <img class="img-fluid w-100 rounded-xl" src="{{ package.img.url }}" alt="referenced_image">
+            </div>
+            <div class="d-flex flex-md-row flex-column-reverse justify-content-between pt-5" style="gap: 40px;">
+                
+                <div class="w-100 d-flex flex-column">
+                    <span class="text-warning text-uppercase py-1 px-2 rounded-pill border-warning" style="border: 2px solid; font-weight: 600; width: fit-content; font-size: 0.9rem;">
+                        <i class="fa fa-umbrella-beach mr-1 text-warning"></i>
+                        Tour
+                    </span>
+                    <h1 class="mt-2">{{ package.package_name }}</h1>
+                    <h6 class="mb-3">{{ package.country }}</h6>
+                    <div class="d-flex align-items-center" style="gap: 30px;">
+                        <div>
+                            <i class="fa fa-calendar-alt fa-x mr-2 text-warning"></i>
+                            <span>{{ package.duration }} days</span>
+                        </div>
+                        <div>
+                            <i class="fa fa-map-marker-alt mr-2 text-warning"></i>
+                            <span>{{ package.places_to_visit|length }} places</span>
+                        </div>
+                    </div>
+                    <div class="w-100 mt-4 mb-3 flex-grow-1">
+                        <span class="text-dark" style="font-weight: 700;"><h3 class="d-inline p-0 m-0">${{ package.cost }}</h3></span>
+                        <small class="text-dark">Per Person</small>
+                    </div>
+                    <p>{{ package.description }}</p>
+                    {% comment %} <div class="w-100 mb-5 d-flex align-items-center">
+                        <button class="package-counter-minus btn btn-outline-dark d-flex align-items-center justify-content-center p-3 rounded-lg">
+                            <i class="fa fa-minus"></i>
+                        </button>
+                        <span type="text" class="package-people-counter d-inline-block p-2 border-0 text-center text-dark" style="font-size: 1.5rem; width: 50px;">1</span>
+                        <button class="package-counter-plus btn btn-outline-dark d-flex align-items-center justify-content-center p-3 rounded-lg">
+                            <i class="fa fa-plus"></i>
+                        </button>
+                    </div> {% endcomment %}
+                    <div class="w-100 mt-3">
+                        <a href="{% url 'contact-view' %}" class="btn btn-block btn-warning rounded-lg px-4 text-uppercase" style="font-weight: 600; padding: 12px 0;">Get in touch</a>
+                    </div>
+                </div>
+    
+                
+            </div>
+
+            <script>
+                document.querySelector(".package-counter-minus").addEventListener("click", ()=>{
+                    if(parseInt(document.querySelector(".package-people-counter").innerHTML) > 1){
+                        document.querySelector(".package-people-counter").innerHTML = parseInt(document.querySelector(".package-people-counter").innerHTML) - 1;
+                    }
+                })
+                document.querySelector(".package-counter-plus").addEventListener("click", ()=>{
+                    document.querySelector(".package-people-counter").innerHTML = parseInt(document.querySelector(".package-people-counter").innerHTML) + 1;
+                })
+                // $(".package-people-counter")
+            </script>
+
+            <div class="w-100">
+
+                <div class="row m-0 p-0">
+                    <h3 class="col-12 p-0">Places to visit</h3>
+
+                    {% for place in package.places_to_visit %}
+                    <div class="col-sm-6 col-12 p-3">
+                        <div class="w-100 h-100 p-4 d-flex flex-column overflow-hidden border rounded-xl">
+                            <h5 class="mt-0 d-flex">
+                                <i class="fa fa-map-marker-alt mr-3 text-warning"></i>
+                                {{place.name }}
+                            </h5>
+                            <p class="w-100 mb-0">
+                                {{place.description }}
+                            </p>
+                        </div>
+                    </div>
+                    {% endfor %}
+
+                </div>
+
+                <div>
+                    <h3>Hotels</h3>
+                    <ul class="m-0 p-0">
+                        {% for hotel in package.hotels %}
+                        <li class="d-flex align-items-baseline px-4">
+                            <i class="fa fa-building mr-3 border p-3 rounded-circle text-warning"></i>
+                            <div>
+                                <h5 class="">{{ hotel.name }} </h5>
+                                <p>{{ hotel.description }}</p>
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Restaurants</h3>
+                    <ul class="m-0 p-0">
+                        {% for res in package.restaurants %}
+                        <li class="d-flex align-items-baseline px-4">
+                            <i class="fa fa-utensils mr-3 border p-3 rounded-circle text-warning"></i>
+                            <div>
+                                <h5 class="">{{ res.name }} </h5>
+                                <p>{{ res.description }}</p>
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Activities</h4>
+                    <ul class="m-0 p-0">
+                        {% for activity in package.activities %}
+                        <li class="d-block px-4 py-3">
+                            <i class="fa fa-star mr-3 text-warning"></i>
+                            {{ activity  }}
+                        </li>
+                        {% endfor %}
+                        
+                    </ul>
+                </div>
+
+
+                <div>
+                    <h4>Timeline</h4>
+                    <section class="w-100">
+                        <ul class="m-0 p-0">
+                            {% for event in package.timeline %}
+
+                            <li class="timeline-item d-flex ml-3" style="gap: 20px;">
+                                <div class="d-flex flex-column align-items-center">
+                                    <span class="p-3 border rounded-circle d-flex align-items-center justify-content-center">
+                                        <i class="fas fa-bookmark text-warning fa-x fa-fw"></i>
+                                    </span>
+                                    <div class="timeline-item-connector flex-grow-1 border h-100" style="width: 1px;"></div>
+                                </div>
+                                
+                                <div>
+                                    <h5 class="fw-bold m-0 mt-2">{{ event.location }}, Day {{ event.day }}</h5>
+                                    <div>
+                                        <h6 class="pt-4 pb-3 m-0">Activities</h6>
+                                        <ul class="text-muted pb-5 ml-3 list-unstyled">
+                                            {% for activity in event.activities %}
+                                            <li class="mb-3">
+                                                <i class="fa fa-arrow-right mr-2 text-warning"></i>
+                                                {{activity}}
+                                            </li>
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+
+                            {% endfor %}
+                            
+                        </ul>
+                    </section>
+                </div>
+
+                <div>
+                    <h4>Tips and Tricks</h4>
+                    <ul class="m-0 p-0">
+                        {% for tip in package.tips %}
+                        <li class="d-block px-4 py-3">
+                            <i class="fa fa-star mr-3 text-warning"></i>
+                            {{ tip  }}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+
+                <div class="row m-0 p-0">
+                    <h3 class="col-12 p-0">Customer Reviews</h3>
+
+                    {% for review in package.reviews %}
+                    <div class="col-sm-6 col-12 p-sm-4 p-3">
+                        <div class="w-100 h-100 py-sm-3 px-sm-4 p-1 d-flex align-items-baseline border rounded-xl overflow-hidden">
+                            <div>
+                                <i class="fa fa-user border p-3 rounded-circle mr-3 text-warning"></i>
+                            </div>
+                            <div class="mt-0">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <h5 class="mb-2">{{review.name }}</h5>
+                                    <h6>
+                                        <i class="fa fa-star mr-1 text-warning"></i>
+                                        {{ review.rating }}
+                                    </h6>
+                                </div>
+                                <p class="m-0">
+                                    {{review.description }}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+
+                </div>
+
+                <div>
+                    <h4>Emergency Contacts</h4>
+                    <div class="row p-0 m-0">
+                        {% for entity, value in package.emergency_contacts %}
+                        <div class="col-md-4 col-sm-6 col-12 p-4">
+                            <div class="text-center border rounded-xl p-4">
+                                <h5 class="m-0 mb-2">{{ entity | title }}</h5>
+                                <span class="text-center">{{ value }}</span>
+                            </div>
+                        </div>
+                        {% endfor %}
+                        
+                    </div>
+                </div>
+
+            </div>
+    
+        </div>
+    </main>
+
+
+{% endblock content %}

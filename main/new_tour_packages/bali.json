@@ -1,0 +1,135 @@
+{
+    "package_name": "Bali Bliss Tour",
+    "country": "Indonesia",
+    "region": "Bali",
+    "duration_days": 5,
+    "customer_rating": 4.9,
+    "tour_cost_usd": 1500,
+    "region_description": "Bali, known as the Island of the Gods, is a world-renowned tourist destination famous for its stunning beaches, vibrant culture, and lush landscapes. The island is rich in Hindu traditions, evident in its numerous temples and colorful ceremonies. Visitors can explore breathtaking rice terraces, indulge in spa treatments, and enjoy thrilling water sports. Bali's nightlife is equally vibrant, offering a mix of beach clubs, bars, and cultural performances. The warm hospitality of the Balinese people adds to the island's charm, making it a must-visit destination for travelers.",
+    "places_to_visit": [
+      {
+        "name": "Ubud",
+        "description": "Ubud is the cultural heart of Bali, known for its traditional arts, crafts, and lush landscapes. The area is home to the famous Ubud Monkey Forest, rice terraces, and a vibrant art scene. Visitors can explore local markets, attend yoga retreats, and enjoy traditional Balinese performances."
+      },
+      {
+        "name": "Kuta Beach",
+        "description": "Kuta Beach is one of Bali's most famous beaches, known for its golden sands and vibrant nightlife. It’s a popular spot for surfing, sunbathing, and beach parties. The beach is lined with numerous bars, restaurants, and shops, making it a lively destination."
+      },
+      {
+        "name": "Tanah Lot Temple",
+        "description": "Tanah Lot Temple is a stunning sea temple perched on a rock formation off the coast of Bali. It is one of the island's most iconic landmarks, especially at sunset. The temple is a significant cultural site, offering breathtaking views and a serene atmosphere."
+      },
+      {
+        "name": "Uluwatu Temple",
+        "description": "Uluwatu Temple is a magnificent sea temple located on a cliff overlooking the Indian Ocean. Known for its stunning sunset views and traditional Kecak dance performances, it is a must-visit for its spiritual significance and breathtaking scenery."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Bali",
+        "hotels": [
+          {
+            "name": "The St. Regis Bali Resort",
+            "description": "The St. Regis Bali Resort is a luxurious beachfront resort offering opulent accommodations, exquisite dining, and world-class service. Guests can enjoy private villas, a stunning infinity pool, and direct beach access.",
+            "cost_per_night_usd": 400
+          },
+          {
+            "name": "Alaya Resort Ubud",
+            "description": "Alaya Resort Ubud is a beautiful hotel set in the heart of Ubud, surrounded by rice paddies. It features stylish accommodations, a spa, and a restaurant serving local and international cuisine.",
+            "cost_per_night_usd": 150
+          }
+        ],
+        "restaurants": [
+          {
+            "name": "Locavore, Ubud",
+            "description": "Locavore is a fine dining restaurant in Ubud, known for its innovative dishes using locally sourced ingredients. The restaurant offers a unique tasting menu that showcases the flavors of Bali.",
+            "average_cost_per_person_usd": 60
+          },
+          {
+            "name": "La Plancha, Seminyak",
+            "description": "La Plancha is a vibrant beach bar in Seminyak, famous for its colorful bean bags and relaxed atmosphere. Guests can enjoy a variety of cocktails and tapas while watching the sunset.",
+            "average_cost_per_person_usd": 20
+          }
+        ]
+      }
+    ],
+    "activities": [
+      "Explore the rice terraces of Tegalalang in Ubud.",
+      "Visit the Ubud Monkey Forest and interact with playful monkeys.",
+      "Relax on the sandy shores of Kuta Beach.",
+      "Watch the sunset at Tanah Lot Temple.",
+      "Enjoy a traditional Kecak dance performance at Uluwatu Temple."
+    ],
+    "tips_and_tricks": [
+      "Respect local customs and dress modestly when visiting temples.",
+      "Negotiate prices when shopping at local markets.",
+      "Try traditional Balinese dishes like Nasi Goreng and Babi Guling."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+62 812 3456 7890",
+      "local_police": "110",
+      "embassy": "+62 21 2555 8500"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Bali",
+        "activities": [
+          "Arrival at Ngurah Rai International Airport and transfer to the hotel.",
+          "Briefing on the tour and overview of Bali's attractions.",
+          "Evening at leisure to explore nearby areas.",
+          "Dinner at a local restaurant, enjoying traditional Balinese cuisine."
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Ubud",
+        "activities": [
+          "Visit the Ubud Monkey Forest in the morning.",
+          "Explore the Tegalalang Rice Terraces and take photos.",
+          "Lunch at a local café with views of the rice fields.",
+          "Visit art galleries and local markets in Ubud."
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Kuta Beach",
+        "activities": [
+          "Transfer to Kuta Beach and relax on the sandy shores.",
+          "Enjoy water sports like surfing or jet skiing.",
+          "Lunch at a beachfront restaurant.",
+          "Evening beach party at a popular beach club."
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Tanah Lot and Uluwatu",
+        "activities": [
+          "Visit Tanah Lot Temple in the morning for sightseeing.",
+          "Lunch at a local restaurant with ocean views.",
+          "Transfer to Uluwatu Temple and explore the area.",
+          "Watch the Kecak dance performance at sunset."
+        ]
+      },
+      {
+        "day": 5,
+        "location": "Departure",
+        "activities": [
+          "Check-out from the hotel and transfer to the airport for departure."
+        ]
+      }
+    ],
+    "customer_reviews": [
+      {
+        "name": "Sara L.",
+        "rating": 5,
+        "description": "Bali is a magical place! The beaches, culture, and food are incredible!"
+      },
+      {
+        "name": "James R.",
+        "rating": 4.8,
+        "description": "Loved every moment! Ubud is beautiful and so relaxing."
+      }
+    ]
+  }
+  

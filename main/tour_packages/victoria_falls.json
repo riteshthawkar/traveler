@@ -1,0 +1,103 @@
+{
+    "package_name": "Victoria Falls Experience",
+    "country": "Zambia/Zimbabwe",
+    "duration_days": 5,
+    "customer_rating": 4.8,
+    "places_to_visit": [
+      {
+        "name": "Victoria Falls",
+        "description": "Victoria Falls is one of the largest and most famous waterfalls in the world. It offers breathtaking views and various activities, including guided tours and helicopter flights."
+      },
+      {
+        "name": "Zambezi River",
+        "description": "The Zambezi River is the river that feeds Victoria Falls. It offers thrilling white-water rafting experiences and serene sunset cruises."
+      },
+      {
+        "name": "Mosi-oa-Tunya National Park",
+        "description": "Mosi-oa-Tunya National Park is home to diverse wildlife, including elephants and buffaloes, and offers walking safaris and game drives."
+      },
+      {
+        "name": "Devil's Pool",
+        "description": "Devil's Pool is a natural rock pool located on the edge of Victoria Falls. It provides a unique and exhilarating experience for adventurous visitors."
+      },
+      {
+        "name": "Livingstone Museum",
+        "description": "The Livingstone Museum in Zambia offers insights into the life and explorations of David Livingstone, the Scottish missionary and explorer."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Victoria Falls",
+        "hotels": ["The Royal Livingstone Victoria Falls Zambia Hotel", "Victoria Falls Hotel", "Shearwater Explorers Village"],
+        "restaurants": ["The Lookout Cafe", "The Royal Livingstone Restaurant", "Ilala Lodge Restaurant"]
+      }
+    ],
+    "activities": [
+      "Explore Victoria Falls and its viewpoints",
+      "Take a Zambezi River sunset cruise",
+      "Visit Mosi-oa-Tunya National Park",
+      "Swim in Devil's Pool (seasonal)",
+      "Explore the Livingstone Museum"
+    ],
+    "tips_and_tricks": [
+      "Wear waterproof clothing and shoes, as you may get wet from the falls.",
+      "Bring a hat and sunscreen for protection from the sun.",
+      "Check the seasonal conditions for Devil's Pool availability."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+260 97-555-1234",
+      "local_police": "999",
+      "embassy": "+260 97-555-5678"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Victoria Falls",
+        "activities": [
+          "Arrival at Victoria Falls Airport and transfer to the hotel",
+          "Briefing on the tour and rest",
+          "Dinner at a local restaurant and overnight stay"
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Victoria Falls",
+        "activities": [
+          "Full-day exploration of Victoria Falls",
+          "Lunch at a local restaurant",
+          "Optional evening sunset cruise on the Zambezi River",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Victoria Falls",
+        "activities": [
+          "Visit Mosi-oa-Tunya National Park in the morning",
+          "Lunch at a nearby restaurant",
+          "Optional visit to Devil's Pool (seasonal)",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Victoria Falls",
+        "activities": [
+          "Explore the Livingstone Museum in the morning",
+          "Lunch at a local restaurant",
+          "Free time for relaxation or additional sightseeing",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 5,
+        "location": "Victoria Falls",
+        "activities": [
+          "Final free time for relaxation or shopping",
+          "Lunch at the hotel or nearby restaurant",
+          "Transfer to the airport for departure"
+        ]
+      }
+    ]
+  }
+  

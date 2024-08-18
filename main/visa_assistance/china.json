@@ -1,0 +1,169 @@
+{
+    "country_name": "China",
+    "visa_guide": {
+      "country_overview": {
+        "content": "China, officially the People's Republic of China, is a vast and diverse country with a rich history that spans thousands of years. From the Great Wall to the Terracotta Warriors and the bustling cities of Beijing and Shanghai, China offers a unique blend of ancient traditions and modern advancements. The country attracts millions of visitors each year for tourism, business, education, and cultural exchange. China has a well-defined visa policy that caters to various purposes of visits, and it is crucial for travelers to understand the specific requirements for their intended stay."
+      },
+      "types_of_visas": {
+        "tourist_visa": {
+          "title": "Tourist Visa (L Visa)",
+          "description": "The Tourist Visa (L Visa) is for individuals visiting China for tourism purposes, including sightseeing, family visits, or other personal affairs. It typically allows a stay of up to 30 days, with possible extensions depending on individual circumstances."
+        },
+        "business_visa": {
+          "title": "Business Visa (M Visa)",
+          "description": "The Business Visa (M Visa) is issued to individuals who are visiting China for commercial and trade activities. It is suitable for those attending business meetings, conferences, or negotiating contracts. The visa can be single, double, or multiple-entry with varying durations of stay."
+        },
+        "student_visa": {
+          "title": "Student Visa (X Visa)",
+          "description": "The Student Visa (X Visa) is for individuals who intend to study in China. The X1 Visa is for long-term study (more than 180 days), while the X2 Visa is for short-term study (less than 180 days). Applicants must be accepted by a recognized Chinese educational institution."
+        },
+        "work_visa": {
+          "title": "Work Visa (Z Visa)",
+          "description": "The Work Visa (Z Visa) is for individuals who have obtained employment in China. It is typically valid for 30 days, during which the holder must apply for a residence permit that allows them to stay and work in China for a longer period."
+        },
+        "transit_visa": {
+          "title": "Transit Visa (G Visa)",
+          "description": "The Transit Visa (G Visa) is for travelers passing through China en route to another destination. It is usually valid for a short stay of up to 7 days. Some nationalities may be eligible for a visa-free transit policy in certain cities."
+        }
+      },
+      "visa_requirements": {
+        "tourist_visa": {
+          "eligibility_criteria": "Applicants must demonstrate their intent to visit China for tourism purposes and must have a valid passport, proof of accommodation, and sufficient funds for their stay.",
+          "mandatory_documents": [
+            "Completed visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photograph",
+            "Proof of accommodation (hotel bookings or invitation letter from a host)",
+            "Travel itinerary",
+            "Proof of sufficient funds"
+          ],
+          "additional_documents": [
+            "Invitation letter from a Chinese host (if applicable)",
+            "Proof of previous travel to China (if applicable)"
+          ]
+        },
+        "business_visa": {
+          "eligibility_criteria": "Applicants must be involved in commercial activities in China and should have an invitation from a Chinese business partner or organization.",
+          "mandatory_documents": [
+            "Completed visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photograph",
+            "Invitation letter from a Chinese business partner or organization",
+            "Proof of previous business dealings (if applicable)"
+          ],
+          "additional_documents": [
+            "Business license of the Chinese company",
+            "Proof of financial capacity",
+            "Flight bookings"
+          ]
+        },
+        "student_visa": {
+          "eligibility_criteria": "Applicants must have been accepted by a recognized Chinese educational institution and must provide proof of enrollment and financial capacity.",
+          "mandatory_documents": [
+            "Completed visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photograph",
+            "Admission letter from a Chinese educational institution",
+            "Visa application form (JW201 or JW202) issued by the Chinese Ministry of Education",
+            "Proof of financial capacity"
+          ],
+          "additional_documents": [
+            "Academic transcripts and certificates",
+            "Physical examination report"
+          ]
+        },
+        "work_visa": {
+          "eligibility_criteria": "Applicants must have a job offer from a Chinese employer and meet the necessary qualifications. The application requires an employment permit issued by Chinese authorities.",
+          "mandatory_documents": [
+            "Completed visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photograph",
+            "Job offer letter or employment contract",
+            "Work permit issued by the Chinese government"
+          ],
+          "additional_documents": [
+            "Proof of qualifications and experience",
+            "Criminal background check",
+            "Physical examination report"
+          ]
+        },
+        "transit_visa": {
+          "eligibility_criteria": "Applicants must be in transit to another country through China and must provide proof of onward travel.",
+          "mandatory_documents": [
+            "Completed visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photograph",
+            "Onward travel tickets",
+            "Visa for the next destination (if required)"
+          ],
+          "additional_documents": [
+            "Proof of sufficient funds",
+            "Proof of accommodation for the transit period (if applicable)"
+          ]
+        }
+      },
+      "step_by_step_visa_application_process": {
+        "step_1": {
+          "title": "Determine Visa Type",
+          "description": "Identify the appropriate visa type based on your purpose of visit to China. Ensure you meet the eligibility requirements for the selected visa category."
+        },
+        "step_2": {
+          "title": "Check Eligibility",
+          "description": "Review the specific eligibility requirements for the visa type you are applying for, including health, character, and financial requirements."
+        },
+        "step_3": {
+          "title": "Gather Required Documents",
+          "description": "Collect all necessary documents including the visa application form, passport, photographs, and supporting documents relevant to your visa type."
+        },
+        "step_4": {
+          "title": "Complete the Application Form",
+          "description": "Fill out the visa application form accurately. You can submit your application online through the Chinese Visa Application Service Center or at a Chinese embassy or consulate."
+        },
+        "step_5": {
+          "title": "Submit the Application",
+          "description": "Submit your completed application form along with the required documents to the Chinese embassy, consulate, or visa application center. An appointment may be required for submission."
+        },
+        "step_6": {
+          "title": "Attend an Interview (if required)",
+          "description": "For some visa types, you may be required to attend an interview at the Chinese embassy or consulate. Prepare to answer questions about your travel purpose and background."
+        },
+        "step_7": {
+          "title": "Wait for Processing",
+          "description": "Visa processing times vary depending on the type of visa and your nationality. Standard processing typically takes 4-5 business days, but expedited services may be available for an additional fee."
+        },
+        "step_8": {
+          "title": "Receive the Visa",
+          "description": "Once your visa is approved, you will be notified to collect it from the embassy, consulate, or visa application center. Ensure that all details on the visa are correct before traveling."
+        }
+      },
+      "additional_information": {
+        "visa_fees": {
+          "content": "Visa fees for Chinese visas vary depending on the type of visa, number of entries, and the applicant's nationality. Fees are payable at the time of application and are non-refundable. Check the specific fee structure with the Chinese embassy or consulate."
+        },
+        "processing_time": {
+          "content": "The standard processing time for Chinese visas is 4-5 business days. Expedited services (2-3 business days) and rush services (1 business day) may be available for an additional fee. Processing times may vary based on the type of visa and your nationality."
+        },
+        "visa_validity": {
+          "content": "The validity of Chinese visas varies by type. Tourist visas are generally valid for 3-12 months, with single, double, or multiple entries. Business and work visas may have longer validity, depending on the purpose and duration of stay."
+        },
+        "entry_requirements": {
+          "content": "Upon arrival in China, travelers must present their valid visa, passport, and may be required to provide additional documentation such as proof of accommodation and sufficient funds. Some travelers may also need to register with the local police within 24 hours of arrival."
+        }
+      },
+      "faqs": {
+        "faq_1": {
+          "question": "Can I extend my visa while in China?",
+          "answer": "Yes, visa extensions are possible for some visa types. You should apply for an extension at the local Public Security Bureau (PSB) at least 7 days before your visa expires."
+        },
+        "faq_2": {
+          "question": "Is a visa required before arrival in China?",
+          "answer": "Yes, most travelers need to obtain a visa before entering China. However, some nationalities are eligible for visa-free entry or visa-free transit in certain cities."
+        },
+        "faq_3": {
+          "question": "Can I work in China on a Tourist Visa?",
+          "answer": "No, working on a Tourist Visa is not allowed. If you intend to work in China, you must apply for a Work Visa (Z Visa) and obtain a residence permit."
+        }
+      }
+    }
+  }
+  

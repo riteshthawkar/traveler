@@ -1,0 +1,123 @@
+{
+    "package_name": "Bordeaux Wine Tour",
+    "country": "France",
+    "duration_days": 4,
+    "customer_rating": 4.9,
+    "tour_cost_usd": 1300,
+    "region_description": "Bordeaux, situated in the southwest of France, is renowned for its exceptional wines and stunning architecture. This vibrant city, classified as a UNESCO World Heritage Site, boasts a blend of historic and contemporary styles. Visitors can explore its beautiful waterfront, charming streets, and exquisite vineyards. Bordeaux is a hub for wine lovers, offering numerous wine tours and tastings, making it an ideal destination for those seeking to indulge in world-class wines and enjoy the region's rich cultural heritage.",
+    "places_to_visit": [
+      {
+        "name": "Place de la Bourse",
+        "description": "A stunning square famous for its classical architecture and the reflecting pool, Miroir d'eau."
+      },
+      {
+        "name": "La Cité du Vin",
+        "description": "An interactive museum dedicated to the world of wine, offering tastings and workshops."
+      },
+      {
+        "name": "Saint-Émilion",
+        "description": "A picturesque medieval village and wine region known for its red wines and vineyards."
+      },
+      {
+        "name": "Bordeaux Cathedral",
+        "description": "A magnificent Gothic cathedral dating back to the 11th century, showcasing stunning architecture."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Bordeaux",
+        "hotels": [
+          {
+            "name": "Les Sources de Caudalie",
+            "description": "A luxurious hotel and spa set in vineyards, offering world-class amenities and wine treatments.",
+            "cost_per_night_usd": 450
+          },
+          {
+            "name": "Hotel Burdigala",
+            "description": "A chic hotel located in the heart of Bordeaux, combining modern comforts with classic elegance.",
+            "cost_per_night_usd": 350
+          }
+        ],
+        "restaurants": [
+          {
+            "name": "La Grand'Vigne",
+            "description": "A Michelin-starred restaurant serving gourmet dishes inspired by local flavors and ingredients.",
+            "average_cost_per_person_usd": 120
+          },
+          {
+            "name": "Le Petit Commerce",
+            "description": "A local favorite known for its seafood dishes and vibrant atmosphere.",
+            "average_cost_per_person_usd": 40
+          }
+        ]
+      }
+    ],
+    "activities": [
+      "Visit Place de la Bourse and take photos at the Miroir d'eau.",
+      "Explore La Cité du Vin and learn about the history of wine.",
+      "Take a day trip to Saint-Émilion for wine tasting.",
+      "Enjoy a guided tour of Bordeaux Cathedral."
+    ],
+    "tips_and_tricks": [
+      "Try the local dish, canelé, a sweet pastry.",
+      "Book wine tours in advance for the best experiences.",
+      "Take a river cruise for unique views of the city."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+33 5 56 00 00 00",
+      "local_police": "17",
+      "embassy": "+33 1 43 12 22 22"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Bordeaux",
+        "activities": [
+          "Arrival at Bordeaux-Mérignac Airport and transfer to the hotel.",
+          "Briefing on the tour and relax at the hotel.",
+          "Dinner at La Grand'Vigne."
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Bordeaux",
+        "activities": [
+          "Visit Place de la Bourse in the morning.",
+          "Lunch at a local café.",
+          "Explore La Cité du Vin and participate in wine tastings.",
+          "Evening at leisure."
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Bordeaux",
+        "activities": [
+          "Take a day trip to Saint-Émilion for vineyard tours.",
+          "Enjoy wine tastings and lunch at a local winery.",
+          "Return to Bordeaux in the evening."
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Departure",
+        "activities": [
+          "Visit Bordeaux Cathedral in the morning.",
+          "Check-out from the hotel.",
+          "Transfer to the airport for departure."
+        ]
+      }
+    ],
+    "customer_reviews": [
+      {
+        "name": "Ava M.",
+        "rating": 5.0,
+        "description": "Bordeaux is a wine lover's dream! The tours were incredible."
+      },
+      {
+        "name": "Noah R.",
+        "rating": 4.9,
+        "description": "A beautiful city with a rich history and amazing food."
+      }
+    ]
+  }
+  

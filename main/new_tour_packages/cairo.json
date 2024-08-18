@@ -1,0 +1,131 @@
+{
+    "package_name": "Cairo Ancient Wonders",
+    "country": "Egypt",
+    "duration_days": 5,
+    "customer_rating": 4.7,
+    "tour_cost_usd": 1100,
+    "region_description": "Cairo, the capital of Egypt, is one of the oldest cities in the world, rich in history and culture. It's home to the legendary Pyramids of Giza and the Sphinx, symbolizing Egypt's ancient civilization. The city boasts a vibrant atmosphere, filled with bustling markets, historic mosques, and museums showcasing artifacts from various eras, including the Egyptian Museum, which houses Tutankhamun's treasures.",
+    "places_to_visit": [
+      {
+        "name": "Pyramids of Giza",
+        "description": "The Pyramids of Giza are the last of the Seven Wonders of the Ancient World, built as tombs for pharaohs. They are a must-visit for any traveler to Egypt."
+      },
+      {
+        "name": "The Sphinx",
+        "description": "The Sphinx is a limestone statue with the body of a lion and the head of a pharaoh, guarding the Pyramids. Its mysterious presence adds to the allure of Giza."
+      },
+      {
+        "name": "Egyptian Museum",
+        "description": "The Egyptian Museum houses an extensive collection of ancient Egyptian antiquities, including mummies and artifacts from King Tutankhamun's tomb."
+      },
+      {
+        "name": "Khan El Khalili Bazaar",
+        "description": "Khan El Khalili is a famous market in Cairo, bustling with shops selling spices, jewelry, and souvenirs. It's a great place to experience local culture."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Cairo",
+        "hotels": [
+          {
+            "name": "The Nile Ritz-Carlton",
+            "description": "The Nile Ritz-Carlton is a luxurious hotel offering stunning views of the Nile River, with elegant accommodations and top-notch amenities.",
+            "cost_per_night_usd": 300
+          },
+          {
+            "name": "Le Meridien Pyramids Hotel & Spa",
+            "description": "This hotel provides direct views of the Pyramids, featuring spacious rooms and a relaxing atmosphere with spa services.",
+            "cost_per_night_usd": 150
+          }
+        ],
+        "restaurants": [
+          {
+            "name": "Abou El Sid",
+            "description": "Abou El Sid is a popular restaurant serving traditional Egyptian dishes in a warm, inviting atmosphere.",
+            "average_cost_per_person_usd": 25
+          },
+          {
+            "name": "Koshary Abou Tarek",
+            "description": "Known for its koshary, a classic Egyptian dish, this restaurant is a must-visit for a taste of local flavors.",
+            "average_cost_per_person_usd": 10
+          }
+        ]
+      }
+    ],
+    "activities": [
+      "Explore the Pyramids of Giza and the Sphinx.",
+      "Visit the Egyptian Museum and view ancient artifacts.",
+      "Shop for souvenirs at Khan El Khalili Bazaar.",
+      "Enjoy a traditional dinner with local cuisine."
+    ],
+    "tips_and_tricks": [
+      "Dress modestly when visiting religious sites.",
+      "Bargain when shopping at local markets.",
+      "Stay hydrated and use sunscreen during outdoor activities."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+20 2 123 4567",
+      "local_police": "122",
+      "embassy": "+20 2 567 8901"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Cairo",
+        "activities": [
+          "Arrival at Cairo International Airport and transfer to the hotel.",
+          "Briefing on the tour and rest.",
+          "Dinner at a local restaurant enjoying traditional Egyptian cuisine."
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Cairo",
+        "activities": [
+          "Morning visit to the Pyramids of Giza and the Sphinx.",
+          "Lunch at a nearby restaurant.",
+          "Visit the Egyptian Museum in the afternoon.",
+          "Dinner at Abou El Sid, savoring local flavors."
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Cairo",
+        "activities": [
+          "Explore Khan El Khalili Bazaar for shopping.",
+          "Lunch at Koshary Abou Tarek.",
+          "Visit historic mosques in Islamic Cairo.",
+          "Dinner at the hotel, relaxing after a day of exploration."
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Cairo",
+        "activities": [
+          "Take a day trip to the ancient city of Memphis and the Step Pyramid of Saqqara.",
+          "Lunch at a local restaurant.",
+          "Return to Cairo for dinner and enjoy a traditional music show."
+        ]
+      },
+      {
+        "day": 5,
+        "location": "Departure",
+        "activities": [
+          "Check-out from the hotel and transfer to the airport for departure."
+        ]
+      }
+    ],
+    "customer_reviews": [
+      {
+        "name": "Emma K.",
+        "rating": 4.8,
+        "description": "Cairo is a treasure trove of history! The Pyramids are even more impressive in person."
+      },
+      {
+        "name": "Noah T.",
+        "rating": 4.7,
+        "description": "An incredible experience! The food and culture are unforgettable."
+      }
+    ]
+  }
+  

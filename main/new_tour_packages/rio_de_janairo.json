@@ -1,0 +1,132 @@
+{
+    "package_name": "Rio de Janeiro Highlights",
+    "country": "Brazil",
+    "duration_days": 5,
+    "customer_rating": 4.8,
+    "tour_cost_usd": 1500,
+    "region_description": "Rio de Janeiro, known as the 'Marvelous City,' is famous for its stunning landscapes, vibrant culture, and lively atmosphere. Nestled between lush mountains and beautiful beaches, Rio offers iconic attractions such as Christ the Redeemer and Sugarloaf Mountain. The city is renowned for its carnival festivities, samba music, and delicious cuisine, making it a top destination for travelers seeking both adventure and cultural experiences. With its lively neighborhoods, picturesque beaches, and breathtaking views, Rio de Janeiro captivates visitors with its charm and energy.",
+    "places_to_visit": [
+      {
+        "name": "Christ the Redeemer",
+        "description": "This iconic statue stands 30 meters tall atop Corcovado Mountain, offering panoramic views of the city and symbolizing peace and welcoming spirit."
+      },
+      {
+        "name": "Sugarloaf Mountain",
+        "description": "A granite peak rising 396 meters above the harbor, Sugarloaf Mountain provides stunning views of Rio's beaches and cityscape, accessible via cable car."
+      },
+      {
+        "name": "Copacabana Beach",
+        "description": "Copacabana Beach is one of the most famous beaches in the world, known for its lively atmosphere, golden sands, and vibrant nightlife."
+      },
+      {
+        "name": "Ipanema Beach",
+        "description": "Ipanema Beach is renowned for its stunning views and vibrant social scene, made famous by the bossa nova song 'The Girl from Ipanema.'"
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Rio de Janeiro",
+        "hotels": [
+          {
+            "name": "Copacabana Palace",
+            "description": "This luxurious hotel offers stunning views of Copacabana Beach, elegant accommodations, and exceptional dining options.",
+            "cost_per_night_usd": 500
+          },
+          {
+            "name": "Hotel Rio Lancaster",
+            "description": "A comfortable hotel with easy access to Copacabana Beach, featuring modern amenities and a rooftop pool.",
+            "cost_per_night_usd": 120
+          }
+        ],
+        "restaurants": [
+          {
+            "name": "Fogo de Chão",
+            "description": "Fogo de Chão is a renowned Brazilian steakhouse offering a unique dining experience with a wide variety of grilled meats and traditional side dishes.",
+            "average_cost_per_person_usd": 80
+          },
+          {
+            "name": "Marius Degustare",
+            "description": "Marius Degustare is a seafood and meat restaurant known for its buffet-style dining and vibrant atmosphere, perfect for a lively dinner.",
+            "average_cost_per_person_usd": 75
+          }
+        ]
+      }
+    ],
+    "activities": [
+      "Visit Christ the Redeemer for breathtaking views of the city.",
+      "Take a cable car ride to Sugarloaf Mountain.",
+      "Relax at Copacabana and Ipanema beaches.",
+      "Explore the vibrant neighborhoods of Rio de Janeiro."
+    ],
+    "tips_and_tricks": [
+      "Purchase tickets for Christ the Redeemer in advance to avoid long lines.",
+      "Try local dishes like feijoada and pão de queijo.",
+      "Be cautious with personal belongings at crowded places."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+55 21 1234 5678",
+      "local_police": "190",
+      "embassy": "+55 21 5555 5555"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Rio de Janeiro",
+        "activities": [
+          "Arrival at Rio de Janeiro Airport and transfer to the hotel.",
+          "Briefing on the tour and rest.",
+          "Dinner at Fogo de Chão."
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Rio de Janeiro",
+        "activities": [
+          "Morning visit to Christ the Redeemer.",
+          "Lunch at a local restaurant.",
+          "Afternoon cable car ride to Sugarloaf Mountain.",
+          "Dinner and overnight stay at the hotel."
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Rio de Janeiro",
+        "activities": [
+          "Spend the day relaxing at Copacabana Beach.",
+          "Lunch at a beachfront café.",
+          "Evening stroll along Ipanema Beach.",
+          "Dinner at Marius Degustare."
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Rio de Janeiro",
+        "activities": [
+          "Explore the vibrant neighborhoods of Santa Teresa and Lapa.",
+          "Lunch at a local eatery.",
+          "Visit the Selarón Steps and local shops.",
+          "Dinner at the hotel."
+        ]
+      },
+      {
+        "day": 5,
+        "location": "Departure",
+        "activities": [
+          "Check-out from the hotel and transfer to the airport for departure."
+        ]
+      }
+    ],
+    "customer_reviews": [
+      {
+        "name": "Sophie L.",
+        "rating": 5.0,
+        "description": "Rio is absolutely breathtaking! Christ the Redeemer was the highlight of my trip."
+      },
+      {
+        "name": "Daniel K.",
+        "rating": 4.9,
+        "description": "Loved the beaches and the vibrant culture. Can't wait to return!"
+      }
+    ]
+  }
+  

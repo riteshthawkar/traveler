@@ -1,0 +1,133 @@
+{
+    "country_name": "Japan",
+    "visa_guide": {
+      "country_overview": {
+        "content": "Japan, an island nation in East Asia, is famous for its unique blend of traditional culture and modern technology. The country attracts millions of visitors each year for tourism, business, education, and work. Japan offers a variety of visa options to accommodate different travel purposes, with specific requirements and processes."
+      },
+      "types_of_visas": {
+        "tourist_visa": {
+          "title": "Tourist Visa",
+          "description": "Issued to foreign nationals who wish to visit Japan for tourism, sightseeing, and casual visits to friends or relatives."
+        },
+        "business_visa": {
+          "title": "Business Visa",
+          "description": "For individuals visiting Japan for business meetings, trade negotiations, or other business-related activities."
+        },
+        "student_visa": {
+          "title": "Student Visa",
+          "description": "Issued to students who have been accepted to a recognized educational institution in Japan."
+        },
+        "work_visa": {
+          "title": "Work Visa",
+          "description": "For foreign nationals employed by a Japanese company or organization."
+        },
+        "spouse_or_family_visa": {
+          "title": "Spouse or Family Visa",
+          "description": "For foreign nationals who wish to join their spouse or family members residing in Japan."
+        }
+      },
+      "visa_requirements": {
+        "tourist_visa": {
+          "eligibility_criteria": "Applicants must demonstrate the purpose of their visit is purely for tourism and that they have sufficient funds to support themselves during their stay.",
+          "mandatory_documents": [
+            "Completed visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photographs",
+            "Proof of travel arrangements (e.g., flight itinerary)",
+            "Proof of accommodation in Japan"
+          ],
+          "additional_documents": [
+            "Bank statements showing sufficient funds",
+            "Tour itinerary (if available)"
+          ]
+        },
+        "business_visa": {
+          "eligibility_criteria": "Applicants must have an invitation from a Japanese company or organization for business purposes.",
+          "mandatory_documents": [
+            "Completed visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photographs",
+            "Letter of invitation from the Japanese company",
+            "Company registration documents of the inviting company in Japan"
+          ],
+          "additional_documents": [
+            "Proof of ongoing business activities",
+            "Proof of accommodation in Japan"
+          ]
+        },
+        "student_visa": {
+          "eligibility_criteria": "Applicants must have an acceptance letter from a recognized educational institution in Japan.",
+          "mandatory_documents": [
+            "Completed visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photographs",
+            "Acceptance letter from the educational institution",
+            "Proof of financial means to support education and stay in Japan"
+          ],
+          "additional_documents": [
+            "Previous academic records and certificates",
+            "Proof of accommodation in Japan"
+          ]
+        }
+      },
+      "step_by_step_visa_application_process": {
+        "step_1": {
+          "title": "Determine Visa Type",
+          "description": "Identify the appropriate visa type based on the purpose of your visit to Japan."
+        },
+        "step_2": {
+          "title": "Check Eligibility",
+          "description": "Ensure that you meet the eligibility criteria for the selected visa type."
+        },
+        "step_3": {
+          "title": "Gather Required Documents",
+          "description": "Collect all mandatory and additional documents as specified for the visa type."
+        },
+        "step_4": {
+          "title": "Fill Out the Application Form",
+          "description": "Complete the visa application form available on the Japanese government's official visa website."
+        },
+        "step_5": {
+          "title": "Submit the Application",
+          "description": "Submit the completed application form and documents either online or at the nearest Japanese embassy or consulate."
+        },
+        "step_6": {
+          "title": "Wait for Processing",
+          "description": "Wait for the visa application to be processed. Processing times vary depending on the visa type and your country of residence."
+        },
+        "step_7": {
+          "title": "Receive the Visa",
+          "description": "Once approved, receive your visa either electronically or stamped in your passport."
+        }
+      },
+      "additional_information": {
+        "visa_fees": {
+          "content": "Visa fees vary depending on the type of visa, duration of stay, and nationality of the applicant. The fees are non-refundable and must be paid at the time of application."
+        },
+        "processing_time": {
+          "content": "Processing times can range from a few days to a few weeks, depending on the visa type and the applicant's country of residence."
+        },
+        "visa_validity": {
+          "content": "Visa validity varies by visa type. Tourist visas are typically valid for 90 days, while business and work visas may be valid for up to a year or more."
+        },
+        "entry_requirements": {
+          "content": "Visa holders must enter Japan within the validity period of the visa. Overstaying a visa can result in fines or other penalties."
+        }
+      },
+      "faqs": {
+        "faq_1": {
+          "question": "Can I extend my visa while in Japan?",
+          "answer": "Certain types of visas can be extended, but this must be done before the current visa expires. Extensions are granted at the discretion of Japanese authorities."
+        },
+        "faq_2": {
+          "question": "Is visa-free entry available for Japan?",
+          "answer": "Yes, citizens of many countries can enter Japan visa-free for short stays, typically up to 90 days."
+        },
+        "faq_3": {
+          "question": "Can I work in Japan on a tourist visa?",
+          "answer": "No, working on a tourist visa is strictly prohibited. You must apply for a work visa if you intend to work in Japan."
+        }
+      }
+    }
+  }
+  

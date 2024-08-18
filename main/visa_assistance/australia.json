@@ -1,0 +1,137 @@
+{
+    "country_name": "Australia",
+    "visa_guide": {
+      "country_overview": {
+        "content": "Australia, known for its unique wildlife, stunning landscapes, and vibrant cities like Sydney and Melbourne, is a popular destination for tourists, students, and workers. The country offers a range of visa options depending on the purpose of your visit, including tourism, business, and long-term stays. Australia's visa system is managed through the Department of Home Affairs, and visa applications can be made online through the ImmiAccount portal."
+      },
+      "types_of_visas": {
+        "tourist_visa": {
+          "title": "Tourist Visa (Subclass 600)",
+          "description": "The Tourist Visa allows visitors to stay in Australia for up to 12 months for tourism or to visit family and friends. The visa is granted for single or multiple entries depending on the applicant's circumstances."
+        },
+        "business_visa": {
+          "title": "Business Visitor Visa (Subclass 600)",
+          "description": "The Business Visitor Visa allows individuals to visit Australia for business-related activities such as meetings and conferences. It is valid for up to 3, 6, or 12 months depending on the applicant's needs."
+        },
+        "student_visa": {
+          "title": "Student Visa (Subclass 500)",
+          "description": "The Student Visa permits individuals to study full-time in Australia at an educational institution. The visa is valid for the duration of the course plus a short period after completion for travel."
+        },
+        "work_visa": {
+          "title": "Temporary Skill Shortage Visa (Subclass 482)",
+          "description": "The Temporary Skill Shortage Visa allows individuals with specific skills to work in Australia. It is employer-sponsored and can be granted for up to 4 years depending on the occupation and agreement with the employer."
+        },
+        "family_reunion_visa": {
+          "title": "Family Reunion Visa",
+          "description": "This visa allows family members of Australian citizens or permanent residents to join them in Australia. It includes several subcategories such as partner visas and parent visas, with specific requirements based on the relationship and location of the family members."
+        }
+      },
+      "visa_requirements": {
+        "tourist_visa": {
+          "eligibility_criteria": "Applicants must demonstrate that they are visiting Australia for tourism purposes, have a valid passport, and sufficient funds for their stay. They must also meet health and character requirements.",
+          "mandatory_documents": [
+            "Completed visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photographs",
+            "Proof of accommodation",
+            "Travel itinerary",
+            "Evidence of sufficient funds",
+            "Health insurance"
+          ],
+          "additional_documents": [
+            "Letter of invitation from a friend or family member (if applicable)",
+            "Proof of employment or studies in the home country"
+          ]
+        },
+        "business_visa": {
+          "eligibility_criteria": "Applicants must provide proof of their business activities, such as an invitation letter from an Australian company or details of business meetings or conferences. They must also demonstrate their intent to return to their home country.",
+          "mandatory_documents": [
+            "Completed visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photographs",
+            "Invitation letter from an Australian company or organization",
+            "Proof of business activities",
+            "Proof of accommodation in Australia"
+          ],
+          "additional_documents": [
+            "Previous business correspondence with the inviting company",
+            "Evidence of business ownership or employment"
+          ]
+        },
+        "student_visa": {
+          "eligibility_criteria": "Applicants must be accepted into an Australian educational institution and demonstrate their ability to financially support their stay and studies in Australia. They must also meet health and character requirements.",
+          "mandatory_documents": [
+            "Completed visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photographs",
+            "Confirmation of Enrollment (CoE) from an Australian educational institution",
+            "Proof of financial capacity",
+            "Health insurance"
+          ],
+          "additional_documents": [
+            "Academic transcripts and certificates",
+            "Accommodation details"
+          ]
+        }
+      },
+      "step_by_step_visa_application_process": {
+        "step_1": {
+          "title": "Determine Visa Type",
+          "description": "Identify the visa type that matches your purpose of travel to Australia. Check the specific eligibility criteria for the selected visa category."
+        },
+        "step_2": {
+          "title": "Check Eligibility",
+          "description": "Review the eligibility requirements for the visa type you are applying for, including health and character requirements."
+        },
+        "step_3": {
+          "title": "Gather Required Documents",
+          "description": "Collect all necessary documents, including the visa application form, passport, photographs, and supporting documents relevant to your visa type."
+        },
+        "step_4": {
+          "title": "Complete the Application Form",
+          "description": "Fill out the visa application form accurately. Applications can be submitted online through the ImmiAccount portal or through an Australian visa office."
+        },
+        "step_5": {
+          "title": "Submit the Application",
+          "description": "Submit your completed application form along with the required documents. Ensure that all documents are provided as per the requirements for the visa type."
+        },
+        "step_6": {
+          "title": "Wait for Processing",
+          "description": "Processing times for Australian visas vary based on the type of visa and individual circumstances. Check the processing times on the Department of Home Affairs website."
+        },
+        "step_7": {
+          "title": "Receive the Visa",
+          "description": "Once your visa is approved, you will be notified. Ensure that all details on the visa are correct before your travel."
+        }
+      },
+      "additional_information": {
+        "visa_fees": {
+          "content": "Visa fees for Australian visas vary depending on the type and length of the visa. Fees are non-refundable and must be paid at the time of application. Fees can be paid online through the ImmiAccount portal."
+        },
+        "processing_time": {
+          "content": "Processing times for Australian visas vary depending on the visa type and individual circumstances. It is advisable to check current processing times on the Department of Home Affairs website and apply well in advance."
+        },
+        "visa_validity": {
+          "content": "The validity of an Australian visa depends on the type of visa issued. Tourist and business visas are generally granted for up to 12 months, while work and student visas vary based on the contract or course duration."
+        },
+        "entry_requirements": {
+          "content": "Upon arrival in Australia, travelers must present their valid visa, passport, and may be required to provide additional documentation such as proof of accommodation and sufficient funds."
+        }
+      },
+      "faqs": {
+        "faq_1": {
+          "question": "Can I extend my visa while in Australia?",
+          "answer": "Yes, certain visas can be extended while you are in Australia. You need to apply for an extension through the Department of Home Affairs before your current visa expires."
+        },
+        "faq_2": {
+          "question": "Is a visa required before arrival in Australia?",
+          "answer": "Yes, most travelers need to obtain a visa before arriving in Australia. You can apply for a visa online through the ImmiAccount portal."
+        },
+        "faq_3": {
+          "question": "Can I work in Australia on a Tourist Visa?",
+          "answer": "No, working on a Tourist Visa is not allowed. If you wish to work in Australia, you must apply for a work visa."
+        }
+      }
+    }
+  }
+  

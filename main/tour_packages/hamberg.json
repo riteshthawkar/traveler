@@ -1,0 +1,93 @@
+{
+    "package_name": "Hamburg Highlights",
+    "country": "Germany",
+    "duration_days": 4,
+    "customer_rating": 4.5,
+    "places_to_visit": [
+      {
+        "name": "Miniatur Wunderland",
+        "description": "Miniatur Wunderland is the world's largest model railway exhibition. It features highly detailed miniature worlds representing different regions and countries."
+      },
+      {
+        "name": "Elbphilharmonie",
+        "description": "Elbphilharmonie is a modern concert hall with a unique glass structure. It offers panoramic views of Hamburg from its Plaza and hosts world-class musical performances."
+      },
+      {
+        "name": "Hamburg Harbor",
+        "description": "Hamburg Harbor is one of the largest ports in Europe. Visitors can take boat tours to see the bustling port activities and the historic Speicherstadt district."
+      },
+      {
+        "name": "St. Michael’s Church",
+        "description": "St. Michael’s Church, also known as Michel, is a Baroque church with a prominent tower offering stunning views of Hamburg. It’s one of the city’s landmarks and a significant historical site."
+      },
+      {
+        "name": "Speicherstadt",
+        "description": "Speicherstadt is the world’s largest warehouse district, known for its red brick buildings and canals. It offers a glimpse into Hamburg’s past as a major trading hub."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Hamburg",
+        "hotels": ["The Fontenay", "Hotel Atlantic Kempinski", "Park Hyatt Hamburg"],
+        "restaurants": ["Fischereihafen Restaurant", "Das Feuerschiff", "The Bullerei"]
+      }
+    ],
+    "activities": [
+      "Explore Miniatur Wunderland and its miniature worlds",
+      "Visit the Elbphilharmonie and enjoy the views from the Plaza",
+      "Take a boat tour of Hamburg Harbor",
+      "Tour St. Michael’s Church and climb the tower",
+      "Wander through Speicherstadt and its historic warehouses"
+    ],
+    "tips_and_tricks": [
+      "Book tickets for Elbphilharmonie performances in advance.",
+      "Wear comfortable shoes for exploring the harbor and Speicherstadt.",
+      "Consider using public transport or bike rentals to navigate the city."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+49 40-555-1234",
+      "local_police": "110",
+      "embassy": "+49 40-555-5678"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Hamburg",
+        "activities": [
+          "Arrival at Hamburg Airport and transfer to the hotel",
+          "Briefing on the tour and rest",
+          "Dinner at a local restaurant and overnight stay"
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Hamburg",
+        "activities": [
+          "Visit Miniatur Wunderland in the morning",
+          "Lunch at a nearby café",
+          "Explore Elbphilharmonie in the afternoon",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Hamburg",
+        "activities": [
+          "Take a boat tour of Hamburg Harbor in the morning",
+          "Lunch at a harbor-side restaurant",
+          "Tour St. Michael’s Church in the afternoon",
+          "Dinner and evening at Speicherstadt"
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Hamburg",
+        "activities": [
+          "Free time for additional sightseeing or shopping",
+          "Lunch in Hamburg",
+          "Transfer to the airport for departure"
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,123 @@
+{
+    "package_name": "Maui Adventure",
+    "country": "USA",
+    "duration_days": 7,
+    "customer_rating": 4.8,
+    "places_to_visit": [
+      {
+        "name": "Haleakala National Park",
+        "description": "Haleakala National Park features a massive volcanic crater and stunning sunrise views. Visitors can hike through diverse landscapes and experience breathtaking panoramas."
+      },
+      {
+        "name": "Road to Hana",
+        "description": "The Road to Hana is a scenic drive offering waterfalls, lush rainforests, and coastal views. It's an adventurous journey with many stops for natural attractions."
+      },
+      {
+        "name": "Lahaina Town",
+        "description": "Lahaina is a historic whaling town with a lively waterfront, shops, restaurants, and art galleries. It's a great place to explore local culture and history."
+      },
+      {
+        "name": "Kaanapali Beach",
+        "description": "Kaanapali Beach is a popular resort area with golden sand and clear waters. It's ideal for sunbathing, swimming, and water sports, with many dining options nearby."
+      },
+      {
+        "name": "Molokini Crater",
+        "description": "Molokini Crater is a marine sanctuary known for its snorkeling and diving opportunities. The crescent-shaped reef offers vibrant marine life and clear waters."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Maui",
+        "hotels": ["Four Seasons Resort Maui", "Andaz Maui at Wailea", "The Westin Ka’anapali Ocean Resort Villas"],
+        "restaurants": ["Mama's Fish House", "Lahaina Grill", "Fleetwood's on Front St."]
+      }
+    ],
+    "activities": [
+      "Watch the sunrise at Haleakala National Park",
+      "Drive the Road to Hana and explore waterfalls and rainforests",
+      "Explore Lahaina Town and its historic sites",
+      "Relax and enjoy water sports at Kaanapali Beach",
+      "Snorkel or dive at Molokini Crater"
+    ],
+    "tips_and_tricks": [
+      "Book Haleakala sunrise tours in advance to secure a spot.",
+      "Carry a swimsuit and sunscreen for beach activities.",
+      "Be prepared for a long drive on the Road to Hana with snacks and water."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+1 808-555-1234",
+      "local_police": "911",
+      "embassy": "+1 808-555-5678"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Maui",
+        "activities": [
+          "Arrival at Maui Airport and transfer to the hotel",
+          "Briefing on the tour and rest",
+          "Dinner at a local restaurant and overnight stay"
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Maui",
+        "activities": [
+          "Watch the sunrise at Haleakala National Park",
+          "Lunch in the area",
+          "Explore nearby attractions or relax at the hotel in the afternoon",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Maui",
+        "activities": [
+          "Drive the Road to Hana in the morning",
+          "Lunch along the route",
+          "Continue exploring waterfalls and rainforests in the afternoon",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Maui",
+        "activities": [
+          "Visit Lahaina Town in the morning",
+          "Lunch at a local restaurant",
+          "Explore the town and its historic sites in the afternoon",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 5,
+        "location": "Maui",
+        "activities": [
+          "Relax at Kaanapali Beach in the morning",
+          "Lunch at a beachside restaurant",
+          "Continue enjoying beach activities or water sports in the afternoon",
+          "Dinner and evening at leisure"
+        ]
+      },
+      {
+        "day": 6,
+        "location": "Maui",
+        "activities": [
+          "Take a snorkeling or diving trip to Molokini Crater in the morning",
+          "Lunch on the boat or at a local restaurant",
+          "Free time for additional sightseeing or shopping in the afternoon",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 7,
+        "location": "Maui",
+        "activities": [
+          "Final free time for relaxation or shopping",
+          "Lunch in Maui",
+          "Transfer to the airport for departure"
+        ]
+      }
+    ]
+  }
+  

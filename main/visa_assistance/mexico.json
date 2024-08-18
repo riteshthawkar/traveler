@@ -1,0 +1,125 @@
+{
+    "country_name": "Mexico",
+    "visa_guide": {
+      "country_overview": {
+        "content": "Mexico, known for its rich cultural heritage, beautiful beaches, and historical landmarks, is a popular destination for tourists. From the vibrant city of Mexico City to the scenic coastlines of Cancun and the historic ruins of Chichen Itza, Mexico offers diverse attractions. The Mexican visa system, managed by the National Institute of Migration (INM), provides various types of visas for tourism, business, and other purposes. Visa applications are processed through Mexican embassies and consulates worldwide."
+      },
+      "types_of_visas": {
+        "tourist_visa": {
+          "title": "Tourist Visa (FMM)",
+          "description": "The Tourist Visa (FMM - Forma Migratoria Multiple) allows visitors to stay in Mexico for up to 180 days for tourism or visiting family and friends."
+        },
+        "student_visa": {
+          "title": "Student Visa (FM3)",
+          "description": "The Student Visa (FM3) is for individuals who have been accepted into a Mexican educational institution. It allows for full-time study and is valid for the duration of the course plus a possible extension."
+        },
+        "work_visa": {
+          "title": "Work Visa (FM2)",
+          "description": "The Work Visa (FM2) is for foreign nationals seeking employment in Mexico. It allows individuals to work for a specific employer and is typically valid for up to 1 year, with the possibility of extension."
+        },
+        "business_visa": {
+          "title": "Business Visa",
+          "description": "The Business Visa allows individuals to travel to Mexico for short-term business activities such as meetings, conferences, or negotiations."
+        }
+      },
+      "visa_requirements": {
+        "tourist_visa": {
+          "eligibility_criteria": "Applicants must demonstrate that they are visiting Mexico for tourism, have a valid passport, sufficient funds, and intend to return to their home country. The FMM is often issued upon arrival or can be obtained in advance.",
+          "mandatory_documents": [
+            "Valid passport",
+            "Completed FMM form (available online or at the port of entry)",
+            "Proof of accommodation",
+            "Travel itinerary",
+            "Evidence of sufficient funds"
+          ]
+        },
+        "student_visa": {
+          "eligibility_criteria": "Applicants must be accepted into a Mexican educational institution and demonstrate their ability to financially support themselves during their studies. The FM3 visa is obtained in advance from a Mexican consulate.",
+          "mandatory_documents": [
+            "Completed FM3 application form",
+            "Valid passport",
+            "Recent passport-sized photographs",
+            "Letter of acceptance from a Mexican educational institution",
+            "Proof of financial capacity"
+          ],
+          "additional_documents": [
+            "Academic transcripts and certificates",
+            "Accommodation details"
+          ]
+        },
+        "work_visa": {
+          "eligibility_criteria": "Applicants must have a job offer from a Mexican employer and meet specific qualifications. The FM2 visa requires approval from the Mexican Ministry of Labor.",
+          "mandatory_documents": [
+            "Completed FM2 application form",
+            "Valid passport",
+            "Recent passport-sized photographs",
+            "Job offer letter or employment contract",
+            "Proof of relevant qualifications and experience"
+          ],
+          "additional_documents": [
+            "Previous employment records",
+            "Proof of any previous visits to Mexico"
+          ]
+        }
+      },
+      "step_by_step_visa_application_process": {
+        "step_1": {
+          "title": "Determine Visa Type",
+          "description": "Identify the appropriate visa type based on your purpose of visit to Mexico. Ensure you meet the eligibility requirements for the selected visa category."
+        },
+        "step_2": {
+          "title": "Check Eligibility",
+          "description": "Review the specific eligibility requirements for the visa type you are applying for, including health and character requirements."
+        },
+        "step_3": {
+          "title": "Gather Required Documents",
+          "description": "Collect all necessary documents including the visa application form, passport, photographs, and supporting documents relevant to your visa type."
+        },
+        "step_4": {
+          "title": "Complete the Application Form",
+          "description": "Fill out the visa application form accurately. Tourist visas can often be obtained upon arrival, while student and work visas must be applied for in advance."
+        },
+        "step_5": {
+          "title": "Submit the Application",
+          "description": "Submit your completed application form along with the required documents. Ensure that all documents are provided as per the requirements for your visa type."
+        },
+        "step_6": {
+          "title": "Wait for Processing",
+          "description": "Processing times for Mexican visas vary based on the type of visa and individual circumstances. Tourist visas are often issued quickly, while student and work visas may take longer."
+        },
+        "step_7": {
+          "title": "Receive the Visa",
+          "description": "Once your visa is approved, you will be notified. Ensure that all details on the visa are correct before traveling."
+        }
+      },
+      "additional_information": {
+        "visa_fees": {
+          "content": "Visa fees for Mexican visas vary depending on the type of visa and duration of stay. Fees are payable at the time of application and are non-refundable."
+        },
+        "processing_time": {
+          "content": "Processing times for Mexican visas vary. Tourist visas are often issued quickly, while student and work visas may take longer. Check current processing times with the Mexican consulate or embassy."
+        },
+        "visa_validity": {
+          "content": "The validity of Mexican visas depends on the type of visa issued. Tourist visas are generally valid for up to 180 days, while work and student visas may be valid for the duration of employment or study plus a possible extension."
+        },
+        "entry_requirements": {
+          "content": "Upon arrival in Mexico, travelers must present their valid visa (if required), passport, and may be required to provide additional documentation such as proof of accommodation and sufficient funds."
+        }
+      },
+      "faqs": {
+        "faq_1": {
+          "question": "Can I extend my visa while in Mexico?",
+          "answer": "Extensions for Mexican visas may be possible under certain circumstances. You should contact the National Institute of Migration (INM) for detailed information on the extension process."
+        },
+        "faq_2": {
+          "question": "Is a visa required before arrival in Mexico?",
+          "answer": "Depending on your nationality, you may require a visa before arriving in Mexico. Some nationalities can obtain the FMM upon arrival."
+        },
+        "faq_3": {
+          "question": "Can I work in Mexico on a Tourist Visa?",
+          "answer": "No, working on a Tourist Visa is not permitted. If you wish to work in Mexico, you must apply for a Work Visa."
+        }
+      }
+    }
+  }
+  

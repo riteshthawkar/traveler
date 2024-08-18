@@ -1,0 +1,102 @@
+{
+    "package_name": "Icelandic Wonders",
+    "country": "Iceland",
+    "duration_days": 5,
+    "customer_rating": 4.8,
+    "places_to_visit": [
+      {
+        "name": "Golden Circle",
+        "description": "The Golden Circle is a popular tourist route that includes Thingvellir National Park, the Gullfoss Waterfall, and the Geysir Geothermal Area. It offers stunning landscapes and geothermal features."
+      },
+      {
+        "name": "Blue Lagoon",
+        "description": "The Blue Lagoon is a geothermal spa located in a lava field. It’s known for its milky-blue waters and soothing properties, making it a perfect spot for relaxation."
+      },
+      {
+        "name": "Hallgrímskirkja",
+        "description": "Hallgrímskirkja is a striking Lutheran church in Reykjavik. Its unique architecture and panoramic views from the top make it a must-visit landmark."
+      },
+      {
+        "name": "Harpa Concert Hall",
+        "description": "Harpa Concert Hall is an architectural marvel with its glass facade that reflects the Icelandic landscape. It hosts concerts and cultural events."
+      },
+      {
+        "name": "Perlan",
+        "description": "Perlan is a landmark in Reykjavik that features a rotating observation deck, a glacier exhibition, and an indoor ice cave. It offers panoramic views of the city and surrounding landscapes."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Reykjavik",
+        "hotels": ["Canopy by Hilton Reykjavik City Centre", "Hotel Borg by Keahotels", "Reykjavik Residence Hotel"],
+        "restaurants": ["Fiskmarkaðurinn (Fish Market)", "Sægreifinn (Sea Baron)", "Dill Restaurant"]
+      }
+    ],
+    "activities": [
+      "Explore the Golden Circle and its natural wonders",
+      "Relax in the Blue Lagoon",
+      "Visit Hallgrímskirkja and enjoy the views",
+      "Attend a performance at Harpa Concert Hall",
+      "Experience the exhibitions at Perlan"
+    ],
+    "tips_and_tricks": [
+      "Dress in layers to stay warm, as temperatures can be very cold.",
+      "Bring waterproof clothing for outdoor activities.",
+      "Check the weather forecast regularly, as conditions can change rapidly."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+354 555-1234",
+      "local_police": "112",
+      "embassy": "+354 555-5678"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Reykjavik",
+        "activities": [
+          "Arrival at Keflavik International Airport and transfer to the hotel",
+          "Briefing on the tour and rest",
+          "Dinner at a local restaurant and overnight stay"
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Reykjavik",
+        "activities": [
+          "Full-day tour of the Golden Circle",
+          "Lunch at a local restaurant",
+          "Return to Reykjavik, dinner, and overnight stay"
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Reykjavik",
+        "activities": [
+          "Visit the Blue Lagoon in the morning",
+          "Lunch at a nearby restaurant",
+          "Explore Hallgrímskirkja and Harpa Concert Hall in the afternoon",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Reykjavik",
+        "activities": [
+          "Tour Perlan and its exhibitions in the morning",
+          "Lunch at a local restaurant",
+          "Free time for additional sightseeing or shopping",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 5,
+        "location": "Reykjavik",
+        "activities": [
+          "Final free time for relaxation or last-minute shopping",
+          "Lunch at the hotel or nearby restaurant",
+          "Transfer to Keflavik International Airport for departure"
+        ]
+      }
+    ]
+  }
+  

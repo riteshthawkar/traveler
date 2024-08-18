@@ -1,0 +1,122 @@
+{
+    "package_name": "Doha Modern Marvels",
+    "country": "Qatar",
+    "duration_days": 4,
+    "customer_rating": 4.6,
+    "tour_cost_usd": 850,
+    "region_description": "Doha, the capital city of Qatar, is a vibrant metropolis blending modernity and tradition. Known for its stunning skyline, luxury shopping, and rich cultural heritage, Doha offers a unique glimpse into the Gulf's rapid development. Visitors can explore the Museum of Islamic Art, wander through the Souq Waqif, and enjoy the city's waterfront Corniche, all while experiencing the warm hospitality of its people.",
+    "places_to_visit": [
+      {
+        "name": "Museum of Islamic Art",
+        "description": "The Museum of Islamic Art is an architectural masterpiece housing a vast collection of Islamic artifacts, showcasing art from three continents."
+      },
+      {
+        "name": "Souq Waqif",
+        "description": "Souq Waqif is a traditional market offering a variety of goods, including spices, textiles, and souvenirs, providing a glimpse of Qatari culture."
+      },
+      {
+        "name": "Katara Cultural Village",
+        "description": "Katara Cultural Village is a cultural hub featuring theaters, galleries, and restaurants, hosting various events and exhibitions."
+      },
+      {
+        "name": "The Pearl-Qatar",
+        "description": "The Pearl-Qatar is an artificial island featuring luxury residences, upscale shops, and dining options, symbolizing Doha's modern development."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Doha",
+        "hotels": [
+          {
+            "name": "The Ritz-Carlton, Doha",
+            "description": "This luxury hotel offers elegant accommodations and stunning views of the Arabian Gulf, with world-class amenities and services.",
+            "cost_per_night_usd": 400
+          },
+          {
+            "name": "W Doha",
+            "description": "W Doha is a modern hotel with stylish rooms and vibrant nightlife, located near the city center and major attractions.",
+            "cost_per_night_usd": 250
+          }
+        ],
+        "restaurants": [
+          {
+            "name": "Nidaaya",
+            "description": "Nidaaya offers a modern take on Qatari cuisine in a chic setting, featuring a menu that blends tradition with innovation.",
+            "average_cost_per_person_usd": 45
+          },
+          {
+            "name": "Al Tawash Restaurant",
+            "description": "Al Tawash serves traditional Qatari dishes in a cozy atmosphere, perfect for experiencing local flavors.",
+            "average_cost_per_person_usd": 30
+          }
+        ]
+      }
+    ],
+    "activities": [
+      "Explore the Museum of Islamic Art and its collections.",
+      "Visit Souq Waqif for shopping and local food.",
+      "Experience cultural events at Katara Cultural Village.",
+      "Stroll along the Corniche and enjoy the waterfront views."
+    ],
+    "tips_and_tricks": [
+      "Dress modestly, especially in traditional markets.",
+      "Try local dishes and street food for an authentic experience.",
+      "Stay hydrated, especially during outdoor activities."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+974 4444 1234",
+      "local_police": "999",
+      "embassy": "+974 5555 6789"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Doha",
+        "activities": [
+          "Arrival at Hamad International Airport and transfer to the hotel.",
+          "Briefing on the tour and rest.",
+          "Dinner at a local restaurant sampling traditional Qatari cuisine."
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Doha",
+        "activities": [
+          "Visit the Museum of Islamic Art and explore its exhibits.",
+          "Lunch at a nearby café.",
+          "Afternoon visit to Souq Waqif for shopping and local delicacies.",
+          "Dinner at Nidaaya, experiencing modern Qatari cuisine."
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Doha",
+        "activities": [
+          "Explore Katara Cultural Village and attend a cultural event.",
+          "Lunch at a local restaurant.",
+          "Stroll along the Corniche and enjoy the views.",
+          "Dinner at Al Tawash, savoring traditional dishes."
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Departure",
+        "activities": [
+          "Check-out from the hotel and transfer to the airport for departure."
+        ]
+      }
+    ],
+    "customer_reviews": [
+      {
+        "name": "Sophia M.",
+        "rating": 4.7,
+        "description": "Doha is a city of contrasts! The modern architecture and traditional markets are fascinating."
+      },
+      {
+        "name": "Liam H.",
+        "rating": 4.5,
+        "description": "An interesting mix of culture and luxury. Enjoyed every moment!"
+      }
+    ]
+  }
+  

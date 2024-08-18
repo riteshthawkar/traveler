@@ -1,0 +1,150 @@
+{
+    "package_name": "Comoros Cultural Exploration",
+    "country": "Comoros",
+    "duration_days": 7,
+    "customer_rating": 4.5,
+    "tour_cost_usd": 1500,
+    "region_description": "The Comoros is an archipelago located in the Indian Ocean, situated between Madagascar and the African mainland. Known for its rich culture, diverse landscapes, and stunning beaches, the Comoros offers a unique blend of African, Arab, and French influences. The islands are famous for their fragrant ylang-ylang flowers, beautiful coral reefs, and volcanic mountains. Visitors can explore local markets, relax on pristine beaches, and experience the island's rich traditions and hospitality, making it a hidden gem for travelers seeking an authentic experience.",
+    "places_to_visit": [
+      {
+        "name": "Grand Comore",
+        "description": "Grand Comore is the largest island in the Comoros, known for its volcanic landscapes and vibrant local culture. Visitors can explore the capital, Moroni, and enjoy beautiful beaches."
+      },
+      {
+        "name": "Mohéli",
+        "description": "Mohéli is known for its stunning beaches and rich marine biodiversity. The island offers opportunities for snorkeling, diving, and enjoying nature."
+      },
+      {
+        "name": "Anjouan",
+        "description": "Anjouan is famous for its lush green hills, traditional villages, and beautiful waterfalls. It's a great place to experience the island's culture and natural beauty."
+      },
+      {
+        "name": "Chumbe Island",
+        "description": "Chumbe Island is a marine park known for its coral reefs and diverse marine life. It's an excellent destination for snorkeling and eco-tourism."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Comoros",
+        "hotels": [
+          {
+            "name": "Golden Tulip Grande Comore",
+            "description": "Golden Tulip Grande Comore offers comfortable accommodations with stunning ocean views, a pool, and easy access to the beach.",
+            "cost_per_night_usd": 120
+          },
+          {
+            "name": "Retaj Moroni",
+            "description": "Retaj Moroni is a luxury hotel located in the capital, featuring elegant rooms, a restaurant, and a private beach area.",
+            "cost_per_night_usd": 150
+          }
+        ],
+        "restaurants": [
+          {
+            "name": "La Paillote",
+            "description": "La Paillote is a beachfront restaurant serving a mix of local and international cuisine, with a focus on fresh seafood.",
+            "average_cost_per_person_usd": 25
+          },
+          {
+            "name": "Le Palmier",
+            "description": "Le Palmier offers delicious local dishes in a relaxed atmosphere, perfect for enjoying a meal after a day of exploring.",
+            "average_cost_per_person_usd": 20
+          }
+        ]
+      }
+    ],
+    "activities": [
+      "Relax on the pristine beaches of Grand Comore.",
+      "Explore the marine life around Mohéli.",
+      "Visit traditional villages in Anjouan.",
+      "Snorkel in the coral reefs of Chumbe Island."
+    ],
+    "tips_and_tricks": [
+      "Learn basic French phrases for better communication.",
+      "Try local dishes such as seafood and coconut curries.",
+      "Respect local customs and traditions when visiting villages."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+269 77 123 456",
+      "local_police": "17",
+      "embassy": "+269 73 456 789"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Moroni",
+        "activities": [
+          "Arrival at Prince Said Ibrahim International Airport and transfer to the hotel.",
+          "Briefing on the tour and rest.",
+          "Dinner at La Paillote."
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Grand Comore",
+        "activities": [
+          "Explore the capital city of Moroni, visiting local markets and historical sites.",
+          "Lunch at a local restaurant.",
+          "Relax on the beach in the afternoon.",
+          "Dinner and overnight stay at Golden Tulip Grande Comore."
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Mohéli",
+        "activities": [
+          "Travel to Mohéli by ferry.",
+          "Relax on the stunning beaches or engage in water sports.",
+          "Lunch at a beachside café.",
+          "Dinner and overnight stay at a local hotel."
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Anjouan",
+        "activities": [
+          "Travel to Anjouan by ferry.",
+          "Visit traditional villages and explore the lush landscapes.",
+          "Lunch at a local restaurant.",
+          "Return to the hotel for dinner."
+        ]
+      },
+      {
+        "day": 5,
+        "location": "Chumbe Island",
+        "activities": [
+          "Day trip to Chumbe Island for snorkeling and exploring the marine park.",
+          "Lunch on the island.",
+          "Return to Grand Comore for dinner."
+        ]
+      },
+      {
+        "day": 6,
+        "location": "Grand Comore",
+        "activities": [
+          "Relax and enjoy leisure activities or explore local attractions.",
+          "Lunch at a local restaurant.",
+          "Dinner and overnight stay at Retaj Moroni."
+        ]
+      },
+      {
+        "day": 7,
+        "location": "Departure",
+        "activities": [
+          "Check-out from the hotel and transfer to the airport for departure."
+        ]
+      }
+    ],
+    "customer_reviews": [
+      {
+        "name": "Amara T.",
+        "rating": 4.8,
+        "description": "Comoros is a hidden gem! The culture and hospitality were incredible."
+      },
+      {
+        "name": "Mohammed S.",
+        "rating": 4.6,
+        "description": "Amazing experience exploring the islands and enjoying the local food."
+      }
+    ]
+  }
+  

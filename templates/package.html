@@ -1,0 +1,110 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+
+{% block content %}
+    <!-- Packages Start -->
+    <div class="container-fluid bg-white py-5">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-dark text-uppercase" style="letter-spacing: 5px;">Packages</h6>
+                <h1>Tour Packages for you</h1>
+            </div>
+
+            <div class="row">
+                {% for tour in tour_packages %}
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2 border rounded-xl overflow-hidden p-4">
+                        <a href="/package/{{ tour.pk }}" class="d-flex flex-column align-items-start text-decoration-none" style="min-height: 200px;">
+                            <small class=" text-dark border border-dark py-1 px-2 rounded-pill mb-3" style="font-weight: 600;"><i class="fa fa-map-marker-alt text-warning mr-2"></i>{{tour.country}}</small>
+                            <h1 class="h5 d-block text-decoration-none mb-3" href="">{{ tour.package_name }}</h1>
+                            <div class="d-flex mb-3 flex-grow-1" style="gap: 20px;">
+                                <small class="m-0 text-dark"><i class="fa fa-calendar-alt text-warning mr-2"></i>{{ tour.duration }} days</small>
+                                <small class="m-0 text-dark"><i class="fa fa-map-marker-alt text-warning mr-2"></i>{{ tour.places_to_visit|length }} Places</small>
+                            </div>
+                            <div class="w-100 border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-warning mr-2"></i>{{ tour.rating }}<small></small></h6>
+                                    <h5 class="m-0">${{ tour.cost }}</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                {% endfor %}
+                
+
+            </div>
+
+            <div class="text-center">
+                <a href="{% url "package-search-view" %}" class="btn btn-warning px-5 py-3 rounded-lg" style="font-weight: 500;">
+                    Show More
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Packages End -->
+
+
+    <!-- Destination Start -->
+    <div class="container-fluid bg-white">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-3 pb-3">
+                <h6 class=" text-uppercase" style="letter-spacing: 5px;">Destinations</h6>
+                <h1>Explore By Countries</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2 rounded-xl">
+                        <img class="img-fluid" src={% static "img/destination-1.jpg" %} alt="">
+                        <a class="destination-overlay text-white text-decoration-none rounded-xl" href="/search_packages/?keyword=USA">
+                            <h5 class="text-white">United States</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2 rounded-xl">
+                        <img class="img-fluid" src={% static "img/destination-2.jpg" %} alt="">
+                        <a class="destination-overlay text-white text-decoration-none rounded-xl" href="/search_packages/?keyword=United kingdom">
+                            <h5 class="text-white">United Kingdom</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2 rounded-xl">
+                        <img class="img-fluid" src={% static "img/destination-3.jpg" %} alt="">
+                        <a class="destination-overlay text-white text-decoration-none rounded-xl" href="/search_packages/?keyword=Australia">
+                            <h5 class="text-white">Australia</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2 rounded-xl">
+                        <img class="img-fluid" src={% static "img/destination-4.jpg" %} alt="Destination- Taj-Mahal">
+                        <a class="destination-overlay text-white text-decoration-none rounded-xl" href="/search_packages/?keyword=India">
+                            <h5 class="text-white">India</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2 rounded-xl">
+                        <img class="img-fluid" src={% static "img/destination-5.jpg" %} alt="">
+                        <a class="destination-overlay text-white text-decoration-none rounded-xl" href="/search_packages/?keyword=France">
+                            <h5 class="text-white">France</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2 rounded-xl">
+                        <img class="img-fluid" src={% static "img/destination-6.jpg" %} alt="">
+                        <a class="destination-overlay text-white text-decoration-none rounded-xl" href="/search_packages/?keyword=Brazil">
+                            <h5 class="text-white">Brazil</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Destination Start -->
+{% endblock content %}

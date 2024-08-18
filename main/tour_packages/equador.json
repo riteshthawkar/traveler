@@ -1,0 +1,120 @@
+{
+    "package_name": "Galápagos Islands Adventure",
+    "country": "Ecuador",
+    "duration_days": 7,
+    "customer_rating": 4.9,
+    "places_to_visit": [
+      {
+        "name": "Santa Cruz Island",
+        "description": "Santa Cruz Island is one of the main islands in the Galápagos archipelago. It is home to the Charles Darwin Research Station, where visitors can learn about conservation efforts and see giant tortoises. The island also features beautiful beaches and lush highlands."
+      },
+      {
+        "name": "Isabela Island",
+        "description": "Isabela Island is the largest island in the Galápagos and offers diverse landscapes, including volcanic craters, lava fields, and beautiful beaches. Key attractions include the Sierra Negra Volcano and the Galápagos Flamingo Lagoon."
+      },
+      {
+        "name": "Genovesa Island",
+        "description": "Genovesa Island, also known as 'Bird Island,' is renowned for its abundant birdlife. The island is home to various species of seabirds, including red-footed boobies and frigatebirds. Visitors can explore its volcanic landscapes and snorkel in its crystal-clear waters."
+      },
+      {
+        "name": "Española Island",
+        "description": "Española Island is known for its unique wildlife and dramatic landscapes. It is the only place where the Española mockingbird is found and is famous for its large populations of sea lions and marine iguanas."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Santa Cruz Island",
+        "hotels": ["Hotel Finch Bay", "Galápagos Safari Camp", "Royal Palm Hotel"],
+        "restaurants": ["IslaGrill", "La Garrapata", "The Rock"]
+      }
+    ],
+    "activities": [
+      "Guided tours of Santa Cruz Island and the Charles Darwin Research Station",
+      "Snorkeling and diving around Isabela Island",
+      "Bird watching on Genovesa Island",
+      "Exploring Española Island’s wildlife",
+      "Kayaking and hiking in the Galápagos National Park"
+    ],
+    "tips_and_tricks": [
+      "Book tours and accommodations well in advance, as the Galápagos are a popular destination.",
+      "Bring biodegradable sunscreen to protect the fragile environment.",
+      "Prepare for variable weather and bring layers for cooler temperatures in the highlands."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+593 5 252 3163",
+      "local_police": "101",
+      "embassy": "+593 2 398 1000"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Santa Cruz Island",
+        "activities": [
+          "Arrival at Seymour Airport and transfer to the hotel",
+          "Briefing on the tour and rest",
+          "Dinner at a local restaurant and overnight stay"
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Santa Cruz Island",
+        "activities": [
+          "Visit to the Charles Darwin Research Station",
+          "Lunch at a local restaurant",
+          "Explore the highlands and see giant tortoises",
+          "Dinner and overnight at the hotel"
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Isabela Island",
+        "activities": [
+          "Boat transfer to Isabela Island",
+          "Explore the island’s volcanic landscapes and beaches",
+          "Lunch at a local restaurant",
+          "Visit the Galápagos Flamingo Lagoon",
+          "Dinner and overnight at the hotel"
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Isabela Island",
+        "activities": [
+          "Snorkeling or diving around Isabela Island",
+          "Lunch at the hotel or a local restaurant",
+          "Afternoon hike or kayaking",
+          "Dinner and overnight at the hotel"
+        ]
+      },
+      {
+        "day": 5,
+        "location": "Genovesa Island",
+        "activities": [
+          "Boat trip to Genovesa Island",
+          "Bird watching and exploration of volcanic landscapes",
+          "Lunch on board or on the island",
+          "Snorkeling in Genovesa’s waters",
+          "Dinner and overnight on Santa Cruz Island"
+        ]
+      },
+      {
+        "day": 6,
+        "location": "Española Island",
+        "activities": [
+          "Boat trip to Española Island",
+          "Explore the island’s wildlife and landscapes",
+          "Lunch on board or on the island",
+          "Snorkeling or beach time",
+          "Return to Santa Cruz Island for dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 7,
+        "location": "Departure",
+        "activities": [
+          "Check-out from the hotel and transfer to Seymour Airport for departure"
+        ]
+      }
+    ]
+  }
+  

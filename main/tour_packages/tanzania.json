@@ -1,0 +1,113 @@
+{
+    "package_name": "Conquer the Roof of Africa: Mount Kilimanjaro Expedition",
+    "country": "Tanzania",
+    "duration_days": 8,
+    "customer_rating": 4.9,
+    "places_to_visit": [
+      {
+        "name": "Mount Kilimanjaro",
+        "description": "Mount Kilimanjaro is the highest mountain in Africa, standing at 5,895 meters (19,341 feet) above sea level. It is a dormant volcano with three volcanic cones: Kibo, Mawenzi, and Shira. Kilimanjaro is known for its snow-capped peak, diverse ecosystems, and as one of the Seven Summits. Climbers experience varying landscapes, from tropical rainforests to alpine deserts, culminating in the ice fields at the summit."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Arusha",
+        "hotels": ["Arusha Coffee Lodge", "Mount Meru Hotel", "Kibo Palace Hotel"],
+        "restaurants": ["The Blue Heron", "Le Patio", "The African Tulip"]
+      },
+      {
+        "location": "Moshi",
+        "hotels": ["Kilimanjaro Wonders Hotel", "Parkview Inn", "Ameg Lodge"],
+        "restaurants": ["Union Café", "Moshi Coffee Lounge", "Indoitaliano"]
+      }
+    ],
+    "activities": [
+      "Climbing to the summit of Mount Kilimanjaro",
+      "Exploring diverse ecosystems along the mountain’s slopes",
+      "Camping under the stars on the mountain"
+    ],
+    "tips_and_tricks": [
+      "Acclimatize properly to avoid altitude sickness.",
+      "Pack warm clothing, as temperatures can drop significantly at higher altitudes.",
+      "Stay hydrated and maintain a steady pace during the climb."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+255 754 123 456",
+      "mountain_rescue": "+255 27 275 4020",
+      "local_police": "112",
+      "embassy": "+255 22 211 0000"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Arusha",
+        "activities": [
+          "Arrival at Kilimanjaro International Airport and transfer to Arusha",
+          "Briefing on the Kilimanjaro climb and equipment check",
+          "Dinner at the hotel and overnight stay"
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Moshi",
+        "activities": [
+          "Transfer to Moshi, the base town for Kilimanjaro climbs",
+          "Final preparations and acclimatization activities",
+          "Dinner and overnight stay in Moshi"
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Kilimanjaro - Marangu Gate to Mandara Hut",
+        "activities": [
+          "Start the climb from Marangu Gate",
+          "Trek through rainforest to Mandara Hut (2,700 meters)",
+          "Dinner and overnight at Mandara Hut"
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Kilimanjaro - Mandara Hut to Horombo Hut",
+        "activities": [
+          "Trek through heathland to Horombo Hut (3,720 meters)",
+          "Scenic views of Mawenzi and Kibo peaks",
+          "Dinner and overnight at Horombo Hut"
+        ]
+      },
+      {
+        "day": 5,
+        "location": "Kilimanjaro - Horombo Hut to Kibo Hut",
+        "activities": [
+          "Trek through the alpine desert to Kibo Hut (4,700 meters)",
+          "Rest and prepare for the summit attempt",
+          "Dinner and overnight at Kibo Hut"
+        ]
+      },
+      {
+        "day": 6,
+        "location": "Kilimanjaro - Summit Day",
+        "activities": [
+          "Early morning start to reach the summit, Uhuru Peak (5,895 meters)",
+          "Celebrate the achievement at the Roof of Africa",
+          "Descend to Horombo Hut for overnight stay"
+        ]
+      },
+      {
+        "day": 7,
+        "location": "Kilimanjaro - Descent to Moshi",
+        "activities": [
+          "Continue the descent to Marangu Gate",
+          "Receive a certificate of accomplishment",
+          "Transfer to Moshi for celebration dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 8,
+        "location": "Departure",
+        "activities": [
+          "Transfer to Kilimanjaro International Airport for departure"
+        ]
+      }
+    ]
+  }
+  

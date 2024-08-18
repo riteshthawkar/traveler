@@ -1,0 +1,133 @@
+{
+    "country_name": "Brazil",
+    "visa_guide": {
+      "country_overview": {
+        "content": "Brazil, the largest country in South America, is renowned for its vibrant culture, stunning beaches, and diverse landscapes. From the bustling streets of Rio de Janeiro to the natural wonders of the Amazon Rainforest, Brazil offers an array of attractions. The Brazilian visa system, managed by the Ministry of Justice, provides various types of visas for tourism, work, study, and other purposes. Visa applications are processed through Brazilian embassies and consulates worldwide."
+      },
+      "types_of_visas": {
+        "tourist_visa": {
+          "title": "Tourist Visa",
+          "description": "The Tourist Visa allows visitors to stay in Brazil for up to 90 days for tourism, visiting family or friends, or attending events."
+        },
+        "student_visa": {
+          "title": "Student Visa",
+          "description": "The Student Visa is for individuals accepted into a Brazilian educational institution. It allows for full-time study and is valid for the duration of the course plus a possible extension."
+        },
+        "work_visa": {
+          "title": "Work Visa",
+          "description": "The Work Visa is for foreign nationals seeking employment in Brazil. It allows individuals to work for a specific employer and is generally valid for up to 2 years, with the possibility of extension."
+        },
+        "business_visa": {
+          "title": "Business Visa",
+          "description": "The Business Visa allows individuals to travel to Brazil for short-term business activities such as meetings, conferences, or negotiations."
+        }
+      },
+      "visa_requirements": {
+        "tourist_visa": {
+          "eligibility_criteria": "Applicants must demonstrate that they are visiting Brazil for tourism, have a valid passport, sufficient funds, and intend to return to their home country. An interview may be required.",
+          "mandatory_documents": [
+            "Completed visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photographs",
+            "Proof of accommodation",
+            "Travel itinerary",
+            "Evidence of sufficient funds",
+            "Visa appointment confirmation"
+          ],
+          "additional_documents": [
+            "Letter of invitation from a friend or family member (if applicable)",
+            "Proof of employment or studies in the home country"
+          ]
+        },
+        "student_visa": {
+          "eligibility_criteria": "Applicants must be accepted into a Brazilian educational institution and demonstrate their ability to financially support themselves during their studies. An interview may be required.",
+          "mandatory_documents": [
+            "Completed visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photographs",
+            "Letter of acceptance from a Brazilian educational institution",
+            "Proof of financial capacity",
+            "Visa appointment confirmation"
+          ],
+          "additional_documents": [
+            "Academic transcripts and certificates",
+            "Accommodation details"
+          ]
+        },
+        "work_visa": {
+          "eligibility_criteria": "Applicants must have a job offer from a Brazilian employer and meet specific qualifications. The work visa application requires approval from Brazilian authorities.",
+          "mandatory_documents": [
+            "Completed visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photographs",
+            "Job offer letter or employment contract",
+            "Proof of relevant qualifications and experience",
+            "Visa appointment confirmation"
+          ],
+          "additional_documents": [
+            "Previous employment records",
+            "Proof of any previous visits to Brazil"
+          ]
+        }
+      },
+      "step_by_step_visa_application_process": {
+        "step_1": {
+          "title": "Determine Visa Type",
+          "description": "Identify the appropriate visa type based on your purpose of visit to Brazil. Ensure you meet the eligibility requirements for the selected visa category."
+        },
+        "step_2": {
+          "title": "Check Eligibility",
+          "description": "Review the specific eligibility requirements for the visa type you are applying for, including health and character requirements."
+        },
+        "step_3": {
+          "title": "Gather Required Documents",
+          "description": "Collect all necessary documents including the visa application form, passport, photographs, and supporting documents relevant to your visa type."
+        },
+        "step_4": {
+          "title": "Complete the Application Form",
+          "description": "Fill out the visa application form accurately. Applications can be submitted online or through Brazilian embassies and consulates."
+        },
+        "step_5": {
+          "title": "Submit the Application",
+          "description": "Submit your completed application form along with the required documents. Ensure that all documents are provided as per the requirements for your visa type."
+        },
+        "step_6": {
+          "title": "Wait for Processing",
+          "description": "Processing times for Brazilian visas vary based on the type of visa and individual circumstances. Check current processing times with the Brazilian consulate or embassy."
+        },
+        "step_7": {
+          "title": "Receive the Visa",
+          "description": "Once your visa is approved, you will be notified. Ensure that all details on the visa are correct before traveling."
+        }
+      },
+      "additional_information": {
+        "visa_fees": {
+          "content": "Visa fees for Brazilian visas vary depending on the type of visa and duration of stay. Fees are payable at the time of application and are non-refundable."
+        },
+        "processing_time": {
+          "content": "Processing times for Brazilian visas vary. Tourist visas are typically processed within a few weeks, while student and work visas may take longer. Check current processing times with the Brazilian consulate or embassy."
+        },
+        "visa_validity": {
+          "content": "The validity of Brazilian visas depends on the type of visa issued. Tourist visas are generally valid for up to 90 days, while work and student visas may be valid for the duration of employment or study plus a possible extension."
+        },
+        "entry_requirements": {
+          "content": "Upon arrival in Brazil, travelers must present their valid visa, passport, and may be required to provide additional documentation such as proof of accommodation and sufficient funds."
+        }
+      },
+      "faqs": {
+        "faq_1": {
+          "question": "Can I extend my visa while in Brazil?",
+          "answer": "Visa extensions may be possible depending on the type of visa. You should contact Brazilian immigration authorities for detailed information on the extension process."
+        },
+        "faq_2": {
+          "question": "Is a visa required before arrival in Brazil?",
+          "answer": "Yes, most travelers need to obtain a visa before arriving in Brazil. You can apply for a visa online or through a Brazilian embassy or consulate."
+        },
+        "faq_3": {
+          "question": "Can I work in Brazil on a Tourist Visa?",
+          "answer": "No, working on a Tourist Visa is not allowed. If you wish to work in Brazil, you must apply for a Work Visa."
+        }
+      }
+    }
+  }
+  

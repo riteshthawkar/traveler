@@ -1,0 +1,126 @@
+{
+    "country_name": "Saint Kitts and Nevis",
+    "visa_guide": {
+      "country_overview": {
+        "content": "Saint Kitts and Nevis, the smallest country in the Western Hemisphere, is renowned for its lush landscapes, volcanic peaks, and pristine beaches. Popular attractions include the historic Brimstone Hill Fortress and the vibrant culture of Basseterre. Most visitors can enter Saint Kitts and Nevis without a visa for short stays. For extended visits or specific purposes, a visa may be required."
+      },
+      "types_of_visas": {
+        "tourist_visa": {
+          "title": "Tourist Visa",
+          "description": "The Tourist Visa allows visitors to stay in Saint Kitts and Nevis for up to 90 days for tourism purposes. It is typically not required for citizens of many countries for short visits."
+        },
+        "student_visa": {
+          "title": "Student Visa",
+          "description": "The Student Visa is for individuals accepted into an educational institution in Saint Kitts and Nevis. It allows for full-time study and is valid for the duration of the course plus possible extensions."
+        },
+        "work_visa": {
+          "title": "Work Visa",
+          "description": "The Work Visa is for foreign nationals seeking employment in Saint Kitts and Nevis. It is generally valid for up to 2 years and is usually tied to a specific employer."
+        }
+      },
+      "visa_requirements": {
+        "tourist_visa": {
+          "eligibility_criteria": "Applicants must demonstrate that they are visiting Saint Kitts and Nevis for tourism, have a valid passport, sufficient funds, and intend to return to their home country. An interview may be required.",
+          "mandatory_documents": [
+            "Completed visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photographs",
+            "Proof of accommodation",
+            "Travel itinerary",
+            "Evidence of sufficient funds"
+          ],
+          "additional_documents": [
+            "Letter of invitation from a friend or family member (if applicable)",
+            "Proof of employment or studies in the home country"
+          ]
+        },
+        "student_visa": {
+          "eligibility_criteria": "Applicants must be accepted into an educational institution in Saint Kitts and Nevis and show proof of financial capacity to support themselves during their studies.",
+          "mandatory_documents": [
+            "Completed visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photographs",
+            "Letter of acceptance from a Saint Kitts and Nevis educational institution",
+            "Proof of financial capacity"
+          ],
+          "additional_documents": [
+            "Academic transcripts and certificates",
+            "Accommodation details"
+          ]
+        },
+        "work_visa": {
+          "eligibility_criteria": "Applicants must have a job offer from a Saint Kitts and Nevis employer and meet the required qualifications. The work visa application requires approval from Saint Kitts and Nevis authorities.",
+          "mandatory_documents": [
+            "Completed visa application form",
+            "Valid passport with at least six months of validity",
+            "Recent passport-sized photographs",
+            "Job offer letter or employment contract",
+            "Proof of relevant qualifications and experience"
+          ],
+          "additional_documents": [
+            "Previous employment records",
+            "Proof of any previous visits to Saint Kitts and Nevis"
+          ]
+        }
+      },
+      "step_by_step_visa_application_process": {
+        "step_1": {
+          "title": "Determine Visa Type",
+          "description": "Identify the appropriate visa type based on your purpose of visit to Saint Kitts and Nevis. Ensure you meet the eligibility requirements for the selected visa category."
+        },
+        "step_2": {
+          "title": "Check Eligibility",
+          "description": "Review the specific eligibility requirements for the visa type you are applying for, including health and character requirements."
+        },
+        "step_3": {
+          "title": "Gather Required Documents",
+          "description": "Collect all necessary documents including the visa application form, passport, photographs, and supporting documents relevant to your visa type."
+        },
+        "step_4": {
+          "title": "Complete the Application Form",
+          "description": "Fill out the visa application form accurately. Applications can be submitted online or through Saint Kitts and Nevis embassies and consulates."
+        },
+        "step_5": {
+          "title": "Submit the Application",
+          "description": "Submit your completed application form along with the required documents. Ensure that all documents are provided as per the requirements for your visa type."
+        },
+        "step_6": {
+          "title": "Wait for Processing",
+          "description": "Processing times for Saint Kitts and Nevis visas vary based on the type of visa and individual circumstances. Check current processing times with the Saint Kitts and Nevis consulate or embassy."
+        },
+        "step_7": {
+          "title": "Receive the Visa",
+          "description": "Once your visa is approved, you will be notified. Ensure that all details on the visa are correct before traveling."
+        }
+      },
+      "additional_information": {
+        "visa_fees": {
+          "content": "Visa fees for Saint Kitts and Nevis visas vary depending on the type of visa and duration of stay. Fees are payable at the time of application and are non-refundable."
+        },
+        "processing_time": {
+          "content": "Processing times for Saint Kitts and Nevis visas vary. Tourist visas are typically processed within a few weeks, while student and work visas may take longer. Check current processing times with the Saint Kitts and Nevis consulate or embassy."
+        },
+        "visa_validity": {
+          "content": "The validity of Saint Kitts and Nevis visas depends on the type of visa issued. Tourist visas are generally valid for up to 90 days, while work and student visas may be valid for the duration of employment or study plus a possible extension."
+        },
+        "entry_requirements": {
+          "content": "Upon arrival in Saint Kitts and Nevis, travelers must present their valid visa (if required), passport, and may be required to provide additional documentation such as proof of accommodation and sufficient funds."
+        }
+      },
+      "faqs": {
+        "faq_1": {
+          "question": "Can I extend my visa while in Saint Kitts and Nevis?",
+          "answer": "Visa extensions may be possible depending on the type of visa. You should contact Saint Kitts and Nevis immigration authorities for detailed information on the extension process."
+        },
+        "faq_2": {
+          "question": "Is a visa required before arrival in Saint Kitts and Nevis?",
+          "answer": "For most nationalities, a visa is not required for short visits. However, check with the nearest Saint Kitts and Nevis embassy or consulate to confirm visa requirements based on your nationality."
+        },
+        "faq_3": {
+          "question": "Can I work in Saint Kitts and Nevis on a Tourist Visa?",
+          "answer": "No, working on a Tourist Visa is not allowed. If you wish to work in Saint Kitts and Nevis, you must apply for a Work Visa."
+        }
+      }
+    }
+  }
+  

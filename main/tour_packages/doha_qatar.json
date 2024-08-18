@@ -1,0 +1,94 @@
+{
+    "package_name": "Doha Discovery Tour",
+    "country": "Qatar",
+    "duration_days": 4,
+    "customer_rating": 4.6,
+    "places_to_visit": [
+      {
+        "name": "The Pearl-Qatar",
+        "description": "The Pearl-Qatar is an artificial island with luxury residences, upscale shopping, and dining options. It features picturesque canals, elegant architecture, and waterfront promenades."
+      },
+      {
+        "name": "Museum of Islamic Art",
+        "description": "The Museum of Islamic Art houses one of the world's most comprehensive collections of Islamic art. The museum's stunning architecture and exhibits offer insights into Islamic history and culture."
+      },
+      {
+        "name": "Souq Waqif",
+        "description": "Souq Waqif is a traditional market in Doha where visitors can explore shops selling spices, textiles, jewelry, and handicrafts. It’s a vibrant place to experience local culture and cuisine."
+      },
+      {
+        "name": "Doha Corniche",
+        "description": "The Doha Corniche is a waterfront promenade offering scenic views of the Persian Gulf and the city skyline. It's a popular spot for walks, picnics, and enjoying the beautiful sunset."
+      },
+      {
+        "name": "Katara Cultural Village",
+        "description": "Katara Cultural Village is a cultural center featuring theaters, galleries, and performance spaces. It hosts various cultural events, exhibitions, and festivals, showcasing Qatar's heritage."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Doha",
+        "hotels": ["The St. Regis Doha", "W Doha", "Sheraton Grand Doha"],
+        "restaurants": ["IDAM by Alain Ducasse", "Nobu Doha", "Sakura"]
+      }
+    ],
+    "activities": [
+      "Explore The Pearl-Qatar and its luxury amenities",
+      "Visit the Museum of Islamic Art for cultural insights",
+      "Wander through Souq Waqif and shop for local goods",
+      "Enjoy a walk along the Doha Corniche and take in the views",
+      "Experience cultural events and exhibitions at Katara Cultural Village"
+    ],
+    "tips_and_tricks": [
+      "Dress modestly, especially when visiting cultural and religious sites.",
+      "Stay hydrated and use sunscreen, as Doha can be very hot.",
+      "Explore local cuisine at Souq Waqif for an authentic experience."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+974 4-555-1234",
+      "local_police": "999",
+      "embassy": "+974 4-555-5678"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Doha",
+        "activities": [
+          "Arrival at Hamad International Airport and transfer to the hotel",
+          "Briefing on the tour and rest",
+          "Dinner at a local restaurant and overnight stay"
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Doha",
+        "activities": [
+          "Visit The Pearl-Qatar in the morning",
+          "Lunch at a waterfront restaurant",
+          "Explore the Museum of Islamic Art in the afternoon",
+          "Dinner and overnight stay"
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Doha",
+        "activities": [
+          "Explore Souq Waqif in the morning",
+          "Lunch at a traditional café",
+          "Stroll along the Doha Corniche in the afternoon",
+          "Dinner at a high-end restaurant"
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Doha",
+        "activities": [
+          "Visit Katara Cultural Village in the morning",
+          "Lunch at a cultural restaurant",
+          "Free time for shopping or additional sightseeing",
+          "Dinner and transfer to the airport for departure"
+        ]
+      }
+    ]
+  }
+  

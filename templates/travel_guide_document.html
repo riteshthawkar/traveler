@@ -1,0 +1,142 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+    <style>
+        .indent{
+            text-indent: 50px;
+        }
+        main p{
+            line-height: 200%;
+            margin-bottom: 40px;
+            text-align: justify;
+        }
+
+        main h2, main h3{
+            margin-top: 5rem;
+            margin-bottom: 2.5rem;
+        }
+
+        main h4{
+            margin-top: 5rem;
+            margin-bottom: 2rem;
+        }
+
+        main h5{
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        /* li{
+            margin-bottom: 20px;
+        } */
+    </style>
+
+
+    <main class="container-fluid bg-white">
+        <div class="container pb-3 py-5">
+    
+            <div class="text-center py-5">
+                <span class="d-inline text-dark text-uppercase p-1 px-2 rounded-pill" style="border: 2px solid black; font-weight: 600;">
+                    <i class="fa fa-map-marker-alt mr-1"></i>
+                    {{ guide.country_name }}
+                </span>
+                <h1 class="mt-2"><span class="text-warning mr-1">{{ guide.city_name }}</span> Travel Guide</h1>
+            </div>
+
+            <div class="w-100">
+                <div class="w-100 mb-5">
+                    <img class="w-100 rounded-xl" style="object-fit: cover;" src="{{ guide.img.url }}" alt="abu-dhabi-city">
+                </div>
+                <p>
+                    {{ guide.description }}
+                </p>
+
+                {{ guide.tourist_places_set }}
+
+                <div>
+                    <h3>Places to visit in {{guide.city_name}}</h3>
+                    {% for place in guide.tourist_place_set.all %}
+                    <div>
+                        <h5>
+                            <i class="fa fa-map-marker-alt mr-3 text-warning"></i>
+                            {{ place.place_name }}
+                        </h5>
+                        <p>{{ place.description }}</p>
+                    </div>
+                    {% endfor %}
+                    
+                </div>
+
+                <div>
+                    <h3>Famous Hotels to stay in {{guide.city_name}}</h3>
+                    {% for hotel in guide.hotel_set.all %}
+                    <div>
+                        <h5>
+                            <i class="fa fa-building mr-3 text-warning"></i>
+                            {{ hotel.hotel_name }}
+                        </h5>
+                        <p>{{ hotel.description }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+
+                <div>
+                    <h3>Famous Restaurants to Eat in {{guide.city_name}}</h3>
+                    {% for res in guide.restaurant_set.all %}
+                    <div>
+                        <h5>
+                            <i class="fa fa-utensils mr-3 text-warning"></i>
+                            {{ res.restaurant_name }}</h5>
+                        <p>{{ res.description }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+
+                <div>
+                    <h4>Famous Activities to do in {{guide.city_name}}</h4>
+                    <div>
+                        {% for activity in guide.activities%}
+                        <div class="d-flex align-items-baseline px-4 py-3">
+                            <i class="fa fa-star mr-3 text-warning"></i>
+                            <span>{{activity}}</span>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+
+                <div>
+                    <h4>Tips and Tricks</h4>
+                    <ul class="m-0 p-0">
+                        {% for tip in guide.tips%}
+                            <li class="px-4 mb-4 d-flex align-items-baseline list-unstyled">
+                                <i class="fa fa-lightbulb mr-3 text-warning"></i>
+                                {{tip}}
+                            </li>
+                        {% endfor %}
+
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Emergency Contacts</h4>
+                    <div class="row p-0 m-0">
+                        {% for contact in guide.emergency_contact_set.all %}
+                            <div class="col-sm-6 col-12 p-4">
+                                <div class="text-center border rounded-lg py-4">
+                                    <h5 class="m-0 mb-2">
+                                        {{ contact.entity }}
+                                    </h5>
+                                    <span class="text-center">{{ contact.value }}</span>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+
+            </div>
+    
+        </div>
+    </main>
+
+    {% endblock content %}

@@ -1,0 +1,141 @@
+{
+    "package_name": "Mexico City Cultural Experience",
+    "country": "Mexico",
+    "duration_days": 5,
+    "customer_rating": 4.6,
+    "tour_cost_usd": 1200,
+    "region_description": "Mexico City, the vibrant capital of Mexico, is one of the largest cities in the world and is rich in history and culture. Built on the ruins of the ancient Aztec city of Tenochtitlan, the city boasts a mix of modern architecture and historical landmarks. Visitors can explore world-class museums, beautiful parks, and bustling markets. The historic center, a UNESCO World Heritage site, is home to stunning colonial buildings, including the Metropolitan Cathedral and the Palacio de Bellas Artes. With a thriving culinary scene, Mexico City offers a variety of dining options, from street food to high-end restaurants, making it a perfect destination for food lovers.",
+    "places_to_visit": [
+      {
+        "name": "Zocalo",
+        "description": "The main square of Mexico City, surrounded by historic buildings, including the Metropolitan Cathedral and the National Palace, showcasing the city's colonial history."
+      },
+      {
+        "name": "Chapultepec Park",
+        "description": "One of the largest city parks in the world, featuring museums, a zoo, and beautiful gardens, perfect for leisurely strolls and picnics."
+      },
+      {
+        "name": "Frida Kahlo Museum",
+        "description": "Also known as Casa Azul, this museum is dedicated to the life and works of iconic Mexican artist Frida Kahlo, showcasing her art and personal artifacts."
+      },
+      {
+        "name": "Teotihuacan",
+        "description": "An ancient Mesoamerican city known for its large pyramids, including the Pyramid of the Sun and Pyramid of the Moon, providing a glimpse into pre-Columbian civilization."
+      }
+    ],
+    "hotels_and_restaurants": [
+      {
+        "location": "Mexico City",
+        "hotels": [
+          {
+            "name": "Four Seasons Hotel Mexico City",
+            "description": "A luxury hotel featuring elegant accommodations, a serene garden, and an acclaimed restaurant, located in the heart of the city.",
+            "cost_per_night_usd": 450
+          },
+          {
+            "name": "Hotel Zocalo Central",
+            "description": "A charming hotel offering modern amenities with stunning views of the Zocalo, located steps away from major attractions.",
+            "cost_per_night_usd": 200
+          }
+        ],
+        "restaurants": [
+          {
+            "name": "Pujol",
+            "description": "A Michelin-starred restaurant known for its innovative Mexican cuisine, offering a unique tasting menu that showcases local ingredients.",
+            "average_cost_per_person_usd": 150
+          },
+          {
+            "name": "El Cardenal",
+            "description": "A popular restaurant famous for traditional Mexican breakfast dishes and fresh baked goods, providing a taste of authentic local flavors.",
+            "average_cost_per_person_usd": 25
+          }
+        ]
+      }
+    ],
+    "activities": [
+      "Explore the historic Zocalo and its surrounding buildings.",
+      "Enjoy a leisurely day in Chapultepec Park and visit museums.",
+      "Visit the Frida Kahlo Museum for a glimpse into her life and art.",
+      "Take a day trip to the ancient city of Teotihuacan."
+    ],
+    "tips_and_tricks": [
+      "Use the metro for affordable and convenient travel around the city.",
+      "Try local street food for an authentic culinary experience.",
+      "Stay aware of your belongings, especially in crowded areas."
+    ],
+    "emergency_contacts": {
+      "tour_guide": "+52 555 123 4567",
+      "local_police": "911",
+      "embassy": "+52 555 678 9012"
+    },
+    "timeline": [
+      {
+        "day": 1,
+        "location": "Mexico City",
+        "activities": [
+          "Arrival in Mexico City and transfer to the hotel.",
+          "Briefing on the tour and relax.",
+          "Dinner at El Cardenal."
+        ]
+      },
+      {
+        "day": 2,
+        "location": "Zocalo",
+        "activities": [
+          "Visit Zocalo and explore the Metropolitan Cathedral and National Palace.",
+          "Lunch at a local café.",
+          "Afternoon visit to Templo Mayor Museum.",
+          "Dinner at a local restaurant."
+        ]
+      },
+      {
+        "day": 3,
+        "location": "Chapultepec Park",
+        "activities": [
+          "Morning stroll through Chapultepec Park and visit the National Museum of Anthropology.",
+          "Lunch in the park.",
+          "Explore the Chapultepec Castle in the afternoon.",
+          "Dinner at the hotel."
+        ]
+      },
+      {
+        "day": 4,
+        "location": "Frida Kahlo Museum",
+        "activities": [
+          "Morning visit to the Frida Kahlo Museum.",
+          "Lunch at a nearby restaurant.",
+          "Afternoon visit to Coyoacan neighborhood.",
+          "Dinner at Pujol."
+        ]
+      },
+      {
+        "day": 5,
+        "location": "Teotihuacan",
+        "activities": [
+          "Full-day excursion to Teotihuacan to explore the ancient pyramids.",
+          "Lunch at a local restaurant near the site.",
+          "Return to Mexico City for dinner."
+        ]
+      },
+      {
+        "day": 6,
+        "location": "Departure",
+        "activities": [
+          "Check-out from the hotel and transfer to the airport for departure."
+        ]
+      }
+    ],
+    "customer_reviews": [
+      {
+        "name": "Sofia M.",
+        "rating": 5.0,
+        "description": "Mexico City is a cultural gem! The food and museums were amazing."
+      },
+      {
+        "name": "Liam H.",
+        "rating": 4.9,
+        "description": "Loved exploring the history and vibrant neighborhoods of Mexico City."
+      }
+    ]
+  }
+  
