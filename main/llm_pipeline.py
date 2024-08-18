@@ -1,8 +1,6 @@
 import os
 os.environ['USER_AGENT'] = 'myagent'
 os.environ["GROQ_API_KEY"] = "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"
-# os.environ["OPENAI_API_KEY"] = "sk-proj-wk5OHzAj2Gq7gwfX04myT3BlbkFJNnAhFeKgjMoiHAzRBHqq"
-# os.environ['HUGGINGFACEHUB_API_TOKEN'] = "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"
 
 from langchain.chains import create_history_aware_retriever, create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
