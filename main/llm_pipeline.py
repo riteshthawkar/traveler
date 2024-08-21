@@ -1,6 +1,7 @@
 import os
 os.environ['USER_AGENT'] = 'myagent'
 os.environ["GROQ_API_KEY"] = "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"
+os.environ["TOKENIZERS_PARALLELISM"] = "true"
 # os.environ["OPENAI_API_KEY"] = "sk-proj-wk5OHzAj2Gq7gwfX04myT3BlbkFJNnAhFeKgjMoiHAzRBHqq"
 # os.environ['HUGGINGFACEHUB_API_TOKEN'] = "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"
 
@@ -39,13 +40,19 @@ class LLMChatPipeline:
 
     def initialize_pipeline(self):
         # Load your LLM chat pipeline here
-        pc = Pinecone(api_key="ca8e6a33-7355-453f-ad4b-80c8a1c6a9c7")
-        index_name = "traveler-demo-website-vectorstore"
+        try:
+            pc = Pinecone(api_key="ca8e6a33-7355-453f-ad4b-80c8a1c6a9c7")
+            index_name = "traveler-demo-website-vectorstore"
+            # connect to index
+            pinecone_index = pc.Index(index_name)
+        except Exception as e:
+            pc = Pinecone(api_key="ca8e6a33-7355-453f-ad4b-80c8a1c6a9c7")
+            index_name = "traveler-demo-website-vectorstore"
+            # connect to index
+            pinecone_index = pc.Index(index_name)
 
-        # connect to index
-        pinecone_index = pc.Index(index_name)
-
-        bm25 = BM25Encoder().load(settings.BASE_DIR / 'bm25_traveler_website.json')
+        # bm25 = BM25Encoder().load(settings.BASE_DIR / 'bm25_traveler_website.json')
+        bm25 = BM25Encoder().load("/home/fahadkhan/Desktop/Website-RAG/traveler/bm25_traveler_website.json")
 
         embed_model = HuggingFaceEmbeddings(model_name="Alibaba-NLP/gte-large-en-v1.5", model_kwargs={"trust_remote_code":True} )
 
@@ -105,6 +112,7 @@ class LLMChatPipeline:
             4. Organize Content Logically \
 
         Do not include headings for defining sections. \
+        Do not include any starting or ending texts or mention about context.
 
         {context}
         """
@@ -129,25 +137,6 @@ class LLMChatPipeline:
                 store[session_id] = ChatMessageHistory()
             return store[session_id]
 
-
-        # conversational_rag_chain = RunnableWithMessageHistory(
-        #     rag_chain,
-        #     get_session_history,
-        #     input_messages_key="input",
-        #     history_messages_key="chat_history",
-        #     output_messages_key="answer",
-        # )
-
-
-        # def get_response(message):
-        #     answer = conversational_rag_chain.invoke(
-        #         {"input": message},
-        #         config={
-        #             "configurable": {"session_id": "abc123"}
-        #         },  # constructs a key "abc123" in `store`.
-        #     )["answer"]
-
-            # return answer
         
         self.pipeline = RunnableWithMessageHistory(
             rag_chain,
@@ -157,27 +146,6 @@ class LLMChatPipeline:
             output_messages_key="answer",
         )
 
-    async def get_streaming_answer(self, question):
-        response_stream = []
-        
-        async def collect_stream(chunk):
-            response_stream.append(chunk)
-            yield chunk
-
-        async def generate():
-            response = await self.pipeline.ainvoke(
-                {"input": question},
-                config={
-                    "configurable": {"session_id": "abc123"},
-                    "callbacks": [StreamingStdOutCallbackHandler(collect_stream)]
-                }
-            )
-            
-            for chunk in response_stream:
-                yield chunk
-
-        return generate()
-
     def get_answer(self, question):
         # Use the pipeline to get the answer
         response = self.pipeline.invoke(
@@ -186,6 +154,16 @@ class LLMChatPipeline:
                     "configurable": {"session_id": "abc123"}
                 },  # constructs a key "abc123" in `store`.
             )
-
         return response["answer"]
-        
+
+    async def get_streaming_answer(self, question):
+        # Create a streaming response generator
+        response = []
+        chain = self.pipeline.pick("answer")
+        async for chunk in chain.astream(
+            {"input": question},
+            config={
+                "configurable": {"session_id": "abc123"}
+            },
+        ):
+            yield chunk

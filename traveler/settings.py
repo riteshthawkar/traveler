@@ -38,11 +38,17 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
+    'channels',
     'main',
 ]
 
 ASGI_APPLICATION = "traveler.asgi.application"
+
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels.layers.InMemoryChannelLayer',
+    }
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -129,6 +135,7 @@ STATICFILES_DIRS = [
     ]
 
 MEDIA_URL = 'media/'
+STAIC_ROOT = os.path.join(BASE_DIR, 'uploads')
 MEDIAFILES_DIRS = ['media/']
 
 

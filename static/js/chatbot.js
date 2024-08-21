@@ -123,13 +123,11 @@ function provideAnswer(question) {
 
         let chats = sessionStorage.getItem("chats");
         chats = JSON.parse(chats);
-        if(chats){
-            chats.push({
-                "type": "answer",
-                "content": model_response
-            })
-            sessionStorage.setItem("chats", JSON.stringify(chats));
-        }
+        chats.push({
+            "type": "answer",
+            "content": model_response
+        })
+        sessionStorage.setItem("chats", JSON.stringify(chats));
 
     }).catch(error => {
         model_response = error;
@@ -138,13 +136,11 @@ function provideAnswer(question) {
 
         let chats = sessionStorage.getItem("chats");
         chats = JSON.parse(chats);
-        if(chats){
-            chats.push({
-                "type": "answer",
-                "content": model_response
-            })
-            sessionStorage.setItem("chats", JSON.stringify(chats));
-        }
+        chats.push({
+            "type": "answer",
+            "content": model_response
+        })
+        sessionStorage.setItem("chats", JSON.stringify(chats));
     });
 
 }
@@ -202,3 +198,6 @@ $(document).ready(()=>{
         openchatbot();
     }
 })
+
+
+
