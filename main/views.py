@@ -155,6 +155,8 @@ def chat_view(request):
         answer = pipeline.get_answer(question)
         ending_time = timeit.default_timer()
 
+        print(answer)
+
         print("=========================================")
         print("Time Taken: ", ending_time - starting_time)
 

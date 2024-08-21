@@ -55,9 +55,9 @@ function askQuestion(question){
 
     setTimeout(loadChatBlock, 600);
 
-    let chats = sessionStorage.getItem("chats");
-    chats = JSON.parse(chats);
-    if(chats){
+    let prev_chats = sessionStorage.getItem("chats");
+    if(prev_chats){
+        chats = JSON.parse(prev_chats)
         chats.push({
             "type": "question",
             "content": question
@@ -118,29 +118,32 @@ function provideAnswer(question) {
     let model_response;
     fetchAnswer(question).then(answer => {
         model_response = converter.makeHtml(answer);
-        // console.log(model_response);
+        console.log(model_response);
         appendAnswer(model_response)
 
-        let chats = sessionStorage.getItem("chats");
-        chats = JSON.parse(chats);
-        chats.push({
-            "type": "answer",
-            "content": model_response
-        })
-        sessionStorage.setItem("chats", JSON.stringify(chats));
+        let prev_chats = sessionStorage.getItem("chats");
+        if(prev_chats){
+            chats = JSON.parse(prev_chats)
+            chats.push({
+                "type": "answer",
+                "content": model_response
+            })
+            sessionStorage.setItem("chats", JSON.stringify(chats));
+        }
 
     }).catch(error => {
         model_response = error;
-        
         appendAnswer(model_response)
 
-        let chats = sessionStorage.getItem("chats");
-        chats = JSON.parse(chats);
-        chats.push({
-            "type": "answer",
-            "content": model_response
-        })
-        sessionStorage.setItem("chats", JSON.stringify(chats));
+        let prev_chats = sessionStorage.getItem("chats");
+        if(prev_chats){
+            chats = JSON.parse(prev_chats)
+            chats.push({
+                "type": "answer",
+                "content": "Something went wrong! Please try again"
+            })
+            sessionStorage.setItem("chats", JSON.stringify(chats));
+        }
     });
 
 }
@@ -149,7 +152,6 @@ function openchatbot(){
     $(".chat-container-wrapper").removeClass("hide-chatbot");
     $(".chat-container-wrapper").addClass("show-chatbot");
     $(".startchatbtn").addClass("d-none");
-    sessionStorage.setItem('chatbotOpen', 'true');
 }
 
 $(".startchatbtn").click(openchatbot)
@@ -158,7 +160,6 @@ $(".closechatbot").click(function(){
     $(".chat-container-wrapper").removeClass("show-chatbot");
     $(".chat-container-wrapper").addClass("hide-chatbot");
     $(".startchatbtn").removeClass("d-none");
-    sessionStorage.setItem('chatbotOpen', 'false');
 })
 
 function provideQuestionToAnswer(){
@@ -181,22 +182,20 @@ $(document).ready(()=>{
         }
     });
 
-    if (sessionStorage.getItem('chatbotOpen') === 'true') {
-        let chats = sessionStorage.getItem("chats");
-        chats = JSON.parse(chats)
-        if(chats){
-            for(let item of chats){
-                if(item['type']=="answer"){
-                    appendAnswer(item['content'])
-                }else{
-                    appendQuestion(item['content'])
-                }
+    let prev_chats = sessionStorage.getItem("chats");
+    if(prev_chats){
+        chats = JSON.parse(prev_chats)
+        for(let item of chats){
+            if(item['type']=="answer"){
+                appendAnswer(item['content'])
+            }else{
+                appendQuestion(item['content'])
             }
-        }else{
-            sessionStorage.setItem("chats", JSON.stringify([]))
         }
-        openchatbot();
+    }else{
+        sessionStorage.setItem("chats", JSON.stringify([]))
     }
+
 })
 
 

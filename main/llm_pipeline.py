@@ -1,9 +1,11 @@
+from dotenv import load_dotenv
 import os
-os.environ['USER_AGENT'] = 'myagent'
-os.environ["GROQ_API_KEY"] = "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"
+load_dotenv()
+
+os.environ['USER_AGENT'] = os.getenv("USER_AGENT")
+os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
 os.environ["TOKENIZERS_PARALLELISM"] = "true"
-# os.environ["OPENAI_API_KEY"] = "sk-proj-wk5OHzAj2Gq7gwfX04myT3BlbkFJNnAhFeKgjMoiHAzRBHqq"
-# os.environ['HUGGINGFACEHUB_API_TOKEN'] = "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"
+
 
 from langchain.chains import create_history_aware_retriever, create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
@@ -20,12 +22,7 @@ from langchain_community.retrievers import PineconeHybridSearchRetriever
 
 from langchain_groq import ChatGroq
 
-import os
 from django.conf import settings
-
-from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
-from langchain.schema import HumanMessage
-import asyncio
 
 
 
@@ -41,18 +38,17 @@ class LLMChatPipeline:
     def initialize_pipeline(self):
         # Load your LLM chat pipeline here
         try:
-            pc = Pinecone(api_key="ca8e6a33-7355-453f-ad4b-80c8a1c6a9c7")
+            pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
             index_name = "traveler-demo-website-vectorstore"
             # connect to index
             pinecone_index = pc.Index(index_name)
         except Exception as e:
-            pc = Pinecone(api_key="ca8e6a33-7355-453f-ad4b-80c8a1c6a9c7")
+            pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
             index_name = "traveler-demo-website-vectorstore"
             # connect to index
             pinecone_index = pc.Index(index_name)
 
-        # bm25 = BM25Encoder().load(settings.BASE_DIR / 'bm25_traveler_website.json')
-        bm25 = BM25Encoder().load("/home/fahadkhan/Desktop/Website-RAG/traveler/bm25_traveler_website.json")
+        bm25 = BM25Encoder().load(settings.BASE_DIR / 'bm25_traveler_website.json')
 
         embed_model = HuggingFaceEmbeddings(model_name="Alibaba-NLP/gte-large-en-v1.5", model_kwargs={"trust_remote_code":True} )
 
@@ -100,7 +96,7 @@ class LLMChatPipeline:
 
             2. Include Detailed References: \
                 - Include links to sources and any links or sites where there is a mentioned in the answer.
-                - Links to Sources: Provide URLs to credible sources where users can verify the information or explore further. \
+                - Links to Sources: Provide URLs to credible sources where users can verify the information or explore further. Do not provide naked urls, embed the urls into texts. \
                 - Downloadable Materials: Include links to any relevant downloadable resources if applicable. \
                 - Reference Sites: Mention specific websites or platforms that offer additional information. \
 
@@ -158,7 +154,7 @@ class LLMChatPipeline:
 
     async def get_streaming_answer(self, question):
         # Create a streaming response generator
-        response = []
+
         chain = self.pipeline.pick("answer")
         async for chunk in chain.astream(
             {"input": question},

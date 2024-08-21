@@ -3,3 +3,4 @@
 /tour_images/*
 traveler_env/*
 uploads/*
+.env
