@@ -155,8 +155,6 @@ def chat_view(request):
         answer = pipeline.get_answer(question)
         ending_time = timeit.default_timer()
 
-        print(answer)
-
         print("=========================================")
         print("Time Taken: ", ending_time - starting_time)
 
@@ -164,4 +162,17 @@ def chat_view(request):
     else:
         return JsonResponse({'error': 'Only POST requests are allowed'}, status=405)
 
+@csrf_exempt
+def transcribe_view(request):
+    if request.method == 'POST':
+        data = json.loads(request.body)
+        question = data.get('question')
+        
+        # Here you would typically process the question and generate an answer
+        # For this example, we'll just echo the question
+        answer = f"You asked: {question}"
 
+        print(answer)
+        
+        return JsonResponse({'answer': answer})
+    return JsonResponse({'error': 'Invalid request method'}, status=400)

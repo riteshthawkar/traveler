@@ -22,5 +22,6 @@ urlpatterns = [
     path('visa_assistance/<int:pk>', single_visa_assiatance_view, name="single-visa-assistance-view"),
 
     path('chat/', chat_view, name="chat-view"),
+    path('process_question/', transcribe_view, name="transcribe-view"),
 
 ]
