@@ -137,42 +137,45 @@ def single_visa_assiatance_view(request, pk):
     return render(request, "single_visa_guide.html", {"guide": visa_guide, "visa_requirements": updated_visa_requirements, "additional_info": additional_info})
 
 
+def chat_view(request):
+    return render(request, 'base.html')
+
 
 
 from django.views.decorators.csrf import csrf_exempt
-from .llm_pipeline import LLMChatPipeline
+# from .llm_pipeline import LLMChatPipeline
 from django.http import JsonResponse
 import timeit
 
-pipeline = LLMChatPipeline()
+# pipeline = LLMChatPipeline()
 
-@csrf_exempt
-def chat_view(request):
-    if request.method == 'POST':
-        question = request.POST.get('question', '')
+# @csrf_exempt
+# def chat_view(request):
+#     if request.method == 'POST':
+#         question = request.POST.get('question', '')
         
-        starting_time = timeit.default_timer()
-        answer = pipeline.get_answer(question)
-        ending_time = timeit.default_timer()
+#         starting_time = timeit.default_timer()
+#         answer = pipeline.get_answer(question)
+#         ending_time = timeit.default_timer()
 
-        print("=========================================")
-        print("Time Taken: ", ending_time - starting_time)
+#         print("=========================================")
+#         print("Time Taken: ", ending_time - starting_time)
 
-        return JsonResponse({'answer': answer})
-    else:
-        return JsonResponse({'error': 'Only POST requests are allowed'}, status=405)
+#         return JsonResponse({'answer': answer})
+#     else:
+#         return JsonResponse({'error': 'Only POST requests are allowed'}, status=405)
 
-@csrf_exempt
-def transcribe_view(request):
-    if request.method == 'POST':
-        data = json.loads(request.body)
-        question = data.get('question')
+# @csrf_exempt
+# def transcribe_view(request):
+#     if request.method == 'POST':
+#         data = json.loads(request.body)
+#         question = data.get('question')
         
-        # Here you would typically process the question and generate an answer
-        # For this example, we'll just echo the question
-        answer = f"You asked: {question}"
+#         # Here you would typically process the question and generate an answer
+#         # For this example, we'll just echo the question
+#         answer = f"You asked: {question}"
 
-        print(answer)
+#         print(answer)
         
-        return JsonResponse({'answer': answer})
-    return JsonResponse({'error': 'Invalid request method'}, status=400)
+#         return JsonResponse({'answer': answer})
+#     return JsonResponse({'error': 'Invalid request method'}, status=400)

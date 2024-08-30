@@ -51,7 +51,7 @@
 }
 
 html {
-  font-family: "Albert Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -430,6 +430,7 @@ h6, .h6 {
 }
 
 .display-1 {
+  font-family: "Urbanist", sans-serif;
   font-size: 6rem;
   font-weight: 300;
   line-height: 1.2;
@@ -442,6 +443,7 @@ h6, .h6 {
 }
 
 .display-2 {
+  font-family: "Urbanist", sans-serif;
   font-size: 5.5rem;
   font-weight: 300;
   line-height: 1.2;
@@ -454,7 +456,8 @@ h6, .h6 {
 }
 
 .display-3 {
-  font-size: 4.5rem;
+  font-family: "Urbanist", sans-serif;
+  font-size: 5rem;
   font-weight: 900;
   line-height: 1.2;
 }
@@ -466,6 +469,7 @@ h6, .h6 {
 }
 
 .display-4 {
+  font-family: "Urbanist", sans-serif;
   font-size: 3.5rem;
   font-weight: 300;
   line-height: 1.2;
@@ -9824,7 +9828,7 @@ h6,
 }
 
 .chat-container-wrapper{
-    min-width: 400px; 
+    max-width: 1200px; 
     width: 80vw;
     max-height: 700px;
     height: 95vh;
@@ -9836,6 +9840,13 @@ h6,
     /* border: 10 px solid red; */
 }
 
+@media(max-width: 800px){
+  .chat-container-wrapper{
+    width: calc(100% - 30px);
+    margin: auto;
+  }
+}
+
 .chat-container-wrapper * {
     font-optical-sizing: auto;
     font-style: normal;
@@ -9843,8 +9854,6 @@ h6,
 
 .chat-container-wrapper .chatbot-header{
     text-align: left; 
-    padding: 10px 15px; 
-    border-bottom: 1px solid rgb(221, 221, 221); 
     display: flex; 
     align-items: center; 
     justify-content: space-between;
@@ -9877,9 +9886,8 @@ h6,
 }
 
 .closechatbot{
-    background-color: white;
+    background-color: rgb(240, 240, 240);
     border: none;
-    border-radius: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9887,7 +9895,38 @@ h6,
 }
 
 .closechatbot:hover{
-    background-color: rgb(230, 230, 230);
+    background-color: black;
+}
+
+.closechatbot:hover svg{
+  fill: #FFFFFF;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.styled-scrolllbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -9902,16 +9941,18 @@ h6,
 }
 
 .question-item:hover{
-  box-shadow: 0 0 8px 1px rgb(230, 230, 230);
+  background-color: rgb(245, 245, 245);
 }
 
 .sendbtn{
-    background-color: rgb(221, 221, 221);
-    transition: all 0.3 ease-in-out;
-}
-.sendbtn:hover{
     background-color: black;
-    color: white
+    transition: all 0.2s ease-in-out;
+    animation: scale-out 0.1s;
+}
+
+.sendbtn:hover{
+    color: white;
+    scale: 1.1;
 }
 .sendbtn:hover svg{
     stroke: white
@@ -9997,4 +10038,9 @@ div[contenteditable]:focus:empty:before {
 
 #userwayAccessibilityIcon{
     display: none;
+}
+
+
+small{
+  font-size: 12px;
 }
