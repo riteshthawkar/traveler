@@ -1,175 +1,868 @@
 {% load static %}
-<div class="main-chat-container hide-chatbot d-flex align-items-center justify-content-center">
-    <div class="container chat-container-wrapper hide-scrolllbar p-3 position-relative" style="border-radius: 30px;">
-        <div class="chatbot-header pb-2">
-            <div style="display: flex; align-items: center; gap: 12px;">
-                <img src="{% static 'img/logo/logo-square.svg' %}" style="width: 40px;" alt="chatbot-logo">
-                <span class="text-dark mb-0" style="font-weight: 800; font-size: 20px;">Lawa.ai</span>
-            </div>
-            <div class="d-flex align-items-center" style="gap: 5px;">
-                <button class="clearBtn btn btn-secondary btn-md rounded-xl" >
-                    <i class="fa fa-sm fa-redo mr-1"></i>
-                    clear
-                </button>
-                <button class="closechatbot p-2 rounded-xl">
-                    <svg width="20px" height="20px" viewBox="0 0 24 24" fill="#000000" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z" ></path> </g></svg>
-                </button>
-            </div>
-        </div>
-        <div class="chat-container w-100 mx-auto hide-scrolllbar" style="max-width: 800px; flex-grow: 1; padding: 20px 0px; display: flex; flex-direction: column; gap: 10px; background-color: white; text-wrap: pretty; overflow-y: auto; overflow-x: hidden;">
-    
-            <div class="start-block w-100 flex-grow-1 d-flex flex-column" >
-                <div class="w-100 flex-grow-1 py-4 text-center">
-                    <div>
-                        <img src="{% static 'img/logo/logo-square.svg' %}"  alt="chatbot-logo">
-                    </div>
-                    <h6 class="text-center text-dark d-block mx-auto" style="max-width: 400px; margin-top: 10px; font-weight: 600; text-wrap:pretty;">
-                        Start asking your questions and the agent will answer them.
-                    </h6>
-                </div>
-                <div class="w-100" style="max-width: 800px;">
-                    <!-- <h6 class="d-block mb-1 text-center text-dark" style="font-weight: 500;">Examples</h6> -->
-                    <div class="row m-0 p-0" >
-                        <div style="cursor: pointer;" class="col-12 col-sm-6 col-lg-4 p-1">
-                            <small style="border-radius: 12px;" class="question-item h-100 border px-3 py-3 d-flex align-items-center">List out the tours to United Arab Emirates</small>
-                        </div>
-                        <!-- <div style="cursor: pointer;" class="col-12 col-sm-6 col-lg-4 p-1">
-                            <small style="border-radius: 12px;" class="question-item h-100 border px-3 py-3 d-flex align-items-center">Which tour include visit to Taj Mahal</small>
-                        </div>
-                        <div style="cursor: pointer;" class="col-12 col-sm-6 col-lg-4 p-1">
-                            <small style="border-radius: 12px;" class="question-item h-100 border px-3 py-3 d-flex align-items-center">How much is the cost of a tour to France</small>
-                        </div> -->
-                        <div style="cursor: pointer;" class="col-12 col-sm-6 col-lg-4 p-1">
-                            <small style="border-radius: 12px;" class="question-item h-100 border px-3 py-3 d-flex align-items-center">Tell me popular places to visit in Osaka</small>
-                        </div>
-                        <!-- <div style="cursor: pointer;" class="col-12 col-sm-6 col-lg-4 p-1">
-                            <small style="border-radius: 12px;" class="question-item h-100 border px-3 py-3 d-flex align-items-center">How can I apply for Dubai visa</small>
-                        </div> -->
-                        <div style="cursor: pointer;" class="col-12 col-sm-6 col-lg-4 p-1">
-                            <small style="border-radius: 12px;" class="question-item h-100 border px-3 py-3 d-flex align-items-center">Which documents are required to apply for US visa</small>
-                        </div>
-                    </div>
-                </div>
+<!-- ==================================================================================================== -->
 
-            </div>
+        <!-- LAWA.ai ChatBot -->
 
-            
-        </div>
-        <div class="input-options-container border rounded-pill shadow-sm mx-auto" style="max-width: 800px; width: 100%; display: flex; justify-content: space-between; align-items: center; gap: 5px; padding: 8px; border-top: 1px solid rgb(218, 218, 218);">
-            <div class="hide-scrolllbar" style="flex-grow: 1; display: flex; align-items: center; gap: 16px; overflow-y: scroll; overflow: visible;">
-                <button id="micStartButton" style="width: 40px; height: 40px; padding: 10px; aspect-ratio: 1; display: flex; align-items: center; justify-content: center; border-radius: 30px; border: none; color: white; outline: none;">
-                    <svg width="18px" height="18px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path d="M176 352c53 0 96-43 96-96V96c0-53-43-96-96-96S80 43 80 96v160c0 53 43 96 96 96zm160-160h-16c-8.8 0-16 7.2-16 16v48c0 74.8-64.5 134.8-140.8 127.4C96.7 376.9 48 317.1 48 250.3V208c0-8.8-7.2-16-16-16H16c-8.8 0-16 7.2-16 16v40.2c0 89.6 64 169.6 152 181.7V464H96c-8.8 0-16 7.2-16 16v16c0 8.8 7.2 16 16 16h160c8.8 0 16-7.2 16-16v-16c0-8.8-7.2-16-16-16h-56v-33.8C285.7 418.5 352 344.9 352 256v-48c0-8.8-7.2-16-16-16z"/></svg>
-                </button>
-                <div id="question-box" class="d-inline-block" role="textbox" contenteditable="true" data-placeholder="Write your question here... " style="width: 100%; max-height: 100px; outline: none; font-weight: 500; font-size: 14px;">
-                </div>
-            </div>
-            <button class="sendbtn" style="width: 40px; height: 40px; padding: 8px; aspect-ratio: 1; display: flex; align-items: center; justify-content: center; border-radius: 30px; border: none; color: white;">
-                <svg style="rotate: 315deg;" width="20px" height="20px" viewBox="0 0 24 24" fill="none" stroke="#ffffff"  xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M11.5003 12H5.41872M5.24634 12.7972L4.24158 15.7986C3.69128 17.4424 3.41613 18.2643 3.61359 18.7704C3.78506 19.21 4.15335 19.5432 4.6078 19.6701C5.13111 19.8161 5.92151 19.4604 7.50231 18.7491L17.6367 14.1886C19.1797 13.4942 19.9512 13.1471 20.1896 12.6648C20.3968 12.2458 20.3968 11.7541 20.1896 11.3351C19.9512 10.8529 19.1797 10.5057 17.6367 9.81135L7.48483 5.24303C5.90879 4.53382 5.12078 4.17921 4.59799 4.32468C4.14397 4.45101 3.77572 4.78336 3.60365 5.22209C3.40551 5.72728 3.67772 6.54741 4.22215 8.18767L5.24829 11.2793C5.34179 11.561 5.38855 11.7019 5.407 11.8459C5.42338 11.9738 5.42321 12.1032 5.40651 12.231C5.38768 12.375 5.34057 12.5157 5.24634 12.7972Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
-            </button>
-        </div>
-    </div>
-</div>
-
-<button class="startchatbtn pulse btn btn-warning border-0 rounded-circle d-flex align-items-center justify-content-center p-3" style="width: 50px; height:50px; position: fixed; bottom: 30px; right: 30px; z-index: 10; cursor: pointer;" >
-    <!-- <i class="fa fa-cubes fa-2x text-dark" ></i> -->
-     <img src="{% static 'img/logo/logo-small.svg' %}" alt="chatbot-logo">
-</button>
+    <!-- ==================================================================================================== -->
 
 
 
-<!-- SocketIO -->
-<script src="https://cdn.socket.io/4.5.0/socket.io.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
+    <style>
+        .main-chat-container{
+            position: fixed;
+            top: -100%;
+            z-index: 9999;
+            background-color: rgb(0, 0, 0, 0.4);
+            font-family: "DM Sans", sans-serif;
+        }
 
-<script>
-    const startButton = document.getElementById('micStartButton');
+        .chat-container-wrapper{
+            max-width: 1000px;
+            width: 95vw;
+            max-height: 800px;
+            height: 95vh;
+            background-color: white;
+            border: 1px solid rgb(221, 221, 221);
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0px 0px 15px 8px rgba(255,255,255,0.1);
+            z-index: 9999;
+            /* border: 10 px solid red; */
+            font-family: "DM Sans", sans-serif;
+        }
 
-    let recognition;
-    let isRecording = false;
-    let isSupported = true;
-    let silenceTimer;
-    const silenceThreshold = 1000; // 1.5 seconds of silence before stopping
+        /* @media(max-width: 800px){
+        .chat-container-wrapper{
+            width: calc(100% - 30px);
+            margin: auto;
+        }
+        } */
 
-    if ('webkitSpeechRecognition' in window) {
-        recognition = new webkitSpeechRecognition();
-        recognition.continuous = true;
-        recognition.interimResults = true;
-        recognition.lang = 'en-US';
+        .chat-container-wrapper * {
+            font-family: "DM Sans", sans-serif;
+        }
 
-        recognition.onstart = function() {
-            isRecording = true;
-            startButton.classList.add("pulse");
-            $("#question-box").attr("data-placeholder", "Listening...")
-        };
+        /* .chat-container-wrapper .chatbot-header{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        } */
 
-        recognition.onresult = function(event) {
-            let interimTranscript = '';
-            let finalTranscript = '';
+        .chat-container-wrapper a{
+            color: rgb(11, 172, 235);
+            text-decoration:underline;
+        }
 
-            for (let i = event.resultIndex; i < event.results.length; ++i) {
-                if (event.results[i].isFinal) {
-                    finalTranscript += event.results[i][0].transcript;
-                    $("#question-box").text(finalTranscript);
-                } else {
-                    interimTranscript += event.results[i][0].transcript;
-                    $("#question-box").text(interimTranscript);
-                }
+        .d-none{
+            display: none;
+        }
+        .main-chat-container{
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .hide-chatbot{
+            top: -100%;
+            animation: slideaway 200ms;
+            display: none;
+            opacity: 0;
+        }
+        .show-chatbot{
+            top: 0%;
+            width: 100%;
+            height: 100%;
+            opacity: 1;
+            /* transform: translate(0%, 0); */
+        }
+
+        .closechatbot{
+            background-color: rgb(240, 240, 240);
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* aspect-ratio: 1; */
+        }
+
+        .closechatbot:hover{
+            background-color: black;
+        }
+
+        .closechatbot:hover span svg{
+            fill: #ffffff;
+            stroke: #ffffff;
+        }
+
+        .closechatbot:hover span svg path{
+            fill: #ffffff;
+            stroke: #ffffff;
+        }
+
+        /* Hide scrollbar for Chrome, Safari and Opera */
+        .styled-scrolllbar::-webkit-scrollbar {
+        display: none;
+        }
+
+        /* Hide scrollbar for IE, Edge and Firefox */
+        ::-webkit-scrollbar {
+        width: 6px;
+        border-radius: 5px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 10px;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+        }
+
+        /* Hide scrollbar for Chrome, Safari and Opera */
+        .hide-scrolllbar::-webkit-scrollbar {
+            display: none;
+        }
+
+        /* Hide scrollbar for IE, Edge and Firefox */
+        .hide-scrolllbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+
+        .question-item:hover{
+        background-color: rgb(245, 245, 245);
+        }
+
+        .sendbtn{
+            background-color: black;
+            transition: all 0.2s ease-in-out;
+            animation: scale-out 0.1s;
+        }
+
+        .sendbtn:hover{
+            color: white;
+            scale: 1.1;
+        }
+        .sendbtn:hover svg{
+            stroke: white
+        }
+
+        div[contenteditable]:empty:before {
+            content: attr(data-placeholder);
+            display: inline-block;
+            pointer-events: none;
+        }
+
+        div[contenteditable]:focus:empty:before {
+            content: 'Start typing';
+        }
+        /* HTML: <div class="loader"></div> */
+        /* HTML: <div class="loader"></div> */
+        .chat-loader {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 10px;
+        }
+        .chat-loader .dot {
+            width: 8px;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            background-color: gray;
+            animation: l5 0.6s ease-in-out infinite;
+        }
+        .chat-loader .dot:nth-child(1){
+            animation-delay: 0s;
+        }
+        .chat-loader .dot:nth-child(2){
+            animation-delay: 0.2s;
+        }
+        .chat-loader .dot:nth-child(3){
+            animation-delay: 0.3s;
+        }
+        .message-content *{
+            width: 100%;
+            font-size: 16px;
+        }
+        .neumorphic-box-shadow{
+            border-radius: 50px;
+            background: #e0e0e0;
+            box-shadow:  20px 20px 17px #cecece,
+                        -20px -20px 17px #f2f2f2;
+        }
+
+        #micStartButton{
+        background-color: rgb(240, 240, 240);
+        transition: 0.2s ease-in-out;
+        }
+
+        #micStartButton:hover{
+        scale: 1.1;
+        background-color: rgb(220, 220, 220);
+        }
+
+        @keyframes l5 {
+            0%  {scale: 0.2; opacity: 0.2;}
+            33% {scale: 0.5; opacity: 0.5;}
+            66% {scale: 0.7; opacity: 0.7;}
+            100%{scale: 1; opacity: 1; }
+        }
+        .pulse {
+            animation: pulse-animation 2s infinite;
+        }
+
+        @keyframes pulse-animation {
+            0% {
+                scale: 0.9;
+                box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
             }
-            // Reset the silence timer whenever we get a result
-            resetSilenceTimer();
-        };
-
-        recognition.onerror = function(event) {
-            console.error('Speech recognition error:', event.error);
-            if(!isSupported){
-                alert("Sorry, Voice capture is not supported for your current system.")
-            }else{
-                alert(event.error);
+            50%{
+                scale: 1
             }
-        };
-
-        recognition.onend = function() {
-            isRecording = false;
-            startButton.classList.remove("pulse");
-            $("question-box").html("");
-        };
-
-    } 
-    else {
-        isSupported = false;
-    }
-
-    startButton.addEventListener('click', function() {
-        if(!isSupported){
-            alert("Sorry, Voice capture is not supported for your current system.")
-        } else {
-            if (isRecording) {
-                stopRecording();
-                $("question-box").html("");
-            } else {
-                startRecording();
+            100% {
+                scale: 0.9;
+                box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
             }
         }
-    });
 
-    function startRecording() {
-        recognition.start();
-    }
+        #userwayAccessibilityIcon{
+            display: none;
+        }
 
-    function stopRecording() {
-        recognition.stop();
-        clearTimeout(silenceTimer);
-    }
 
-    function resetSilenceTimer() {
-        clearTimeout(silenceTimer);
-        silenceTimer = setTimeout(() => {
-            if (isRecording) {
-                stopRecording();
-                $(".sendbtn").click();
-                $("question-box").html("");
+        /*small{*/
+        /*font-size: 12px;*/
+        /*}*/
+
+        .bg-special-secondary{
+        background-color: rgb(230, 230, 230);
+        }
+        .message-content *:not(i){
+            font-family: "DM Sans", sans-serif;
+        }
+
+        .message-content *:not(h1,h2,h3,h4,h5,h6){
+            font-weight: 500;
+        }
+
+        .message-content strong{
+            color: black;
+            font-weight: bold;
+        }
+        .message-content h3:not(:first-of-type){
+            margin: 18px 0px 10px 0px;
+            color: black;
+        }
+        .message-content h4{
+            margin: 15px 0px 8px 0px;
+        }
+        .message-content h5, .message-content h6{
+            margin: 12px 0px 6px 0px;
+        }
+        .message-content ol, .message-content ul{
+            margin: 18px 0px;
+        }
+        .message-content ol li, .message-content ul li{
+            margin: 12px 0px ;
+        }
+        .message-content p{
+            margin-bottom: 18px;
+            text-wrap: pretty;
+        }
+        .message-content a{
+            text-wrap: pretty;
+        }
+        .loading-text{
+            position: relative;
+        }
+        .loading-text::after{
+            content: '....';
+            animation: loading-text-animation 1s infinite;
+        }
+        @keyframes loading-text-animation {
+            0%{
+                content: ''
             }
-        }, silenceThreshold);
-    }
+            25%{
+                content: '.'
+            }
+            50%{
+                content: '..'
+            }
+            75%{
+                content: '...'
+            }
+            100%{
+                content: '....'
+            }
+        }
 
-</script>
+        * New styles for RTL support */
+        .rtl {
+            direction: rtl;
+            text-align: right;
+        }
+
+        .rtl .chat-container-wrapper {
+            direction: rtl;
+        }
+
+        .rtl .chatbot-header {
+            flex-direction: row-reverse;
+        }
+
+        .rtl .chatbot-header div:first-of-type {
+            order: 2;
+        }
+
+        .rtl .chatbot-header div:first-of-type {
+            order: 1;
+        }
+
+        .rtl .input-options-container {
+            flex-direction: row-reverse;
+        }
+
+        .rtl .question-item {
+            text-align: right;
+        }
+
+        .rtl #question-box{
+            text-align: right;
+        }
+
+        .rtl .chat-block {
+            flex-direction: row-reverse;
+        }
+
+        .rtl .message-content {
+            text-align: right;
+        }
+
+        .rtl .sendbtn svg{
+            rotate: 180deg;
+        }
+
+        .rtl div[contenteditable]:focus:empty:before {
+            content: 'ابدأ بالكتابة';
+        }
+
+        /* Language toggle button styles */
+        .language-toggle {
+            background-color: #f0f0f0;
+            border: none;
+            border-radius: 20px;
+            padding: 5px 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .language-toggle:hover {
+            background-color: #e0e0e0;
+        }
+
+    </style>
+
+
+    <div class="main-chat-container hide-chatbot d-flex align-items-center justify-content-center">
+        <div class="container chat-container-wrapper hide-scrolllbar p-sm-4 p-3 position-relative" style="border-radius: 30px;">
+            <div class="chatbot-header d-flex align-items-center justify-content-between pb-2">
+                <div style="display: flex; align-items: center; gap: 12px;">
+                    <svg width="40px" height="40px" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15 0C6.71573 0 0 6.71582 0 15V35C0 43.2842 6.71573 50 15 50H35C43.2843 50 50 43.2842 50 35V15C50 6.71582 43.2843 0 35 0H15ZM25 40C16.7158 40 10 33.2842 10 25C10 16.7158 16.7158 10 25 10C33.2843 10 40 16.7158 40 25C40 27.3994 39.4366 29.6675 38.4348 31.6787C38.1686 32.2134 38.08 32.8242 38.2343 33.4009L39.1277 36.7402C39.5156 38.1895 38.1895 39.5156 36.74 39.1279L33.4009 38.2344C32.8241 38.0801 32.2132 38.1685 31.6787 38.4346C29.6674 39.4365 27.3996 40 25 40ZM25.261 12.6777C25.261 19.5811 30.8574 25.1777 37.761 25.1777C30.8574 25.1777 25.261 30.7739 25.261 37.6777C25.261 30.7739 19.6646 25.1777 12.761 25.1777C19.6646 25.1777 25.261 19.5811 25.261 12.6777Z" fill="black"/>
+                    </svg>
+                    <span class="text-dark mb-0 chatbot-title" style="font-weight: 800; font-size: 20px;">lawa.ai</span>
+                </div>
+                <div class="d-flex align-items-center" style="gap: 5px;">
+                    <button class="language-toggle" id="languageToggle">AR</button>
+                    <button class="clearBtn btn btn-secondary rounded-xl d-flex align-items-center justify-content-center p-2" type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Clear">
+                        <span class="d-flex align-items-center justify-content-center" style="width: 20px; height: 20px;">
+                            <svg width="24px" height="24px" viewBox="-3.2 -3.2 22.40 22.40" xmlns="http://www.w3.org/2000/svg" fill="#050505" stroke="#050505" stroke-width="0.064"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill="#000000" d="M13.9907,1.31133017e-07 C14.8816,1.31133017e-07 15.3277,1.07714 14.6978,1.70711 L13.8556,2.54922 C14.421,3.15654 14.8904,3.85028 15.2448,4.60695 C15.8028,5.79836 16.0583,7.109 15.9888,8.42277 C15.9193,9.73654 15.5268,11.0129 14.8462,12.1388 C14.1656,13.2646 13.2178,14.2053 12.0868,14.8773 C10.9558,15.5494 9.67655,15.9322 8.3623,15.9918 C7.04804,16.0514 5.73937,15.7859 4.55221,15.2189 C3.36505,14.652 2.33604,13.8009 1.55634,12.7413 C0.776635,11.6816 0.270299,10.446 0.0821822,9.14392 C0.00321229,8.59731 0.382309,8.09018 0.928918,8.01121 C1.47553,7.93224 1.98266,8.31133 2.06163,8.85794 C2.20272,9.83451 2.58247,10.7612 3.16725,11.556 C3.75203,12.3507 4.52378,12.989 5.41415,13.4142 C6.30452,13.8394 7.28602,14.0385 8.27172,13.9939 C9.25741,13.9492 10.2169,13.6621 11.0651,13.158 C11.9133,12.6539 12.6242,11.9485 13.1346,11.1041 C13.6451,10.2597 13.9395,9.30241 13.9916,8.31708 C14.0437,7.33175 13.8521,6.34877 13.4336,5.45521 C13.178,4.90949 12.8426,4.40741 12.4402,3.96464 L11.7071,4.69779 C11.0771,5.32776 9.99996,4.88159 9.99996,3.99069 L9.99996,1.31133017e-07 L13.9907,1.31133017e-07 Z M1.499979,4 C2.05226,4 2.499979,4.44772 2.499979,5 C2.499979,5.55229 2.05226,6 1.499979,6 C0.947694,6 0.499979,5.55228 0.499979,5 C0.499979,4.44772 0.947694,4 1.499979,4 Z M3.74998,1.25 C4.30226,1.25 4.74998,1.69772 4.74998,2.25 C4.74998,2.80229 4.30226,3.25 3.74998,3.25 C3.19769,3.25 2.74998,2.80228 2.74998,2.25 C2.74998,1.69772 3.19769,1.25 3.74998,1.25 Z M6.99998,0 C7.55226,0 7.99998,0.447716 7.99998,1 C7.99998,1.55229 7.55226,2 6.99998,2 C6.44769,2 5.99998,1.55229 5.99998,1 C5.99998,0.447716 6.44769,0 6.99998,0 Z"></path> </g></svg>
+                        </span>
+                        <div class="tooltip">Clear</div>
+                    </button>
+                    <button class="closechatbot btn btn-outline-dark rounded-xl d-flex align-items-center justify-content-center p-2">
+                        <span class="d-flex align-items-center justify-content-center" style="width: 20px; height: 20px;">
+                            <svg width="24px" height="24px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#000000" d="M195.2 195.2a64 64 0 0 1 90.496 0L512 421.504 738.304 195.2a64 64 0 0 1 90.496 90.496L602.496 512 828.8 738.304a64 64 0 0 1-90.496 90.496L512 602.496 285.696 828.8a64 64 0 0 1-90.496-90.496L421.504 512 195.2 285.696a64 64 0 0 1 0-90.496z"></path></g></svg>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="chat-container w-100 mx-auto hide-scrolllbar rounded-xl mb-2" style="max-width: 800px; flex-grow: 1; padding: 20px 0px; display: flex; flex-direction: column; gap: 10px; background-color: white; text-wrap: pretty; overflow-y: auto; overflow-x: hidden;">
+                <div class="start-block load-chat-block w-100 flex-grow-1 d-flex flex-column">
+                    <div class="w-100 flex-grow-1 d-flex flex-column align-items-center justify-content-center y-4 text-center">
+                        <div class="mb-2">
+                            <svg width="100px" height="100px" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15 0C6.71573 0 0 6.71582 0 15V35C0 43.2842 6.71573 50 15 50H35C43.2843 50 50 43.2842 50 35V15C50 6.71582 43.2843 0 35 0H15ZM25 40C16.7158 40 10 33.2842 10 25C10 16.7158 16.7158 10 25 10C33.2843 10 40 16.7158 40 25C40 27.3994 39.4366 29.6675 38.4348 31.6787C38.1686 32.2134 38.08 32.8242 38.2343 33.4009L39.1277 36.7402C39.5156 38.1895 38.1895 39.5156 36.74 39.1279L33.4009 38.2344C32.8241 38.0801 32.2132 38.1685 31.6787 38.4346C29.6674 39.4365 27.3996 40 25 40ZM25.261 12.6777C25.261 19.5811 30.8574 25.1777 37.761 25.1777C30.8574 25.1777 25.261 30.7739 25.261 37.6777C25.261 30.7739 19.6646 25.1777 12.761 25.1777C19.6646 25.1777 25.261 19.5811 25.261 12.6777Z" fill="black"/>
+                            </svg>
+                        </div>
+                        <h6 class="text-center text-dark d-block mx-auto start-message" style="max-width: 400px; margin-top: 10px; font-weight: 700; text-wrap:pretty;">
+                            Start asking your questions and the agent will answer them.
+                        </h6>
+                    </div>
+                    <div class="w-100 mx-auto" style="max-width: 800px;">
+                        <div class="row m-0 p-0">
+                            <div style="cursor: pointer;" class="col-12 col-sm-6 col-lg-4 p-1">
+                                <small style="border-radius: 12px;" class="question-item h-100 border px-3 py-3 d-flex align-items-center">
+                                    List out the tours to United Arab Emirates
+                                </small>
+                            </div>
+                            <div style="cursor: pointer;" class="col-12 col-sm-6 col-lg-4 p-1">
+                                <small style="border-radius: 12px;" class="question-item h-100 border px-3 py-3 d-flex align-items-center">
+                                    Which documents are required to get France visa?
+                                </small>
+                            </div>
+                            <div style="cursor: pointer;" class="col-12 col-sm-6 col-lg-4 p-1">
+                                <small style="border-radius: 12px;" class="question-item h-100 border px-3 py-3 d-flex align-items-center">
+                                    Suggest me some places to visit in India
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100 bg-transparent">
+                <div class="input-options-container d-flex flex-row align-items-center justify-content-between border rounded-pill shadow-sm mx-auto" style="max-width: 800px; width: 100%; gap: 5px; padding: 8px;">
+                    <button id="micStartButton" style="width: 40px; height: 40px; padding: 10px; aspect-ratio: 1; display: flex; align-items: center; justify-content: center; border-radius: 30px; border: none; color: white; outline: none;">
+                        <svg width="18px" height="18px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path d="M176 352c53 0 96-43 96-96V96c0-53-43-96-96-96S80 43 80 96v160c0 53 43 96 96 96zm160-160h-16c-8.8 0-16 7.2-16 16v48c0 74.8-64.5 134.8-140.8 127.4C96.7 376.9 48 317.1 48 250.3V208c0-8.8-7.2-16-16-16H16c-8.8 0-16 7.2-16 16v40.2c0 89.6 64 169.6 152 181.7V464H96c-8.8 0-16 7.2-16 16v16c0 8.8 7.2 16 16 16h160c8.8 0 16-7.2 16-16v-16c0-8.8-7.2-16-16-16h-56v-33.8C285.7 418.5 352 344.9 352 256v-48c0-8.8-7.2-16-16-16z"/></svg>
+                    </button>
+                    <div id="question-box" class="d-inline-block" role="textbox" contenteditable="true" data-placeholder="Write your question here... " style="width: 100%; max-height: 100px; outline: none; font-weight: 500; font-size: 14px;"></div>
+                    <button class="sendbtn" style="width: 40px; height: 40px; padding: 8px; aspect-ratio: 1; display: flex; align-items: center; justify-content: center; border-radius: 30px; border: none; color: white;">
+                        <svg  width="20px" height="20px" viewBox="0 0 24 24" fill="none" stroke="#ffffff"  xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M11.5003 12H5.41872M5.24634 12.7972L4.24158 15.7986C3.69128 17.4424 3.41613 18.2643 3.61359 18.7704C3.78506 19.21 4.15335 19.5432 4.6078 19.6701C5.13111 19.8161 5.92151 19.4604 7.50231 18.7491L17.6367 14.1886C19.1797 13.4942 19.9512 13.1471 20.1896 12.6648C20.3968 12.2458 20.3968 11.7541 20.1896 11.3351C19.9512 10.8529 19.1797 10.5057 17.6367 9.81135L7.48483 5.24303C5.90879 4.53382 5.12078 4.17921 4.59799 4.32468C4.14397 4.45101 3.77572 4.78336 3.60365 5.22209C3.40551 5.72728 3.67772 6.54741 4.22215 8.18767L5.24829 11.2793C5.34179 11.561 5.38855 11.7019 5.407 11.8459C5.42338 11.9738 5.42321 12.1032 5.40651 12.231C5.38768 12.375 5.34057 12.5157 5.24634 12.7972Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="startchatbtn pulse btn btn-warning border-0 rounded-circle d-flex align-items-center justify-content-center p-2" style="width: 50px; height:50px; position: fixed; bottom: 30px; right: 30px; z-index: 999; cursor: pointer;" >
+        <svg width="40px" height="40px" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M15 0C6.71573 0 0 6.71582 0 15V35C0 43.2842 6.71573 50 15 50H35C43.2843 50 50 43.2842 50 35V15C50 6.71582 43.2843 0 35 0H15ZM25 40C16.7158 40 10 33.2842 10 25C10 16.7158 16.7158 10 25 10C33.2843 10 40 16.7158 40 25C40 27.3994 39.4366 29.6675 38.4348 31.6787C38.1686 32.2134 38.08 32.8242 38.2343 33.4009L39.1277 36.7402C39.5156 38.1895 38.1895 39.5156 36.74 39.1279L33.4009 38.2344C32.8241 38.0801 32.2132 38.1685 31.6787 38.4346C29.6674 39.4365 27.3996 40 25 40ZM25.261 12.6777C25.261 19.5811 30.8574 25.1777 37.761 25.1777C30.8574 25.1777 25.261 30.7739 25.261 37.6777C25.261 30.7739 19.6646 25.1777 12.761 25.1777C19.6646 25.1777 25.261 19.5811 25.261 12.6777Z" fill="black"/>
+        </svg>
+    </button>
+
+    <!-- SocketIO -->
+    <script src="https://cdn.socket.io/4.5.0/socket.io.min.js"></script>
+    <!-- Showdown.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js" integrity="sha512-LhccdVNGe2QMEfI3x4DVV3ckMRe36TfydKss6mJpdHjNFiV07dFpS2xzeZedptKZrwxfICJpez09iNioiSZ3hA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        const startButton = document.getElementById('micStartButton');
+
+        let recognition;
+        let isRecording = false;
+        let isSupported = true;
+        let silenceTimer;
+        const silenceThreshold = 1000; // 1.5 seconds of silence before stopping
+
+        if ('webkitSpeechRecognition' in window) {
+
+            recognition = new webkitSpeechRecognition();
+            recognition.continuous = true;
+            recognition.interimResults = true;
+            recognition.lang = 'en-US'; // Default language
+
+            recognition.onstart = function() {
+                isRecording = true;
+                startButton.classList.add("pulse");
+                $("#question-box").attr("data-placeholder", translations[currentLanguage].listeningPlaceholder);
+            };
+
+            recognition.onresult = function(event) {
+                let interimTranscript = '';
+                let finalTranscript = '';
+
+                for (let i = event.resultIndex; i < event.results.length; ++i) {
+                    if (event.results[i].isFinal) {
+                        finalTranscript += event.results[i][0].transcript;
+                        $("#question-box").text(finalTranscript);
+                    } else {
+                        interimTranscript += event.results[i][0].transcript;
+                        $("#question-box").text(interimTranscript);
+                    }
+                }
+                // Reset the silence timer whenever we get a result
+                resetSilenceTimer();
+            };
+
+            recognition.onerror = function(event) {
+                console.error('Speech recognition error:', event.error);
+                if(!isSupported){
+                    alert("Sorry, Voice capture is not supported for your current system.")
+                }else{
+                    alert(event.error);
+                }
+            };
+
+            recognition.onend = function() {
+                isRecording = false;
+                startButton.classList.remove("pulse");
+                $("question-box").html("");
+            };
+
+        }
+        else {
+            isSupported = false;
+        }
+
+        startButton.addEventListener('click', function() {
+            if(!isSupported){
+                alert("Sorry, Voice capture is not supported for your current system.")
+            } else {
+                if (isRecording) {
+                    stopRecording();
+                    $("question-box").html("");
+                } else {
+                    startRecording();
+                }
+            }
+        });
+
+        function startRecording() {
+            recognition.start();
+        }
+
+        function stopRecording() {
+            recognition.stop();
+            clearTimeout(silenceTimer);
+        }
+
+        function resetSilenceTimer() {
+            clearTimeout(silenceTimer);
+            silenceTimer = setTimeout(() => {
+                if (isRecording) {
+                    stopRecording();
+                    $(".sendbtn").click();
+                    $("question-box").html("");
+                }
+            }, silenceThreshold);
+        }
+
+
+        // Initialize Socket.IO client
+        var socket = io.connect('wss://ritesh-hf-web-agent.hf.space', {
+            transports: ['websocket']
+        });
+
+        // Empty response variable to keep track of response
+        var response="";
+
+        // Converter for Markdown to HTML
+        var converter = new showdown.Converter();
+
+        // Function to load a chat block indicating that the system is searching
+        function loadChatBlock(){
+            let lastMessageElement = $(".chat-container div:last-child");
+            if(lastMessageElement.hasClass("response-block")){
+                return;
+            }
+            const isRTL = currentLanguage === 'ar';
+            $(".chat-container").append(
+                `
+                    <div class="chat-block load-chat-block w-100 d-flex ${isRTL ? 'flex-row-reverse' : 'flex-row'} align-items-center ${isRTL ? 'justify-content-end' : 'justify-content-start'} bg-secondary p-3 rounded-xl ${isRTL ? 'rtl' : ''}" style="background-color: rgb(242 255 225);">
+                        <div style="width: fit-content; margin-bottom: 5px; display: flex; align-items: center; gap: 15px;" class="${isRTL ? 'order-2' : ''}">
+                            <span style="display: flex; align-items: center; justify-content: center; border-radius: 50px; background-color: white;">
+                                <svg width="36" height="36" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15 0C6.71573 0 0 6.71573 0 15C0 23.2843 6.71573 30 15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 0 15 0ZM15 24C10.0295 24 6 19.9705 6 15C6 10.0294 10.0295 6 15 6C19.9706 6 24 10.0294 24 15C24 16.4397 23.6619 17.8004 23.0609 19.0072C22.9012 19.3279 22.848 19.6945 22.9406 20.0405L23.4766 22.044C23.7093 22.9137 22.9137 23.7093 22.044 23.4767L20.0406 22.9406C19.6945 22.848 19.3279 22.9012 19.0072 23.0608C17.8005 23.662 16.4397 24 15 24ZM15.1566 7.60664C15.1566 11.7488 18.5144 15.1066 22.6566 15.1066C18.5144 15.1066 15.1566 18.4645 15.1566 22.6066C15.1566 18.4645 11.7987 15.1066 7.65659 15.1066C11.7987 15.1066 15.1566 11.7488 15.1566 7.60664Z" fill="black"/>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="px-3 py-1 ${isRTL ? 'order-1' : ''}">
+                            <div class="message-content pr-2" style="width: 100%; height: 100%; margin: auto; font-weight: 500; text-wrap: pretty; ${isRTL ? 'text-align: right;' : ''}">
+                               <span class="loading-text">${isRTL ? 'البحث' : 'Searching'}</span>
+                            </div>
+                        </div>
+                    </div>
+                `
+            );
+        }
+
+        function appendQuestion(question) {
+            if (!$(".start-block").hasClass("d-none")) {
+                $(".start-block").slideUp(200);
+                $(".start-block").addClass("d-none");
+                $(".start-block").removeClass("d-flex");
+            }
+
+            const isRTL = currentLanguage === 'ar';
+
+            $(".chat-container").append(`
+                <div class="chat-block question-block w-100 d-flex align-items-center ${isRTL ? 'justify-content-end' : 'justify-content-start'} p-3 ${isRTL ? 'rtl' : ''}">
+                    <div class="d-flex align-items-center ${isRTL ? 'order-2' : ''}">
+                        <span style="width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; border-radius: 50px; padding: 3px; border: 2px solid #000000; background-color: black;">
+                            <svg fill="#ffffff" width="36px" height="36px" viewBox="0 0 256 256" id="Flat" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M128,76a44,44,0,1,1-44,44A43.99983,43.99983,0,0,1,128,76Zm48-12h16V80a8,8,0,0,0,16,0V64h16a8,8,0,0,0,0-16H208V32a8,8,0,0,0-16,0V48H176a8,8,0,0,0,0,16Zm45.56006,40.95605a8.00039,8.00039,0,0,0-6.64893,9.15381A89.00044,89.00044,0,0,1,216,128a87.63672,87.63672,0,0,1-22.24182,58.41016,79.7044,79.7044,0,0,0-24.431-22.97461,59.83641,59.83641,0,0,1-82.6543,0A79.70345,79.70345,0,0,0,62.2417,186.41016,87.9498,87.9498,0,0,1,128,40a89.02966,89.02966,0,0,1,13.89062,1.08887,7.99994,7.99994,0,1,0,2.50391-15.80274A104.0826,104.0826,0,0,0,24,128a103.74716,103.74716,0,0,0,33.81934,76.68066,7.94507,7.94507,0,0,0,1.32629,1.18946,103.784,103.784,0,0,0,137.71252-.00293,7.94633,7.94633,0,0,0,1.31678-1.18115A103.74751,103.74751,0,0,0,232,128a105.04749,105.04749,0,0,0-1.28613-16.39453A7.99752,7.99752,0,0,0,221.56006,104.95605Z"></path> </g></svg>
+                        </span>
+                    </div>
+                    <div class="px-3 ${isRTL ? 'order-1' : ''}">
+                        <div class="message-content pr-2" style="width: 100%; margin: auto; text-wrap: pretty; font-size: 14px; color: gray; ${isRTL ? 'text-align: right;' : ''}">
+                            <span>${question}</span>
+                        </div>
+                    </div>
+                </div>
+            `);
+
+            $(".chat-container").animate({
+                scrollTop: $('.chat-container')[0].scrollHeight
+            }, 1000);
+        }
+
+        // Function to handle sending a question via Socket.IO and receiving an answer
+        function provideQuestionToAnswer(){
+
+            response = "";
+            let question = $("#question-box").text();
+            appendQuestion(question);
+            $("#question-box").text("");
+
+            setTimeout(loadChatBlock, 600);
+
+            // // Emit question via Socket.IO
+            // socket.emit('message', { question: question, session_id: 'abc123'  });
+
+             // Emit question and language via Socket.IO
+             socket.emit('message', { question: question, session_id: 'abc123', language: currentLanguage });
+        }
+
+        function appendAnswer(answer) {
+            let lastElement = $(".chat-container .chat-block:last-child");
+            const isRTL = currentLanguage === 'ar';
+
+            if (lastElement.hasClass("response-block")) {
+                $(".chat-container .chat-block:last-child").find(".message-content").html(answer);
+            } else {
+                lastElement.remove();
+                $(".chat-container").append(`
+                    <div class="chat-block response-block w-100 d-flex ${isRTL ? 'flex-row-reverse' : 'flex-row'} align-items-start ${isRTL ? 'justify-content-end' : 'justify-content-start'} bg-secondary p-3 rounded-xl ${isRTL ? 'rtl' : ''}" style="background-color: rgb(242 255 225);">
+                        <div style="width: fit-content; margin-bottom: 5px; display: flex; align-items: center; gap: 15px;" class="${isRTL ? 'order-2' : ''}">
+                            <span style="display: flex; align-items: center; justify-content: center; border-radius: 50px; background-color: white;">
+                                <svg width="36" height="36" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15 0C6.71573 0 0 6.71573 0 15C0 23.2843 6.71573 30 15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 0 15 0ZM15 24C10.0295 24 6 19.9705 6 15C6 10.0294 10.0295 6 15 6C19.9706 6 24 10.0294 24 15C24 16.4397 23.6619 17.8004 23.0609 19.0072C22.9012 19.3279 22.848 19.6945 22.9406 20.0405L23.4766 22.044C23.7093 22.9137 22.9137 23.7093 22.044 23.4767L20.0406 22.9406C19.6945 22.848 19.3279 22.9012 19.0072 23.0608C17.8005 23.662 16.4397 24 15 24ZM15.1566 7.60664C15.1566 11.7488 18.5144 15.1066 22.6566 15.1066C18.5144 15.1066 15.1566 18.4645 15.1566 22.6066C15.1566 18.4645 11.7987 15.1066 7.65659 15.1066C11.7987 15.1066 15.1566 11.7488 15.1566 7.60664Z" fill="black"/>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="px-3 py-1 ${isRTL ? 'order-1' : ''}">
+                            <div class="message-content pr-2" style="width: 100%; height: 100%; margin: auto; font-weight: 500; text-wrap: pretty; ${isRTL ? 'text-align: right;' : ''}">
+                                ${answer}
+                            </div>
+                        </div>
+                    </div>
+                `);
+            }
+
+            $(".chat-container").scrollTop($(".chat-container")[0].scrollHeight);
+        }
+
+
+        // Function to handle the answer received from the server
+        socket.on('response', (data) => {
+            response += data;
+            model_response = converter.makeHtml(response);
+            appendAnswer(model_response);
+        });
+
+        // Open the chatbot interface
+        function openchatbot(){
+            console.log("working here");
+            $(".main-chat-container").removeClass("hide-chatbot");
+            $(".main-chat-container").addClass("show-chatbot");
+            $(".startchatbtn").addClass("d-none");
+            $(".startchatbtn").removeClass("d-flex");
+        }
+
+        // Close the chatbot interface
+        $(".startchatbtn").click(openchatbot);
+
+        $(".closechatbot").click(function(){
+            $(".main-chat-container").removeClass("show-chatbot");
+            $(".main-chat-container").addClass("hide-chatbot");
+            $(".startchatbtn").removeClass("d-none");
+            $(".startchatbtn").addClass("d-flex");
+        });
+
+        // Send the question and get the answer
+        $(".sendbtn").click(provideQuestionToAnswer);
+
+        // Handle the Enter key press in the question box
+        $(document).ready(() => {
+            $("#question-box").text("Write your question here...");
+            $("#question-box").text("");
+
+            $('#question-box').on('keydown', function(event) {
+                if (event.key === 'Enter') {
+                    event.preventDefault();
+                    provideQuestionToAnswer();
+                }
+            });
+
+            let currentLanguage = localStorage.getItem("currentLanguage");
+            if(currentLanguage && currentLanguage == 'ar'){
+                toggleLanguage();
+            }
+        });
+
+        // Handle connection errors
+        socket.on('connect_error', (error) => {
+            console.error("Connection error:", error);
+            appendMessage("Sorry, there was a problem connecting to the server. Please try again later.", 'bot');
+        });
+
+        // // Handle disconnection
+        // socket.on('connect', (reason) => {
+        //     // Emit website category via Socket.IO
+        //     socket.emit('website', { website: "UAE_Legislation", session_id: 'abc123'  });
+
+        // });
+
+        {% comment %} socket.on('connect', () => {
+            socket.emit('website-set', { website: "", session_id: 'abc123' });
+        }); {% endcomment %}
+
+        // Handle disconnection
+        socket.on('disconnect', (reason) => {
+            console.warn("Disconnected from server:", reason);
+            let prev_chats_1 = sessionStorage.getItem("chats");
+            if(prev_chats_1){
+                chats = JSON.parse(prev_chats_1);
+                chats.push({
+                    "type": "answer",
+                    "content": response
+                });
+                sessionStorage.setItem("chats", JSON.stringify(chats));
+            }
+            response = "";
+            socket = io.connect('wss://ritesh-hf-web-agent.hf.space', {
+                transports: ['websocket']
+            });
+            // appendAnswer("You have been disconnected from the server. Please refresh the page to reconnect.", 'bot');
+        });
+
+        // Clear the chat container
+        $(".clearBtn").click(() => {
+            $('.chat-container').find('.chat-block').remove();
+            $(".start-block").removeClass('d-none');
+            $(".start-block").addClass('d-flex');
+            $(".start-block").slideDown();
+            sessionStorage.setItem("chats", JSON.stringify([]));
+        });
+
+        // Handle click on example questions
+        $(".question-item").on("click", (e) => {
+            let exampleQuestion = e.target.innerHTML;
+            $("#question-box").text(exampleQuestion);
+            $(".sendbtn").click();
+        });
+
+
+        // New variables for language support
+        let currentLanguage = 'en';
+        const languageToggle = document.getElementById('languageToggle');
+        const chatContainer = document.querySelector('.chat-container-wrapper');
+        const questionBox = document.getElementById('question-box');
+
+
+        // Translation object
+        const translations = {
+            en: {
+                title: 'lawa.ai',
+                clear: 'Clear',
+                close: 'Close',
+                start: 'Start Chat',
+                send: 'Send',
+                startMessage: 'Start asking your questions and the agent will answer them.',
+                questionPlaceholder: 'Write your question here...',
+                listeningPlaceholder: 'Listening...',
+                exampleQuestions: [
+                    'List out the tours to United Arab Emirates',
+                    'Which documents are required to get France visa?',
+                    'Suggest me some places to visit in India'
+                ]
+            },
+            ar: {
+                title: 'لاوا.أي',
+                clear: 'مسح',
+                close: 'إغلاق',
+                start: 'بدء المحادثة',
+                send: 'إرسال',
+                startMessage: 'ابدأ بطرح أسئلتك وسيجيب عليها الوكيل.',
+                questionPlaceholder: 'اكتب سؤالك هنا...',
+                listeningPlaceholder: 'جاري الاستماع...',
+                exampleQuestions: [
+                    'قائمة بالجولات إلى الإمارات العربية المتحدة',
+                    'ما هي المستندات المطلوبة للحصول على تأشيرة فرنسا؟',
+                    'اقترحوا لي بعض الأماكن التي يمكن زيارتها في الهند'
+                ]
+            }
+        };
+
+        // Function to update UI language
+        function updateUILanguage() {
+            const elements = {
+                title: document.querySelector('.chatbot-title'),
+                clearBtn: document.querySelector('.clearBtn'),
+                closechatbot: document.querySelector('.closechatbot'),
+                startchatbtn: document.querySelector('.startchatbtn'),
+                sendbtn: document.querySelector('.sendbtn'),
+                startMessage: document.querySelector('.start-message'),
+                questionBox: document.getElementById('question-box'),
+                questionItems: document.querySelectorAll('.question-item')
+            };
+
+            elements.title.textContent = translations[currentLanguage].title;
+            elements.clearBtn.querySelector('.tooltip').textContent = translations[currentLanguage].clear;
+            elements.closechatbot.setAttribute('title', translations[currentLanguage].close);
+            elements.startchatbtn.setAttribute('title', translations[currentLanguage].start);
+            elements.sendbtn.setAttribute('title', translations[currentLanguage].send);
+            elements.startMessage.textContent = translations[currentLanguage].startMessage;
+            elements.questionBox.setAttribute('data-placeholder', translations[currentLanguage].questionPlaceholder);
+
+            elements.questionItems.forEach((item, index) => {
+                item.textContent = translations[currentLanguage].exampleQuestions[index];
+            });
+
+            // Update the listening placeholder for speech recognition
+            if (recognition) {
+                recognition.lang = currentLanguage === 'ar' ? 'ar-AE' : 'en-US';
+            }
+        }
+
+        // Function to toggle language
+        function toggleLanguage() {
+            $(".clearBtn").click();
+            currentLanguage = currentLanguage === 'en' ? 'ar' : 'en';
+            languageToggle.textContent = currentLanguage === 'en'? "AR": "EN";
+            chatContainer.classList.toggle('rtl', currentLanguage === 'ar');
+            questionBox.setAttribute('dir', currentLanguage === 'ar' ? 'rtl' : 'ltr');
+            document.body.style.direction = currentLanguage === 'ar' ? 'rtl' : 'ltr';
+            chatContainer.classList.toggle('rtl', currentLanguage === 'ar');
+            updateUILanguage();
+
+            localStorage.setItem("currentLanguage", currentLanguage);
+        }
+
+        // Event listeners and initializations
+        languageToggle.addEventListener('click', toggleLanguage);
+
+        // Initialize the UI language
+        updateUILanguage();
+
+    </script>
+
+    <!-- ==================================================================================================== -->
+
+        <!-- LAWA.ai ChatBot -->
+
+    <!-- ==================================================================================================== -->

@@ -4,3 +4,6 @@
 traveler_env/*
 uploads/*
 .env
+__pycache__/*
+main/__pycache__/*
+traveler/__pycache__/*

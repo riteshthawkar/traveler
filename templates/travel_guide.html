@@ -41,7 +41,7 @@
                     <div class="row">
                         {% for guide in travel_guides %}
                         <div class="col-lg-4 col-md-6 mb-4">
-                            <a href="/travel_guide/{{ guide.pk }}" class="rounded-xl shadow-sm guide-item p-3 card position-relative overflow-hidden mb-2 text-decoration-none">
+                            <a href="/demo/travel_guide/{{ guide.pk }}" class="rounded-xl shadow-sm guide-item p-3 card position-relative overflow-hidden mb-2 text-decoration-none">
                                 <img class="img-fluid" style="border-radius: 20px; height: 230px;" src="{{ guide.img.url }}"  alt="">
                                 <div class="card-body px-2 pb-0 text-decoration-none" href="">
                                     <h5 class="">{{ guide.city_name }} Travel Guide</h5>

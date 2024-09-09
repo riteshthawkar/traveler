@@ -28,9 +28,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-b0*1x^y@9$)w%v+k=p!8xp@4bkt37s&b8+uf%1=mh+v1=@ybsh'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['bc16-157-33-243-223.ngrok-free.app', '127.0.0.1']
+ALLOWED_HOSTS = ['bc16-157-33-243-223.ngrok-free.app', '127.0.0.1', 'www.lawa.app']
 
 
 # Application definition
@@ -114,6 +114,15 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'riteshthawkar2003@gmail.com'
+EMAIL_HOST_PASSWORD = 'foig gscl joiv hdga'
+DEFAULT_FROM_EMAIL = 'your-email@gmail.com'
 
 
 # Internationalization

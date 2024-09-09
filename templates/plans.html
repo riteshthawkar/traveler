@@ -1,0 +1,135 @@
+{% extends "landing_page_base.html" %}
+{% load static %}
+
+{% block content %}
+
+    <section class="w-100 bg-white pb-20 pt-20">
+        <div class="py-6 px-4 mx-auto max-w-screen-xl aspect-video rounded-3xl text-center lg:pb-4 lg:pt-16 lg:px-12">
+            <span class="inline-flex justify-between items-center py-1 px-2 mb-1 dark:text-white">
+                 <span class="font-medium text-gray-700">Find the Perfect Fit for your Business</span> 
+            </span>
+            <h4 class="max-w-3xl mx-auto mb-10 px-5 text-xl font-extrabold leading-loose text-gray-900 md:text-2xl lg:text-4xl dark:text-white" style="line-height: 110%;">
+                Choose your path to Innovation
+            </h4>
+            <div class="w-100 mx-auto bg-opacity-40 mb-20">
+                <div class="grid grid-cols-1 gap-6 p-4">
+
+                    <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="200" class="flex flex-col items-start bg-white border border-gray-200 rounded-3xl p-6">
+                        <div class="relative w-full flex flex-row items-start  justify-between mb-5 sm:mb-6 pb-2">
+                            <div class="flex flex-col sm:flex-row sm:gap-4 gap-3 sm:items-center">
+                                <span class="w-fit flex items-center justify-center bg-black rounded-full p-3">
+                                    <svg width="20px" height="20px" fill="#ffffff" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>star-of-life</title> <path d="M28.75 21.918l-10.25-5.918 10.25-5.917c0.377-0.22 0.625-0.623 0.625-1.083 0-0.691-0.56-1.25-1.25-1.25-0.23 0-0.446 0.062-0.631 0.171l0.006-0.003-10.25 5.918v-11.835c0-0.69-0.56-1.25-1.25-1.25s-1.25 0.56-1.25 1.25v0 11.835l-10.249-5.918c-0.179-0.105-0.395-0.167-0.625-0.167-0.691 0-1.25 0.56-1.25 1.25 0 0.46 0.249 0.863 0.619 1.080l0.006 0.003 10.249 5.917-10.249 5.918c-0.381 0.219-0.633 0.623-0.633 1.087 0 0.69 0.559 1.25 1.25 1.25 0.234 0 0.452-0.064 0.639-0.176l-0.006 0.003 10.249-5.917v11.835c0 0.69 0.56 1.25 1.25 1.25s1.25-0.56 1.25-1.25v0-11.835l10.25 5.917c0.177 0.102 0.39 0.163 0.616 0.163 0.69 0 1.25-0.559 1.25-1.25 0-0.456-0.245-0.856-0.61-1.074l-0.006-0.003z"></path> </g></svg>
+                                </span>
+                                <h3 class="text-start text-3xl font-semibold text-gray-900">On Demand Services</h3>
+                            </div>
+                            <small class="w-fit whitespace-nowrap flex-grow-0 bg-black rounded-md py-1 px-3 text-white font-medium sm:mb-0 mb-2">Tier 1</small>
+                        </div>
+                        <p class="text-start mb-8">
+                            This package allows businesses to access the Lawa.ai model as an on-demand service. You manage your own data, while we take care of hosting and maintaining the AI model on our servers. This enables you to leverage advanced LLM technology on-demand, without the burden of managing AI infrastructure.
+                        </p>
+
+                        <div class="w-full flex items-center justify-center border p-3 rounded-2xl mb-8">
+                            <img src={% static 'img/landing_page_img/Tier-1.png' %} style="width: 500px;" alt="full-control-tier">
+                        </div>
+
+                        <div class="grid sm:grid-cols-2 grid-cols-1 gap-10">
+                            <div class="col-span-1 text-left">
+                                <h3 class="text-base font-semibold text-gray-900 mb-2">Hosting</h3>
+                                <p class="text-md">Lawa.ai hosts and manages the entire system, including data storage, AI models, and query processing. Focus on your business while we take care of the technology, ensuring seamless operation and top-tier performance </p>
+                            </div>
+                            <div class="text-left">
+                                <h3 class="text-base font-semibold text-gray-900 mb-2">Data Management</h3>
+                                <p class="text-md">Your data is securely stored and managed on Lawa.ai's servers, with strict access controls and encryption. Peace of mind knowing your data is protected by industry-leading security measures.</p>
+                            </div>
+                            <div class="col-span-1 text-left">
+                                <h3 class="text-base font-semibold text-gray-900 mb-2">AI Integration</h3>
+                                <p class="text-md">Our team handles all aspects of AI management, from updates to maintenance. Enjoy the latest advancements in AI without any of the operational burdens.</p>
+                            </div>
+                            <div class="text-left">
+                                <h3 class="text-base font-semibold text-gray-900 mb-2">Ideal For</h3>
+                                <p class="text-md">Companies looking for a hassle-free, turnkey solution with minimal IT overhead.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="300" class="flex flex-col items-start bg-white border border-gray-200 rounded-3xl p-6">
+                        <div class="relative w-full flex flex-row items-start  justify-between mb-5 sm:mb-6 pb-2">
+                            <div class="flex flex-col sm:flex-row sm:gap-4 gap-3 sm:items-center">
+                                <span class="w-fit flex items-center justify-center bg-black rounded-full p-3">
+                                    <svg width="20px" height="20px" fill="#ffffff" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>star-of-life</title> <path d="M28.75 21.918l-10.25-5.918 10.25-5.917c0.377-0.22 0.625-0.623 0.625-1.083 0-0.691-0.56-1.25-1.25-1.25-0.23 0-0.446 0.062-0.631 0.171l0.006-0.003-10.25 5.918v-11.835c0-0.69-0.56-1.25-1.25-1.25s-1.25 0.56-1.25 1.25v0 11.835l-10.249-5.918c-0.179-0.105-0.395-0.167-0.625-0.167-0.691 0-1.25 0.56-1.25 1.25 0 0.46 0.249 0.863 0.619 1.080l0.006 0.003 10.249 5.917-10.249 5.918c-0.381 0.219-0.633 0.623-0.633 1.087 0 0.69 0.559 1.25 1.25 1.25 0.234 0 0.452-0.064 0.639-0.176l-0.006 0.003 10.249-5.917v11.835c0 0.69 0.56 1.25 1.25 1.25s1.25-0.56 1.25-1.25v0-11.835l10.25 5.917c0.177 0.102 0.39 0.163 0.616 0.163 0.69 0 1.25-0.559 1.25-1.25 0-0.456-0.245-0.856-0.61-1.074l-0.006-0.003z"></path> </g></svg>
+                                </span>
+                                <h3 class="text-start text-3xl font-semibold text-gray-900">Controlled Access</h3>
+                            </div>
+                            <small class="w-fit whitespace-nowrap flex-grow-0 bg-black rounded-md py-1 px-3 text-white font-medium sm:mb-0 mb-2">Tier 2</small>
+                        </div>
+                        <p class="text-start mb-8">
+                            This plan grants businesses full control over their data while utilizing Lawa.ai's LLM for AI-powered insights, all hosted on your own infrastructure. User queries are processed directly within your website's framework, giving you complete authority over AI-generated responses.
+                        </p>
+                        <div class="w-full flex items-center justify-center border p-3 rounded-2xl mb-10">
+                            <img src={% static 'img/landing_page_img/Tier-2.png' %}  style="width: 500px;" alt="full-control-tier">
+                        </div>
+                        <div class="grid sm:grid-cols-2 grid-cols-1 gap-10">
+                            <div class="col-span-1 text-left">
+                                <h3 class="text-bas font-semibold text-black mb-2">Hosting</h3>
+                                <p class="text-md">Host your data on your own servers, while accessing our AI models hosted on Lawa.ai's secure servers.
+                                Enjoy the best of both worlds—maintain control over your data while leveraging our powerful AI technology.</p>
+                            </div>
+                            <div class="col-span-1 text-left">
+                                <h3 class="text-bas font-semibold text-black mb-2">Data Management</h3>
+                                <p class="text-md">Your data remains on your servers, while queries are processed by our AI. Retain full control over data storage and access, minimizing risk while maximizing performance.</p>
+                            </div>
+                            <div class="col-span-1 text-left">
+                                <h3 class="text-bas font-semibold text-black mb-2">AI Integration</h3>
+                                <p class="text-md">Utilize our advanced AI models to process queries and deliver results without needing to manage the AI infrastructure. Offload the complexity of AI management while still benefiting from cutting-edge technology.</p>
+                            </div>
+                            <div class="col-span-1 text-left">
+                                <h3 class="text-bas font-semibold text-black mb-2">Ideal For</h3>
+                                <p class="text-md">Businesses that need data control but prefer not to manage AI infrastructure.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="400" class="flex flex-col items-start bg-white border border-gray-200 rounded-3xl p-6">
+                        <div class="relative w-full flex flex-row items-start  justify-between mb-5 sm:mb-6 pb-2">
+                            <div class="flex flex-col sm:flex-row sm:gap-6 gap-3 sm:items-center">
+                                <span class="w-fit flex items-center justify-center bg-black rounded-full p-3">
+                                    <svg width="20px" height="20px" fill="#ffffff" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>star-of-life</title> <path d="M28.75 21.918l-10.25-5.918 10.25-5.917c0.377-0.22 0.625-0.623 0.625-1.083 0-0.691-0.56-1.25-1.25-1.25-0.23 0-0.446 0.062-0.631 0.171l0.006-0.003-10.25 5.918v-11.835c0-0.69-0.56-1.25-1.25-1.25s-1.25 0.56-1.25 1.25v0 11.835l-10.249-5.918c-0.179-0.105-0.395-0.167-0.625-0.167-0.691 0-1.25 0.56-1.25 1.25 0 0.46 0.249 0.863 0.619 1.080l0.006 0.003 10.249 5.917-10.249 5.918c-0.381 0.219-0.633 0.623-0.633 1.087 0 0.69 0.559 1.25 1.25 1.25 0.234 0 0.452-0.064 0.639-0.176l-0.006 0.003 10.249-5.917v11.835c0 0.69 0.56 1.25 1.25 1.25s1.25-0.56 1.25-1.25v0-11.835l10.25 5.917c0.177 0.102 0.39 0.163 0.616 0.163 0.69 0 1.25-0.559 1.25-1.25 0-0.456-0.245-0.856-0.61-1.074l-0.006-0.003z"></path> </g></svg>
+                                </span>
+                                <h3 class="text-start text-3xl font-semibold text-gray-900">Advanced Privacy Control</h3>
+                            </div>
+                            <small class="w-fit whitespace-nowrap flex-grow-0 bg-black rounded-md py-1 px-3 text-white font-medium sm:mb-0 mb-2">Tier 3</small>
+                        </div>
+                        <p class="text-start mb-8">
+                            This plan offers end users ultimate privacy and security over their queries and AI-generated responses. With the Advanced Privacy Control Plan, businesses can host the Lawa.ai model directly on user systems, guaranteeing total security and privacy for end users. Our team ensures the AI models are optimized for user devices, delivering peak efficiency without sacrificing response quality.
+                        </p>
+                        <div class="w-full flex items-center justify-center border p-3 rounded-2xl mb-10">
+                            <img src={% static 'img/landing_page_img/Tier-3.png' %}  style="width: 500px;" alt="full-control-tier">
+                        </div>
+                        <div class="grid sm:grid-cols-2 grid-cols-1 gap-10">
+                            <div class="col-span-1 text-left">
+                                <h3 class="text-base font-semibold text-black mb-2">Hosting</h3>
+                                <p class="text-md">Host the entire system, including data storage and AI models, on your own hardware. Total control over your infrastructure, with no dependency on external servers.</p>
+                            </div>
+                            <div class="col-span-1 text-left">
+                                <h3 class="text-base font-semibold text-black mb-2">Data Management</h3>
+                                <p class="text-md">Your data stays completely within your environment, offering maximum privacy and security.
+                                Maintain full ownership and control over all data, ensuring compliance with internal and regulatory standards.</p>
+                            </div>
+                            <div class="col-span-1 text-left">
+                                <h3 class="text-base font-semibold text-black mb-2">AI Integration</h3>
+                                <p class="text-md">Customize and manage the AI models on your own servers. Tailor the AI to your specific needs, with the ability to fine-tune and update as needed.</p>
+                            </div>
+                            <div class="col-span-1 text-left">
+                                <h3 class="text-base font-semibold text-black mb-2">Ideal For</h3>
+                                <p class="text-md">Enterprises with strong IT resources and stringent data security requirements.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock content %}

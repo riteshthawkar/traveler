@@ -1,0 +1,393 @@
+
+{% extends "landing_page_base.html" %}
+
+
+{% load static %}
+
+{% block content %}
+
+
+<section class="relative w-100 hero-section dark:bg-gray-400 pt-24 sm:pt-16 pb-20 bg-white/30">
+    <div class="relative py-6 px-4 mx-auto max-w-screen-xl aspect-video text-center lg:pt-24 lg:px-12">
+        <span class="slide-text-animation inline-flex justify-between items-center py-1 px-2 mb-4 text-sm text-gray-700 rounded-full dark:text-white border-2 bg-white/50 shadow-sm" role="alert">
+             <span class="text-sm font-medium">Unlock the magical world of Web-Agents</span>
+        </span>
+        <h1 class="slide-text-animation max-w-6xl mx-auto mb-4 text-5xl font-extrabold leading-loose text-gray-900 md:text-5xl lg:text-7xl dark:text-white" style="line-height: 110%;">
+            <span class="bg-gradient-word px-4 sm:px-6 rounded-full font-extrabold">Empower</span> your business
+            <br class="sm:block hidden">with the power of <span class="bg-gradient-word px-4 sm:px-6 rounded-full font-extrabold">LLM's</span>
+        </h1>
+        <p class="slide-text-animation mb-8 text-base text-gray-800 font-normalext-gray-500 lg:text-xl px-8 sm:px-16 xl:px-48 dark:text-gray-400 bg-white/50">
+            Transform your web application using user-friendly LLM powered solutions safeguarding user privacy and security.
+        </p>
+        <div class="slide-text-animation w-fit mx-auto flex flex-col mb-8 lg:mb-20 space-y-4 sm:flex-row sm:justify-center bg-white/50">
+            <a href="/demo" class="inline-flex justify-center items-center py-3 px-6 text-base font-medium text-center rounded-lg dark:text-gray-900 dark:border-gray-300 dark:bg-white bg-gray-950 text-white transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 shadow-xl">
+                <span class="whitespace-nowrap">Visit Product Demo</span>
+                <svg class="ml-1 text-white dark:text-black " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
+                </svg>
+            </a>
+        </div>
+
+
+
+        <div data-aos="fade-up" data-aos-delay="200" data-aos-offset="200" class="w-full mx-auto py-6 bg-dark">
+
+            <div class="relative w-full sm:w-4/5 border border-black p-2 sm:p-4 lg:p-5 rounded-3xl mx-auto max-w-screen-xl overflow-clip bg-black shadow-2xl shadow-gray-50">
+                <div class="relative rounded-2xl overflow-hidden border py-3">
+                    <video id="demoVideo" class="w-100 h-100 -z-0" style="scale: 1.08;" loop autoplay>
+                        <source src= {% static 'img/landing_page_img/instant-search-video.mp4' %} type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div id="demo-player-cover" class="absolute w-full h-full top-0 left-0 grid place-content-center border rounded-2xl bg-white/60 backdrop-blur-sm">
+                        <div id="videoplayBtn" class="w-24 h-24 p-4 bg-white/50 shadow-xl flex items-center justify-center rounded-full cursor-pointer hover:shadow-2xl">
+                            <svg class="w-24 h-24 text-gray-800 dark:text-white translate-x-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                                <path fill-rule="evenodd" d="M8.6 5.2A1 1 0 0 0 7 6v12a1 1 0 0 0 1.6.8l8-6a1 1 0 0 0 0-1.6l-8-6Z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+</section>
+
+<section class="w-100 relative bg-gray-50" style="box-shadow: 0 0px 100px 52px rgb(255, 255, 255);">
+    <div class=" py-6 px-4 mx-auto max-w-screen-xl aspect-video rounded-3xl text-center lg:pb-4 lg:pt-16 lg:px-12">
+        <span class="inline-flex justify-between items-center py-1 px-2 mb-1 text-white">
+             <span class="font-medium text-gray-800">Crafting tomorrow’s web, today</span>
+        </span>
+        <h4 class="max-w-6xl sm:max-w-3xl mx-auto mb-10 px-5 text-3xl font-extrabold leading-loose text-gray-900 lg:text-5xl dark:text-white" style="line-height: 110%;">
+            Why choose <span class="inline-block bg-black text-white px-4 rounded-lg sm:my-0 my-3">lawa.ai?</span>
+        </h4>
+        <div class="w-full mx-auto bg-opacity-40 mb-10 sm:mb-20">
+            <div class="relative grid grid-cols-1 sm:grid-cols-4 lg:grid-cols-5 gap-6 p-4">
+
+                <div data-aos="slide-up" data-aos-offset="200" data-aos-delay="300" class="about-item relative col-span-1 sm:col-span-4 lg:col-span-5 rounded-3xl border p-4 sm:p-8 bg-white backdrop-blur-2xl backgrond-clip">
+                    <div class="w-100 h-100">
+                        <p class="w-100 text-black text-center text-2xl font-semibold z-40">
+                            "Driving business growth through intelligent automation!"
+                        </p>
+                    </div>
+                    <div class="w-100 flex items-center justify-center mt-3">
+                        <div class="grid grid-cols-1 gap-8 p-4 mx-auto text-gray-900 sm:grid-cols-2 lg:grid-cols-4 dark:text-white sm:p-8 items-start">
+                            <div class="flex flex-col items-center justify-center align-baseline">
+                                <dt class="mb-2 font-semibold text-2xl text-center"><span class="text-6xl number-counter " data-target="60">60</span>%</dt>
+                                <dd class="text-base text-gray-800 font-normal dark:text-gray-400 text-center"><strong class="font-semibold text-black block">Faster retrieval, more accuracy</strong>Experience lightning-fast, precise information access!</dd>
+                            </div>
+                            <div class="flex flex-col items-center justify-center align-baseline">
+                                <dt class="mb-2 font-semibold text-2xl text-center"><span class="text-6xl number-counter" data-target="70">70</span>%</dt>
+                                <dd class="text-base text-gray-800 font-normal dark:text-gray-400 text-center"><strong class="font-semibold text-black block">Enhanced engagement</strong>Personalize user experiences to keep them browsing longer.</dd>
+                            </div>
+                            <div class="flex flex-col items-center justify-center align-baseline">
+                                <dt class="mb-2 font-semibold text-2xl text-center"><span class="text-6xl number-counter" data-target="50">50</span>%</dt>
+                                <dd class="text-base text-gray-800 font-normal dark:text-gray-400 text-center"><strong class="font-semibold text-black block">Reduced response times</strong>Streamline support with AI-driven, accurate answers.</dd>
+                            </div>
+                            <div class="flex flex-col items-center justify-center">
+                                <dt class="mb-2 font-semibold text-2xl text-center"><span class="text-6xl number-counter" data-target="35">35</span>%</dt>
+                                <dd class="text-base text-gray-800 font-normal dark:text-gray-400 text-center">
+                                    <strong class="font-semibold text-black block">Increased conversion rates</strong> Elevate user conversions with the web-talk feature!
+                                    </dd>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-aos="zoom-in" data-aos-offset="200" data-aos-delay="300" class="about-item relative col-span-1 sm:col-span-2 lg:col-span-3 flex flex-col rounded-3xl  border p-8 bg-white backdrop-blur-2xl background-clip">
+                    <h3 class="text-2xl text-start font-semibold text-gray-900 mb-2 z-40 text-pretty">Instantaneous Interaction</h3>
+                    <p class="text-base flex-grow text-gray-600 text-start z-40">
+                        Utilizing an on-device LLM agent enables real-time communication between the website and its visitors. Users can get immediate answers to their queries making easy access to content-rich websites. This setup enhances user satisfaction by providing quick responses, fostering a seamless user experience.
+                    </p>
+                    <div class="w-100 h-60 relative flex items-center justify-center mt-8">
+                        <span class="svg-1 w-100 z-30">
+                            <img src={% static 'img/landing_page_img/user-engagement.png' %} alt="ai-illustration">
+                        </span>
+                    </div>
+                </div>
+
+                <div data-aos="zoom-in" data-aos-offset="200" data-aos-delay="300" class="about-item relative col-span-1 md:col-span-2 flex flex-col rounded-3xl  border p-8 bg-white backdrop-blur-2xl background-clip">
+                    <h3 class="text-2xl text-start font-semibold text-gray-900 mb-2 z-40 text-pretty">Enhanced Privacy and Security</h3>
+                    <p class="text-base flex-grow text-gray-600 text-start z-40">
+                        By operating directly on the device, lawa.ai ensures that user data does not have to be sent to external servers for processing. This local handling of queries minimizes data breaches and ensures compliance with privacy regulations, making it ideal for handling sensitive information.
+                    </p>
+                    <div class="w-100 h-60 relative flex items-center justify-center mt-8">
+                        <span class="svg-1 w-100 z-30">
+                            <img src={% static 'img/landing_page_img/data-control.png' %} alt="ai-illustration">
+                        </span>
+                    </div>
+                </div>
+
+                <div data-aos="zoom-in" data-aos-offset="200" data-aos-delay="300" class="about-item relative col-span-1 md:col-span-2 flex flex-col rounded-3xl  border p-8 bg-white backdrop-blur-2xl background-clip">
+                    <h3 class="text-2xl text-start font-semibold text-gray-900 mb-2 z-40 text-pretty">Stay Ahead with AI-Powered Learning </h3>
+                    <p class="text-base flex-grow text-gray-800 font-normal text-start z-40">
+                        Lawa.ai continually improves through analyzing user interactions to provide more relevant answers over time, ensuring your website evolves alongside your users’ needs.
+                    </p>
+                    <div class="w-100 h-60 relative flex items-center justify-center mt-8">
+                        <span class="svg-1 w-100 z-30">
+                            <img src={% static 'img/landing_page_img/improve.png' %} class="h-60" alt="ai-illustration">
+                        </span>
+                    </div>
+                </div>
+
+                <div data-aos="zoom-in" data-aos-offset="200" data-aos-delay="300" class="about-item relative col-span-1 sm:col-span-2 lg:col-span-3 flex flex-col rounded-3xl  border p-8 bg-white backdrop-blur-2xl background-clip">
+                    <h3 class="text-2xl text-start font-semibold text-gray-900 mb-2 z-40 text-pretty">Multilingual Capabilities for Global Reach</h3>
+                    <p class="text-base flex-grow text-gray-800 font-normal text-start z-40">
+                        Lawa.ai supports multilingual conversations, enabling businesses to reach a global audience with intelligent, real-time responses that break down language barriers.
+                    </p>
+                    <div class="w-100 h-60 relative flex items-center justify-center mt-8">
+                        <span class="svg-1 w-100 z-30">
+                            <img src={% static 'img/landing_page_img/multilingual.png' %}  alt="ai-illustration">
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- <a href="/about" class="inline-flex justify-center items-center py-3 px-6 text-base font-medium text-center rounded-lg dark:text-gray-900 dark:border-gray-300 dark:bg-white bg-gray-950 text-white transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300">Learn More</a> -->
+    </div>
+</section>
+
+<section class="w-100 bg-white">
+    <div class="py-6 px-4 mx-auto max-w-screen-xl aspect-video rounded-3xl text-center lg:pb-4 lg:pt-16 lg:px-12">
+        <span class="inline-flex justify-between items-center py-1 px-2 mb-1 dark:text-white">
+             <span class="font-medium text-gray-700">Empowering your Business with Precision and Control</span>
+        </span>
+        <h4 class="max-w-6xl sm:max-w-3xl mx-auto mb-10 px-5 text-3xl font-extrabold leading-loose text-gray-900 lg:text-5xl dark:text-white" style="line-height: 110%;">
+            Features that elevate your business
+        </h4>
+        <div class="w-100 mx-auto bg-opacity-40 mb-10 sm:mb-20">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-4">
+
+                <div data-aos="zoom-in" data-aos-offset="200" data-aos-delay="200" class="col-span-2 flex flex-col items-start border border-gray-200 bg-gray-50 rounded-3xl shado-xl p-6">
+                    <div class="text-blue-500 mb-2">
+                        <div class="d-flex items-center justify-center w-100 rounded-full p-3 bg-gray-100">
+                            <div class="d-flex items-center justify-center w-100 rounded-full p-3 bg-gray-200">
+                                <div class="d-flex items-center justify-center w-100 rounded-full p-3 bg-zinc-300">
+                                    <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M11 6C13.7614 6 16 8.23858 16 11M16.6588 16.6549L21 21M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">AI-Powered Web Search</h3>
+                    <p class="text-base text-gray-800 font-normal text-start">
+                        Lawa.ai uses cutting-edge AI and LLM (RAG) technology to deliver instant, context-driven answers based on your website’s content. Users no longer need to navigate through multiple web pages rather they just ask, and Lawa.ai finds the most relevant response, improving the overall user engagement.
+                    </p>
+                </div>
+
+                <div data-aos="zoom-in" data-aos-offset="200" data-aos-delay="300" class="col-span-2 flex flex-col items-start border border-gray-200 bg-gray-50 rounded-3xl p-6">
+                    <div class="text-blue-500 mb-2">
+                        <div class="d-flex items-center justify-center w-100 rounded-full p-3 bg-gray-100">
+                            <div class="d-flex items-center justify-center w-100 border bg-gray-200 rounded-full p-3">
+                                <div class="d-flex items-center justify-center w-100 border bg-gray-300 rounded-full p-3">
+                                    <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12.4472 1.10557C12.1657 0.964809 11.8343 0.964809 11.5528 1.10557L3.55279 5.10557C3.214 5.27496 3 5.62123 3 6V12C3 14.6622 3.86054 16.8913 5.40294 18.7161C6.92926 20.5218 9.08471 21.8878 11.6214 22.9255C11.864 23.0248 12.136 23.0248 12.3786 22.9255C14.9153 21.8878 17.0707 20.5218 18.5971 18.7161C20.1395 16.8913 21 14.6622 21 12V6C21 5.62123 20.786 5.27496 20.4472 5.10557L12.4472 1.10557ZM5 12V6.61803L12 3.11803L19 6.61803V12C19 14.1925 18.305 15.9635 17.0696 17.425C15.8861 18.8252 14.1721 19.9803 12 20.9156C9.82786 19.9803 8.11391 18.8252 6.93039 17.425C5.69502 15.9635 5 14.1925 5 12ZM16.7572 9.65323C17.1179 9.23507 17.0714 8.60361 16.6532 8.24284C16.2351 7.88207 15.6036 7.9286 15.2428 8.34677L10.7627 13.5396L8.70022 11.5168C8.30592 11.1301 7.67279 11.1362 7.28607 11.5305C6.89935 11.9248 6.90549 12.5579 7.29978 12.9446L10.1233 15.7139C10.3206 15.9074 10.5891 16.0106 10.8651 15.9991C11.1412 15.9876 11.4002 15.8624 11.5807 15.6532L16.7572 9.65323Z" fill="#000000"></path> </g></svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Data Control & Privacy</h3>
+                    <p class="text-base text-gray-800 font-normal text-start">From a business perspective, companies can retain control over user data privacy. Whether hosting Lawa.ai on their own infrastructure or utilizing our managed on-device services, user information remains secure and in compliance with data privacy policies and regulations.</p>
+                </div>
+
+                <div data-aos="zoom-in" data-aos-offset="200" data-aos-delay="200" class="col-span-2 flex flex-col items-start backdrop-blur-xl border border-gray-200 bg-gray-50 rounded-3xl p-6">
+                    <div class="text-blue-500 mb-2">
+                        <div class="d-flex items-center justify-center w-100 rounded-full p-3 bg-gray-100">
+                            <div class="d-flex items-center justify-center w-100 bg-gray-200 rounded-full p-3">
+                                <div class="d-flex items-center justify-center w-100 bg-gray-300 rounded-full p-3">
+                                    <svg fill="#000000" width="30px" height="30px" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="m23.613 8.143-7.668-3.856v7.712l7.668-3.855zM8.166 15.857V8.143L.387 4.287V12l7.78 3.857zM.183 3.958a.382.382 0 0 1 .377-.017l7.606 3.771 7.607-3.771a.386.386 0 0 1 .346 0l7.668 3.857a.386.386 0 0 1 .213.345v7.71a.388.388 0 0 1-.213.346l-7.668 3.86a.389.389 0 0 1-.562-.345v-7.09l-7.219 3.58a.392.392 0 0 1-.344 0L.215 12.346A.387.387 0 0 1 0 12V4.287a.385.385 0 0 1 .183-.329z"></path></g></svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Seamless Integration</h3>
+                    <p class="text-base text-gray-800 font-normal text-start">Our solution are designed for quick and easy integration into the web applications, with just few lines of code. This hassle-free setup enables businesses to swiftly deploy our solution without the need for intricate technical expertise or causing any operational disruptions.</p>
+
+                </div>
+
+                <div data-aos="zoom-in" data-aos-offset="200" data-aos-delay="200" class="col-span-2 flex flex-col items-start border border-gray-200 bg-gray-50 rounded-3xl p-6">
+                    <div class="text-blue-500 mb-2">
+                        <div class="d-flex items-center justify-center w-100 rounded-full p-3 bg-gray-100">
+                            <div class="d-flex items-center justify-center w-100 bg-gray-200 rounded-full p-3">
+                                <div class="d-flex items-center justify-center w-100 bg-gray-300 rounded-full p-3">
+                                    <svg width="30px" height="30px" viewBox="0 0 1024 1024" fill="#000000" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M512 0C229.611606 0 0 229.611606 0 512s229.611606 512 512 512 512-229.611606 512-512S794.258081 0 512 0z m309.102571 815.890048c-9.773479-52.776788-32.83889-102.686689-67.502164-144.386867a38.937541 38.937541 0 0 0-54.99211-4.951896 38.937541 38.937541 0 0 0-4.951896 54.99211c35.184525 42.351743 54.601171 95.91041 54.601171 151.032833 0 0.912191 0.260626 1.824383 0.260626 2.736574-68.023416 44.436752-149.20845 70.369051-236.518198 70.369051s-168.364469-25.932298-236.518198-70.369051c0-0.912191 0.260626-1.69407 0.260626-2.736574 0-130.182744 105.944515-236.257572 236.257572-236.257572 121.712395 0 220.750318-99.037923 220.750318-220.750318s-99.037923-220.750318-220.750318-220.750318-220.750318 99.037923-220.750318 220.750318c0 70.499364 33.229829 133.179944 84.8338 173.576992-89.003818 42.872996-154.811911 126.533978-173.186053 226.614405C125.7521 737.571901 78.187834 630.193942 78.187834 512 78.187834 272.745228 272.745228 78.187834 512 78.187834s433.812166 194.557394 433.812166 433.812166c-0.130313 118.193942-47.694579 225.571901-124.709595 303.890048zM369.307203 415.698651c0-78.578773 63.983711-142.562484 142.562484-142.562484s142.562484 63.983711 142.562484 142.562484c0 78.709086-63.983711 142.562484-142.562484 142.562484S369.307203 494.277424 369.307203 415.698651z"></path></g></svg>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Personalized User Experiences</h3>
+                    <p class="text-base text-gray-800 font-normal text-start">Enhance every visitor's experience with personalized journeys through Lawa.ai. Our intelligent system recommends content, products, or services tailored to individual preferences and behaviors, creating a seamless and engaging user experience that drives higher conversions.</p>
+                </div>
+
+                <div data-aos="zoom-in" data-aos-offset="200" data-aos-delay="200" class="col-span-2 flex flex-col items-start border border-gray-200 bg-gray-50 rounded-3xl p-6">
+                    <div class="text-blue-500 mb-2">
+                        <div class="d-flex items-center justify-center w-100 rounded-full p-3 bg-gray-100">
+                            <div class="d-flex items-center justify-center w-100 bg-gray-200 rounded-full p-3">
+                                <div class="d-flex items-center justify-center w-100 bg-gray-300 rounded-full p-3">
+                                    <svg width="30px" height="30px" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g fill="none" fill-rule="evenodd" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" transform="translate(2 2)"> <path d="m16.5 8.5v-6c0-1.1045695-.8954305-2-2-2h-6c-1.1045695 0-2 .8954305-2 2v6c0 1.1045695.8954305 2 2 2h6c1.1045695 0 2-.8954305 2-2z"></path> <path d="m4.5 6.50344846h-2.00001427c-1.1045695 0-2 .8954305-2 2v5.99943324c0 1.1045695.8954305 2 2 2h.00345627l6.00001428-.0103718c1.10321833-.0019065 1.99654372-.8967771 1.99654372-1.999997v-1.9925129"></path> <g transform="translate(2.502 9.5)"> <path d="m2.998 1.003h-3"></path> <path d="m4.49841597 2.5c-.33333333.33333333-.66666667.66666667-1 1s-1.16666667.83333333-2.5 1.5"></path> <path d="m.99841597 1.00316806c.33333333 1.16613866.83333333 1.99894398 1.5 2.49841597s1.5.99894398 2.5 1.49841597"></path> </g> <g transform="translate(8.5 2.5)"> <path d="m3 0-3 6"></path> <path d="m3 0 3 6"></path> <path d="m3 2v4" transform="matrix(0 1 -1 0 7 1)"></path> </g> </g> </g></svg>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Multilingual Support</h3>
+                    <p class="text-base text-gray-800 font-normal text-start">Lawa.ai offers multilingual support, opening your business to a global audience. Whether it's navigating FAQs or engaging in chat interactions, Lawa.ai eliminates language barriers, facilitating effortless communication with users across the globe.</p>
+                </div>
+
+                <div data-aos="zoom-in" data-aos-offset="200" data-aos-delay="200" class="col-span-2  flex flex-col items-start border border-gray-200 bg-gray-50 rounded-3xl p-6">
+                    <div class="text-blue-500 mb-2">
+                        <div class="d-flex items-center justify-center w-100 rounded-full p-3 bg-gray-100">
+                            <div class="d-flex items-center justify-center w-100 bg-gray-200 rounded-full p-3">
+                                <div class="d-flex items-center justify-center w-100 bg-gray-300 rounded-full p-3">
+                                    <svg fill="#000000" height="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" d="M8,2 C8.55228475,2 9,2.44771525 9,3 L9,21 C9,21.5522847 8.55228475,22 8,22 C7.44771525,22 7,21.5522847 7,21 L7,3 C7,2.44771525 7.44771525,2 8,2 Z M20,4 C20.5522847,4 21,4.44771525 21,5 L21,19 C21,19.5522847 20.5522847,20 20,20 C19.4477153,20 19,19.5522847 19,19 L19,5 C19,4.44771525 19.4477153,4 20,4 Z M12,6 C12.5522847,6 13,6.44771525 13,7 L13,17 C13,17.5522847 12.5522847,18 12,18 C11.4477153,18 11,17.5522847 11,17 L11,7 C11,6.44771525 11.4477153,6 12,6 Z M4,9 C4.55228475,9 5,9.44771525 5,10 L5,14 C5,14.5522847 4.55228475,15 4,15 C3.44771525,15 3,14.5522847 3,14 L3,10 C3,9.44771525 3.44771525,9 4,9 Z M16,10 C16.5522847,10 17,10.4477153 17,11 L17,13 C17,13.5522847 16.5522847,14 16,14 C15.4477153,14 15,13.5522847 15,13 L15,11 C15,10.4477153 15.4477153,10 16,10 Z"></path> </g></svg>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-2">Voice-Enabled Conversations</h3>
+                    <p class="text-base text-gray-800 font-normal text-start">Lawa.ai introduces voice-activated chat, offering users a cutting-edge, hands-free method to engage with your website. This feature boosts accessibility, allowing everyone to effortlessly access the information they need.</p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="w-100 bg-gray-50">
+    <div class="py-6 px-4 mx-auto max-w-screen-xl aspect-video rounded-3xl text-center lg:pb-4 lg:pt-16 lg:px-12">
+        <span class="inline-flex justify-between items-center py-1 px-2 mb-1 dark:text-white">
+             <span class="font-medium text-gray-700">Find the Perfect Fit for your Business</span>
+        </span>
+        <h4 class="max-w-3xl mx-auto mb-10 px-5 text-3xl font-extrabold leading-loose text-gray-900 sm:text-5xl dark:text-white" style="line-height: 110%;">
+            Choose your path to Innovation
+        </h4>
+        <div class="w-100 mx-auto bg-opacity-40 mb-20 horizontal-scroll-section" id="horizontalSection">
+            <div class="grid grid-cols-1 gap-6 p-4">
+                <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="200" class="flex flex-col items-start bg-white border border-gray-200 rounded-3xl p-6">
+                    <div class="relative w-full flex flex-row items-start  justify-between mb-5 sm:mb-6 pb-2">
+                        <div class="flex flex-col sm:flex-row sm:gap-4 gap-3 sm:items-center">
+                            <span class="w-fit flex items-center justify-center bg-black rounded-full p-3">
+                                <svg width="20px" height="20px" fill="#ffffff" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>star-of-life</title> <path d="M28.75 21.918l-10.25-5.918 10.25-5.917c0.377-0.22 0.625-0.623 0.625-1.083 0-0.691-0.56-1.25-1.25-1.25-0.23 0-0.446 0.062-0.631 0.171l0.006-0.003-10.25 5.918v-11.835c0-0.69-0.56-1.25-1.25-1.25s-1.25 0.56-1.25 1.25v0 11.835l-10.249-5.918c-0.179-0.105-0.395-0.167-0.625-0.167-0.691 0-1.25 0.56-1.25 1.25 0 0.46 0.249 0.863 0.619 1.080l0.006 0.003 10.249 5.917-10.249 5.918c-0.381 0.219-0.633 0.623-0.633 1.087 0 0.69 0.559 1.25 1.25 1.25 0.234 0 0.452-0.064 0.639-0.176l-0.006 0.003 10.249-5.917v11.835c0 0.69 0.56 1.25 1.25 1.25s1.25-0.56 1.25-1.25v0-11.835l10.25 5.917c0.177 0.102 0.39 0.163 0.616 0.163 0.69 0 1.25-0.559 1.25-1.25 0-0.456-0.245-0.856-0.61-1.074l-0.006-0.003z"></path> </g></svg>
+                            </span>
+                            <h3 class="text-start text-3xl font-semibold text-gray-900">On Demand Services</h3>
+                        </div>
+                        <small class="w-fit whitespace-nowrap flex-grow-0 bg-black rounded-md py-1 px-3 text-white font-medium sm:mb-0 mb-2">Tier 1</small>
+                    </div>
+
+                    <div class="grid sm:grid-cols-2 grid-cols-1 gap-10 bg-gray-50 p-4 rounded-xl">
+                        <div class="col-span-1 text-left">
+                            <h3 class="text-base font-semibold text-gray-900 mb-2">Hosting</h3>
+                            <p class="text-md">Lawa.ai hosts and manages the entire system, including data storage, AI models, and query processing. Focus on your business while we take care of the technology, ensuring seamless operation and top-tier performance </p>
+                        </div>
+                        <div class="text-left">
+                            <h3 class="text-base font-semibold text-gray-900 mb-2">Data Management</h3>
+                            <p class="text-md">Your data is securely stored and managed on Lawa.ai's servers, with strict access controls and encryption. Peace of mind knowing your data is protected by industry-leading security measures.</p>
+                        </div>
+                        <div class="col-span-1 text-left">
+                            <h3 class="text-base font-semibold text-gray-900 mb-2">AI Integration</h3>
+                            <p class="text-md">Our team handles all aspects of AI management, from updates to maintenance. Enjoy the latest advancements in AI without any of the operational burdens.</p>
+                        </div>
+                        <div class="text-left">
+                            <h3 class="text-base font-semibold text-gray-900 mb-2">Ideal For</h3>
+                            <p class="text-md">Companies looking for a hassle-free, turnkey solution with minimal IT overhead.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="300" class="flex flex-col items-start bg-white border border-gray-200 rounded-3xl p-6">
+                    <div class="relative w-full flex flex-row items-start  justify-between mb-5 sm:mb-6 pb-2">
+                        <div class="flex flex-col sm:flex-row sm:gap-4 gap-3 sm:items-center">
+                            <span class="w-fit flex items-center justify-center bg-black rounded-full p-3">
+                                <svg width="20px" height="20px" fill="#ffffff" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>star-of-life</title> <path d="M28.75 21.918l-10.25-5.918 10.25-5.917c0.377-0.22 0.625-0.623 0.625-1.083 0-0.691-0.56-1.25-1.25-1.25-0.23 0-0.446 0.062-0.631 0.171l0.006-0.003-10.25 5.918v-11.835c0-0.69-0.56-1.25-1.25-1.25s-1.25 0.56-1.25 1.25v0 11.835l-10.249-5.918c-0.179-0.105-0.395-0.167-0.625-0.167-0.691 0-1.25 0.56-1.25 1.25 0 0.46 0.249 0.863 0.619 1.080l0.006 0.003 10.249 5.917-10.249 5.918c-0.381 0.219-0.633 0.623-0.633 1.087 0 0.69 0.559 1.25 1.25 1.25 0.234 0 0.452-0.064 0.639-0.176l-0.006 0.003 10.249-5.917v11.835c0 0.69 0.56 1.25 1.25 1.25s1.25-0.56 1.25-1.25v0-11.835l10.25 5.917c0.177 0.102 0.39 0.163 0.616 0.163 0.69 0 1.25-0.559 1.25-1.25 0-0.456-0.245-0.856-0.61-1.074l-0.006-0.003z"></path> </g></svg>
+                            </span>
+                            <h3 class="text-start text-3xl font-semibold text-gray-900">Controlled Access</h3>
+                        </div>
+                        <small class="w-fit whitespace-nowrap flex-grow-0 bg-black rounded-md py-1 px-3 text-white font-medium sm:mb-0 mb-2">Tier 2</small>
+                    </div>
+                    <div class="grid sm:grid-cols-2 grid-cols-1 gap-10 bg-gray-50 p-4 rounded-xl">
+                        <div class="col-span-1 text-left">
+                            <h3 class="text-bas font-semibold text-black mb-2">Hosting</h3>
+                            <p class="text-md">Host your data on your own servers, while accessing our AI models hosted on Lawa.ai's secure servers.
+                            Enjoy the best of both worlds—maintain control over your data while leveraging our powerful AI technology.</p>
+                        </div>
+                        <div class="col-span-1 text-left">
+                            <h3 class="text-bas font-semibold text-black mb-2">Data Management</h3>
+                            <p class="text-md">Your data remains on your servers, while queries are processed by our AI. Retain full control over data storage and access, minimizing risk while maximizing performance.</p>
+                        </div>
+                        <div class="col-span-1 text-left">
+                            <h3 class="text-bas font-semibold text-black mb-2">AI Integration</h3>
+                            <p class="text-md">Utilize our advanced AI models to process queries and deliver results without needing to manage the AI infrastructure. Offload the complexity of AI management while still benefiting from cutting-edge technology.</p>
+                        </div>
+                        <div class="col-span-1 text-left">
+                            <h3 class="text-bas font-semibold text-black mb-2">Ideal For</h3>
+                            <p class="text-md">Businesses that need data control but prefer not to manage AI infrastructure.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="400" class="flex flex-col items-start bg-white border border-gray-200 rounded-3xl p-6">
+                    <div class="relative w-full flex flex-row items-start  justify-between mb-5 sm:mb-6 pb-2">
+                        <div class="flex flex-col sm:flex-row sm:gap-6 gap-3 sm:items-center">
+                            <span class="w-fit flex items-center justify-center bg-black rounded-full p-3">
+                                <svg width="20px" height="20px" fill="#ffffff" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>star-of-life</title> <path d="M28.75 21.918l-10.25-5.918 10.25-5.917c0.377-0.22 0.625-0.623 0.625-1.083 0-0.691-0.56-1.25-1.25-1.25-0.23 0-0.446 0.062-0.631 0.171l0.006-0.003-10.25 5.918v-11.835c0-0.69-0.56-1.25-1.25-1.25s-1.25 0.56-1.25 1.25v0 11.835l-10.249-5.918c-0.179-0.105-0.395-0.167-0.625-0.167-0.691 0-1.25 0.56-1.25 1.25 0 0.46 0.249 0.863 0.619 1.080l0.006 0.003 10.249 5.917-10.249 5.918c-0.381 0.219-0.633 0.623-0.633 1.087 0 0.69 0.559 1.25 1.25 1.25 0.234 0 0.452-0.064 0.639-0.176l-0.006 0.003 10.249-5.917v11.835c0 0.69 0.56 1.25 1.25 1.25s1.25-0.56 1.25-1.25v0-11.835l10.25 5.917c0.177 0.102 0.39 0.163 0.616 0.163 0.69 0 1.25-0.559 1.25-1.25 0-0.456-0.245-0.856-0.61-1.074l-0.006-0.003z"></path> </g></svg>
+                            </span>
+                            <h3 class="text-start text-3xl font-semibold text-gray-900">Advanced Privacy Control</h3>
+                        </div>
+                        <small class="w-fit whitespace-nowrap flex-grow-0 bg-black rounded-md py-1 px-3 text-white font-medium sm:mb-0 mb-2">Tier 3</small>
+                    </div>
+                    <div class="grid sm:grid-cols-2 grid-cols-1 gap-10 bg-gray-50 p-4 rounded-xl">
+                        <div class="col-span-1 text-left">
+                            <h3 class="text-base font-semibold text-black mb-2">Hosting</h3>
+                            <p class="text-md">Host the entire system, including data storage and AI models, on your own hardware. Total control over your infrastructure, with no dependency on external servers.</p>
+                        </div>
+                        <div class="col-span-1 text-left">
+                            <h3 class="text-base font-semibold text-black mb-2">Data Management</h3>
+                            <p class="text-md">Your data stays completely within your environment, offering maximum privacy and security.
+                            Maintain full ownership and control over all data, ensuring compliance with internal and regulatory standards.</p>
+                        </div>
+                        <div class="col-span-1 text-left">
+                            <h3 class="text-base font-semibold text-black mb-2">AI Integration</h3>
+                            <p class="text-md">Customize and manage the AI models on your own servers. Tailor the AI to your specific needs, with the ability to fine-tune and update as needed.</p>
+                        </div>
+                        <div class="col-span-1 text-left">
+                            <h3 class="text-base font-semibold text-black mb-2">Ideal For</h3>
+                            <p class="text-md">Enterprises with strong IT resources and stringent data security requirements.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+
+    $(document).ready(()=>{
+        var stop_video_interval = setInterval(()=>{
+            $("#demoVideo").get(0).currentTime = 0;
+        }, 100);
+
+        $("#videoplayBtn").click(()=>{
+            $("#demo-player-cover").fadeOut(400);
+            clearInterval(stop_video_interval);
+            $("#demoVideo").get(0).play();
+        })
+
+        $("#demoVideo").click(()=>{
+            $("#demo-player-cover").fadeIn(400);
+            $("#demoVideo").get(0).pause();
+            $('#demoVideo').get(0).currentTime = 0;
+            stop_video_interval = setInterval(()=>{
+                $("#demoVideo").get(0).currentTime = 0;
+            }, 100);
+        })
+    });
+</script>
+
+{% endblock content %}

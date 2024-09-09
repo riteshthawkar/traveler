@@ -42,7 +42,7 @@
                 {% for tour in tour_packages %}
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="package-item h-100 bg-white mb-2 border rounded-xl overflow-hidden p-4">
-                        <a href="/package/{{ tour.pk }}" class="d-flex flex-column align-items-start text-decoration-none" style="min-height: 200px;">
+                        <a href="/demo/package/{{ tour.pk }}" class="d-flex flex-column align-items-start text-decoration-none" style="min-height: 200px;">
                         
                             <small class=" text-dark border border-dark py-1 px-2 rounded-pill mb-3" style="font-weight: 600;"><i class="fa fa-map-marker-alt text-warning mr-2"></i>{{tour.country}}</small>
                             <h1 class="h5 d-block text-decoration-none mb-3" href="">{{ tour.package_name }}</h1>

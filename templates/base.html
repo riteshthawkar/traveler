@@ -80,7 +80,7 @@
     <div class="container-fluid position-relative nav-bar p-0 bg-white">
         <div class="position-relative p-0 border-b mx-auto" style="z-index: 9; max-width: 1800px;">
             <nav class="navbar navbar-expand-lg bg-light navbar-light border-bottom py-3 py-lg-0 pl-3 pl-lg-5">
-                <a href="\" class="navbar-brand">
+                <a href="{% url "index-view" %}" class="navbar-brand">
                     <h2 class="m-0 text-warning" style="font-size: 2rem;"><span class="text-dark">TRAVEL</span>ER</h2>
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -103,7 +103,7 @@
     <!-- Navbar End -->
 
     {% block content %}
-    
+
     {% endblock content %}
 
 
@@ -113,23 +113,29 @@
     <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5">
         <div class="d-flex flex-lg-row flex-column align-items-center justify-content-center pt-5">
             <div class="w-100 px-3 mb-5">
-                <a href="" class="navbar-brand">
+                <a href="{% url "index-view" %}" class="navbar-brand">
                     <h1 class="text-warning"><span class="text-white">TRAVEL</span>ER</h1>
                 </a>
-                <p style="max-width: 400px;">We offers personalized tour guides and a wide range of curated tour packages to top destinations around the globe. Discover, plan, and book your dream vacation all in one place.</p>
-                <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Follow Us</h6>
-                <div class="d-flex justify-content-start">
-                    <a class="btn btn-outline-warning btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-outline-warning btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-outline-warning btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-outline-warning btn-square" href="#"><i class="fab fa-instagram"></i></a>
-                </div>
+                <p style="max-width: 400px;">This is a demo site to showcase the capabilities of lawa.ai's user query assistance chatbot.</p>
+                <!--<h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Follow Us</h6>-->
+                <!--<div class="d-flex justify-content-start">-->
+                <!--    <a class="btn btn-outline-warning btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>-->
+                <!--    <a class="btn btn-outline-warning btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>-->
+                <!--    <a class="btn btn-outline-warning btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>-->
+                <!--    <a class="btn btn-outline-warning btn-square" href="#"><i class="fab fa-instagram"></i></a>-->
+                <!--</div>-->
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contact Us</h5>
+                    <!--<p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>-->
+                    <!--<p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>-->
+                    <p><i class="fa fa-envelope mr-2"></i>contact@lawa.app</p>
             </div>
 
-            <div class="w-100 d-flex flex-sm-row flex-column align-items-baseline px-3 mb-5">
+            <div class="w-100 d-flex flex-row justify-content-end px-3 mb-5">
+                <div class="w-100 d-flex flex-column justify-content-end"></div>
                 <div class="w-100 mb-5">
                     <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Usefull Links</h5>
                     <div class="d-flex flex-column justify-content-start">
+                        <a class="text-white-50 mb-2" href="{% url 'landing-page-view' %}"><i class="fa fa-angle-right mr-2"></i>Home</a>
                         <a class="text-white-50 mb-2" href="{% url 'about-view' %}"><i class="fa fa-angle-right mr-2"></i>About</a>
                         <a class="text-white-50 mb-2" href="{% url 'service-view' %}"><i class="fa fa-angle-right mr-2"></i>Services</a>
                         <a class="text-white-50 mb-2" href="{% url 'tour-package-view' %}"><i class="fa fa-angle-right mr-2"></i>Packages</a>
@@ -137,28 +143,13 @@
                         <a class="text-white-50" href="{% url 'blog-view' %}"><i class="fa fa-angle-right mr-2"></i>Blog</a>
                     </div>
                 </div>
-                <div class="w-100 mb-5">
-                    <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contact Us</h5>
-                    <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
-                    <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
-                    <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
-                    <!-- <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Newsletter</h6>
-                    <div class="w-100">
-                        <div class="input-group">
-                            <input type="text" class="form-control border-light" style="padding: 25px;" placeholder="Your Email">
-                            <div class="input-group-append">
-                                <button class="btn btn-warning px-3">Sign Up</button>
-                            </div>
-                        </div>
-                    </div> -->
-                </div>
             </div>
         </div>
     </div>
     <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
         <div class="w-100">
             <div class="w-100 text-center mb-3 mb-md-0">
-                <p class="m-0 text-white-50">Copyright &copy; <a href="#">Domain</a>. All Rights Reserved.</a>
+                <p class="m-0 text-white-50">Copyright &copy; <a href="/">lawa.ai</a>. All Rights Reserved.</a>
                 </p>
             </div>
         </div>
@@ -166,7 +157,7 @@
     <!-- Footer End -->
 
 
-    
+
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js" integrity="sha512-LhccdVNGe2QMEfI3x4DVV3ckMRe36TfydKss6mJpdHjNFiV07dFpS2xzeZedptKZrwxfICJpez09iNioiSZ3hA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 

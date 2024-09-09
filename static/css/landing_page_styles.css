@@ -1,0 +1,235 @@
+html{
+    font-family: 'General Sans', sans-serif;
+}
+
+body{
+    background-color: #ffffff;
+    opacity: 1;
+    background-image:  linear-gradient(#e3e3e3 1px, transparent 1px), linear-gradient(to right, #e3e3e3 1px, #ffffff 1px);
+    background-size: 100px 100px;
+    background-position: center;
+}
+
+.fixed-navbar{
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border: 2px solid #d1d5db;
+
+}
+
+
+/* .hero-section{
+    background: linear-gradient(175deg, #ffffff4f 40%, #ffe29f91 60%, #c5ff9f9c 80%, #ffffff 100%);
+    
+} */
+
+.text-gradient {
+    background: -webkit-linear-gradient(120deg, #77fab2 20%, #fff954 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+ 
+.bg-gradient-word{
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+    overflow: clip;
+}
+
+.bg-gradient-word::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    /* background-image: linear-gradient(120deg, #d5fc79ad 40%, #e6d196 100%); */
+    background-image: linear-gradient(to left, #96fbc4 0%, #f9f586 100%);
+    /* background-image: linear-gradient(to left, #fddb92 20%, #d1fdff 100%); */
+    z-index: -1;
+    animation: width-animation 0.5s ease-in-out forwards;
+    
+}
+
+.bg-gradient-word:first-of-type:before{
+    animation-delay: 1.5s;
+}
+
+.bg-gradient-word:last-of-type:before{
+    animation-delay: 1.7s;
+}
+
+@keyframes width-animation {
+    from{
+        width: 0%;
+    }
+
+    to{
+        width: 100%;
+    }
+}
+
+.pulse {
+    animation: pulse 2s infinite; /* Apply the pulse animation */
+}
+  
+/* Keyframes for the pulse animation */
+@keyframes pulse {
+    0% {
+        /* transform: scale(1); */
+        opacity: 1;
+    }
+    50% {
+        /* transform: scale(1.2); */
+        opacity: 0.6;
+    }
+    100% {
+        /* transform: scale(1); */
+        opacity: 1;
+    }
+}
+
+
+.about-item:hover svg{
+    /* transition: all 0.5s ease-in-out;
+    transform: scale(1.2) */
+    animation: about-item-scale_animation 0.3s ease-in-out;
+    animation-fill-mode: forwards;
+}
+.about-item svg path, .about-item svg circle{
+    transition: all 0.5s ease-in-out;
+}
+
+.about-item:hover svg circle:not(:last-of-type){
+    fill: rgb(193, 193, 193);
+}
+
+.about-item:hover svg path:nth-child(1){
+    fill: rgb(235, 235, 235);
+}
+
+.about-item:hover svg path:nth-child(2){
+    fill: rgb(214, 214, 214);
+}
+
+.about-item:hover svg path:nth-child(3){
+    fill: rgb(193, 193, 193);
+}
+
+@keyframes about-item-scale_animation {
+    from{
+        scale: 1;
+    }
+
+    to{
+        scale: 1.1;
+    }
+}
+
+.slide-text-animation:nth-child(1){
+    animation: slide-animation 0.5s ease-in;
+}
+.slide-text-animation:nth-child(2){
+    animation: slide-animation 0.7s ease-in;
+}
+.slide-text-animation:nth-child(3){
+    animation: slide-animation 0.9s ease-in;
+}
+.slide-text-animation:nth-child(4){
+    animation: slide-animation 1.1s ease-in;
+}
+.slide-text-animation:nth-child(4){
+    animation: slide-animation 1.3s ease-in;
+}
+.slide-text-animation:nth-child(4){
+    animation: slide-animation 1.5s ease-in;
+}
+
+@keyframes slide-animation {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.animate-text-items {
+    display: inline-block;
+    animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+    /* animation-fill-mode: backwards; */
+}
+  
+@keyframes reveal {
+    0% {
+      transform: translate(0, 100%);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+}
+
+
+button svg, a svg{
+    width: 0%;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover svg, a:hover svg{
+    width: 100%;
+}
+
+
+  
+/* SLide Up animation */
+    /* .offset-header-odd,
+    .offset-header-even {
+      animation-name: slideUp;
+      animation-duration: 3s;
+      animation-timing-function: ease-in;
+    }
+    .offset-header-odd {
+      text-align: left;
+      animation-delay: 0s;
+      animation-fill-mode: forwards;
+    }
+    .offset-header-even {
+      text-align: right;
+      animation-delay: 150ms;
+      animation-fill-mode: both;
+    }
+  
+    @keyframes slideUp {
+      0%,
+      50% {
+        transform: translateY(100%);
+        opacity: 0;
+      }
+       
+      60%,
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      
+      }
+    } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

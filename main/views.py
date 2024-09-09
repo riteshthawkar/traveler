@@ -5,6 +5,24 @@ import random
 
 
 # Create your views here.
+def landing_page_view(request):
+    return render(request, 'landing_page.html')
+
+def feature_page_view(request):
+    return render(request, 'features.html')
+
+def plan_page_view(request):
+    return render(request, 'plans.html')
+
+def usecases_page_view(request):
+    return render(request, 'usecases.html')
+
+def privacy_page_view(request):
+    return render(request, 'privacy-policy.html')
+
+def terms_page_view(request):
+    return render(request, 'terms.html')
+
 def index_view(request):
     guides = TravelGuide.objects.all()
     guides = random.sample(list(guides), 6)
@@ -40,7 +58,7 @@ from fuzzywuzzy import process
 def find_best_match(search_string, keywords):
     """
     Find the best fuzzy match for the search_string in the keywords list.
-    
+
     :param search_string: The string you want to search for.
     :param keywords: List of keywords to match against.
     :return: The best matching keyword and its score.
@@ -60,16 +78,16 @@ def package_Search_view(request):
                 filtred_packages.append(package)
             else:
                 keywords = []
-                
+
                 for place in package.places_to_visit:
                     keywords.append(place['name'].lower())
-                
+
                 for hotel in package.hotels:
                     keywords.append(hotel['name'].lower())
-                
+
                 for res in package.restaurants:
                     keywords.append(res['name'].lower())
-                
+
                 best_match = find_best_match(search_query, keywords)
 
                 if best_match[-1] >= 80:
@@ -78,7 +96,7 @@ def package_Search_view(request):
         filtred_packages = Tour_Package.objects.all()
 
 
-    return render(request, "package_list.html", {"tour_packages": filtred_packages, "search_query": search_query}) 
+    return render(request, "package_list.html", {"tour_packages": filtred_packages, "search_query": search_query})
 
 
 def single_package_view(request, pk):
@@ -91,7 +109,27 @@ def single_package_view(request, pk):
     return render(request, "single_package.html", {'package': package})
 
 
+from django.core.mail import send_mail
+from django.conf import settings
+
+
 def contact_view(request):
+    if request.method == 'POST':
+        try:
+            name = request.POST.get('name')
+            email = request.POST.get('email')
+            message = request.POST.get('message')
+            email_message = f"Name: {name}\nEmail: {email}\n\nMessage:\n{message}"
+            subject = 'Message from lawa.ai User'
+            recipient_list = ['riteshthawkar2003@gmail.com', 'contact@lawa.app']
+            email_from = settings.DEFAULT_FROM_EMAIL
+
+            send_mail(subject, email_message, email_from, recipient_list)
+
+            return render(request, "contact.html", {'success': "Your message is successfully sent."})
+        except Exception as e:
+            return render(request, "contact.html", {'error': "Something went wrong. Please try again."})
+
     return render(request, "contact.html")
 
 
@@ -153,7 +191,7 @@ import timeit
 # def chat_view(request):
 #     if request.method == 'POST':
 #         question = request.POST.get('question', '')
-        
+
 #         starting_time = timeit.default_timer()
 #         answer = pipeline.get_answer(question)
 #         ending_time = timeit.default_timer()
@@ -170,12 +208,12 @@ import timeit
 #     if request.method == 'POST':
 #         data = json.loads(request.body)
 #         question = data.get('question')
-        
+
 #         # Here you would typically process the question and generate an answer
 #         # For this example, we'll just echo the question
 #         answer = f"You asked: {question}"
 
 #         print(answer)
-        
+
 #         return JsonResponse({'answer': answer})
 #     return JsonResponse({'error': 'Invalid request method'}, status=400)
