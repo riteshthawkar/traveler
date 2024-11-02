@@ -7,3 +7,4 @@ uploads/*
 __pycache__/*
 main/__pycache__/*
 traveler/__pycache__/*
+*.pyc
