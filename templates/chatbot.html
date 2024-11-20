@@ -449,7 +449,7 @@
 </style>
 
 
-<div class="main-chat-container show-chatbot d-flex align-items-center justify-content-center"
+<div class="main-chat-container hide-chatbot d-flex align-items-center justify-content-center"
     style="z-index: 10000000000;">
     <div class="container chat-container-wrapper hide-scrolllbar p-4 position-relative" style="border-radius: 30px;">
         <div class="chatbot-header d-flex align-items-center justify-content-between pb-2">
@@ -610,7 +610,7 @@
     const silenceThreshold = 1000; // 1.5 seconds of silence before stopping
 
 
-    const socket = new WebSocket('http://0.0.0.0:7860/ws');
+    const socket = new WebSocket('https://ritesh-hf-web-agent.hf.space/ws');
 
     socket.onopen = function (event) {
 			console.log('WebSocket is open now.');
