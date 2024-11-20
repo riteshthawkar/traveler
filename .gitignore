@@ -8,3 +8,4 @@ __pycache__/*
 main/__pycache__/*
 traveler/__pycache__/*
 *.pyc
+*.sqlite3
